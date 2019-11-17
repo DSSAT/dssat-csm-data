@@ -1,0 +1,192 @@
+*EXP.DETAILS: ETMK0801TF ARAYA ET AL 2010 MEKELLE
+
+*GENERAL
+@PEOPLE
+Araya, Keesstra,& Stroosnijder,2010 
+@ADDRESS
+Mekelle, Ethiopia
+@SITE
+Mekelle, Ethiopia
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 0 0 0 Irrigations 2008         1  1  0  1  1  1  1  0  0  0  0  0  1
+ 2 1 0 0 2 Irrigations 2008         1  1  0  1  1  2  1  0  0  0  0  0  1
+ 3 1 0 0 4 Irrigations 2008         1  1  0  1  1  3  1  0  0  0  0  0  1
+ 4 1 0 0 6 Irrigations 2008         1  1  0  1  1  4  1  0  0  0  0  0  1
+ 5 1 0 0 8 Irrigations 2008         1  1  0  1  1  5  1  0  0  0  0  0  1
+ 6 1 0 0 0 Irrigations 2009         2  1  0  2  2  6  1  0  0  0  0  0  2
+ 7 1 0 0 4 Irrigations 2009         2  1  0  2  2  7  1  0  0  0  0  0  2
+ 8 1 0 0 9 Irrigations 2009         2  1  0  2  2  8  1  0  0  0  0  0  2
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 TF IB0136 DZ-974 & Keyh
+ 2 TF IB0135 Keyh (local)
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 ETMK0004 ETMK       -99     0 DR000     0     0 00000 -99    210  ETMK000005 Shallow Root Std Deep Soil
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1               0               0         0                 0     0     0     0   -99   -99
+ 
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    FA 08215     0     0     1     1   -99     0     0     0   100    10 100% water 10 kg N/ha 2008 Standardized Deep Soil 
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5   .27     0    .3
+ 1    10   .27     0    .3
+ 1    20   .27     0    .3
+ 1    30   .42     0    .3
+ 1    40   .42     0    .3
+ 1    50   .42     0    .3
+ 1    60   .42     0    .3
+ 1    70   .42     0    .3
+ 1    80   .42     0    .3
+ 1    90   .42     0    .3
+ 1   110   .42     0    .3
+ 1   130   .42     0    .3
+ 1   150   .42     0    .3
+ 1   170   .42     0    .3
+ 1   190   .42     0    .3
+ 1   210   .42     0    .3
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 2    FA 09212     0     0     1     1   -99     0     0     0   100    10 100% water 10 kg N/ha 2009 Standardized Deep Soil
+@C  ICBL  SH2O  SNH4  SNO3
+ 2     5   .27     0    .3
+ 2    10   .27     0    .3
+ 2    20   .27     0    .3
+ 2    30   .42     0    .3
+ 2    40   .42     0    .3
+ 2    50   .42     0    .3
+ 2    60   .42     0    .3
+ 2    70   .42     0    .3
+ 2    80   .42     0    .3
+ 2    90   .42     0    .3
+ 2   110   .42     0    .3
+ 2   130   .42     0    .3
+ 2   150   .42     0    .3
+ 2   170   .42     0    .3
+ 2   190   .42     0    .3
+ 2   210   .42     0    .3
+ 
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 08215   -99   900   -99     S     U     7     0    .9   -99   -99   -99   -99     0                        2008 planting date
+ 2 09212   -99   900   -99     S     U     7     0    .9   -99   -99   -99   -99     0 
+ 
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 0 Irrigations 2008
+@I IDATE  IROP IRVAL
+ 1 08153 IR003     0
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2     1    30    50   100 GS000 IR001    10 2 Irrigations 2008
+@I IDATE  IROP IRVAL
+ 2 08261 IR003    10
+ 2 08263 IR003    10
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 3     1    30    50   100 GS000 IR001    10 4 Irrigations 2008
+@I IDATE  IROP IRVAL
+ 3 08261 IR003    10
+ 3 08263 IR003    10
+ 3 08265 IR003    12
+ 3 08268 IR003    15
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 4     1    30    50   100 GS000 IR001    10 6 Irrigations 2008
+@I IDATE  IROP IRVAL
+ 4 08261 IR003    10
+ 4 08263 IR003    10
+ 4 08265 IR003    12
+ 4 08268 IR003    15
+ 4 08273 IR003    12
+ 4 08277 IR003    12
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 5     1    30    50   100 GS000 IR001    10 8 Irrigations 2008
+@I IDATE  IROP IRVAL
+ 5 08261 IR003    10
+ 5 08263 IR003    10
+ 5 08265 IR003    12
+ 5 08268 IR003    15
+ 5 08273 IR003    12
+ 5 08277 IR003    12
+ 5 08281 IR003    12
+ 5 08283 IR003    12
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 6     1    30    50   100 GS000 IR001    10 0 Irrigations 2009
+@I IDATE  IROP IRVAL
+ 6 09260 IR003     0
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 7     1    30    50   100 GS000 IR001    10 4 Irrigations 2009
+@I IDATE  IROP IRVAL
+ 7 09260 IR003    10
+ 7 09262 IR003    10
+ 7 09263 IR003    10
+ 7 09267 IR003    10
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 8     1    30    50   100 GS000 IR001    10 9 Irrigations 2009
+@I IDATE  IROP IRVAL
+ 8 09260 IR003    10
+ 8 09262 IR003    10
+ 8 09263 IR003    10
+ 8 09267 IR003    10
+ 8 09270 IR003    10
+ 8 09274 IR003    10
+ 8 09276 IR003    10
+ 8 09278 IR003    10
+ 8 09280 IR003    10
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1     0 FE005 AP002    10    30    46     0     0     0   -99 Standard Fertilizer Application
+ 1    30 FE005 AP002    10    30     0     0     0     0   -99 Standard Fertilizer Application
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 08001  2150 2008                      
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     C     R     1     G     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     D     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          74303 74317    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 75310   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     S 09001  2150 2009                      
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     R     S     C     R     1     G     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     D     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
+ 2 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          74303 74317    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 2 HA              0 75310   100     0
+
+
+
