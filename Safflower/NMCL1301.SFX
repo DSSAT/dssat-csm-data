@@ -31,8 +31,8 @@
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 NMCL0001 ACNM1301   -99   -99   -99   -99   -99   -99 CL     -99  NMCL CURRY -99
- 2 NMCL0002 ACNM1401   -99   -99   -99   -99   -99   -99 CL     -99  NMCL CURRY -99
+ 1 NMCL0001 ACNM1301   -99   -99   -99   -99   -99   -99 CL     -99  NMCL000002 -99
+ 2 NMCL0002 ACNM1401   -99   -99   -99   -99   -99   -99 CL     -99  NMCL000002 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99   -99   -99   -99   -99   -99
  2             -99             -99       -99               -99   -99   -99   -99   -99   -99
