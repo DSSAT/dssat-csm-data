@@ -1,0 +1,41 @@
+*SOILS: General DSSAT Soil Input File
+! DSSAT v4.7; 09/01/2017
+!
+*UHIH002016  Hohenheim   SIL      180  Silty Loam
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Ihinger Hof Germany        48.736   8.933 Cambisol
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .4    73     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .205  .419  .536     1   .68  1.12  1.94  25.3  60.1   -99   .11   7.4   -99   -99   -99
+    60   -99  .131  .302  .511  .607   .68  1.21   .83  16.4    55   -99   .02   -99   -99   -99   -99
+    90   -99  .131  .302  .511  .407   .68  1.21   .03  16.4    55   -99   .01   -99   -99   -99   -99
+   120   -99  .131  .302  .511  .407   .68  1.21   .03  16.4    55   -99   .01   -99   -99   -99   -99
+   150   -99  .131  .302  .511  .407   .68  1.21   .03  16.4    55   -99   .01   -99   -99   -99   -99
+   180   -99  .131  .302  .511  .407   .68  1.21   .03  16.4    55   -99   .01   -99   -99   -99   -99
+
+*UHIH012017  Hohenheim   SICL     180  Silty clay loam
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Ihinger Hof Germany        48.736   8.933 Luvisol
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .4    73     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .205  .419  .536     1   .68  1.12  1.29  27.1  70.2   -99   .17   6.6   -99   -99   -99
+    60   -99  .131  .302  .511  .607   .68  1.21   .68  27.2  70.4   -99   .11   -99   -99   -99   -99
+    90   -99  .131  .302  .511  .407   .68  1.21   .51  33.1  63.6   -99    .1   -99   -99   -99   -99
+   120   -99  .131  .302  .511  .407   .68  1.21   .51  33.1  63.6   -99    .1   -99   -99   -99   -99
+   150   -99  .131  .302  .511  .407   .68  1.21   .51  33.1  63.6   -99    .1   -99   -99   -99   -99
+   180   -99  .131  .302  .511  .407   .68  1.21   .51  33.1  63.6   -99    .1   -99   -99   -99   -99
+
+*UHIH022017  Hohenheim   SICL     180  Silty clay loam
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Ihinger Hof Germany        48.736   8.933 Luvisol
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .4    73     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .205  .419  .536     1   .68  1.12  1.33  27.1  70.2   -99   .19   6.6   -99   -99   -99
+    60   -99  .131  .302  .511  .607   .68  1.21   .61  27.2  70.4   -99   .11   -99   -99   -99   -99
+    90   -99  .131  .302  .511  .407   .68  1.21   .41  33.1  63.6   -99   .08   -99   -99   -99   -99
+   120   -99  .131  .302  .511  .407   .68  1.21   .41  33.1  63.6   -99   .08   -99   -99   -99   -99
+   150   -99  .131  .302  .511  .407   .68  1.21   .41  33.1  63.6   -99   .08   -99   -99   -99   -99
+   180   -99  .131  .302  .511  .407   .68  1.21   .41  33.1  63.6   -99   .08   -99   -99   -99   -99
