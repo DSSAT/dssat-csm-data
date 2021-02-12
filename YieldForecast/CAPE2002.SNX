@@ -13,9 +13,9 @@
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 1 0 WH forecast 2020-06-01     1  1  0  1  1  0  1  0  0  0  0  0  1
- 2 1 1 0 WH forecast 2020-07-01     1  1  0  1  1  0  1  0  0  0  0  0  2
- 3 1 1 0 WH forecast 2020-08-01     1  1  0  1  1  0  1  0  0  0  0  0  3
+ 1 1 1 0 WH forecast Jun 1, 2020    1  1  0  1  1  0  0  0  0  0  0  0  1
+ 2 1 1 0 WH forecast Jul 1, 2020    1  1  0  1  1  0  0  0  0  0  0  0  2
+ 3 1 1 0 WH forecast Aug 1, 2020    1  1  0  1  1  0  0  0  0  0  0  0  3
 
 *CULTIVARS
 @C CR INGENO CNAME
@@ -41,11 +41,6 @@
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
  1 20135   -99   200   200     S     R    16     0     4   -99   -99   -99   -99   -99                        -99
-
-*FERTILIZERS (INORGANIC)
-@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 20135 FE001 AP002    10    60   -99   -99   -99   -99   -99 N-120
- 1 20195 FE001 AP002    10    60   -99   -99   -99   -99   -99 N-120
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
