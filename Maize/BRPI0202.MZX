@@ -113,9 +113,9 @@ Piracicaba, SP. Brazil
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 02072 FE014 AP001     5    20   -99   -99   -99   -99   -99 -99
+ 1 02072 FE027 AP001     5    20   -99   -99   -99   -99   -99 -99
  1 02093 FE005 AP003     0    50     0     0     0     0   -99 -99
- 2 02072 FE014 AP004     5    26   -99   -99   -99   -99   -99 -99
+ 2 02072 FE027 AP004     5    26   -99   -99   -99   -99   -99 -99
  2 02095 FE005 AP003     0    50     0     0     0     0   -99 -99
  2 02113 FE005 AP003     0    50     0     0     0     0   -99 -99
 
