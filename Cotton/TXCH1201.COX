@@ -1,0 +1,328 @@
+*EXP.DETAILS: TXCH1201CO 2012 TX, Chillicothe,Irrigation Exp
+*General
+@PEOPLE
+ Ale, Srinivasulu
+@ADDRESS
+ Texas A&M AgriLife Research, P.O. Box 1658 | Vernon, TX 76385 (Ph)(940) 552-9941 x 232 sriniale@ag.tamu.edu
+@SITE
+ CH-Chillicothe, TX  Location 34.178N;99.512W;450m
+@NOTES
+! References:
+! 
+! Rajan et al., 2013
+! http://www.twdb.texas.gov/publications/reports/contracted_reports/doc/1103581253_irrigationefficiency.pdf
+! 
+! Modala, N. R., S. Ale, N. Rajan, C. L. Munster, P. B. DeLaune, K. R. Thorp, S.
+! S. Nair, E. M. Barnes. 2015. Evaluation of the CSM-CROPGRO-Cotton model for the
+! Texas Rolling Plains region and simulation of deficit irrigation strategies for
+! increasing water use efficiency. Trans. ASABE 58(3): 685-696. DOI
+! 10.13031/trans.58.10833
+! 
+! Modala, N. R. 2014. Assessing the impacts of climate change on cotton
+! production in the Texas High Plains and Rolling Plains. PhD diss.
+! College Station, Tex.: Texas A&M University, Department of Biological and
+! Agricultural Eng.
+! 
+! Data files created by Modala under the direction of Ale; modified by Gail
+! Wilkerson, NCSU, gail_wilkerson@ncsu.edu, 26 Mar 2018.
+! 
+! Latitude and longitude for the Chillicothe Research Station is different in
+! this weather file from the ones in the cover crop study. Temperature, solar
+! radiation, and rainfall for 2012 are also different. I used TXCH as the location code
+! for this experiment, and TXCI for the cover crop study. (GW)
+
+*TREATMENTS
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 0 0 100% ET replacement        1  1  1  1  1  1  1  0  0  1  0  1  1
+ 2 1 0 0 75% ET replacement         1  1  1  2  1  2  1  0  0  1  0  1  1
+ 3 1 0 0 Tensiometer                1  1  1  1  1  3  1  0  0  1  0  1  1
+ 4 1 0 0 Soil Moisture based        1  1  1  2  1  4  1  0  0  1  0  1  1
+
+*CULTIVARS
+@C CR INGENO CNAME...........
+ 1 CO CO0027 Deltapine 0912
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL
+ 1 TXCH0001 TXCH1201 -99     -99 DR000   -99   -99 0     CL     100. TXCH120008
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE SANAME........................................
+ 1 12122 -99   -99   -99   -99
+@A  SABL  SADM  SAOC  SANI  SAHW  SAHB  SAEX  SAKE  SASC
+ 1   15.   -99  1.00  0.10   7.3   -99  93.0   9.0   -99
+ 1   30.   -99  0.67  0.07   7.7   -99  18.0   4.0   -99
+ 1   45.   -99  0.64  0.07   7.6   -99  18.0   4.0   -99
+ 1   60.   -99  0.48  0.05   7.9   -99   6.0   3.0   -99
+ 1  160.   -99  0.31  0.04   7.9   -99   6.0   3.0   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+ 1    CO 12001  500.   -99  1.00  1.00   -99 2000.   -99   -99   -99   -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    5. 0.215  20.0  22.5
+ 1   15. 0.215  20.0  22.5
+ 1   30. 0.209  17.0  12.5
+ 1   45. 0.222  17.0   9.0
+ 1   60. 0.220  16.5   3.0
+ 1  160. 0.218  16.5   3.0
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+ 2    CO 12001   -99   -99  1.00  1.00   -99   -99   -99   -99   -99   -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 2    5. 0.254  20.0  22.5
+ 2   15. 0.254  20.0  22.5
+ 2   30. 0.243  17.0  12.5
+ 2   45. 0.255  17.0   9.0
+ 2   60. 0.255  16.5   3.0
+ 2  160. 0.253  16.5   3.0
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+ 1 12144 12149   9.7   8.0     S     R 102.0   -99   4.0   -99   -99   -99   -99   -99
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+ 1  0.95   30.   30.  100. GS000 IR005   10.
+@I IDATE  IROP IRVAL
+ 1 12144 IR005  25.4
+ 1 12149 IR005   5.1
+ 1 12150 IR005   5.1
+ 1 12151 IR005   5.1
+ 1 12152 IR005   5.1
+ 1 12153 IR005   5.1
+ 1 12154 IR005   5.1
+ 1 12155 IR005   5.1
+ 1 12156 IR005   5.1
+ 1 12157 IR005   5.1
+ 1 12158 IR005   5.1
+ 1 12159 IR005   5.1
+ 1 12160 IR005   5.1
+ 1 12161 IR005   5.1
+ 1 12162 IR005   5.1
+ 1 12163 IR005   5.1
+ 1 12164 IR005   5.1
+ 1 12165 IR005   5.1
+ 1 12180 IR005   8.8
+ 1 12181 IR005   8.2
+ 1 12182 IR005   8.2
+ 1 12183 IR005   7.7
+ 1 12184 IR005   8.5
+ 1 12185 IR005   9.8
+ 1 12186 IR005   9.7
+ 1 12187 IR005   9.2
+ 1 12188 IR005   8.2
+ 1 12189 IR005   8.4
+ 1 12200 IR005  10.2
+ 1 12201 IR005  10.3
+ 1 12202 IR005   9.5
+ 1 12203 IR005   9.0
+ 1 12204 IR005  11.3
+ 1 12205 IR005  10.5
+ 1 12206 IR005  11.1
+ 1 12207 IR005  13.2
+ 1 12208 IR005   5.2
+ 1 12209 IR005   6.9
+ 1 12210 IR005   9.5
+ 1 12211 IR005  10.4
+ 1 12212 IR005  11.6
+ 1 12213 IR005  10.0
+ 1 12214 IR005   1.8
+ 1 12215 IR005   2.2
+ 1 12216 IR005   2.4
+ 1 12217 IR005   2.3
+ 1 12218 IR005  10.4
+ 1 12219 IR005  10.2
+ 1 12220 IR005   8.1
+ 1 12221 IR005   8.6
+ 1 12222 IR005  10.4
+ 1 12223 IR005  10.4
+ 1 12224 IR005  11.0
+ 1 12225 IR005  11.3
+ 1 12226 IR005   8.6
+ 1 12227 IR005   8.6
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+ 2  0.95   30.   30.  100. GS000 IR005   10.
+@I IDATE  IROP IRVAL
+ 2 12144 IR005  25.4
+ 2 12149 IR005   5.1
+ 2 12150 IR005   5.1
+ 2 12151 IR005   5.1
+ 2 12152 IR005   5.1
+ 2 12153 IR005   5.1
+ 2 12154 IR005   5.1
+ 2 12155 IR005   5.1
+ 2 12156 IR005   5.1
+ 2 12157 IR005   5.1
+ 2 12158 IR005   5.1
+ 2 12159 IR005   5.1
+ 2 12160 IR005   5.1
+ 2 12161 IR005   5.1
+ 2 12162 IR005   5.1
+ 2 12163 IR005   5.1
+ 2 12164 IR005   5.1
+ 2 12165 IR005   5.1
+ 2 12180 IR005   6.7
+ 2 12181 IR005   6.2
+ 2 12182 IR005   6.1
+ 2 12183 IR005   5.8
+ 2 12184 IR005   6.4
+ 2 12185 IR005   7.3
+ 2 12186 IR005   7.3
+ 2 12187 IR005   6.8
+ 2 12188 IR005   6.2
+ 2 12189 IR005   6.3
+ 2 12200 IR005   7.6
+ 2 12201 IR005   7.7
+ 2 12202 IR005   7.1
+ 2 12203 IR005   6.8
+ 2 12204 IR005   8.5
+ 2 12205 IR005   7.9
+ 2 12206 IR005   8.4
+ 2 12207 IR005   9.9
+ 2 12208 IR005   3.9
+ 2 12209 IR005   5.2
+ 2 12210 IR005   7.1
+ 2 12211 IR005   7.8
+ 2 12212 IR005   8.7
+ 2 12213 IR005   7.5
+ 2 12214 IR005   1.3
+ 2 12215 IR005   1.7
+ 2 12216 IR005   1.8
+ 2 12217 IR005   1.7
+ 2 12218 IR005   7.7
+ 2 12219 IR005   7.6
+ 2 12220 IR005   6.1
+ 2 12221 IR005   6.6
+ 2 12222 IR005   7.8
+ 2 12223 IR005   7.8
+ 2 12224 IR005   8.3
+ 2 12225 IR005   8.5
+ 2 12226 IR005   6.6
+ 2 12227 IR005   6.6
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+ 3  0.95   30.   30.  100. GS000 IR005   10.
+@I IDATE  IROP IRVAL
+ 3 12144 IR005  25.4
+ 3 12149 IR005   5.1
+ 3 12150 IR005   5.1
+ 3 12151 IR005   5.1
+ 3 12152 IR005   5.1
+ 3 12153 IR005   5.1
+ 3 12154 IR005   5.1
+ 3 12155 IR005   5.1
+ 3 12156 IR005   5.1
+ 3 12157 IR005   5.1
+ 3 12158 IR005   5.1
+ 3 12159 IR005   5.1
+ 3 12160 IR005   5.1
+ 3 12161 IR005   5.1
+ 3 12162 IR005   5.1
+ 3 12163 IR005   5.1
+ 3 12164 IR005   5.1
+ 3 12165 IR005   5.1
+ 3 12186 IR005  10.6
+ 3 12187 IR005  10.6
+ 3 12188 IR005  10.6
+ 3 12189 IR005  10.6
+ 3 12196 IR005   6.6
+ 3 12197 IR005   6.6
+ 3 12198 IR005   6.6
+ 3 12202 IR005   2.4
+ 3 12203 IR005   2.4
+ 3 12204 IR005   2.4
+ 3 12205 IR005  12.8
+ 3 12206 IR005  12.8
+ 3 12207 IR005  24.1
+ 3 12210 IR005  16.9
+ 3 12211 IR005  16.9
+ 3 12213 IR005   4.4
+ 3 12214 IR005   5.3
+ 3 12215 IR005   5.3
+ 3 12216 IR005   5.3
+ 3 12217 IR005   5.3
+ 3 12218 IR005   5.3
+ 3 12219 IR005   5.3
+ 3 12220 IR005  21.0
+ 3 12221 IR005  21.0
+ 3 12223 IR005   6.6
+ 3 12224 IR005   6.6
+ 3 12225 IR005   6.6
+ 3 12227 IR005  12.8
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+ 4  0.95   30.   30.  100. GS000 IR005   10.
+@I IDATE  IROP IRVAL
+ 4 12144 IR005  25.4
+ 4 12149 IR005   5.1
+ 4 12150 IR005   5.1
+ 4 12151 IR005   5.1
+ 4 12152 IR005   5.1
+ 4 12153 IR005   5.1
+ 4 12154 IR005   5.1
+ 4 12155 IR005   5.1
+ 4 12156 IR005   5.1
+ 4 12157 IR005   5.1
+ 4 12158 IR005   5.1
+ 4 12159 IR005   5.1
+ 4 12160 IR005   5.1
+ 4 12161 IR005   5.1
+ 4 12162 IR005   5.1
+ 4 12163 IR005   5.1
+ 4 12164 IR005   5.1
+ 4 12165 IR005   5.1
+ 4 12186 IR005  10.6
+ 4 12187 IR005  10.6
+ 4 12188 IR005  10.6
+ 4 12189 IR005  10.6
+ 4 12196 IR005   6.6
+ 4 12197 IR005   6.6
+ 4 12198 IR005   6.6
+ 4 12201 IR005   7.5
+ 4 12202 IR005   2.4
+ 4 12203 IR005   2.4
+ 4 12204 IR005   2.4
+ 4 12205 IR005   8.5
+ 4 12206 IR005   8.5
+ 4 12207 IR005  24.1
+ 4 12210 IR005   9.9
+ 4 12211 IR005   9.9
+ 4 12213 IR005   4.4
+ 4 12220 IR005  21.0
+ 4 12221 IR005  21.0
+ 4 12223 IR005   6.6
+ 4 12224 IR005   6.6
+ 4 12225 IR005   6.6
+ 4 12227 IR005  12.8
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+ 1 12131 FE010 AP009    12    35   -99   -99   -99   -99   -99
+
+*TILLAGE
+@L TDATE TIMPL  TDEP
+ 1 12096 TI007    10
+
+*HARVEST DETAILS
+@H HDATE HSTG. HCOM. HSIZ.   HPC  HBPC
+ 1 12144 GS016 H     A       -99   -99
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL...
+ 1                 1     1     S 12096  2150 DEFAULT SIMULATION CONTR
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1                 Y     Y     N     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1                 M     M     E     F     S     C     R     1     P     S     3
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1                 R     R     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
+ 1                 N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     Y
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1             12001 12336   40.  100.   30.   40.   10.
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1               30.   30.   85. GS000 IR005  10.0 1.000
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1               30.   50.   25. FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1              100.     1   20.
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1                 0 12001  100.    0.

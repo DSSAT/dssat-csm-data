@@ -1,7 +1,7 @@
 *WEATHER DATA : Stripling Irrigation Research Park, Camilla, GA                                         
 
-@ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  GACM   31.280  -84.292   50.  19.6   6.6   2.0   3.5
+@ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT   CO2
+  GACM   31.280  -84.292   50.  19.3  18.1  2.00  3.50 377.0
 @DATE  SRAD  TMAX  TMIN  RAIN
 04001  13.9  22.8  -1.4   0.0
 04002   7.6  22.2   5.4   0.0

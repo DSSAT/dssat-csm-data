@@ -1,0 +1,191 @@
+*EXP.DETAILS: AZMA8901CO 1989 AZ FACE Experiment
+*General
+@PEOPLE
+ B.A.Kimball, R.L.La Morte, G.J.Peresta, J.R.Mauney, K.Lewin et al.
+@ADDRESS
+ USDA-U.S. Water Conservation Laboratory
+@SITE
+ MA-Maricopa, AZ Location 33.069N;111.972W;361m
+@NOTES
+! B.A. Kimball, R.L.LaMorte, G.J. Perest, J.R. Mauney, K.F. Lewin and
+! G.R.Hendrey. 1992. Appendices: weather, soils, cultural practices, and cotton
+! growth data from the 1989 FACE experiment in IBSNAT format. Critical Reviews
+! of Plant Science 11:271-308. DOI:10.1080/07352689209382348.
+! 
+! R. Mauney, B.A. Kimball, P.J. Pinter,Jr., R.L. LaMorte, K.F. Lewin, J. Nagy and
+! G.R. Hendrey. 1994. Growth and yield of cotton in response to a free-air carbon
+! dioxide enrichment (FACE) environment. Agricultural and Forest Meteorology
+! 70:49.67. http://dx.doi.org/10.1016/0168-1923(94)90047-7.
+! 
+! Hunsaker, D. J., Hendrey, G. R., Kimball, B. A., Lewin, K. F., Mauney, J. R., &
+! Nagy, J. (1994). Cotton evapotranspiration under field conditions with CO2
+! enrichment and variable soil moisture regimes. Agric. Forest Meteorol.,
+! 70(1-4), 247-258. http://dx.doi.org/10.1016/0168-1923(94)90061-2.
+! 
+! Data entered by Gerrit Hoogenboom, Department of Biological and
+! Agricultural Engineering, the University of Georgia, Griffin, Georgia 30223,
+! USA. Gerrit@griffin.uga.edu [August 10, 2005].
+! Current e-mail (4/3/2018): gerrit@ufl.edu
+! 
+! Data modified by Gail Wilkerson, Department of Crop & Soil Sciences, North
+! Carolina State University, Raleigh, NC 27695, USA. Gail_Wilkerson@ncsu.edu.
+! Canopy weight changed to equal sum of leaf, stem, and boll (pod). 18 Mar 2018.
+
+*TREATMENTS
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 0 0 Control - 350 ppm          1  1  0  1  1  1  1  0  1  0  1  1  1
+ 2 1 0 0 CO2 Enrichment - 550 ppm   1  1  0  1  1  2  1  0  1  0  2  1  1
+
+*CULTIVARS
+@C CR INGENO CNAME...........
+ 1 CO CO0008 Deltapine 77
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL
+ 1 AZMAFACE AZMA8901 0.0      0. DR000    0.    0. 00000 CL      -99 AZMA890003
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1         0.00000         0.00000      0.00               0.0    0.    0.    0.
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+ 1    WH 89100    0.    0.  1.00  1.00   -99    0.  0.00  0.00   100   15.
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    5.   -99   0.3  20.0
+ 1   15.   -99   0.3  20.0
+ 1   30.   -99   0.3  20.0
+ 1   50.   -99   0.3  16.0
+ 1   60.   -99   0.3  10.0
+ 1   70.   -99   0.3   5.0
+ 1   90.   -99   0.3   5.0
+ 1  110.   -99   0.3   2.0
+ 1  120.   -99   0.3   2.0
+ 1  130.   -99   0.3   1.0
+ 1  150.   -99   0.3   1.0
+ 1  170.   -99   0.3   1.0
+ 1  190.   -99   0.3   1.0
+ 1  210.   -99   0.3   1.0
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+ 1 89108 89115  10.0   9.8     S     R 102.0    0.   2.5   -99   -99   -99   -99   0.0
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+ 1  1.00   -99   -99   -99 -99   -99     -99
+@I IDATE  IROP IRVAL
+ 1 89100 IR005 100.0
+ 1 89114 IR005  43.0
+ 1 89118 IR005  43.0
+ 1 89121 IR005  34.0
+ 1 89125 IR005  47.0
+ 1 89129 IR005  43.0
+ 1 89131 IR005  30.0
+ 1 89139 IR005  73.0
+ 1 89145 IR005  30.0
+ 1 89156 IR005  52.0
+ 1 89163 IR005  43.0
+ 1 89178 IR005  60.0
+ 1 89180 IR005  13.0
+ 1 89182 IR005  47.0
+ 1 89185 IR005  26.0
+ 1 89188 IR005  26.0
+ 1 89192 IR005  34.0
+ 1 89196 IR005  60.0
+ 1 89199 IR005  56.0
+ 1 89200 IR005  13.0
+ 1 89201 IR005  34.0
+ 1 89208 IR005  26.0
+ 1 89210 IR005  17.0
+ 1 89212 IR005  34.0
+ 1 89214 IR005  17.0
+ 1 89216 IR005  30.0
+ 1 89218 IR005  22.0
+ 1 89220 IR005  17.0
+ 1 89222 IR005   9.0
+ 1 89224 IR005  22.0
+ 1 89226 IR005  13.0
+ 1 89228 IR005  22.0
+ 1 89230 IR005  17.0
+ 1 89232 IR005  30.0
+ 1 89234 IR005  26.0
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+ 2  1.00   -99   -99   -99 -99   -99     -99
+@I IDATE  IROP IRVAL
+ 2 89100 IR005  10.0
+ 2 89114 IR005  33.0
+ 2 89118 IR005  43.0
+ 2 89121 IR005  38.0
+ 2 89125 IR005  47.0
+ 2 89129 IR005  47.0
+ 2 89131 IR005  28.0
+ 2 89139 IR005  85.0
+ 2 89145 IR005  38.0
+ 2 89156 IR005  47.0
+ 2 89163 IR005  38.0
+ 2 89178 IR005  57.0
+ 2 89180 IR005  28.0
+ 2 89182 IR005  38.0
+ 2 89185 IR005  19.0
+ 2 89188 IR005  28.0
+ 2 89192 IR005  57.0
+ 2 89196 IR005  66.0
+ 2 89199 IR005  52.0
+ 2 89200 IR005  14.0
+ 2 89201 IR005  28.0
+ 2 89208 IR005  28.0
+ 2 89210 IR005  28.0
+ 2 89212 IR005  33.0
+ 2 89214 IR005  24.0
+ 2 89216 IR005  24.0
+ 2 89218 IR005  24.0
+ 2 89220 IR005  24.0
+ 2 89222 IR005  33.0
+ 2 89224 IR005  19.0
+ 2 89226 IR005  19.0
+ 2 89228 IR005  28.0
+ 2 89230 IR005  19.0
+ 2 89232 IR005  28.0
+ 2 89234 IR005  28.0
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+ 1 89100 FE010 AP005    20    67   -99   -99   -99   -99   -99
+ 1 89139 FE010 AP005    20    22   -99   -99   -99   -99   -99
+ 1 89166 FE010 AP005    20    22   -99   -99   -99   -99   -99
+ 1 89200 FE010 AP005    20    22   -99   -99   -99   -99   -99
+
+*CHEMICALS
+@C CDATE CHCOD CHAMT  CHME CDEP  CHT
+ 1 89173 CH100  1.00 AP006 -99   -99
+ 1 89192 CH100  1.00 AP006 -99   -99
+
+*ENVIRONMENTAL MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN  ECO2  EDEW EWIND
+ 1 89100 A0.00 A0.00 A0.00 A0.00 A0.00 R350.  0.00 A0.00
+ 2 89139 A0.00 A0.00 A0.00 A0.00 A0.00 R550.  0.00 A0.00
+
+*HARVEST DETAILS
+@H HDATE HSTG. HCOM. HSIZ.   HPC  HBPC
+ 1 89263 GS011 H     A      100.   -99
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL...
+ 1                 1     1     S 89100  2150 FACE EXPERIMENTS
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1                 Y     Y     N     N     N     N     N     Y     W
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1                 M     M     H     G     S     L     R     1     G     S     3
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1                 R     R     R     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
+ 1                 N     Y     Y     1     Y     Y     Y     Y     N     Y     Y     N     N
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1             89100 89114   40.  100.   30.   40.   10.
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1               30.   50.  100. GS000 IR001  10.0 1.000
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1                5.    0.   50. FE008 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1              100.     1   20.
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1                 0 89365  100.    0.

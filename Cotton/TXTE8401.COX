@@ -1,68 +1,74 @@
-*EXP.DETAILS: TXTE8401CO 1984 COTTON ROOT GROWTH AND SOIL WATER EXTRACTION
+*EXP.DETAILS: TXTE8401CO 1984 TX COTTON ROOT GROWTH AND SOIL WATER EXTRACTION
 
 *GENERAL
 @PEOPLE
-Bland WL, and WA Dugas.     
+ Bland W.L., and W.A. Dugas
 @ADDRESS
-Blackland Res. Center, Texas Agric. Exp. Stn., Texas A&M Univ. System
+ Blackland Res. Center, Texas Agric. Exp. Stn., Texas A  & M Univ. System
 @SITE
-Blackland Res. Center
-@NOTES
-!Bland and Dugas, Texas A&M, Temple, Texas
-!Cotton root growth and soil water extraction
-!Soil Sci.Soc.Am.J. 53:1850
-!K. Boote calibrated DUL and LL of the soil to match obs soil water on 4/29/2010.
-!The initial soil water content was also modified in some cases by K. Boote.
-!Rooting function (SRGF) was almost good. Used 12000 cm/g root, calibrated from
-!other experiments. No confidence in the N fertilization as 1985 supposedly
-!had no N applied. Result is lower LAI than expected, maybe because of N deficit.
-!Upper soil layers are drier than Suleiman evaporation function allows. Problem?
+ TE-Temple, TX  Location 31.056N;97.348W;199m
 
-*TREATMENTS                        -------------FACTOR LEVELS------------
-@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 1 0 1984 season                1  1  0  1  1  1  1  0  0  0  0  0  1
+@NOTES
+! Reference:
+! 
+! Bland, W. L., and W. A. Dugas. 1989. Cotton root growth and soil water
+! extraction. Soil Sci. Soc. Am. J. 53:1850-1855.
+! doi:10.2136/sssaj1989.03615995005300060039x
+! 
+! K. Boote calibrated DUL and LL of the soil to match obs soil water on
+! 4/29/2010. The initial soil water content was also modified in some cases by K.
+! Boote. Rooting function (SRGF) was almost good. Used 12000 cm/g root,
+! calibrated from other experiments. No confidence in the N fertilization as 1985
+! supposedly had no N applied. Result is lower LAI than expected, maybe because
+! of N deficit. Upper soil layers are drier than Suleiman evaporation function
+! allows. Problem?
+! 
+! Gail Wilkerson: Modified data files after some factors in species file for
+! cotton were changed based on multiple data files from AZ, TX, GA, and NC (23
+! Mar 2018). gail_wilkerson@ncsu.edu.
  
+*TREATMENTS
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 0 0 1984 season                1  1  0  1  1  1  1  0  0  0  0  0  1
+
 *CULTIVARS
-@C CR INGENO CNAME
- 1 CO TX0003 GP 3774
+@C CR INGENO CNAME...........
+ 1 CO CO0010 GP 3774
 
 *FIELDS
-@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 TXBD0001 TXBD       -99   -99 DR000   -99   -99   -99 C      210  TXBD000005 -99
-@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
- 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL
+ 1 TXTE0001 TXTE8401 -99     -99 DR000   -99   -99 -99   C      210. TXTE840001
 
 *INITIAL CONDITIONS
-@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1   -99 84156   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+ 1       84156   -99   -99  1.00  1.00   -99   -99   -99   -99   -99   -99
 @C  ICBL  SH2O  SNH4  SNO3
- 1     5   .18    .5    .5
- 1    15   .18    .5    .5
- 1    30   .24    .5    .5
- 1    45   .25    .5    .5
- 1    60    .3    .5    .5
- 1    90   .34    .5    .5
- 1   120   .37    .5    .5
- 1   150   .37    .5    .5
- 1   180   .37    .5    .5
- 1   210   .35    .5    .5
+ 1     5 0.180   0.5   0.5
+ 1    15 0.180   0.5   0.5
+ 1    30 0.240   0.5   0.5
+ 1    45 0.250   0.5   0.5
+ 1    60 0.300   0.5   0.5
+ 1    90 0.340   0.5   0.5
+ 1   120 0.370   0.5   0.5
+ 1   150 0.370   0.5   0.5
+ 1   180 0.370   0.5   0.5
+ 1   210 0.350   0.5   0.5
 
 *PLANTING DETAILS
-@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1   -99 84156   -99    15     S     R    68   -99     6   -99   -99   -99   -99   -99                        1994 Exp
-
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+ 1 84150 84156  15.0  15.0     S     R  68.0   -99   6.0   -99   -99   -99   -99   -99
 
 *IRRIGATION AND WATER MANAGEMENT
-@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
- 1   .95   -99   -99   -99 GS000 IR001    10 NR-OI
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+ 1  0.95   -99   -99   -99 GS000 IR001   10.
 @I IDATE  IROP IRVAL
- 1 84193 IR004    32
- 1 84194 IR004    29
+ 1 84193 IR004  32.0
+ 1 84194 IR004  29.0
 
 *FERTILIZERS (INORGANIC)
-@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 84156 FE004 AP009     6    45   -99   -99   -99   -99   -99 CHANGED TO SOWING APPL
- 1 84220 FE004 AP009     6    40   -99   -99   -99   -99   -99 CHANGED TO SOWING APPL
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+ 1 84156 FE004 AP009     6    45   -99   -99   -99   -99   -99
+ 1 84220 FE004 AP009     6    40   -99   -99   -99   -99   -99
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL

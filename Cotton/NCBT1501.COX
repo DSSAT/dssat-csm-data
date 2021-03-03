@@ -1,0 +1,185 @@
+*EXP.DETAILS: NCBT1501CO 2015 NC, Bertie, PBRS, irrigation
+*General
+@PEOPLE
+Todd Spivey,* Gail Wilkerson, Keith Edmiston, Greg Buol
+@ADDRESS
+ LSU AgCenter, Dean Lee Research and Extension Center, 8105 Tom Bowman Drive,Alexandria, LA 71302; (Ph) 318-427-4424; tspivey@agcenter.lsu.edu
+@SITE
+ BT Site, NC Location 36.132N;77.176W;15m
+@NOTES
+! References:
+!
+! Spivey, T. A. (2017). Upland cotton growth and yield response to the 
+! interactions of planting date with irrigation strategies, soil tillage
+! systems, and agronomic inputs. Ph.D. diss. Raleigh, NC: North Carolina
+! State Univ., Department of Crop and Soil Sciences. 
+! Retrieved from http://www.lib.ncsu.edu/resolver/1840.20/34306 
+!
+! Spivey, T. A., G. G. Wilkerson, G. S. Buol, K. L. Edmisten, and 
+! E. M. Barnes. 2018. Use of the CSM-CROPGRO-Cotton model to determine
+! the agronomic and economic value of irrigation to upland cotton 
+! production in North and South Carolina. Trans. ASABE (submitted).
+!
+! Data files created by Gail Wilkerson, NCSU, gail_wilkerson@ncsu.edu, 21 June 2018
+!
+! Please contact Todd Spivey and include him as an author if you use these data
+! in a publication.
+
+*TREATMENTS
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 0 0 Phyt 333, 05/06/15 irr     1  1  0  0  1  1  0  0  0  0  0  1  1
+ 2 1 0 0 Phyt 333, 05/21/15 irr     1  1  0  0  2  1  0  0  0  0  0  2  1
+ 3 1 0 0 Phyt 333, 06/08/15 irr     1  1  0  0  3  1  0  0  0  0  0  2  1
+ 4 1 0 0 Phyt 333, 05/06/15 nonirr  1  1  0  0  4  0  0  0  0  0  0  1  1
+ 5 1 0 0 Phyt 333, 05/21/15 nonirr  1  1  0  0  5  0  0  0  0  0  0  2  1
+ 6 1 0 0 Phyt 333, 06/08/15 nonirr  1  1  0  0  6  0  0  0  0  0  0  2  1
+ 7 1 0 0 Phyt 499, 05/06/15 irr     2  1  0  0  7  1  0  0  0  0  0  1  1
+ 8 1 0 0 Phyt 499, 05/21/15 irr     2  1  0  0  8  1  0  0  0  0  0  2  1
+ 9 1 0 0 Phyt 499, 06/08/15 irr     2  1  0  0  9  1  0  0  0  0  0  2  1
+10 1 0 0 Phyt 499, 05/06/15 nonirr  2  1  0  0 10  0  0  0  0  0  0  1  1
+11 1 0 0 Phyt 499, 05/21/15 nonirr  2  1  0  0 11  0  0  0  0  0  0  2  1
+12 1 0 0 Phyt 499, 06/08/15 nonirr  2  1  0  0 12  0  0  0  0  0  0  2  1
+
+*CULTIVARS
+@C CR INGENO CNAME...........
+ 1 CO CO0032 Phytogen 333
+ 2 CO CO0037 Phytogen 499
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL
+ 1 NCBT0101 NCBT1501 -99     -99 -99     -99   -99 0     LS     245. NCBT150001
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               1.0  100.    1.   -99
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+ 1 15126 15138  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 2 15141 15147  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 3 15159 15163  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 4 15126 15138  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 5 15141 15147  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 6 15159 15163  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 7 15126 15138  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 8 15141 15147  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 9 15159 15163  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+10 15126 15138  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+11 15141 15147  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+12 15159 15163  12.0  12.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+ 1  0.80   -99   -99   -99 -99   -99     -99
+@I IDATE  IROP IRVAL
+ 1 15168 IR005  22.0
+ 1 15169 IR005  11.0
+ 1 15172 IR005   2.0
+ 1 15173 IR005   2.0
+ 1 15174 IR005   6.0
+ 1 15175 IR005   6.0
+ 1 15176 IR005   6.0
+ 1 15177 IR005   0.0
+ 1 15179 IR005   6.0
+ 1 15180 IR005   3.0
+ 1 15181 IR005   6.0
+ 1 15182 IR005   6.0
+ 1 15183 IR005   5.0
+ 1 15184 IR005   2.0
+ 1 15186 IR005   6.0
+ 1 15187 IR005   6.0
+ 1 15188 IR005   6.0
+ 1 15189 IR005   6.0
+ 1 15190 IR005   6.0
+ 1 15191 IR005   0.0
+ 1 15192 IR005   0.0
+ 1 15193 IR005   3.0
+ 1 15194 IR005   6.0
+ 1 15195 IR005   6.0
+ 1 15196 IR005   6.0
+ 1 15197 IR005   6.0
+ 1 15198 IR005   0.0
+ 1 15199 IR005   0.0
+ 1 15200 IR005   6.0
+ 1 15201 IR005   6.0
+ 1 15202 IR005   6.0
+ 1 15203 IR005   6.0
+ 1 15204 IR005   6.0
+ 1 15205 IR005   0.0
+ 1 15206 IR005   0.0
+ 1 15207 IR005   6.0
+ 1 15208 IR005   5.0
+ 1 15209 IR005   5.0
+ 1 15210 IR005   5.0
+ 1 15211 IR005   2.0
+ 1 15212 IR005   0.0
+ 1 15213 IR005   0.0
+ 1 15214 IR005   5.0
+ 1 15215 IR005   5.0
+ 1 15216 IR005   5.0
+ 1 15217 IR005   5.0
+ 1 15218 IR005   5.0
+ 1 15219 IR005   0.0
+ 1 15220 IR005   0.0
+ 1 15221 IR005   0.0
+ 1 15223 IR005   1.0
+ 1 15224 IR005   2.0
+ 1 15225 IR005   5.0
+ 1 15226 IR005   0.0
+ 1 15227 IR005   0.0
+ 1 15228 IR005   5.0
+ 1 15229 IR005   5.0
+ 1 15230 IR005   5.0
+ 1 15231 IR005   5.0
+ 1 15232 IR005   3.0
+ 1 15233 IR005   0.0
+ 1 15234 IR005   0.0
+ 1 15235 IR005   3.0
+ 1 15236 IR005   5.0
+ 1 15237 IR005   2.0
+ 1 15238 IR005   0.0
+ 1 15243 IR005   5.0
+ 1 15244 IR005   5.0
+ 1 15245 IR005   2.0
+ 1 15246 IR005   5.0
+ 1 15247 IR005   0.0
+ 1 15253 IR005   0.0
+ 1 15254 IR005   0.0
+ 1 15255 IR005   0.0
+ 1 15256 IR005   5.0
+ 1 15257 IR005   5.0
+ 1 15258 IR005   2.0
+ 1 15259 IR005   5.0
+ 1 15260 IR005   4.0
+ 1 15261 IR005   4.0
+ 1 15262 IR005   4.0
+ 1 15263 IR005   2.0
+ 1 15264 IR005   4.0
+ 1 15265 IR005   4.0
+ 1 15266 IR005   4.0
+ 1 15267 IR005   3.0
+
+*HARVEST DETAILS
+@H HDATE HSTG. HCOM. HSIZ.   HPC  HBPC
+ 1 15282 GS016 H     A      100.   -99
+ 2 15285 GS016 H     A      100.   -99
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL...
+ 1                 1     1     P        2150
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1                 Y     N     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1                 M     M     H     F     S     L     R     1     G     S     3
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1                 R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
+ 1                 N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1                           40.  100.   30.   40.   10.
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1               30.   50.  100. GS000 IR001  10.0 0.750
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1               30.   50.   25. FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1              100.     1   20.
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1                 0        100.    0.

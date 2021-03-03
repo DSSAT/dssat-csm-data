@@ -1,0 +1,143 @@
+*EXP.DETAILS: NCBT1601CO 2016 NC, Bertie, PBRS, irrigation
+*General
+@PEOPLE
+Todd Spivey,* Gail Wilkerson, Keith Edmiston, Greg Buol
+@ADDRESS
+ LSU AgCenter, Dean Lee Research and Extension Center, 8105 Tom Bowman Drive,Alexandria, LA 71302; (Ph) 318-427-4424; tspivey@agcenter.lsu.edu
+@SITE
+ BT Site, NC Location 36.132N;77.176W;15m
+@NOTES
+! References:
+!
+! Spivey, T. A. (2017). Upland cotton growth and yield response to the 
+! interactions of planting date with irrigation strategies, soil tillage
+! systems, and agronomic inputs. Ph.D. diss. Raleigh, NC: North Carolina
+! State Univ., Department of Crop and Soil Sciences. 
+! Retrieved from http://www.lib.ncsu.edu/resolver/1840.20/34306 
+!
+! Spivey, T. A., G. G. Wilkerson, G. S. Buol, K. L. Edmisten, and 
+! E. M. Barnes. 2018. Use of the CSM-CROPGRO-Cotton model to determine
+! the agronomic and economic value of irrigation to upland cotton 
+! production in North and South Carolina. Trans. ASABE (submitted).
+!
+! Data files created by Gail Wilkerson, NCSU, gail_wilkerson@ncsu.edu, 21 June 2018
+!
+! Please contact Todd Spivey and include him as an author if you use these data
+! in a publication.
+
+*TREATMENTS
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 0 0 Phyt 333, 05/10/16 irr     1  1  0  0  1  1  0  0  0  0  0  1  1
+ 2 1 0 0 Phyt 333, 05/24/16 irr     1  1  0  0  2  1  0  0  0  0  0  1  1
+ 3 1 0 0 Phyt 333, 06/08/16 irr     1  1  0  0  3  1  0  0  0  0  0  2  1
+ 4 1 0 0 Phyt 333, 05/10/16 nonirr  1  1  0  0  4  0  0  0  0  0  0  1  1
+ 5 1 0 0 Phyt 333, 05/24/16 nonirr  1  1  0  0  5  0  0  0  0  0  0  1  1
+ 6 1 0 0 Phyt 333, 06/08/16 nonirr  1  1  0  0  6  0  0  0  0  0  0  2  1
+ 7 1 0 0 Phyt 499, 05/10/16 irr     2  1  0  0  7  1  0  0  0  0  0  1  1
+ 8 1 0 0 Phyt 499, 05/24/16 irr     2  1  0  0  8  1  0  0  0  0  0  1  1
+ 9 1 0 0 Phyt 499, 06/08/16 irr     2  1  0  0  9  1  0  0  0  0  0  2  1
+10 1 0 0 Phyt 499, 05/10/16 nonirr  2  1  0  0 10  0  0  0  0  0  0  1  1
+11 1 0 0 Phyt 499, 06/08/16 nonirr  2  1  0  0 11  0  0  0  0  0  0  2  1
+12 1 0 0 Phyt 499, 05/24/16 nonirr  2  1  0  0 12  0  0  0  0  0  0  1  1
+
+*CULTIVARS
+@C CR INGENO CNAME...........
+ 1 CO CO0032 Phytogen 333
+ 2 CO CO0037 Phytogen 499
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL
+ 1 NCBT0101 NCBT1601 -99     -99 -99     -99   -99 0     LS     245. NCBT150001
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               1.0  100.    1.   -99
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+ 1 16131 16138   8.7   8.7     S     R  91.0   -99   5.0   -99   -99   -99   -99   -99
+ 2 16145 16151   8.5   8.5     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 3 16160 16166   7.6   7.6     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 4 16131 16138   8.5   8.5     S     R  91.0   -99   5.0   -99   -99   -99   -99   -99
+ 5 16145 16151   9.2   9.2     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 6 16160 16166   8.4   8.4     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+ 7 16131 16138   8.9   8.9     S     R  91.0   -99   1.0   -99   -99   -99   -99   -99
+ 8 16145 16151   7.8   7.8     S     R  91.0   -99   1.0   -99   -99   -99   -99   -99
+ 9 16160 16166   7.5   7.5     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+10 16131 16138   7.7   7.7     S     R  91.0   -99   2.0   -99   -99   -99   -99   -99
+11 16160 16166   8.0   8.0     S     R  91.0   -99   3.0   -99   -99   -99   -99   -99
+12 16145 16151   8.4   8.4     S     R  91.0   -99   2.0   -99   -99   -99   -99   -99
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+ 1  0.80   -99   -99   -99 -99   -99     -99
+@I IDATE  IROP IRVAL
+ 1 16172 IR005   1.0
+ 1 16173 IR005   5.0
+ 1 16174 IR005   5.0
+ 1 16175 IR005   7.0
+ 1 16176 IR005   1.0
+ 1 16177 IR005   1.0
+ 1 16180 IR005   4.0
+ 1 16181 IR005   4.0
+ 1 16182 IR005   4.0
+ 1 16183 IR005   4.0
+ 1 16184 IR005   6.0
+ 1 16190 IR005   2.0
+ 1 16194 IR005   2.0
+ 1 16195 IR005   8.0
+ 1 16196 IR005  14.0
+ 1 16197 IR005   6.0
+ 1 16198 IR005  10.0
+ 1 16199 IR005   3.0
+ 1 16204 IR005   8.0
+ 1 16207 IR005   6.0
+ 1 16208 IR005   6.0
+ 1 16209 IR005   5.0
+ 1 16210 IR005  10.0
+ 1 16211 IR005   5.0
+ 1 16214 IR005   5.0
+ 1 16215 IR005   5.0
+ 1 16216 IR005   5.0
+ 1 16217 IR005   5.0
+ 1 16218 IR005   5.0
+ 1 16228 IR005   4.0
+ 1 16229 IR005   5.0
+ 1 16230 IR005   4.0
+ 1 16231 IR005   5.0
+ 1 16232 IR005   5.0
+ 1 16233 IR005   1.0
+ 1 16235 IR005   5.0
+ 1 16236 IR005   5.0
+ 1 16237 IR005   4.0
+ 1 16238 IR005   4.0
+ 1 16240 IR005   4.0
+ 1 16241 IR005   4.0
+ 1 16242 IR005   4.0
+ 1 16243 IR005   4.0
+ 1 16244 IR005   4.0
+
+*HARVEST DETAILS
+@H HDATE HSTG. HCOM. HSIZ.   HPC  HBPC
+ 1 16273 GS011 H     A      100.   -99
+ 2 16293 GS011 H     A      100.   -99
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL...
+ 1                 1     1     P        2150
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1                 Y     N     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1                 M     M     H     F     S     L     R     1     G     S     3
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1                 R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
+ 1                 N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1                           40.  100.   30.   40.   10.
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1               30.   50.  100. GS000 IR001  10.0 0.750
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1               30.   50.   25. FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1              100.     1   20.
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1                 0        100.    0.
