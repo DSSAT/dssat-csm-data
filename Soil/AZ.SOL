@@ -1,4 +1,4 @@
-*SOILS : Maricopa Agricultural Center, Maricopa, Phoenix, Arizona
+*SOILS: Maricopa Agricultural Center, Maricopa, Phoenix, Arizona
 
 *AZMC920001  KIMBALL     CL      210 TRIX CLAY LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
