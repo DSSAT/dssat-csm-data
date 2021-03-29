@@ -2,17 +2,19 @@
 
 *GENERAL
 @PEOPLE
--99
+S. Singh, K.J. Boote, S.V. Angadi, K. Grover, S. Begna and D. Auld
 @ADDRESS
 -99
 @SITE
--99
-!Singh, S., K. J. Boote, S. V. Angadi, K. Grover, S. Begna and D. Auld (2016).
-! Adapting the CROPGRO model to simulate growth and yield of spring safflower
-! in semi-arid conditions. Agronomy Journal. 108(1): 64-72.
-!S. Singh and D. Auld = Texas Tech University
-!S. V. Angadi, K. Grover and S. Begna = New Mexico State University
-!K. J. Boote = University of Florida
+New Mexico State University
+@NOTES
+Singh, S., K. J. Boote, S. V. Angadi, K. Grover, S. Begna and D. Auld. 2016. 
+Adapting the CROPGRO model to simulate growth and yield of spring safflower in semi-arid conditions. 
+Agronomy Journal. 108(1): 64-72.
+S. Singh and D. Auld, Texas Tech University
+S.V. Angadi, K. Grover and S. Begna, New Mexico State University
+K.J. Boote, University of Florida
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -31,8 +33,8 @@
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 NMCL0001 ACNM1301   -99   -99   -99   -99   -99   -99 CL     -99  NMCL CURRY -99
- 2 NMCL0002 ACNM1401   -99   -99   -99   -99   -99   -99 CL     -99  NMCL CURRY -99
+ 1 NMCL0001 ACNM1301   -99   -99   -99   -99   -99   -99 CL     -99  NMCL000002 -99
+ 2 NMCL0002 ACNM1401   -99   -99   -99   -99   -99   -99 CL     -99  NMCL000002 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99   -99   -99   -99   -99   -99
  2             -99             -99       -99               -99   -99   -99   -99   -99   -99
