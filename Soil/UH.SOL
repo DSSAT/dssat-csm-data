@@ -1,6 +1,19 @@
 *SOILS: University of Hohenheim, Stuttgart, Germany
 ! DSSAT v4.8; 03/19/2021
 !
+*UH00002016  IBSNAT      SIL       90  DEEP SILTY CLAY (Chia)
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Ihinger Hof Germany        48.736   8.933 Cambisol
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99   .11     6    .3    73     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .205  .385  .481     1   .68   1.3  1.94  22.5    67   -99   -99   7.4   -99   -99   -99
+    60   -99  .230  .406  .482  .638   .68   1.3   .83   -99   -99   -99   -99   -99   -99   -99   -99
+    90   -99  .230  .406  .465  .472   .68  1.35   .03   -99   -99   -99   -99   -99   -99   -99   -99
+   120   -99  .230  .406  .465  .372   .68  1.35   .03   -99   -99   -99   -99   -99   -99   -99   -99
+   150   -99  .230  .406  .465  .272   .68  1.35   .03   -99   -99   -99   -99   -99   -99   -99   -99	
+   180   -99  .230  .406  .465  .172   .68  1.35   .03   -99   -99   -99   -99   -99   -99   -99   -99   
+
 *UHIH002016  Hohenheim   SIL      180  Silty Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  Ihinger Hof Germany        48.736   8.933 Cambisol
@@ -13,7 +26,7 @@
    120   -99  .131  .302  .511  .407   .68  1.21   .03  16.4    55   -99   .01   -99   -99   -99   -99
    150   -99  .131  .302  .511  .407   .68  1.21   .03  16.4    55   -99   .01   -99   -99   -99   -99
    180   -99  .131  .302  .511  .407   .68  1.21   .03  16.4    55   -99   .01   -99   -99   -99   -99
-
+   
 *UHIH012017  Hohenheim   SICL     180  Silty clay loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  Ihinger Hof Germany        48.736   8.933 Luvisol
