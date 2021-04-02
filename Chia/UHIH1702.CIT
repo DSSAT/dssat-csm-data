@@ -1,4 +1,4 @@
-*EXP. DATA (T): UHCH1702CI CHIA2017, ROW SPACING 35, 50, AND 70 CM.
+*EXP. DATA (T): UHIH1702CI CHIA2017, ROW SPACING 35, 50, AND 70 CM.
 ! Correct, April 24, Bias updated, to account for constant leaf-to-stem ratio for final harvest
 ! Base factors are 0.597, 0.491, and 0.338 for 35, 50, and 75 cm spacing, for S5,S6, S7
 ! Bias factor is 0.787 for Samples 1, 2, 3, 4
