@@ -40,10 +40,8 @@ sufficient N mineralization to drive growth with either Godwin or CENTURY
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
  1 UHIH2017 UHIH       -99   -99 DR000   -99   -99   -99 L      -99  UH00002020 -99
- 2 XXXXXXX2 IHUH1801   -99   -99 DR000   -99   -99   -99 L      -99  UH00002018 history
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1            8.93           48.73       479               -99   -99   -99   -99   -99   -99
- 2            8.93           48.73       479               -99   -99   -99   -99 FH101    20
 
 *SOIL ANALYSIS
 @A SADAT  SMHB  SMPX  SMKE  SANAME
