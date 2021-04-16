@@ -7,12 +7,11 @@
 University of Florida, Gainesville, Florida, USA
 @SITE
  Bradenton, Florida
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
  Fertilizer experiment with peppers (cv. "Capistrano") subirrigated, well-watered.
  The water table was maintained at 24" and fertilizer N-rateswere 180, 255, 
  and 333 kg of N/ha.
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -32,7 +31,7 @@ University of Florida, Gainesville, Florida, USA
  2 UFBR0002 UFBR9601   -99     0 DR000     0     0  0000 SA     180  UFBR950002 -99
  3 UFBR0003 UFBR9601   -99     0 DR000     0     0  0000 SA     180  UFPT930002 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
- 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+ 1             -99             -99       -99               -99   -99   -99   -99 FH301    25
  2             -99             -99       -99               -99   -99   -99   -99   -99   -99
  3             -99             -99       -99               -99   -99   -99   -99   -99   -99
 
@@ -69,13 +68,13 @@ University of Florida, Gainesville, Florida, USA
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
  1 GE              1     1     S 96249  2150 Fert Trial
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
- 1 OP              Y     N     N     N     N     N     N     N     M
+ 1 OP              N     N     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
  1 ME              M     M     H     R     S     L     R     1     P     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     A     R     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     D     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     D     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -97,8 +96,8 @@ University of Florida, Gainesville, Florida, USA
  2 ME              M     M     H     R     S     L     R     1     P     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     A     R     R     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 2 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
