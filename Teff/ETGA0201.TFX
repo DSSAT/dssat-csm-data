@@ -7,6 +7,8 @@ Tulema,Aune,& Breland,2007
 Gare Arera, Ethiopia
 @SITE
 Gare Arera, Ethiopia
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -21,12 +23,12 @@ Gare Arera, Ethiopia
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 ETga0009 EGAR       -99     0 DR000     0     0 00000 -99    210  ETGA000011 Shallow Root Std Nitisol 
+ 1 ETga0009 EGAR       -99     0 DR000     0     0 00000 -99    210  ETGA000011 Shallow Root Std Nitisol
  2 ETga0010 EGAR       -99     0 DR000     0     0 00000 -99    210  ETGA000012 Shallow Root Std Vertisol
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1               0               0         0                 0     0     0     0   -99   -99
  2               0               0         0                 0     0     0     0   -99   -99
- 
+
 *SOIL ANALYSIS
 @A SADAT  SMHB  SMPX  SMKE  SANAME
  1 11182   -99   -99   -99  -99
@@ -37,47 +39,47 @@ Gare Arera, Ethiopia
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
  1    FA 02182     0     0     1     1   -99     0     0     0   100    10 Shallow Root Std Nitisol 40% water 10 kg N/ha
 @C  ICBL  SH2O  SNH4  SNO3
- 1     5  .401     0   0.3
- 1    10  .396     0   0.3
- 1    20  .401     0   0.3
- 1    30  .403     0   0.3
- 1    40  .399     0   0.3
- 1    50  .385     0   0.3
- 1    60  .385     0   0.3
- 1    70  .381     0   0.3
- 1    80  .385     0   0.3
- 1    90  .385     0   0.3
- 1   110  .381     0   0.3
- 1   130  .385     0   0.3
- 1   150  .385     0   0.3
- 1   170  .381     0   0.3
- 1   190  .385     0   0.3
- 1   210  .385     0   0.3
+ 1     5  .401     0    .3
+ 1    10  .396     0    .3
+ 1    20  .401     0    .3
+ 1    30  .403     0    .3
+ 1    40  .399     0    .3
+ 1    50  .385     0    .3
+ 1    60  .385     0    .3
+ 1    70  .381     0    .3
+ 1    80  .385     0    .3
+ 1    90  .385     0    .3
+ 1   110  .381     0    .3
+ 1   130  .385     0    .3
+ 1   150  .385     0    .3
+ 1   170  .381     0    .3
+ 1   190  .385     0    .3
+ 1   210  .385     0    .3
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
  2    FA 02182     0     0     1     1   -99     0     0     0   100    10 Shallow Root Std Vertisol 40% water 10 kg N/ha
 @C  ICBL  SH2O  SNH4  SNO3
- 2     5  .438     0   0.4
- 2    10  .438     0   0.4
- 2    20  .438     0   0.4
- 2    30  .426     0   0.4
- 2    40  .426     0   0.4
- 2    50  .433     0   0.4
- 2    60  .433     0   0.4
- 2    70  .433     0   0.4
- 2    80  .433     0   0.4
- 2    90  .433     0   0.4
- 2   110  .433     0   0.4
- 2   130  .433     0   0.4
- 2   150  .433     0   0.4
- 2   170  .433     0   0.4
- 2   190  .433     0   0.4
- 2   210  .433     0   0.4
- 
+ 2     5  .438     0    .4
+ 2    10  .438     0    .4
+ 2    20  .438     0    .4
+ 2    30  .426     0    .4
+ 2    40  .426     0    .4
+ 2    50  .433     0    .4
+ 2    60  .433     0    .4
+ 2    70  .433     0    .4
+ 2    80  .433     0    .4
+ 2    90  .433     0    .4
+ 2   110  .433     0    .4
+ 2   130  .433     0    .4
+ 2   150  .433     0    .4
+ 2   170  .433     0    .4
+ 2   190  .433     0    .4
+ 2   210  .433     0    .4
+
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
  1 02205   -99   900   -99     S     U     7     0    .9   -99   -99   -99   -99     0                        Nitisol
- 2 02206   -99   900   -99     S     U     7     0    .9   -99   -99   -99   -99     0
- 
+ 2 02206   -99   900   -99     S     U     7     0    .9   -99   -99   -99   -99     0                        -99
+
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
  1     0 FE005 AP002    10    40    26     0     0     0   -99 Nitisol
@@ -92,8 +94,8 @@ Gare Arera, Ethiopia
  1 ME              M     M     E     R     S     C     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     N     D     N     M
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -106,3 +108,6 @@ Gare Arera, Ethiopia
  1 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 75310   100     0
+
+
+
