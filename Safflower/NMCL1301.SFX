@@ -2,17 +2,19 @@
 
 *GENERAL
 @PEOPLE
--99
+S. Singh, K.J. Boote, S.V. Angadi, K. Grover, S. Begna and D. Auld
 @ADDRESS
 -99
 @SITE
--99
-!Singh, S., K. J. Boote, S. V. Angadi, K. Grover, S. Begna and D. Auld (2016).
-! Adapting the CROPGRO model to simulate growth and yield of spring safflower
-! in semi-arid conditions. Agronomy Journal. 108(1): 64-72.
-!S. Singh and D. Auld = Texas Tech University
-!S. V. Angadi, K. Grover and S. Begna = New Mexico State University
-!K. J. Boote = University of Florida
+New Mexico State University
+@NOTES
+Singh, S., K. J. Boote, S. V. Angadi, K. Grover, S. Begna and D. Auld. 2016. 
+Adapting the CROPGRO model to simulate growth and yield of spring safflower in semi-arid conditions. 
+Agronomy Journal. 108(1): 64-72.
+S. Singh and D. Auld, Texas Tech University
+S.V. Angadi, K. Grover and S. Begna, New Mexico State University
+K.J. Boote, University of Florida
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM

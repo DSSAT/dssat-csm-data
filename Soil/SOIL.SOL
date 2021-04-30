@@ -1,5 +1,5 @@
 *SOILS: General DSSAT Soil Input File
-! DSSAT v4.7; 09/01/2017
+! DSSAT v4.8; 04/23/2021
 !
 ! Standard Soil Profiles
 !
@@ -1880,7 +1880,7 @@
    180     9   .38  .405  .455  .033   .23  1.36   .43    35    30   -99   -99     5   -99   -99   -99
    200    10   .38   .38   .43  .022   .23  1.36   .43    35    30   -99   -99     5   -99   -99   -99
    
-*USFN000002  Davison 09  L        210  Standardized Dia Loam
+*NVFN000002  Davison 09  L        210  Standardized Dia Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  Fallon      USA             39.46 -118.78 Loam
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE

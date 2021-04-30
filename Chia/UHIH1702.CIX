@@ -1,0 +1,95 @@
+*EXP.DETAILS: UHIH1702CI CHIA 2017 Row Spacing
+
+*GENERAL
+@PEOPLE
+Laura Mack, Ken Boote, Simone Graeff-Honninger
+@ADDRESS
+University of Hohenheim
+@SITE
+Southwestern Germany
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+     30   -99    10   -99   -99   -99   -99   -99   -99   -99
+@NOTES
+Agronomy Journal 2020, 112(5):3859-3877; https://doi.org/10.1002/agj2.20305
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 R_35 2017                  1  1  0  1  1  0  2  0  0  1  0  1  1
+ 2 1 1 0 R_50 2017                  1  1  0  1  2  0  2  0  0  1  0  1  1
+ 3 1 1 0 R_75 2017                  1  1  0  1  3  0  2  0  0  1  0  1  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 CI CI0001 Genotype 8
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 UHIH2017 UHIH       -99   -99 DR000   -99   -99   -99 L      -99  UH00002016 -99
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99              1092   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    WH 17106  1000   -99     1     1   -99  6000   1.2   -99    80     6 60001.2
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    30   -99    .9   9.7
+ 1    60   -99    .8   6.1
+ 1    90   -99    .6   3.1
+ 1   120   -99    .6   2.7
+ 1   150   -99    .6   1.1
+ 1   180   -99    .6   1.1
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 17137   -99    40    39     S     R    35     0     1   -99   -99   -99   -99   -99                        35
+ 2 17137   -99    41    39     S     R    50     0     1   -99   -99   -99   -99   -99                        50
+ 3 17137   -99    36    39     S     R    75     0     1   -99   -99   -99   -99   -99                        75
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 -99
+@I IDATE  IROP IRVAL
+ 1 17106   -99   -99
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 17151 FE001 AP002     5     0   -99   -99   -99   -99   -99 N0
+ 2 17151 FE001 AP002     5    20   -99   -99   -99   -99   -99 N20
+ 3 17151 FE001 AP002     5    40   -99   -99   -99   -99   -99 N40
+
+*CHEMICAL APPLICATIONS
+@C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
+ 1 17106   -99   -99   -99   -99   -99  -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 17136 TI005     8 -99
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 17283 GS016     H   -99   -99   -99 Chia
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 17106  2150 DEFAULT SIMULATION CONTR  CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     N     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          17001 17001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 17001   100     0
+
