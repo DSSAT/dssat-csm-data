@@ -27,7 +27,6 @@ jmshine@ufl.edu
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
  1 GSFsec27 UFBG       -99   -99 DR001    75   200   -99 SL      75  UFBG760002 Shallow Muck
- 2 GSFsec27 FL06       -99   -99 DR001    75   200   -99 SL      75  UFBG760002 Shallow Muck
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99   -99   -99   -99   -99   -99
  2             -99             -99       -99               -99   -99   -99   -99   -99   -99
