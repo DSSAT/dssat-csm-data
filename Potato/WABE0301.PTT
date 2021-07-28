@@ -1,7 +1,8 @@
-*EXP. DATA (T): WABE0301.PTT Potato Benton County, Washington                             
+*EXP. DATA (T): WABE0301PT TT Potato Benton County, Washington                         
 
-! File last edited on day 06/17/2014 at 11:15:31 PM
+! File last edited on day 07/28/2021 at 6:23:03 PM
 !
+! 
 @TRNO   DATE  SNAD  UNAD  LAID  UWAD  CWAD  LWAD  LNAD  SWAD
      1  3142 13.35 68.38 2.105  3566  1762  1440  84.7 321.9
      1  3150 16.52  33.7 2.661  2115  1801  1494  88.9 307.1
