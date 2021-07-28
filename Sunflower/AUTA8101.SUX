@@ -1,5 +1,4 @@
 *EXP.DETAILS: AUTA8101SU TATURA
-! Missing irrigation schedule, so assumed automatic irrigation
 
 *GENERAL
 @PEOPLE
@@ -8,6 +7,9 @@ Data from Scott Chapman
 -99
 @SITE
 -99
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+! Missing irrigation schedule, so assumed automatic irrigation
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -72,8 +74,8 @@ Data from Scott Chapman
  1 ME              M     M     E     R     S     L     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     A     R     R     M
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
