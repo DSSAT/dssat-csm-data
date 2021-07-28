@@ -44,7 +44,7 @@
 
 *GHWA040001  unknown     LS       90 Loamy Silt                                                                                                            
 @SITE        COUNTRY          LAT     LONG SCS FAMILY                                                                                                      
- Wa          Ghana          10.005  -2.496 unknown                                                                                                         
+ Wa          Ghana         10.005   -2.496 unknown                                                                                                         
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE                                                                                               
     BN  0.13   6.0  0.60  73.0  1.00  1.00 IB001 SA002 IB001                                                                                               
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC                                                     
@@ -62,7 +62,7 @@
 
 *GHWA020001  -99  usedV4 LS       90 BAMAHU SOIL SERIES
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- WA          GHANA              -2      10 -99
+ WA          GHANA             -2       10 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    61     1   .90 IB001 SA002 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -84,7 +84,7 @@
 
 *GHWA030001  -99           LS     90 BAMAHU
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- WA          GH                 10      -2 -99
+ WA          GH                10       -2 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    61     1  0.90 IB001 SA002 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

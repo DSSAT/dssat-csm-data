@@ -5,7 +5,7 @@
 
 *WAPA920016  -99         -99       60  Quincy Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Paterson    USA             45.83 -119.87 Fine sand
+ Paterson    USA            45.83  -119.87 Fine sand
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13   6.2    .8    64     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -15,7 +15,7 @@
 
 *WABE000001  Calculated  S       -99 Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         USA               -99     -99 -99
+ -99         USA              -99      -99 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13  5.6   0.6   64    1.00  1.00   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

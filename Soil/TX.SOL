@@ -2,7 +2,7 @@
 
 *TXBD000001  IBSNAT      SIC     210 DEFAULT - DEEP SILTY CLAY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   6.0  0.30  82.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -19,7 +19,7 @@
 
 *TXBD000002  IBSNAT      SIC     210 DEFAULT - DEEP SILTY CLAY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   6.0  0.30  82.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -37,7 +37,7 @@
 !Soil DUL and LL modified by visually matching soil water measurements, K. J. Boote
 *TXBD000005  IBSNAT      SIC     210 DEFAULT - DEEP SILTY CLAY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   6.0  0.30  82.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
