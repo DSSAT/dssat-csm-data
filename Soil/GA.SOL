@@ -3,7 +3,7 @@
 K. J. Boote added 0.1 for SRGF to 183 cm layer (to mimic deep rooting, like NCEP)
 *GAGI810014  Perkinsetal LS      183 Tifton loamy sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- GibbsFarm   USA            31.430 -83.580 Fine-loamy,siliceous,thermic Plinthic Paleudults
+ GibbsFarm   USA           31.430  -83.580 Fine-loamy,siliceous,thermic Plinthic Paleudults
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13   7.3  0.60  76.0  1.00  0.93 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -44,7 +44,7 @@ K. J. Boote added 0.1 for SRGF to 183 cm layer (to mimic deep rooting, like NCEP
 !K. J. Boote added 0.1 for SRGF to layers to 165 cm (to mimic deep rooting, like NCEP)
 *GAPL850009  NRCS-USDA   S       300 Lucy, Loamy Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Sumter      US             32.000 -84.230 Loamy, siliceous, thermic Arenic Paleudult
+ Sumter      US            32.000  -84.230 Loamy, siliceous, thermic Arenic Paleudult
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      Y  0.17   6.0  0.60  76.0  1.00  0.93 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -71,7 +71,7 @@ K. J. Boote added 0.1 for SRGF to 183 cm layer (to mimic deep rooting, like NCEP
    
 *GAGR040001  Athens Lab  S       120 Rainout Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Griffin     USA            33.260  84.280 Sandy
+ Griffin     USA           33.260   84.280 Sandy
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      G  0.13   6.0  0.85  61.0  0.90  0.85 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

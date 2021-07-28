@@ -71,7 +71,7 @@
 
 *IRRI200701  IRRI      -99       211 Nanjing - use default shallow silty clay for base info.
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Nanjing     China                                   
+ Nanjing     China                                    
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   -99   0.1    89  1.00  1.00   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -101,7 +101,7 @@
 
 *IRRI200701  IRRI      -99       211 Shizukuishi - use default shallow silty clay for base info.
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Shizukuishi Japan                                   
+ Shizukuishi Japan                                    
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   -99   0.1    89  1.00  1.00   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

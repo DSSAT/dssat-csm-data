@@ -2,7 +2,7 @@
 
 *CNPA030001  CENICANA    SIC     147 Cantarina (Pachic Vertic Haplustolls)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Palmira     Colombia        3.500 -76.350 famila fina, esmectítica y isohipertérmica
+ Palmira     Colombia       3.500  -76.350 famila fina, esmectï¿½tica y isohipertï¿½rmica
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL  0.09   6.0  0.60  73.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -20,7 +20,7 @@
 
 *CNPA030011  CENICANA    SIC     167 Cantarina (Pachic Vertic Haplustolls)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Palmira     Colombia        3.500 -76.350 famila fina, esmectítica y isohipertérmica
+ Palmira     Colombia       3.500  -76.350 famila fina, esmectï¿½tica y isohipertï¿½rmica
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL  0.09   6.0  0.60  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -42,7 +42,7 @@
 
 *CNPA030002  CENICANA    SIC     147 Cantarina (compacted Pachic Vertic Haplustolls)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Palmira     Colombia        3.500 -76.350 famila fina, esmectítica y isohipertérmica
+ Palmira     Colombia       3.500  -76.350 famila fina, esmectï¿½tica y isohipertï¿½rmica
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL  0.09   6.0  0.60  73.0  1.00  0.90 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -60,7 +60,7 @@
 
 *CNPA030021  CENICANA    SIC     167 Cantarina (compacted Pachic Vertic Haplustolls)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Palmira     Colombia        3.500 -76.350 famila fina, esmectítica y isohipertérmica
+ Palmira     Colombia       3.500  -76.350 famila fina, esmectï¿½tica y isohipertï¿½rmica
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL  0.09   6.0  0.60  73.0  1.00  0.90 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -82,7 +82,7 @@
 
 *CNPA030003  CENICANA    SIC     147 Cantarina (very compacted Pachic Vertic Haplustoll
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Palmira     Colombia        3.500 -76.350 famila fina, esmectítica y isohipertérmica
+ Palmira     Colombia       3.500  -76.350 famila fina, esmectï¿½tica y isohipertï¿½rmica
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL  0.09   6.0  0.60  73.0  1.00  0.85 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -100,7 +100,7 @@
 
 *CNPA030031  CENICANA    SIC     147 Cantarina (very compacted Pachic Vertic Haplustoll
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Palmira     Colombia        3.500 -76.350 famila fina, esmectítica y isohipertérmica
+ Palmira     Colombia       3.500  -76.350 famila fina, esmectï¿½tica y isohipertï¿½rmica
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL  0.09   6.0  0.60  73.0  1.00  0.85 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

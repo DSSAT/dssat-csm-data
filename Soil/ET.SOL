@@ -6,7 +6,7 @@
 !
 *ETGA000011  Tulema,2007 C        210  Shallow Root Std Gare Arera Nitisol
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gare Arera  Ethiopia         9.05    38.5 Nitisol
+ Gare Arera  Ethiopia        9.05     38.5 Nitisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13 11.04   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -25,7 +25,7 @@
 
 *ETGA000012  Tulema,2007 C        210  Shallow Root Std Gare Arera Vertisol
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gare Arera  Ethiopia         9.05    38.5 Vertisol
+ Gare Arera  Ethiopia        9.05     38.5 Vertisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL   .09 11.52   .05    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -40,7 +40,7 @@
 
 *ETJD000006  Getu2012    C        210  Shallow Root Std Jamma Vertisol with Updated LL,DUL, and SAT
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Jamma       Ethiopia        10.45   39.25 Vertisol
+ Jamma       Ethiopia       10.45    39.25 Vertisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99    .1     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -80,7 +80,7 @@
 
 *ETKJ000004  Tulema,2005 CL       210  Shallow Root Std Kajima Andosol
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Kajima      Ethiopia          8.8   39.63 Andosol
+ Kajima      Ethiopia         8.8    39.63 Andosol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13 11.04   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -95,7 +95,7 @@
 
 *ETMK000005  Araya, 2010 CL       210  Shallow Root Std Mekelle Cambisol
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Mekelle     Ethiopia        13.05    39.1 Cambisol
+ Mekelle     Ethiopia       13.05     39.1 Cambisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    81     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -110,7 +110,7 @@
 
 *ETOD000002  Giday, 2012 CL       210  Standardized Vertisol in the Ofla District, Ethi
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Ofla Dist   Ethiopia         12.5   39.52 Vertisol
+ Ofla Dist   Ethiopia        12.5    39.52 Vertisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      G   .13     6    .6    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -137,7 +137,7 @@
  
 *ETUD000007  Tulema,2005 C        210  Shallow Root Std Ude 1 Vertisol
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Ude 1       Ethiopia          8.8   39.63 Vertisol
+ Ude 1       Ethiopia         8.8    39.63 Vertisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL   .09 11.04   .05    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -152,7 +152,7 @@
 
 *ETUD000008  Tulema,2005 C        210  Shallow Root Std Ude 2 Vertisol
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Ude 2       Ethiopia          8.8   39.63 Vertisol
+ Ude 2       Ethiopia         8.8    39.63 Vertisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL   .09 11.04   .05    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

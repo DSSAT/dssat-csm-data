@@ -2,7 +2,7 @@
 
 *UAFD040001  SSOP        SIL     152 SANDY CLAY LOAM (Experimental Site 1)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- FAISALABAD  PAKISTAN         31.4   73.11 Fine loamy, silik.,therm.
+ FAISALABAD  PAKISTAN        31.4    73.11 Fine loamy, silik.,therm.
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     9   .23    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -16,7 +16,7 @@
 
 *UAFD040002  SSOP        SIL     152 SANDY CLAY LOAM (Experimental site 2)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- FAISALABAD  PAKISTAN         31.4   73.11 Fine loamy, silik.,therm.
+ FAISALABAD  PAKISTAN        31.4    73.11 Fine loamy, silik.,therm.
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     9   .23    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -27,7 +27,7 @@
 
 *UASG040001  SSP         SIL     190 BHALWAL
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- GUJRANWALA  PAKISTAN        32.03    72.4 Fine-silty,mixed,hyperthermic typic calciargids
+ GUJRANWALA  PAKISTAN       32.03     72.4 Fine-silty,mixed,hyperthermic typic calciargids
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     9   .25    71     1   .97 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -42,7 +42,7 @@
 
 *UASL040001  SSP         SIL     130 PUCCA (SILTY LOAM)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- MULTAN      PAKISTAN        31.58    72.2 Coarse silty, mixed, hyperthermic Calcic Aquisalid
+ MULTAN      PAKISTAN       31.58     72.2 Coarse silty, mixed, hyperthermic Calcic Aquisalid
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13    11   .55    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -55,7 +55,7 @@
 
 *UAFD040002  SSP         SIL     190 Lyallpur (Silt loam)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- SAHIWAL     PAKISTAN         30.4   73.06 Coarse-silty,Mixed, hyperthermic Typic Calciargids
+ SAHIWAL     PAKISTAN        30.4    73.06 Coarse-silty,Mixed, hyperthermic Typic Calciargids
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13    11   .55    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -70,7 +70,7 @@
 
 *UAFDLY0001  SSOP        SIL      190  SANDY CLAY LOAM (Experimental site 3)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Faisalabad  Pakistan        31.42   73.07 Coarse-silty,mixed,hyperthermic,Typic Calciargids
+ Faisalabad  Pakistan       31.42    73.07 Coarse-silty,mixed,hyperthermic,Typic Calciargids
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     9   .23    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

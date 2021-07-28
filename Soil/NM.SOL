@@ -2,7 +2,7 @@
 
 *NMCL000001  USAD-NRCS     CL     150  Olton Clay Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- ASC         USA             34.35 -103.12 fine, mixed, superlative, thermic Aridic Paleustol
+ ASC         USA            34.35  -103.12 fine, mixed, superlative, thermic Aridic Paleustol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      R   .14     6    .4    83     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -20,7 +20,7 @@
 
 *NMCL000002  USAD-NRCS   CL       150  Olton Clay Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- ASC         USA             34.35  103.12 fine, mixed, superlative, thermic Aridic Paleustol
+ ASC         USA            34.35   103.12 fine, mixed, superlative, thermic Aridic Paleustol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      R   .14     6    .6    65     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

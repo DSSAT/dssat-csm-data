@@ -2,7 +2,7 @@
 
 *KZ02422280    KAZ        Loam   200    Almaty                                                        
 @SITE        COUNTRY          LAT     LONG SCS Family                                                 
- -99              KZ       43.292   76.709     HC_GEN0011                                             
+ -99              KZ       43.292   76.709    HC_GEN0011                                             
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE                                          
     BK  0.10  6.00  0.50 75.00  1.00  1.00 SA001 SA001 SA001                                          
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -15,7 +15,7 @@
 
 *KZ01826030    KAZ        Loam   200    ISRIC soilgrids + HC27                                                                                                                                          
 @SITE        COUNTRY          LAT     LONG SCS Family                                                                                                                                                   
- -99              KZ       54.792   69.208     HC_GEN0011                                                                                                                                               
+ -99              KZ       54.792   69.208    HC_GEN0011                                                                                                                                               
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE                                                                                                                                            
     BK  0.10  6.00  0.50 75.00  1.00  1.00 SA001 SA001 SA001                                                                                                                                            
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC                                                                                                  
@@ -28,7 +28,7 @@
 
 *KZ01830349    KAZ        Loam   200    ISRIC soilgrids + HC27                                                                                                                                          
 @SITE        COUNTRY          LAT     LONG SCS Family                                                                                                                                                   
- -99              KZ       54.708   69.125     HC_GEN0011                                                                                                                                               
+ -99              KZ       54.708   69.125    HC_GEN0011                                                                                                                                               
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE                                                                                                                                            
     BK  0.10  6.00  0.50 75.00  1.00  1.00 SA001 SA001 SA001                                                                                                                                            
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC                                                                                                  
@@ -41,7 +41,7 @@
  
 *KZ02011812    KAZ        Loam   200    ISRIC soilgrids + HC27                                                                                                                                          
 @SITE        COUNTRY          LAT     LONG SCS Family                                                                                                                                                   
- -99              KZ       51.208   71.042     HC_GEN0011                                                                                                                                               
+ -99              KZ       51.208   71.042    HC_GEN0011                                                                                                                                               
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE                                                                                                                                            
     BK  0.10  6.00  0.50 75.00  1.00  1.00 SA001 SA001 SA001                                                                                                                                            
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC                                                                                                  
@@ -54,7 +54,7 @@
 
 *KZ02016131    KAZ        Loam   200    ISRIC soilgrids + HC27                                                                                                                                          
 @SITE        COUNTRY          LAT     LONG SCS Family                                                                                                                                                   
- -99              KZ       51.125   70.958     HC_GEN0011                                                                                                                                               
+ -99              KZ       51.125   70.958    HC_GEN0011                                                                                                                                               
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE                                                                                                                                            
     BK  0.10  6.00  0.50 75.00  1.00  1.00 SA001 SA001 SA001                                                                                                                                            
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC                                                                                                  
@@ -67,7 +67,7 @@
 
 *KZ02033430    KAZ        Loam   200    ISRIC soilgrids + HC27                                                                                                                                          
 @SITE        COUNTRY          LAT     LONG SCS Family                                                                                                                                                   
- -99              KZ       50.792   72.542     HC_GEN0011                                                                                                                                               
+ -99              KZ       50.792   72.542    HC_GEN0011                                                                                                                                               
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE                                                                                                                                            
     BK  0.10  6.00  0.50 75.00  1.00  1.00 SA001 SA001 SA001                                                                                                                                            
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC                                                                                                  
@@ -80,7 +80,7 @@
 
 *KZ02033431    KAZ        Loam   200    ISRIC soilgrids + HC27                                                                                                                                          
 @SITE        COUNTRY          LAT     LONG SCS Family                                                                                                                                                   
- -99              KZ       50.792   72.625     HC_GEN0011                                                                                                                                               
+ -99              KZ       50.792   72.625    HC_GEN0011                                                                                                                                               
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE                                                                                                                                            
     BK  0.10  6.00  0.50 75.00  1.00  1.00 SA001 SA001 SA001                                                                                                                                            
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC                                                                                                  
