@@ -7,8 +7,6 @@ ARJAN GIJSMAN
 CIAT; A.A. 6713; CALI; COLOMBIA; A.GIJSMAN@CGIAR.ORG
 @SITE
 ROTHAMSTED (UK)
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Experiment started in 1959 by ploughing up a long-term grassland. Ploughed four times per
 year after that. Residues from weeds: 200 kg[C]/ha per year ==> 500 kg[DM]. Dry and wet N
@@ -26,6 +24,8 @@ deposition: 40-50 kg[N]/ha per year (here applied as fertilizer)
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
  1 ROTH5901 ROR1         0     0 DR000     0     0 00000 -99    -99  ROTH5901   -99
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
 
 *SOIL ANALYSIS
 @A SADAT  SMHB  SMPX  SMKE  SANAME

@@ -7,6 +7,8 @@ Johan Scholberg, Ph.D. dissertation
 Irrigation cut-off (3 different timings or levels), 4th is irr control
 @SITE
 Hort Unit, not IREP
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 ! Only 4 treatments.  Model would not mimic drip irrigation or even correct 
 ! soil evaporation (none for mulch), so many tries at this by Scholberg
 ! finally just assumed no N stresses and no water limitations.
@@ -21,10 +23,10 @@ Hort Unit, not IREP
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 4 1 1 1 96-CONT N-B "off" AI       1  3  0  1  1  4  4  0  0  0  0  1  1
 ! 1 1 1 1 96-CB1, N-B "off" AI       1  3  0  1  1  1  1  0  0  0  0  1  1
 ! 2 1 1 1 96-CB2, N-B "off" AI       1  3  0  1  1  2  2  0  0  0  0  1  1
 ! 3 1 1 1 96-CB3, N-B "off" AI       1  3  0  1  1  3  3  0  0  0  0  1  1
- 4 1 1 1 96-CONT N-B "off" AI       1  3  0  1  1  4  4  0  0  0  0  1  1
 
 *CULTIVARS
 @C CR INGENO CNAME
@@ -326,8 +328,8 @@ Hort Unit, not IREP
  1 ME              M     M     E     R     S     L     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     A     R     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

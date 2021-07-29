@@ -677,7 +677,7 @@
    
 *ICML050002  Clerget05hi SL       120  ICRI_SAT_CLERG
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Samanko     Mali            12.52   -8.07 -99
+ Samanko     Mali           12.52    -8.07 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .5    76     1    .6 IB001 SA002 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -693,7 +693,7 @@
 
 *ICML130001  AK_2013       SL     120  ICRI_SAT_CLERG
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Samanko     Mali            12.52   -8.07 -99
+ Samanko     Mali           12.52    -8.07 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .5    76     1    .6 IB001 SA002 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
