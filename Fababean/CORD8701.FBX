@@ -93,7 +93,7 @@
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     L     R     1     G     S     3
+ 1 ME              M     M     E     R     S     L     R     1     G     R     3
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
