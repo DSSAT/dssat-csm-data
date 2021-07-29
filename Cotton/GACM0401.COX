@@ -7,8 +7,6 @@ Larry C. Guerra, Axel Garcia y Garcia, Gerrit Hoogenboom
 The University of Georgia, Bio & Ag Engineering
 @SITE
 VRI Pivot, Stripling Irrigation Research Park, Camilla
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -21,7 +19,7 @@ VRI Pivot, Stripling Irrigation Research Park, Camilla
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 GACM0101 GACM0401   -99   -99   -99   -99   -99     0 LS     245  GAPL850009 VRIPivot
+ 1 GACM0101 GACM9824   -99   -99   -99   -99   -99     0 LS     245  GAPL850009 VRIPivot
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99   -99   -99   -99   -99   -99
 
