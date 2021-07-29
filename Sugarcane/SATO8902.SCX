@@ -7,8 +7,11 @@ Geoff Inman-Bamber (edited by Matthew Jones)
 South African Sugar Association Experiment Station
 @SITE
 Mount Edgecombe, Natal, South Africa
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
  This is a test experimental details file
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -189,8 +192,8 @@ Mount Edgecombe, Natal, South Africa
  1 ME              M     M     E     F     S     C     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     N     N     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -212,8 +215,8 @@ Mount Edgecombe, Natal, South Africa
  2 ME              M     M     E     F     S     C     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     N     R     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 2 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -235,8 +238,8 @@ Mount Edgecombe, Natal, South Africa
  3 ME              M     M     E     F     S     C     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  3 MA              R     N     R     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 3 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -258,8 +261,8 @@ Mount Edgecombe, Natal, South Africa
  4 ME              M     M     E     F     S     C     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  4 MA              R     N     R     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 4 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 4 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -281,8 +284,8 @@ Mount Edgecombe, Natal, South Africa
  5 ME              M     M     E     F     S     C     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  5 MA              R     N     R     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 5 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 5 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -304,8 +307,8 @@ Mount Edgecombe, Natal, South Africa
  6 ME              M     M     E     F     S     C     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  6 MA              R     N     R     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 6 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 6 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -327,8 +330,8 @@ Mount Edgecombe, Natal, South Africa
  7 ME              M     M     E     F     S     C     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  7 MA              R     N     R     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 7 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 7 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -350,8 +353,8 @@ Mount Edgecombe, Natal, South Africa
  8 ME              M     M     E     F     S     C     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  8 MA              R     N     R     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 8 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 8 OU              N     Y     Y     1     Y     N     Y     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

@@ -1,11 +1,12 @@
-*EXP. DATA (A): UFBG0501SC EREC DATA    SUCARCANE Trinexpac EXP.      
+*EXP. DATA (A): UFBG0201SC EREC DATA    SUCARCANE Trinexpac EXP.                       
 
-! File last edited on day 04/01/2009 at 1:18:48 PM
+! File last edited on day 07/29/2021 at 10:02:20 AM
 !
+! 
 ! Dates should be entered as YrDoy
-!
-!       CAN CSP  indicates which observed values are compared by each model, CaneGro (CAN) or Casupro (CSP)
-!      ---------
+! 
+! CAN CSP  indicates which observed values are compared by each model, CaneGro (CAN) or Casupro (CSP)
+! ---------
 ! AELH   X      Aerial biomass (green+dead), dm at harvest (t/ha)
 ! BADMH      X  Aerial biomass (green+dead), dm at harvest (t/ha)
 ! CHTA   X      Canopy height at harvest(m)                       
@@ -32,11 +33,15 @@
 ! T#MXD      X  Tiller maximum population day (YrDoy)               
 ! TDECD      X  Initiation of tiller population decline (YrDoy)     
 ! TRSH   X   X  Trash (residue) dry mass at harvest (t/ha)        
-!
-!CaneGro:                       AELH                   LAIGD
+! 
+! CaneGro:                       AELH                   LAIGD
 @TRNO  SMFMH  SUCH  STKH SSTKH BADMH  TRSH  LAIX LAIXD  LAIH LAASH LWASH  L#SM NAPSH SPDAT EDAT0 EDAT1 EDAT2  T#MX T#MXD TDECD  S#AH  SHTH  CHTA  HIAM  SDAH
      1 114.8 13.14 32.16 19.02   -99   9.9   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99  0.41   -99
      2 121.3 13.93 33.97 20.04   -99  10.5   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99  0.41   -99
      3 115.7 13.78 32.40 18.62   -99   9.6   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99  0.43   -99
      4 113.9 13.99 31.89 17.90   -99   9.4   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99  0.44   -99
+
+
+
+
 
