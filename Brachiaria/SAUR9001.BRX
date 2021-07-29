@@ -64,8 +64,8 @@ Urrao
  1 GE              1     1     S 90291  2150 BRACHI : C4GRASS 4 YR     CRGRO
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL
  1 OP              Y     Y     N     N     N     Y     N     N
-@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM
- 1 ME              M     M     E     R     S     C     R     1     P
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     C     R     1     P     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
