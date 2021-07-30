@@ -146,7 +146,7 @@ MONTANANA, ZARAGOZA.
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N      
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
