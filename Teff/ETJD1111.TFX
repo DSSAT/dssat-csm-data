@@ -19,7 +19,7 @@ Jamma District, Ethiopia
 
 *CULTIVARS
 @C CR INGENO CNAME
- 1 TF IB0001 Wajera
+ 1 TF IB0304 Wajera
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
@@ -73,7 +73,7 @@ Jamma District, Ethiopia
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     S 11182  2150 Jamma                     TFCER
+ 1 GE              1     1     S 11182  2150 Jamma                     
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL

@@ -17,7 +17,7 @@ Gare Arera, Ethiopia
 
 *CULTIVARS
 @C CR INGENO CNAME
- 1 TF IB0005 DZ-01-354
+ 1 TF IB0161 DZ-01-354
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
@@ -87,7 +87,7 @@ Gare Arera, Ethiopia
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     S 02182  2150 Rainfed                   TFCER
+ 1 GE              1     1     S 02182  2150 Rainfed                   
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
