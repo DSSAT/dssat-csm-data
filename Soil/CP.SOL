@@ -5,7 +5,7 @@
 
 *CPLI000021  UNALM/WISE  L        120  Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- La Molina.J Peru adju.     14.828  43.309 Eutric Fluvisol (FLe)
+ La Molina.J Peru adju.    14.828   43.309 Eutric Fluvisol (FLe)
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99   .13     1    .4    76     1     1   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -18,7 +18,7 @@
 
 *CPLI000020  UNALM/WISE    CL     150  Clay loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- La Molina   Peru adju.     14.828  43.309 Eutric Fluvisol (FLe)
+ La Molina   Peru adju.    14.828   43.309 Eutric Fluvisol (FLe)
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99   .13     1    .2    75     1     1   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -32,7 +32,7 @@
 
 *CPHY000024  UNALM       CL        90  Clay loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Huancayo    Peru              -99     -99 -99
+ Huancayo    Peru             -99      -99 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99   .13     1    .5    76     1     1   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -45,7 +45,7 @@
 
 *CPSR000022  UNALM       SL        90  Silty loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99     -99 -99
+ -99         -99              -99      -99 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99   .13     1    .5    76     1     1   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

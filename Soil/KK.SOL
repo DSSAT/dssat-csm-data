@@ -2,7 +2,7 @@
 
 *KKA7020001  KKU            S    105 Yasothorn
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- A7          Thailand          -99    -99  Yasothorn sand
+ A7          Thailand         -99      -99 Yasothorn sand
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      R  0.14   6.0  0.40  81.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

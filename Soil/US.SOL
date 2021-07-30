@@ -2,7 +2,7 @@
 
 *USOT070001  Dept. Labs  SCL      30 Sandy clay loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Onatta      Italy           39.25    9.31 Lithic Xerorthents
+ Onatta      Italy          39.25     9.31 Lithic Xerorthents
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      G   .13     6   .25    81     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -11,7 +11,7 @@
 
 *USOT070002  Dept. Labs  SCL      30 Sandy clay loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Ottava      Italy           40.46    8.09 Typic Xerochrepts
+ Ottava      Italy          40.46     8.09 Typic Xerochrepts
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      G   .13     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -20,7 +20,7 @@
 
 *USOT050001  Dept. Labs  SCL      30 Sandy clay loam (Ottava)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Ottava      Italy           40.46    8.09 Typic Xerochrepts
+ Ottava      Italy          40.46     8.09 Typic Xerochrepts
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      G   .13     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -29,7 +29,7 @@
 
 *USOT070003  Dept. Labs  SCL     120 Sandy clay loam (Ottava)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Ottava      Italy           40.46    8.09 Typic Xerochrepts
+ Ottava      Italy          40.46     8.09 Typic Xerochrepts
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      G   .13     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

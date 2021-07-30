@@ -19,6 +19,8 @@ Running Parton SOM and no N-fixation (that is the way green bean is grown)
 Parton SOM is working, but confidence in SOM pools is poor.
 Absolutely does not work with Godwin version, extreme N stress.
 
+2021-07-29 In initial conditions lowered SH2O to 0.230 to avoid warning that SH2O > SAT.
+
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
  1 1 1 0 Low N + Optim Irr FreshH   1  1  0  1  1  1  1  0  0  0  0  1  1
@@ -47,7 +49,7 @@ Absolutely does not work with Godwin version, extreme N stress.
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
  1    BN 07074   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
- 1    30  .238    .1   1.1
+ 1    30  .230    .1   1.1
  1    60  .207    .1   1.1
  1    90  .214    .1   1.1
  1   150  .222    .1   1.1
@@ -108,8 +110,8 @@ Absolutely does not work with Godwin version, extreme N stress.
  1 ME              M     M     E     R     S     L     R     1     P     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -131,8 +133,8 @@ Absolutely does not work with Godwin version, extreme N stress.
  2 ME              M     M     E     R     S     L     R     1     P     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     R     R     R     M
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 2 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -145,3 +147,6 @@ Absolutely does not work with Godwin version, extreme N stress.
  2 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  2 HA              0 07074   100     0
+
+
+
