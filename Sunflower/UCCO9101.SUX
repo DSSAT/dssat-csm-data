@@ -36,7 +36,7 @@
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 UCCO0001 UCCO       -99     0 DR000     0     0 00000 -99    300  IBSU910045 -99
+ 1 UCCO0001 UCCO       -99     0 DR000     0     0 00000 -99    300  COSU910045 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1               0               0         0                 0     0     0     0   -99   -99
 
