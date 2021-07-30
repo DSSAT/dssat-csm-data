@@ -1,20 +1,23 @@
-*EXP.DETAILS: AUTA8101SU TATURA
+*EXP.DETAILS: AUTA8101SU TATURA 1981/82, CONNOR ET AL 1985
 
 *GENERAL
 @PEOPLE
-Data from Scott Chapman
+Data from Connor et al 1985
 @ADDRESS
 -99
 @SITE
 -99
 @ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
     -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
-! Missing irrigation schedule, so assumed automatic irrigation
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 1 0 SunGold-7d interval        1  1  0  1  1  0  1  0  0  0  0  0  1
- 2 1 1 0 SunGold-14d interval       1  1  0  1  1  0  1  0  0  0  0  0  1
+ 1 1 1 0 T7, 7-d interval           1  1  0  1  1  1  1  0  0  0  0  0  1
+ 2 1 1 0 T8, 14-d interval          1  1  0  1  1  2  1  0  0  0  0  0  1
+ 3 1 1 0 T9, 14-d , early stress    1  1  0  1  1  3  1  0  0  0  0  0  1
+ 4 1 1 0 T10, 7-d early stress      1  1  0  1  1  4  1  0  0  0  0  0  1
+ 5 1 1 0 T11, 7-d reduced           1  1  0  1  1  5  1  0  0  0  0  0  1
+ 6 1 1 0 Rainfed                    1  1  0  1  1  0  1  0  0  0  0  0  1
 
 *CULTIVARS
 @C CR INGENO CNAME
@@ -22,7 +25,7 @@ Data from Scott Chapman
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 AUTA8101 AUTA       -99   -99   -99   -99   -99   -99 -99    -99  AUTA810001 -99
+ 1 TAAU8101 AUTA       -99   -99   -99   -99   -99   -99 SL     -99  AUTA810001 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99   -99   -99   -99   -99   -99
 
@@ -34,46 +37,98 @@ Data from Scott Chapman
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1   -99 81330   500   -99     1     1   -99   -99   -99   -99   -99   -99 -99
+ 1    WH 81330   500   -99     1     1   -99   -99   -99   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
- 1    20  .455   1.3   1.2
- 1    40   .48     1    .2
- 1    60   .47     1    .2
- 1    80   .48    .8    .1
- 1   100   .39    .8    .1
- 1   120   .35    .5    .2
- 1   140    .4    .5    .9
- 1   160   .39    .5    .9
- 1   180   .39    .5    .9
- 1   200   .39    .5    .9
+ 1    20   .21    .6   5.1
+ 1    40    .4    .6   5.1
+ 1    60   .34    .6   5.1
+ 1    80   .34    .6   5.1
+ 1   100   .34    .6   5.1
+ 1   120   .27    .6   5.1
+ 1   140   .27    .6   5.1
+ 1   160   .27    .6   5.1
+ 1   180   .27    .6   5.1
+ 1   200   .09    .6   5.1
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 81330 81337   5.3   5.3     S     R    70     0     5   -99   -99   -99   -99   -99                        -99
+ 1 81339 81348   5.3   5.3     S     R    70     0     5   -99   -99   -99   -99   -99                        -99
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
- 1     1    30    50   100 GS000 IR001    10 -99
+ 1     1    30    50   100 GS000 IR001    10 Treatment 7 in Connor et al 1985
 @I IDATE  IROP IRVAL
- 1 81330   -99   -99
+ 1    21 IR005    36
+ 1    28 IR005    36
+ 1    35 IR005    36
+ 1    42 IR005    36
+ 1    49 IR005    36
+ 1    63 IR005    45
+ 1    70 IR005    45
+ 1    77 IR005    70
+ 1    84 IR005    70
+ 1    91 IR005    33
+ 1    98 IR005    33
+ 1   105 IR005    33
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2     1    30    50   100 GS000 IR001    10 Treatment 8 in Connor et al 1985
+@I IDATE  IROP IRVAL
+ 2    21 IR005    30
+ 2    35 IR005    30
+ 2    49 IR005    30
+ 2    63 IR005    90
+ 2    77 IR005    45
+ 2    91 IR005    37
+ 2   105 IR005    37
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 3     1    30    50   100 GS000 IR001    10 Treatment 9 in Connor et al 1985
+@I IDATE  IROP IRVAL
+ 3    63 IR005    90
+ 3    77 IR005    45
+ 3    91 IR005    37
+ 3   105 IR005    37
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 4     1    30    50   100 GS000 IR001    10 Treatment 10 in Connor et al 1985
+@I IDATE  IROP IRVAL
+ 4    63 IR005    45
+ 4    70 IR005    45
+ 4    77 IR005    47
+ 4    84 IR005    47
+ 4    91 IR005    25
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 5     1    30    50   100 GS000 IR001    10 Treatment 11 in Connor et al 1985
+@I IDATE  IROP IRVAL
+ 5    63 IR005    45
+ 5    70 IR005    45
+ 5    91 IR005    33
+ 5    98 IR005    33
+ 5   105 IR005    33
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 81330 FE001 AP002     2    82   -99   -99   -99   -99   -99 -99
+ 1 81338 FE001 AP002     2   100   -99   -99   -99   -99   -99 -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 81330   -99   -99 -99
 
 *ENVIRONMENT MODIFICATIONS
 @E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
  1 81330 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
 
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 81330 GS000   -99   -99   -99   -99 Sunflower
+
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     S 81330  2150 DEFAULT SIMULATION CONTR
+ 1 GE              1     1     S 81330  2150 DEFAULT SIMULATION CONTR  
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     L     R     1     G     S     2
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
- 1 MA              R     A     R     R     M
+ 1 MA              R     D     R     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
  1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
 
