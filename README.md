@@ -49,7 +49,7 @@ To test your DSSAT-CSM model installation, execute the model from the Maize data
 
   *path+executable* A UFGA8201.MZX
   
-where UFGA8201.MZX is the name of a field experiment. This should run the model for this experimnt and generate outputs for six treatments in files Summary.OUT, PlantGro.OUT, and other files.
+where UFGA8201.MZX is the name of a file containing details of a field experiment. This command should run the model for this particular experimnt and generate outputs for six treatments in files Summary.OUT, PlantGro.OUT, and other files.
 
 
 ## How to Cite DSSAT ##
