@@ -28,15 +28,15 @@ and: [Non-threatening best practice DSSAT Fortran coding guidelines](https://dss
 Additional model-specific data files are included in the DSSAT source code repository under the "Data" folder. 
 (https://github.com/DSSAT/dssat-csm-os/tree/develop/Data). These include model-specific data for genotypes, pest, 
 standard model data, code files, DSSATPRO files, etc. 
-
     .
-    ├── Genotype
-    ├── Pest
-    ├── StandardData 
-    ├── Data.CDE 
-    ├── Detail.CDE 
-    ├── DSSATPRO.v47
-    └── ... 
+    ├── Genotype
+    ├── Pest
+    ├── StandardData
+    ├── Data.CDE
+    ├── Detail.CDE
+    ├── DSSATPRO.v47
+    ├── ...
+    └── README.md
  
 The files in this repository can be combined with the files in the Data folder of the source repository to 
 replicate the directory structure of the Windows installation of DSSAT v4.7 (e.g., with Genotype directory at the
