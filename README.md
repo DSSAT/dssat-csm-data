@@ -45,11 +45,11 @@ same level as the Alfalfa directory and the CDE files in the root directory).
 
 ## Test installation ##
 
-To test if the files are in the correct location, run the model from the Maize data directory
+To test if the files are in the correct location, execute the model from the Maize data directory using the following command line structure:
 
   *path+executable* A UFGA8201.MZX
   
-This should run the maize experiment UFGA8201.MZX and generate outputs for six treatments in files Summary.OUT, PlantGro.OUT, and others.
+where UFGA8201.MZX is the name of a field experiment. This should run the model for this experimnt and generate outputs for six treatments in files Summary.OUT, PlantGro.OUT, and other files.
 
 
 ## How to Cite DSSAT ##
