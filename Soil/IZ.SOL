@@ -2,7 +2,7 @@
 
 *IZBG160001  NSRI        SCL       55  ABERFORD
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK            53.5455 -1.1877 medium loamy material over lithoskeletal limestone
+ BG          UK           53.5455  -1.1877 medium loamy material over lithoskeletal limestone
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .6    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -11,7 +11,7 @@
 
 *IZBG160002  NSRI        L         55  ABERFORD
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             53.551   -1.21 medium loamy material over lithoskeletal limestone
+ BG          UK            53.551    -1.21 medium loamy material over lithoskeletal limestone
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .6    84     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -20,7 +20,7 @@
 
 *IZBG160003  NSRI        SICL     150  AGNEY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               52.8    0.21 medium silty marine alluvium
+ BG          UK              52.8     0.21 medium silty marine alluvium
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -31,7 +31,7 @@
 
 *IZBG160004  NSRI        L        150  ASHLEY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             51.959  -1.082 medium loamy over clayey chalky drift
+ BG          UK            51.959   -1.082 medium loamy over clayey chalky drift
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    84     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -43,7 +43,7 @@
 
 *IZBG160005  NSRI        SCL       60  ASWARBY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             53.035  -0.451 medium loamy material over lithoskeletal limestone
+ BG          UK            53.035   -0.451 medium loamy material over lithoskeletal limestone
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    84     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -53,7 +53,7 @@
 
 *IZBG160006  NSRI        L        150  BADSEY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             51.777  -1.397 medium loamy material over calcareous gravel
+ BG          UK            51.777   -1.397 medium loamy material over calcareous gravel
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .6    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -64,7 +64,7 @@
 
 *IZBG160007  NSRI        L         70  BANBURY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK              52.11   -1.35 ferruginous medium loamy mat. over lith. ironstone
+ BG          UK             52.11    -1.35 ferruginous medium loamy mat. over lith. ironstone
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .6    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -74,7 +74,7 @@
 
 *IZBG160008  NSRI        L         70  BANBURY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             52.104  -1.356 ferruginous medium loamy mat. over lith. ironstone
+ BG          UK            52.104   -1.356 ferruginous medium loamy mat. over lith. ironstone
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .6    64     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -84,7 +84,7 @@
 
 *IZBG160009  NSRI        L        150  BECCLES
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               52.5     1.2 medium loamy over clayey chalky drift
+ BG          UK              52.5      1.2 medium loamy over clayey chalky drift
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -95,7 +95,7 @@
 
 *IZBG160010  NSRI        SIL       80  BIGNOR
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               51.6      -1 grey siliceous med. loamy mat... to loam w sandst
+ BG          UK              51.6       -1 grey siliceous med. loamy mat... to loam w sandst
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -106,7 +106,7 @@
 
 *IZBG160011  NSRI        SIL       80  BIGNOR
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             51.676  -1.024 grey siliceous med. loamy mat... to loam w sandst
+ BG          UK            51.676   -1.024 grey siliceous med. loamy mat... to loam w sandst
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    76     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -117,7 +117,7 @@
 
 *IZBG160012  NSRI        L        100  BISHAMPTON
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             53.678   -0.29 medium loamy drift with siliceous stones
+ BG          UK            53.678    -0.29 medium loamy drift with siliceous stones
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -128,7 +128,7 @@
 
 *IZBG160013  NSRI        L        150  BROCKHURST
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK              52.17   -1.65 med loamy or med silty drift over reddish clayey..
+ BG          UK             52.17    -1.65 med loamy or med silty drift over reddish clayey..
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    81     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -140,7 +140,7 @@
 
 *IZBG160014  NSRI        L        150  BURLINGHAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               52.6     0.7 medium loamy chalky drift
+ BG          UK              52.6      0.7 medium loamy chalky drift
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    76     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -152,7 +152,7 @@
 
 *IZBG160015  NSRI        L        150  BURLINGHAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               52.6     0.7 medium loamy chalky drift
+ BG          UK              52.6      0.7 medium loamy chalky drift
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -164,7 +164,7 @@
 
 *IZBG160016  NSRI        L        100  CANNAMORE
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             52.362  -0.016 medium loamy chalky drift
+ BG          UK            52.362   -0.016 medium loamy chalky drift
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    76     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -175,7 +175,7 @@
 
 *IZBG160017  NSRI        L        100  CANNAMORE
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             52.397  -0.206 medium loamy chalky drift
+ BG          UK            52.397   -0.206 medium loamy chalky drift
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -186,7 +186,7 @@
 
 *IZBG160018  NSRI        CL       150  CONWAY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             53.605  -1.035 medium silty river alluvium
+ BG          UK            53.605   -1.035 medium silty river alluvium
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -198,7 +198,7 @@
 
 *IZBG160019  NSRI        SIC      150  DENCHWORTH
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               52.3    -0.9 swelling clayey mat passing to clay or soft mudsto
+ BG          UK              52.3     -0.9 swelling clayey mat passing to clay or soft mudsto
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    81     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -210,7 +210,7 @@
 
 *IZBG160020  NSRI        SIC      150  DENCHWORTH
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               52.1    -1.3 swelling clayey mat passing to clay or soft mudsto
+ BG          UK              52.1     -1.3 swelling clayey mat passing to clay or soft mudsto
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    84     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -222,7 +222,7 @@
 
 *IZBG160021  NSRI        SIC      150  DOWNHOLLAND
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             52.527  -0.062 clayey marine alluvium
+ BG          UK            52.527   -0.062 clayey marine alluvium
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -234,7 +234,7 @@
 
 *IZBG160022  NSRI        L        150  DUNNINGTON HEATH
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK              53.25   -0.76 light loamy drift over reddish clayey mat...clay
+ BG          UK             53.25    -0.76 light loamy drift over reddish clayey mat...clay
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      R   .14     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -246,7 +246,7 @@
 
 *IZBG160023  NSRI        L        150  DUNNINGTON HEATH
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK             53.256  -0.767 light loamy drift over reddish clayey mat...clay
+ BG          UK            53.256   -0.767 light loamy drift over reddish clayey mat...clay
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      R   .14     6   .25    76     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -258,7 +258,7 @@
 
 *IZBG160024  NSRI        L        150  DUNNINGTON HEATH
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               52.9      -1 light loamy drift over reddish clayey mat...
+ BG          UK              52.9       -1 light loamy drift over reddish clayey mat...
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      R   .14     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -270,7 +270,7 @@
 
 *IZBG160025  NSRI        L        150  EFFORD
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK              52.26   -0.39 medium loamy material over non-calcareous gravel
+ BG          UK             52.26    -0.39 medium loamy material over non-calcareous gravel
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .6    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -282,7 +282,7 @@
 
 *IZBG160026  NSRI        CL        35  ELMTON
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               51.8   -1.31 medium loamy lithoskeletal limestone
+ BG          UK              51.8    -1.31 medium loamy lithoskeletal limestone
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .6    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -291,7 +291,7 @@
 
 *IZBG160027  NSRI        C        150  EVESHAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK                 53    -0.6 swelling clayey mat passing to clay or soft mud
+ BG          UK                53     -0.6 swelling clayey mat passing to clay or soft mud
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -302,7 +302,7 @@
 
 *IZBG160028  NSRI        C        150  EVESHAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               52.9    -0.7 swelling clayey mat passing to clay or soft mud
+ BG          UK              52.9     -0.7 swelling clayey mat passing to clay or soft mud
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    76     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -313,7 +313,7 @@
 
 *IZBG160029  NSRI        C        150  FLADBURY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               52.8    -1.1 clayey river alluvium
+ BG          UK              52.8     -1.1 clayey river alluvium
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -325,7 +325,7 @@
 
 *IZBG160030  NSRI        C        150  FOGGATHORPE
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK                 54    -1.1 clayey stoneless drift
+ BG          UK                54     -1.1 clayey stoneless drift
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -337,7 +337,7 @@
 
 *IZBG160032  NSRI        L        150  HOLDERNESS
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               53.6    -0.2 medium loamy chalky drift
+ BG          UK              53.6     -0.2 medium loamy chalky drift
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -348,7 +348,7 @@
 
 *IZBG160033  NSRI        L        150  HOLDERNESS 1
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BG          UK               53.6    -0.2 medium loamy chalky drift
+ BG          UK              53.6     -0.2 medium loamy chalky drift
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    83     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

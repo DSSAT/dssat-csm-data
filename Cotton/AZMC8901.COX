@@ -7,10 +7,9 @@ B.A.Kimball, R.L.La Morte, G.J.Peresta, J.R.Mauney, K.Lewin et al.
 USDA-U.S. Water Conservation Laboratory
 @SITE
 Free-Air CO2 Enrichment (FACE)-Maricopa, Arizona
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 B.A. Kimball,R.L.LaMorte, R.L. G.J. Perest, J.R. Mauney, K.F. Lewin and G.R.Hendrey. 1992. Appendices: weather, soils, cultural practices, and cottongrowth data from the 1989 FACE experiment in IBSNAT format. Critical Reviews ofPlant Science 11:271-308.R. Mauney, B.A. Kimball, P.J. Pinter,Jr., R.L. LaMorte, K.F. Lewin, J. Nagyand G.R. Hendrey. 1994. Growth and yield of cotton in response to a free-aircarbon dioxide enrichment (FACE) environment. Agricultural and ForestMeteorology 70:49.67Data entered by Gerrit Hoogenboom, Department of Biological and AgriculturalEngineering, the University of Georgia, Griffin, Georgia 30223, USA.Gerrit@griffin.uga.edu [August 10, 2005].
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -113,8 +112,8 @@ B.A. Kimball,R.L.LaMorte, R.L. G.J. Perest, J.R. Mauney, K.F. Lewin and G.R.Hend
  1 ME              M     M     E     R     S     L     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     M
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     Y     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     Y     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

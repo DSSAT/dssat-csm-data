@@ -7,6 +7,8 @@ Gerrit Hoogenboom & J.W. White
 Dept. of Biological and Agricultural Engineering, Univ. of Georgia
 @SITE
 Georgia Experiment Station, Griffin
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Weather data collected by the Georgia Automated Environmental Monitoring Network
 (AEMN; www.Georgiaweather.net). The network uses a Campbell Scientific CR10/CR10X
@@ -29,7 +31,7 @@ totals and averagesare calculated at midnight.
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 GAGR0001 GAGR       -99   -99   -99   -99   -99   -99 -99    -99  GA00620001 -99
+ 1 GAGR0001 GAGR9626   -99   -99   -99   -99   -99   -99 -99    -99  GA00620001 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99   -99   -99   -99   -99   -99
 

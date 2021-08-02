@@ -2,7 +2,7 @@
 
 *DITY000001  complemente S        200  Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         Denmark           -99     -99 99
+ -99         Denmark          -99      -99 99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99   .13   5.6    .6    64     1     1   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -13,7 +13,7 @@
 
 *DIJY000001  complemente S        200  Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         Denmark           -99     -99 99
+ -99         Denmark          -99      -99 99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99   .13   5.6    .6    64     1     1   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -24,7 +24,7 @@
 
 *DIJY000002  -99         S        150  Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Jyndevad    Denmark          54.9    9.13 -99
+ Jyndevad    Denmark         54.9     9.13 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      G   .13     6    .5    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -35,7 +35,7 @@
 
 *DITY000002  -99         S        150  Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Tylstrup    Denmark         57.19    9.95 -99
+ Tylstrup    Denmark        57.19     9.95 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      G   .13     6    .6    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -46,7 +46,7 @@
 
 *DITT000001  -99         SL       150  Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- 00          -99                54       9 -99
+ 00          -99               54        9 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    61     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

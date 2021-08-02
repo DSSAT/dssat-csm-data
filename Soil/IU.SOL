@@ -9,7 +9,7 @@
 
 *IUBF950107  AMES, IA              0 Clarion, well drained                             
 @SITE        COUNTRY          LAT     LONG SCS FAMILY                           
- -99         -99              42.0   -99.0                                                   
+ -99         -99             42.0    -99.0                                                  
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE                    
    -99   .16   9.8   .55  91.0   .90  1.00 IB001 IB001 IB001      
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC    

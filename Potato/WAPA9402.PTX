@@ -7,11 +7,14 @@ Hodges et al
 USDA, Prosser, WA
 @SITE
 Paterson, Benton county, WA
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Simulation of potato yield, nitrate leaching, and profit margins as influenced by irrigation
 and nitrogen management in different soils and production regions
 Prem Woli, Gerrit Hoogenboom, Ashok Alva
 Agricultural Water Management 171 (2016) 120–130
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -288,7 +291,7 @@ Agricultural Water Management 171 (2016) 120–130
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     Y      
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     Y     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
