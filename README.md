@@ -43,9 +43,9 @@ The files in this repository can be combined with the files in the Data folder o
 replicate the directory structure of the Windows installation of DSSAT v4.7 (e.g., with Genotype directory at the
 same level as the Alfalfa directory and the CDE files in the root directory).
 
-## Test installation ##
+## Test your CSM installation ##
 
-To test if the files are in the correct location, execute the model from the Maize data directory using the following command line structure:
+To test your DSSAT-CSM model installation, execute the model from the Maize data directory using the following command line structure:
 
   *path+executable* A UFGA8201.MZX
   
