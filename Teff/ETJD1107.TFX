@@ -1,0 +1,108 @@
+*EXP.DETAILS: ETJD1107TF ET PLANT POPULATION STUDY RAINFED (No observed data)
+
+*GENERAL
+@PEOPLE
+ Getu, 2012
+@ADDRESS
+Jamma District, Ethiopia
+@SITE
+Jamma District, Ethiopia
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 0 0 900 plants/m2              1  1  0  1  1  0  5  0  0  0  0  0  1
+ 2 1 0 0 999 plants/m2              1  1  0  1  2  0  5  0  0  0  0  0  1
+ 3 1 0 0 400 plants/m2              1  1  0  1  3  0  5  0  0  0  0  0  1
+ 4 1 0 0 100 plants/m2              1  1  0  1  4  0  5  0  0  0  0  0  1
+ 5 1 0 0 80  plants/m2              1  1  0  1  5  0  5  0  0  0  0  0  1
+ 6 1 0 0 250 plants/m2              1  1  0  1  6  0  5  0  0  0  0  0  1
+ 7 1 0 0 2000 plants/m2             1  1  0  1  7  0  5  0  0  0  0  0  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 TF IB0161 DZ-01-354
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 ETJD0005 EJAM       -99     0 DR000     0     0 00000 -99    210  ETJD000016 Shallow Root Std Jamma Vertisol with Updated LL,DUL, and SAT
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1               0               0         0                 0     0     0     0   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 11182   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    15   -99   -99   -99   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    WH 11182   100     0     1     1   -99   200    .2     0   100    10 Updated Shallow Roots Std 10% water 30 kg N/ha
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5  .303    .1     1
+ 1    10  .303    .1     1
+ 1    20  .303    .1     1
+ 1    30  .303    .1    .5
+ 1    40  .282    .1    .5
+ 1    50  .282    .1    .5
+ 1    60  .282    .1    .5
+ 1    70  .282    .1    .5
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 11205   -99   900   -99     S     U     7     0    .9   -99   -99   -99   -99     0                        -99
+ 2 11205   -99   999   -99     S     U     5     0    .9   -99   -99   -99   -99     0                        -99
+ 3 11205   -99   400   -99     S     U    10     0    .9   -99   -99   -99   -99     0                        -99
+ 4 11205   -99   100   -99     S     U    20     0    .9   -99   -99   -99   -99     0                        -99
+ 5 11205   -99    80   -99     S     U    25     0    .9   -99   -99   -99   -99     0                        -99
+ 6 11205   -99   250   250     S     U    20     0    .9   -99   -99   -99   -99     0                        -99
+ 7 11205   -99  2000   -99     S     U     7     0    .9   -99   -99   -99   -99     0                        -99
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 -99
+@I IDATE  IROP IRVAL
+ 1 11152   -99   -99
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1     0 FE019 AP002    10     0     0     0     0     0   -99 No fertilizer
+ 2     0 FE019 AP002    10    23     0     0     0     0   -99 23 kg N/ha USG
+ 3     0 FE019 AP002    10    46     0     0     0     0   -99 46 kg N/ha USG
+ 4     0 FE019 AP002    10   200     0     0     0     0   -99 200 kg N/ha USG
+ 5     0 FE019 AP002    10   100     0     0     0     0   -99 200 kg N/ha USG
+ 5    30 FE019 AP002    10   100     0     0     0     0   -99 200 kg N/ha USG
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 11182   -99   -99   -99   -99   -99   -99   -99   -99 -99
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 11001 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 11182  2150 Jamma                     
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     C     R     1     G     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     N     D     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          74303 74317    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             20    80   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 75310   100     0
+
+
+
