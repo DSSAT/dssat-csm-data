@@ -11,6 +11,9 @@ Southwestern Germany
      30     8    10   -99   -99   -99    .8     4    .6  Hand
 @NOTES
 Agronomy 2019, 9, 832; doi:10.3390/agronomy9120832
+Species and cul re-calibrated 8/13/2021 KJB, because LAI protect is gone, SLWREF decreased 0.0034 to 0.0030, SIZREF increased 30 to 35
+Note:  DO NOT TRY TO set for small seed size.  If you do, it will wipe out LAI and productivity because of small LA per seed
+In future, if real LA vs V-stage available, try to set WTPSD TO 0.003, re-do LA vs V-stg, re-do SIZREF and SIZLF, re-do SLWREF
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
