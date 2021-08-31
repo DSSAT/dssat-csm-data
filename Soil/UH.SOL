@@ -1,9 +1,22 @@
-*SOILS: General DSSAT Soil Input File
-! DSSAT v4.7; 09/01/2017
+*SOILS: University of Hohenheim, Stuttgart, Germany
+! DSSAT v4.8; 03/19/2021
 !
+*UH00002016  IBSNAT      SIL       90  DEEP SILTY CLAY (Chia)
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Ihinger Hof Germany       48.736    8.933 Cambisol
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99   .11     6    .3    73     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .205  .385  .481     1   .68   1.3  1.94  22.5    67   -99   -99   7.4   -99   -99   -99
+    60   -99  .230  .406  .482  .638   .68   1.3   .83   -99   -99   -99   -99   -99   -99   -99   -99
+    90   -99  .230  .406  .465  .472   .68  1.35   .03   -99   -99   -99   -99   -99   -99   -99   -99
+   120   -99  .230  .406  .465  .372   .68  1.35   .03   -99   -99   -99   -99   -99   -99   -99   -99
+   150   -99  .230  .406  .465  .272   .68  1.35   .03   -99   -99   -99   -99   -99   -99   -99   -99	
+   180   -99  .230  .406  .465  .172   .68  1.35   .03   -99   -99   -99   -99   -99   -99   -99   -99   
+
 *UHIH002016  Hohenheim   SIL      180  Silty Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Ihinger Hof Germany        48.736   8.933 Cambisol
+ Ihinger Hof Germany       48.736    8.933 Cambisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -16,7 +29,7 @@
 
 *UHIH012017  Hohenheim   SICL     180  Silty clay loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Ihinger Hof Germany        48.736   8.933 Luvisol
+ Ihinger Hof Germany       48.736    8.933 Luvisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -29,7 +42,7 @@
 
 *UHIH022017  Hohenheim   SICL     180  Silty clay loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Ihinger Hof Germany        48.736   8.933 Luvisol
+ Ihinger Hof Germany       48.736    8.933 Luvisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN   .13     6    .4    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -39,3 +52,68 @@
    120   -99  .131  .302  .511  .407   .68  1.21   .41  33.1  63.6   -99   .08   -99   -99   -99   -99
    150   -99  .131  .302  .511  .407   .68  1.21   .41  33.1  63.6   -99   .08   -99   -99   -99   -99
    180   -99  .131  .302  .511  .407   .68  1.21   .41  33.1  63.6   -99   .08   -99   -99   -99   -99
+  
+*UH00002020  IBSNAT      SICL      90  UHIH2017
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Generic     Generic          -99      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99   .11     6    .3    73     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .229  .406  .482  1.00   -99   1.4  1.24  27.1  70.2   -99   .16   -99   -99   -99   -99
+    60   -99  .229  .406  .465   .55   -99   1.5   .65  27.2  70.4   -99    .1   -99   -99   -99   -99
+    90   -99  .238  .406  .468  .400   -99   1.6   .55  33.1  63.6   -99   .09   -99   -99   -99   -99
+   120   -99  .238  .406  .468  .300   -99   1.6   .55  33.1  63.6   -99   .09   -99   -99   -99   -99
+   150   -99  .238  .406  .468  .200   -99   1.6   .55  33.1  63.6   -99   .09   -99   -99   -99   -99
+   180   -99  .238  .406  .468  .100   -99   1.6   .55  33.1  63.6   -99   .09   -99   -99   -99   -99  
+  
+*UH00002018  IBSNAT      SICL      90  UHIH2018
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Generic     Generic          -99      -99 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99   .11     6    .3    73     2     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .249  .406  .482  1.00   -99   1.4  1.16  34.4  62.8   -99   .14   -99   -99   -99   -99
+    60   -99  .249  .406  .465   .55   -99   1.5   .71  30.6  65.4   -99   .08   -99   -99   -99   -99
+    90   -99  .258  .406  .468  .350   -99   1.6  1.32  17.4  69.2   -99   .04   -99   -99   -99   -99
+   120   -99  .258  .406  .468  .250   -99   1.6   .55  17.4  69.2   -99   .09   -99   -99   -99   -99
+   150   -99  .258  .406  .468  .150   -99   1.6   .55  17.4  69.2   -99   .09   -99   -99   -99   -99
+   180   -99  .258  .406  .468  .050   -99   1.6   .55  17.4  69.2   -99   .09   -99   -99   -99   -99
+
+*UHIH150001  -99         SICL     120  Braunerde
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Ihinger Hof Germany        48.74    8.928 Toniger Schluff
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13   6.0   0.6    73   1.0   1.0 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .278   .38  .536     1   .15  1.09 3.879  29.2  68.7   -99   -99   -99   -99   -99   -99
+    60   -99  .297   .38  .536 0.326   .15  1.09 3.834  33.4  65.1   -99   -99   -99   -99   -99   -99
+    90   -99  .272   .38   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+   120   -99  .272   .38   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+   150   -99  .272   .38   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+   180   -99  .272   .38   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+
+*UHIH150002  -99         SICL     120  Braunerde
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Ihinger Hof Germany        48.74    8.928 Toniger Schluff
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13   6.0   0.6    73   1.0   1.0 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99 0.222   .35  .536     1   .15  1.09 3.879  29.2  68.7   -99   -99   -99   -99   -99   -99
+    60   -99 0.238   .35  .536 0.326   .15  1.09 3.834  33.4  65.1   -99   -99   -99   -99   -99   -99
+    90   -99 0.218   .35   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+   120   -99 0.218   .35   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+   150   -99 0.218   .35   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+   180   -99 0.218   .35   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+   
+*UHIH150003  -99         SICL     120  Braunerde
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Ihinger Hof Germany        48.74    8.928 Toniger Schluff
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13   6.0   0.6    73   1.0   1.0 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99 0.278   .38  .536     1   .15  1.09 3.879  29.2  68.7   -99   -99   -99   -99   -99   -99
+    60   -99 0.297   .38  .536 0.326   .15  1.09 3.834  33.4  65.1   -99   -99   -99   -99   -99   -99
+    90   -99 0.272   .38   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+   120   -99 0.272   .38   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+   150   -99 0.272   .38   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99
+   180   -99 0.272   .38   .53 0.178   .15  1.11 3.584  29.7  68.6   -99   -99   -99   -99   -99   -99   

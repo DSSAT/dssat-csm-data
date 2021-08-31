@@ -1,4 +1,4 @@
-*EXP.DETAILS: CPSR1302PT CIP 2013 3 cultivars
+*EXP.DETAILS: CPSR1302PT CIP 2013 3 CULTIVARS
 
 *GENERAL
 @PEOPLE
@@ -7,6 +7,8 @@ Manuel Gastelo, Juan Concha
 International Potato Center CIP
 @SITE
  San Ramon, Peru
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -90,7 +92,7 @@ International Potato Center CIP
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     A     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              N     Y     Y     1     Y     Y     N     N     N     N     A     N     N      
+ 1 OU              N     Y     Y     1     Y     Y     N     N     N     N     A     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -105,7 +107,6 @@ International Potato Center CIP
  1 HA              0 83057   100     0
 
 
-!
 ! Waring: There is a variable [dssat_cul_id] with oversized content [Achirana], only first 6 bits will be applied.
 ! Waring: There is a variable [dssat_cul_id] with oversized content [Atlantic], only first 6 bits will be applied.
 ! Waring: There is a variable [dssat_cul_id] with oversized content [397073.16], only first 6 bits will be applied.

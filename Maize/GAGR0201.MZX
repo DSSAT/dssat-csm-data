@@ -28,6 +28,7 @@ were not observed. Although this created some limitations, the observed data
 are useful to show the potential of the crop models, specifically the DSSAT models,
 to study the impact of climate change in agriculture.
 
+
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
  1 1 1 0 25/15 T; 400 ppm           1  1  0  1  1  0  1  0  0  0  1  1  1
@@ -43,7 +44,7 @@ to study the impact of climate change in agriculture.
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 GA000000 GAGR0201   -99   -99 DR000   -99   -99     0 S       40  IBMZ910114 Mimic Control Chamber Conditions
+ 1 GA000000 GAGR9626   -99   -99 DR000   -99   -99     0 S       40  IBMZ910114 Mimic Control Chamber Conditions
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99    99    99    99   -99   -99
 
@@ -111,8 +112,8 @@ to study the impact of climate change in agriculture.
  1 ME              M     M     E     R     S     C     R     1     G     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     A     R     R     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     N     N     N     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     N     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -125,3 +126,6 @@ to study the impact of climate change in agriculture.
  1 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 03057   100     0
+
+
+

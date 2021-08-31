@@ -2,7 +2,7 @@
 
 *CREC002014  -99         -99      152  CREC soil
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- CREC        US             47.449 -99.124 -99
+ CREC        US            47.449  -99.124 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99   .09   9.8    .4    84    .5     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC

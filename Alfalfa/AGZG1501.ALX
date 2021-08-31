@@ -20,7 +20,7 @@ MONTANANA, ZARAGOZA.
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 AGZA1501 TARD       -99   -99   -99   -99   -99   -99 -99    -99  ALSP209115 IRRIGATED, 63 kg N/ha (2015-2017)
+ 1 AGZA1501 TARD       -99   -99   -99   -99   -99   -99 -99    -99  AGSP209115 IRRIGATED, 63 kg N/ha (2015-2017)
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1              42               0       222               -99   -99   -99   -99   -99   -99
 
@@ -146,7 +146,7 @@ MONTANANA, ZARAGOZA.
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N      
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

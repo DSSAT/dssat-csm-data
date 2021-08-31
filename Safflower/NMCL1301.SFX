@@ -2,17 +2,22 @@
 
 *GENERAL
 @PEOPLE
--99
+S. Singh, K.J. Boote, S.V. Angadi, K. Grover, S. Begna and D. Auld
 @ADDRESS
 -99
 @SITE
--99
-!Singh, S., K. J. Boote, S. V. Angadi, K. Grover, S. Begna and D. Auld (2016).
-! Adapting the CROPGRO model to simulate growth and yield of spring safflower
-! in semi-arid conditions. Agronomy Journal. 108(1): 64-72.
-!S. Singh and D. Auld = Texas Tech University
-!S. V. Angadi, K. Grover and S. Begna = New Mexico State University
-!K. J. Boote = University of Florida
+New Mexico State University
+@NOTES
+Singh, S., K. J. Boote, S. V. Angadi, K. Grover, S. Begna and D. Auld. 2016. 
+Adapting the CROPGRO model to simulate growth and yield of spring safflower in semi-arid conditions. 
+Agronomy Journal. 108(1): 64-72.
+S. Singh and D. Auld, Texas Tech University
+S.V. Angadi, K. Grover and S. Begna, New Mexico State University
+K.J. Boote, University of Florida
+Re-calibrated by KJB in January2019 to match safflower experiment in Germany
+8/13/2021 kjb, decreased slwref from 0.0025 to 0.0019. Needed because removing LAI
+protection reduced LAI and productivity for small seeded crops. 
+Soil file questionable, but everything improved (RMSE & D) switching from S-R to Ritchie Stage 1 soil evap.
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -166,7 +171,7 @@
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     N     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     L     R     1     G     S     2
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -189,7 +194,7 @@
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     N     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              M     M     E     R     S     L     R     1     G     S     2
+ 2 ME              M     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     R     R     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

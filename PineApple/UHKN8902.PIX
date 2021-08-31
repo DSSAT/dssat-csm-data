@@ -1,5 +1,13 @@
 *EXP.DETAILS: UHKN8902PI POPULATION, KUNIA, UH EXP.1989-8
 
+*GENERAL
+@PEOPLE
+-99
+@ADDRESS
+-99
+@SITE
+-99
+
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
  1 1 0 0 Plant Population 2.61 p/m  1  1  0  1  1  1  0  0  1  0  0  0  1
@@ -71,12 +79,12 @@
  5   110   .32    .1    .1
 
 *PLANTING DETAILS
-@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
- 1 89227   -99   2.6   2.6     S     R    53     0   5.0   520 -99.0 -99.0 -99.0   0.0
- 2 89227   -99   5.2   5.2     S     R    53     0   5.0  1040 -99.0 -99.0 -99.0   0.0
- 3 89227   -99   7.8   7.8     S     R    53     0   5.0  1560 -99.0 -99.0 -99.0   0.0
- 4 89227   -99  10.1  10.1     S     R    53     0   5.0  2020 -99.0 -99.0 -99.0   0.0
- 5 89227   -99  12.8  12.8     S     R    53     0   5.0  2560 -99.0 -99.0 -99.0   0.0
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 89227   -99   2.6   2.6     S     R    53     0     5   520   -99   -99   -99     0                        -99
+ 2 89227   -99   5.2   5.2     S     R    53     0     5  1040   -99   -99   -99     0                        -99
+ 3 89227   -99   7.8   7.8     S     R    53     0     5  1560   -99   -99   -99     0                        -99
+ 4 89227   -99  10.1  10.1     S     R    53     0     5  2020   -99   -99   -99     0                        -99
+ 5 89227   -99  12.8  12.8     S     R    53     0     5  2560   -99   -99   -99     0                        -99
 !Forcing date was previously in planting section  - now moved to chemical application
 !P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL  NFOR  PLSZ  NDOF  PMTY PLNAME
 !1 89227   -99   2.6   2.6     S     R    53     0   5.0   520 -99.0 -99.0 -99.0   0.0     2 378.3   398     0 -99
@@ -131,13 +139,13 @@
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
  1 GE              1     1     S 89160  2150 POPULATION, KUNIA, UH EX
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
- 1 OP              Y     Y     N     N     N     N     Y     N
+ 1 OP              Y     Y     N     N     N     N     Y     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
  1 ME              M     M     E     R     S     C     R     1     G     R     1
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     Y      
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     Y     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -150,3 +158,6 @@
  1 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 89365   100     0
+
+
+

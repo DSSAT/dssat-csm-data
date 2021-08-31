@@ -1,6 +1,9 @@
-*EXP.DATA (T): MTIS9202AR TARO VAR EXPT, PUERTO RICO
+*EXP. DATA (T): MTIS9201TR TARO VAR EXPT, PUERTO RICO                                  
 
-@TRNO  DATE   L#SD  LAID  RWAD  SWAD  UWAD  LWAD  TWAD  RDPD  PRSD
+! File last edited on day 07/30/2021 at 9:34:28 AM
+!
+! 
+@TRNO   DATE  L#SD  LAID  RWAD  SWAD  UWAD  LWAD  TWAD  RDPD  PRSD
      1 92225   -99   1.2    79   249   299   241   793  0.21   -99
      1 92259   -99   3.5   287   717  1436   793  2929  0.62   -99
      1 92294   -99   5.5   478  1157  4001  1023  6213  0.91   -99
@@ -18,3 +21,8 @@
      2 93054   -99   3.2   378   712 12782   550 14043  0.53   -99
      2 93096   -99   2.4   280   516 13104   433 14052  0.40   -99
      2 93137   -99   2.2   270   394 14744   359 15495  0.32   -99
+
+
+
+
+
