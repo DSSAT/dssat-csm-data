@@ -1,7 +1,7 @@
 *WEATHER DATA : AUTA
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  TAAU  -36.450  145.233   114 21.56  7.35 -99.0 -99.0
+  AUTA  -36.450  145.233   114 21.56  7.35 -99.0 -99.0
 @DATE  SRAD  TMAX  TMIN  RAIN  DEWP  WIND   PAR  EVAP  RHUM
 82001  27.7  27.9  18.7   0.2                              
 82002  27.7  25.5  11.2   0.0                              
