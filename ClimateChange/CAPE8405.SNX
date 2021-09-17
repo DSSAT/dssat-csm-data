@@ -1,4 +1,4 @@
-*EXP.DETAILS: CAPE8403SN PETROPAVL CTWN analysis
+*EXP.DETAILS: CAPE8403SN PETROPAVL Temperature offset sensitivity
 
 *GENERAL
 @PEOPLE
@@ -64,7 +64,7 @@
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     L     R     1     P     S     2
+ 1 ME              M     M     E     R     S     L     R     1     P     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              A     N     D     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
