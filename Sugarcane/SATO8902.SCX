@@ -186,7 +186,7 @@ Mount Edgecombe, Natal, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     N     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     F     S     C     R     1     G     S     2
+ 1 ME              M     M     E     F     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     N     N     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
@@ -209,7 +209,7 @@ Mount Edgecombe, Natal, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     N     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              M     M     E     F     S     C     R     1     G     S     2
+ 2 ME              M     M     E     F     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     N     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
@@ -232,7 +232,7 @@ Mount Edgecombe, Natal, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  3 OP              Y     N     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 3 ME              M     M     E     F     S     C     R     1     G     S     2
+ 3 ME              M     M     E     F     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  3 MA              R     N     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
@@ -255,7 +255,7 @@ Mount Edgecombe, Natal, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  4 OP              Y     N     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 4 ME              M     M     E     F     S     C     R     1     G     S     2
+ 4 ME              M     M     E     F     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  4 MA              R     N     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
@@ -278,7 +278,7 @@ Mount Edgecombe, Natal, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  5 OP              Y     N     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 5 ME              M     M     E     F     S     C     R     1     G     S     2
+ 5 ME              M     M     E     F     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  5 MA              R     N     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
@@ -301,7 +301,7 @@ Mount Edgecombe, Natal, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  6 OP              Y     N     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 6 ME              M     M     E     F     S     C     R     1     G     S     2
+ 6 ME              M     M     E     F     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  6 MA              R     N     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
@@ -324,7 +324,7 @@ Mount Edgecombe, Natal, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  7 OP              Y     N     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 7 ME              M     M     E     F     S     C     R     1     G     S     2
+ 7 ME              M     M     E     F     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  7 MA              R     N     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
@@ -347,7 +347,7 @@ Mount Edgecombe, Natal, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  8 OP              Y     N     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 8 ME              M     M     E     F     S     C     R     1     G     S     2
+ 8 ME              M     M     E     F     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  8 MA              R     N     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
