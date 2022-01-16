@@ -1,10 +1,14 @@
 *Soils: Ghana Soils
- 
+!
+!*NOTE:  1/14/2022, KJB reduced SLPF from 0.86 to 0.84 for 1997 and 1998 soils, and
+! from 0.90 to 0.88 for 2002 and 2003 soils.  This is related to re-calibration from V4.7 to V4.8.
+! The other soil GHWA040001 must be for CERES-Maize experiments, where SLPF has less effect on CERES models.
+!
 *GH00970001  Naab site1D1 SALO     90 SAVANNA OCHROSOL
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  NYANKPALA   GHANA          9.416    0.966 PALEUSTALF
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
- BN     0.13   6.0  0.40    76  1.00  0.86 IB001 IB001 IB001
+ BN     0.13   6.0  0.40    76  1.00  0.84 IB001 IB001 IB001
 @  SLB SLMH   SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC
      5 AP    0.095 0.257 0.359  1.00 -99.0  1.39  0.41   7.0  18.2   6.2   -99   6.7 -99.0 -99.0
     15 AP    0.060 0.227 0.359  1.00 -99.0  1.39  0.41   7.0  18.2   6.2   -99   6.7 -99.0 -99.0
@@ -18,7 +22,7 @@
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  NYANKPALA   GHANA          9.416    0.966 PALEUSTALF
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
- BN     0.13   6.0  0.65    76  1.00  0.86 IB001 IB001 IB001
+ BN     0.13   6.0  0.65    76  1.00  0.84 IB001 IB001 IB001
 @  SLB SLMH   SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC
      5 AP    0.095 0.257 0.359  1.00 -99.0  1.39  0.41   7.0  18.2   6.2   -99   6.7 -99.0 -99.0
     15 AP    0.060 0.227 0.359  1.00 -99.0  1.39  0.41   7.0  18.2   6.2   -99   6.7 -99.0 -99.0
@@ -32,7 +36,7 @@
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  NYANKPALA   GHANA          9.416    0.966 PALEUSTALF
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
- BN     0.13   6.0  0.65    78  1.00  0.86 IB001 IB001 IB001
+ BN     0.13   6.0  0.65    78  1.00  0.84 IB001 IB001 IB001
 @  SLB SLMH   SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC
      5 AP    0.060 0.247 0.359  1.00 -99.0  1.39  0.41   7.0  18.2   6.2   -99   6.7 -99.0 -99.0
     15 AP    0.050 0.227 0.359  1.00 -99.0  1.39  0.41   7.0  18.2   6.2   -99   6.7 -99.0 -99.0
@@ -64,7 +68,7 @@
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  WA          GHANA             -2       10 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
-    BN   .13     6    .4    61     1   .90 IB001 SA002 IB001
+    BN   .13     6    .4    61     1   .88 IB001 SA002 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
      5   -99  .088  .156  .387     1  2.59  1.45   .38   6.7   9.5     9   .06   6.2   -99   3.3   -99
     15   -99  .092  .166  .375     1  2.59  1.45   .38   6.5   9.5  11.8   .06   6.2   -99   3.3   -99
@@ -86,7 +90,7 @@
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  WA          GH                10       -2 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
-    BN   .13     6    .4    61     1  0.90 IB001 SA002 IB001
+    BN   .13     6    .4    61     1  0.88 IB001 SA002 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
      5   -99  .072  .131  .398     1  6.11  1.45   .38  10.2     9   6.9   .06   6.2   -99   3.5   -99
     15   -99  .083  .143  .386     1  2.59  1.45   .38  11.2     9   9.7   .06   6.2   -99   3.5   -99
