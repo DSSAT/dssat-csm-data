@@ -14,7 +14,6 @@ University of Florida
 ! Not Irrigation Park, but slightly better soil in W-2 (Kendrick variant)
 ! Also, this field received biweekly applications of Bravo, chlorothanonil
 ! because of peanuts in the field.  This may decrease disease.
-! CHECK THE PLANT POP, 30 INCH, 1.5 OR 3 INCH SPACING???
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
