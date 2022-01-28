@@ -1,0 +1,317 @@
+﻿*EXP.DETAILS: CHWC0012SQ CHILLICOTHE, TX WHEAT COTTON ROTATION-IRRIGATED
+
+*GENERAL
+@PEOPLE
+Pradip Adhikari, Srinivasulu Ale, Nina Omani, Paul DeLaune
+@ADDRESS
+Texas A&M AgriLife Research and Extension Center, Vernon, TX 76384
+@SITE
+Chillicothe, TX
+@NOTES
+Simulated effects of winter wheat cover crop on cotton production systems of the Texas Rolling Plains
+Trans. ASABE 60(6): 2083-2096; https://doi.org/10.13031/trans.12272
+Pradip Adhikari and Nina Omani worked as Postdocs in Srinivasulu Ale’s research program during 2014-2017
+Measured data from Paul DeLaune’s long-term cover crop experiments at Chillicothe, TX were used for model evaluation
+
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 Cotton11                   1  1  1  1  1  1  1  0  0  1  0  1  1
+ 1 2 1 0 Fallow11F                  3  1  0  0  0  0  0  0  0  0  0  2  3
+ 1 3 1 0 Wheat11-12                 2  1  0  0  2  6  0  0  0  2  0  3  2
+ 1 4 1 0 Fallow12S                  3  1  0  0  0  0  0  0  0  0  0  4  3
+ 1 5 1 0 Cotton12                   1  1  0  0  3  2  2  0  0  3  0  5  1
+ 1 6 1 0 Fallow12F                  3  1  0  0  0  0  0  0  0  0  0  6  3
+ 1 7 1 0 Wheat12-13                 2  1  0  0  4  7  0  0  0  4  0  7  2
+ 1 8 1 0 Fallow13S                  3  1  0  0  0  0  0  0  0  0  0  8  3
+ 1 9 1 0 Cotton13                   1  1  0  0  5  3  3  0  0  5  0  9  1
+ 110 1 0 Fallow13F                  3  1  0  0  0  0  0  0  0  0  0 10  3
+ 111 1 0 Wheat13-14                 2  1  0  0  6  8  0  0  0  6  0 11  2
+ 112 1 0 Fallow14S                  3  1  0  0  0  0  0  0  0  0  0 12  3
+ 113 1 0 Cotton14                   1  1  0  0  7  4  4  0  0  7  0 13  1
+ 114 1 0 Fallow14F                  3  1  0  0  0  0  0  0  0  0  0 14  3
+ 115 1 0 Wheat14-15                 2  1  0  0  8  9  0  0  0  8  0 15  2
+ 116 1 0 Fallow15S                  3  1  0  0  0  0  0  0  0  0  0 16  3
+ 117 1 0 Cotton15                   1  1  0  0  9  5  5  0  0  9  0 17  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 CO IB0006 Deltapine 1219
+ 2 WH TX0001 TAMU112
+ 3 FA IB0001 FALLOW
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 CHWT0001 TXCH1106   -99     0 DR000     0     0 00000 CL     200  TXCL120007 Same for all the crops
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1               0               0         0                 0     0     0     0   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 14110   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1     5   1.4   .21   .04   7.6   -99    29   222   .63
+ 1    15   1.4   .21   .03   7.7   -99    29   222   .63
+ 1    20   1.4   .25   .04   7.7   -99    17   178    .6
+ 1    40   1.5   .25   .04   7.8   -99     5   168   .58
+ 1    60   1.5   .25   .04   7.9   -99     4   172   .52
+ 1    80   1.5   .25   .03   7.9   -99     5   178   .52
+ 1   100   1.5   .25   .03   8.2   -99     5   178   .47
+ 1   120   1.5   .25   .03   8.2   -99     5   155   .47
+ 1   140   1.5   .25   .03   8.2   -99     5   158   .47
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    WH 11001   100     0     1     1   -99  1000    .7     2   100     5 Cotton
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5   .28     8   2.5
+ 1    15   .28     8   2.5
+ 1    20   .28     8   2.5
+ 1    40   .28     8   2.5
+ 1    60   .28     8     3
+ 1    80   .28   8.5     3
+ 1   100   .28   8.5     3
+ 1   120   .28   8.5     3
+ 1   140   .28   8.5     3
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 11159   -99    13    13     S     R   102     0     4   -99   -99   -99   -99     0                        Cotton11
+ 2 11304   -99   102   102     S     R    20     0     2   -99   -99   -99   -99     0                        Wheat11-12
+ 3 12164   -99    13    13     S     R   102     0     4   -99   -99   -99   -99     0                        Cotton12
+ 4 12302   -99   102   102     S     R    20     0     2   -99   -99   -99   -99     0                        Wheat12-13
+ 5 13161   -99    13    13     S     R   102     0     4   -99   -99   -99   -99     0                        Cotton13
+ 6 13303   -99   102   102     S     R    20     0     2   -99   -99   -99   -99     0                        Wheat13-14
+ 7 14156   -99    13    13     S     R   102     0     4   -99   -99   -99   -99     0                        Cotton14
+ 8 14303   -99   102   102     S     R    20     0     2   -99   -99   -99   -99     0                        Wheat14-15
+ 9 15162   -99    13    13     S     R   102     0     4   -99   -99   -99   -99     0                        Cotton15
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1   .95    30    30   100 GS000 IR005    10 2011
+@I IDATE  IROP IRVAL
+ 1 11159 IR005    29
+ 1 11177 IR005    28
+ 1 11191 IR005    27
+ 1 11199 IR005    28
+ 1 11204 IR005    27
+ 1 11208 IR005    28
+ 1 11212 IR005    31
+ 1 11215 IR005    28
+ 1 11218 IR005    32
+ 1 11221 IR005    34
+ 1 11223 IR005    28
+ 1 11226 IR005    28
+ 1 11229 IR005    33
+ 1 11232 IR005    34
+ 1 11234 IR005    29
+ 1 11236 IR005    29
+ 1 11239 IR005    33
+ 1 11242 IR005    35
+ 1 11244 IR005    36
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2   .95    30    30   100 GS000 IR005    10 2012
+@I IDATE  IROP IRVAL
+ 2 12164 IR005    50
+ 2 12207 IR005    29
+ 2 12213 IR005    31
+ 2 12216 IR005    30
+ 2 12219 IR005    32
+ 2 12222 IR005    28
+ 2 12225 IR005    31
+ 2 12228 IR005    30
+ 2 12232 IR005    28
+ 2 12245 IR005    28
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 3   .95    30    30   100 GS000 IR005    10 2013
+@I IDATE  IROP IRVAL
+ 3 13151 IR005  12.7
+ 3 13156 IR005  10.2
+ 3 13165 IR005   7.6
+ 3 13172 IR005   6.4
+ 3 13176 IR005  10.2
+ 3 13179 IR005  10.2
+ 3 13183 IR005  19.1
+ 3 13186 IR005  19.1
+ 3 13190 IR005  20.8
+ 3 13193 IR005  20.8
+ 3 13218 IR005  27.9
+ 3 13227 IR005  25.4
+ 3 13234 IR005  19.1
+ 3 13239 IR005  21.6
+ 3 13242 IR005  21.6
+ 3 13246 IR005  21.6
+ 3 13249 IR005  21.6
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 4   .95    30    30   100 GS000 IR005    10 2014
+@I IDATE  IROP IRVAL
+ 4 14189 IR005  12.7
+ 4 14192 IR005  25.4
+ 4 14196 IR005  11.8
+ 4 14220 IR005  15.7
+ 4 14223 IR005  15.7
+ 4 14230 IR005  19.1
+ 4 14233 IR005  19.1
+ 4 14237 IR005  19.1
+ 4 14240 IR005  12.7
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 5   .95    30    30   100 GS000 IR005    10 2015
+@I IDATE  IROP IRVAL
+ 5 15189 IR005  12.7
+ 5 15202 IR005  12.7
+ 5 15209 IR005  12.7
+ 5 15223 IR005  12.7
+ 5 15226 IR005  12.7
+ 5 15230 IR005  20.3
+ 5 15237 IR005  22.9
+ 5 15240 IR005  22.9
+ 5 15244 IR005    18
+ 5 15247 IR005    18
+ 5 15252 IR005  38.1
+ 5 15257 IR005  12.7
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 6   .95    30    30   100 GS000 IR005     0 2011
+@I IDATE  IROP IRVAL
+ 6 11305 IR005     0
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 7   .95    30    30   100 GS000 IR005     0 2012
+@I IDATE  IROP IRVAL
+ 7 12303 IR005     0
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 8   .95    30    30   100 GS000 IR005     0 2013
+@I IDATE  IROP IRVAL
+ 8 13304 IR005     0
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 9   .95    30    30   100 GS000 IR005     0 2014
+@I IDATE  IROP IRVAL
+ 9 14304 IR005     0
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 11148 FE005 AP004     5    45     0   -99   -99   -99   -99 2011
+ 1 11179 FE005 AP004     5    60     0   -99   -99   -99   -99 2011
+ 2 12171 FE005 AP004     5    45     0   -99   -99   -99   -99 2012
+ 2 12189 FE005 AP004     5    60     0   -99   -99   -99   -99 2012
+ 3 13160 FE005 AP004     5    54     0   -99   -99   -99   -99 2013
+ 3 13179 FE005 AP004     5    60     0   -99   -99   -99   -99 2013
+ 4 14171 FE005 AP004     5    45     0   -99   -99   -99   -99 2014
+ 4 14201 FE005 AP004     5    60     0   -99   -99   -99   -99 2014
+ 5 15169 FE005 AP004     5    54     0   -99   -99   -99   -99 2015
+ 5 15199 FE005 AP004     5    30     0   -99   -99   -99   -99 2015
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 11110   -99   -99   -99   -99   -99   -99   -99   -99 Not applied
+
+*CHEMICAL APPLICATIONS
+@C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
+ 1 11110   -99     0 AP003   -99   -99  None
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 11159 TI034     5 Cotton11
+ 2 11298 TI034     5 Wheat11-12
+ 3 12160 TI034     5 Cotton12
+ 4 12299 TI034     5 Wheat12-13
+ 5 13159 TI034     5 Cotton13
+ 6 13298 TI034     5 Wheat13-14
+ 7 14159 TI034     5 Cotton14
+ 8 14303 TI034     5 Wheat14-15
+ 9 15159 TI034     5 Cotton15
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 11110 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 11300 GS011     H     A   100     0 Cotton11
+ 2 11303 GS002     C     A   100     0 Fallow11F
+ 3 12121 GS011     H     A   100     0 Wheat11-12
+ 4 12163 GS002     C     A   100     0 Fallow12S
+ 5 12298 GS011     H     A   100     0 Cotton12
+ 6 12301 GS002     C     A   100     0 Fallow12F
+ 7 13114 GS011     H     A   100     0 Wheat12-13
+ 8 13160 GS002     C     A   100     0 Fallow13S
+ 9 13299 GS011     H     A   100     0 Cotton13
+10 13301 GS002     C     A   100     0 Fallow13F
+11 14110 GS011     H     A   100     0 Wheat13-14
+12 14155 GS002     C     A   100     0 Fallow14S
+13 14297 GS011     H     A   100     0 Cotton14
+14 14302 GS002     C     A   100     0 Fallow14F
+15 15120 GS011     H     A   100     0 Wheat14-15
+16 15161 GS002     C     A   100     0 Fallow15S
+17 15297 GS011     H     A   100     0 Cotton15
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              6     1     S 11001     0 Cotton                    CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     Y     D
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     F     S     L     R     1     P     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              Y     Y     Y     1     Y     N     Y     Y     N     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          11159 11159    10   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 IB001 IB001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI            100    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 11298   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              6     1     S 11001     0 Wheat		       CSCER	
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     N     N     N     N     N     Y     D
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     F     S     C     R     1     P     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     N     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              Y     Y     Y     1     Y     N     Y     Y     N     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          11304 14303    10   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 IB001 IB001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 2 HA              0 15120   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 3 GE              6     1     S 11001     0 Fallow                    CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 3 OP              Y     Y     N     N     N     N     N     Y     D
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 3 ME              M     M     E     F     S     C     R     1     P     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 3 MA              R     N     N     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              Y     Y     Y     1     Y     N     Y     Y     N     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 3 PL          11159 11159    10   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 3 IR             30    50   100 IB001 IB001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 3 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 3 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 3 HA              0 11298   100     0
+
+
+
