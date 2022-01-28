@@ -7,6 +7,8 @@ K.J. Boote
 Dept. of Agronomy, University of Florida, Gainesville, Florida, USA
 @SITE
 Irrigation Park, University of Florida
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
