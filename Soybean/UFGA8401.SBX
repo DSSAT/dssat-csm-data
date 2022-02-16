@@ -36,7 +36,6 @@ University of Florida
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
  1    MZ 84164   500   -99     1     1   -99   -99    .8   -99    50    10 -99
-! 1    SB 84146   100   -99     1     1   -99   -99   -99   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1     5  .086    .6   1.5
  1    15  .086    .6   1.5
@@ -98,7 +97,6 @@ University of Florida
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
  1 84164 RE203  1000    .8   -99   -99    50    15   -99 -99
-! 1 84164 IB001  1000    .8   -99   -99   -99    15   -99 -99
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
