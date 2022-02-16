@@ -1,12 +1,12 @@
-*EXP.DETAILS: ETJD1111TF N RATE , GETU 2012-CERES-TEFF
+*EXP.DETAILS: GOOD1101TF N RATE, GIDAY, 2012-CERES-TEFF
 
 *GENERAL
 @PEOPLE
- Getu, 2012
+ Giday, Okubay, 2012
 @ADDRESS
-Jamma District, Ethiopia
+Ofla District, Ethiopia
 @SITE
-Jamma District, Ethiopia
+Ofla District, Ethiopia
 @ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
     -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
@@ -19,42 +19,38 @@ Jamma District, Ethiopia
 
 *CULTIVARS
 @C CR INGENO CNAME
- 1 TF IB0304 Wajera
+ 1 TF IB0157 DZ-Cr-387
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 ETJD0005 EJAM       -99     0 DR000     0     0 00000 -99    210  ETJD000116 Shallow Root Std Jamma Vertisol with Updated LL,DUL, and SAT
+ 1 ETOD0003 ETON       -99     0 DR000     0     0 00000 -99    210  ETOD000222 NASA POWER Weather
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1               0               0         0                 0     0     0     0   -99   -99
 
-*SOIL ANALYSIS
-@A SADAT  SMHB  SMPX  SMKE  SANAME
- 1 11182   -99   -99   -99  -99
-@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
- 1    15   -99   -99   -99   -99   -99   -99   -99   -99
-
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    WH 11182   100     0     1     1   -99   200    .2     0   100    10 Updated Shallow Roots Std 10% water 30 kg N/ha
+ 1    FA 11204     0     0     1     1   -99     0     0     0   100    10 Standardized 10% water 150 kg N/ha mostly in top 30 cm
 @C  ICBL  SH2O  SNH4  SNO3
- 1     5  .303    .1    .8
- 1    10  .303    .1    .8
- 1    20  .303    .1    .8
- 1    30  .303    .1    .8
- 1    40  .282    .1    .8
- 1    50  .282    .1    .8
- 1    60  .282    .1    .8
- 1    70  .282    .1    .8
+ 1     5  .274   1.7  13.8
+ 1    10  .274   1.7  13.8
+ 1    20  .274   2.7  22.5
+ 1    30  .299   2.7  22.5
+ 1    40  .299    .2   1.3
+ 1    50  .299    .2   1.3
+ 1    60  .299    .2   1.3
+ 1    70  .299    .2   1.3
+ 1    80  .299    .2   1.3
+ 1    90  .299    .2   1.3
+ 1   110  .288     0     0
+ 1   130  .288     0     0
+ 1   150  .288     0     0
+ 1   170  .288     0     0
+ 1   190  .288     0     0
+ 1   210  .288     0     0
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 11205   -99   500   -99     S     R    20     0    .9   -99   -99   -99   -99     0                        20 cm between rows, 1cm between plants
-
-*IRRIGATION AND WATER MANAGEMENT
-@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
- 1     1    30    50   100 GS000 IR001    10 -99
-@I IDATE  IROP IRVAL
- 1 11152   -99   -99
+ 1 11205   -99   500   -99     S     R    20     0    .9   -99   -99   -99   -99     0                        -99
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
@@ -62,18 +58,10 @@ Jamma District, Ethiopia
  2     0 FE019 AP002    10    23     0     0     0     0   -99 23 kg N/ha USG
  3     0 FE019 AP002    10    46     0     0     0     0   -99 46 kg N/ha USG
  4     0 FE019 AP002    10    69     0     0     0     0   -99 69 kg N/ha USG
- 5     0 FE019 AP002    10    50     0     0     0     0   -99 100 kg N/ha USG
- 5    30 FE019 AP002    10    50     0     0     0     0   -99 100 kg N/ha USG
- 6     0 FE019 AP002    10   100     0     0     0     0   -99 200 kg N/ha USG
- 6    30 FE019 AP002     5   100     0     0     0     0   -99 200 kg N/ha USG
-
-*ENVIRONMENT MODIFICATIONS
-@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
- 1 11001 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     S 11182  2150 Jamma                     
+ 1 GE              1     1     S 11204  2150 N RESPONSE                
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
@@ -87,7 +75,7 @@ Jamma District, Ethiopia
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
  1 PL          74303 74317    40   100    30    40    10
 @N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
- 1 IR             20    80   100 GS000 IR001    10     1
+ 1 IR             30    50   100 GS000 IR001    10     1
 @N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
  1 NI             30    50    25 FE001 GS000
 @N RESIDUES    RIPCN RTIME RIDEP
