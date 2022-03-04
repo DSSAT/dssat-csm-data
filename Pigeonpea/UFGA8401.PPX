@@ -2,7 +2,7 @@
 
 *GENERAL
 @PEOPLE
-K.J. Boote and P.D. Alderman
+K.J. Boote, C. E. Maliro, and P.D. Alderman
 @ADDRESS
 Dept. of Agronomy, University of Florida, Gainesville, Florida, USA
 @SITE
@@ -14,12 +14,11 @@ University of Florida
 ! Not Irrigation Park, but slightly better soil in W-2 (Kendrick variant)
 ! Also, this field received biweekly applications of Bravo, chlorothanonil
 ! because of peanuts in the field.  This may decrease disease.
-! CHECK THE PLANT POP, 30 INCH, 1.5 OR 3 INCH SPACING???
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 1 0 84 IRRIGATED 76W           1  1  0  1  1  1  1  1  0  0  0  1  1
- 2 1 1 0 84 RAINFED   76W, LATE IR  1  1  0  1  1  2  1  1  0  0  0  1  1
+ 1 1 1 0 84 IRRIGATED 76W           1  1  0  1  1  1  1  1  0  0  0  0  1
+ 2 1 1 0 84 RAINFED   76W, LATE IR  1  1  0  1  1  2  1  1  0  0  0  0  1
 
 *CULTIVARS
 @C CR INGENO CNAME
@@ -43,11 +42,10 @@ University of Florida
  1   120   -99   .03   -99   -99   -99   -99   -99     0
  1   150   -99   .03   -99   -99   -99   -99   -99     0
  1   180   -99   .03   -99   -99   -99   -99   -99     0
-!Force large %SOM3 with SASC=0.98*SAOC
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    PP 84146   100   -99     1     1   -99   -99   -99   -99   -99   -99 -99
+ 1    MZ 84164   500   -99     1     1   -99   -99    .8   -99    50    10 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1     5  .086    .6   1.5
  1    15  .086    .6   1.5
@@ -64,11 +62,8 @@ University of Florida
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
- 1   .75   -99   -99   -99   -99   -99   -99 -99
+ 1     1   -99   -99   -99   -99   -99   -99 -99
 @I IDATE  IROP IRVAL
- 1 84153 IR001    25
- 1 84156 IR001    12
- 1 84163 IR001    25
  1 84164 IR001    12
  1 84166 IR001    12
  1 84190 IR001    17
@@ -85,11 +80,8 @@ University of Florida
  1 84289 IR001    33
  1 84295 IR001    21
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
- 2   .75   -99   -99   -99   -99   -99   -99 -99
+ 2     1   -99   -99   -99   -99   -99   -99 -99
 @I IDATE  IROP IRVAL
- 2 84153 IR001    25
- 2 84156 IR001    12
- 2 84163 IR001    25
  2 84164 IR001    12
  2 84166 IR001    12
  2 84262 IR001    48
@@ -101,11 +93,11 @@ University of Florida
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 84146 IB002   -99     5    40    35   131   -99   -99   -99 -99
+ 1 84164 FE508 AP002     5    40    35   131   -99   -99   -99 -99
 
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
- 1 84146 IB001  1000    .8   -99   -99   -99    15   -99 -99
+ 1 84164 RE203  1000    .8   -99   -99    50    15   -99 -99
 
 *HARVEST DETAILS
 @H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
@@ -113,13 +105,13 @@ University of Florida
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     S 84146  2150 BRAGG, IRRIGATED & NON-I
+ 1 GE              1     1     S 84164  2150 Pigeonpea
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
  1 ME              M     M     E     R     S     L     R     1     P     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
- 1 MA              R     R     R     R     R
+ 1 MA              R     R     R     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
  1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     Y     A
 
