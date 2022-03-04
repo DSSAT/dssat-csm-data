@@ -20,14 +20,15 @@ Parton SOM is working, but confidence in SOM pools is poor.
 Absolutely does not work with Godwin version, extreme N stress.
 
 2021-07-29 In initial conditions lowered SH2O to 0.230 to avoid warning that SH2O > SAT.
+2022-1-28 Went to no IC.  Very very unrealistic IC about 3-fold greater than actual.  KJB
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 1 0 Low N + Optim Irr FreshH   1  1  0  1  1  1  1  0  0  0  0  1  1
- 2 1 1 0 Med N + Optim Irr FreshH   1  1  0  1  1  1  2  0  0  0  0  1  1
- 3 1 1 0 Opt N + Optim Irr FreshH   1  1  0  1  1  1  3  0  0  0  0  1  1
- 4 1 1 0 Hi N + Opt Irr, FreshHarv  1  1  0  1  1  1  4  0  0  0  0  1  1
- 5 1 1 0 Hi N + Opt Irr, to dry sd  1  1  0  1  1  1  4  0  0  0  0  0  2
+ 1 1 1 0 Low N + Optim Irr FreshH   1  1  0  0  1  1  1  0  0  0  0  1  1
+ 2 1 1 0 Med N + Optim Irr FreshH   1  1  0  0  1  1  2  0  0  0  0  1  1
+ 3 1 1 0 Opt N + Optim Irr FreshH   1  1  0  0  1  1  3  0  0  0  0  1  1
+ 4 1 1 0 Hi N + Opt Irr, FreshHarv  1  1  0  0  1  1  4  0  0  0  0  1  1
+ 5 1 1 0 Hi N + Opt Irr, to dry sd  1  1  0  0  1  1  4  0  0  0  0  0  2
 
 *CULTIVARS
 @C CR INGENO CNAME
