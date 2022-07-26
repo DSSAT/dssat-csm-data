@@ -1,0 +1,19 @@
+!This file is for parameters controlling simulated mowing events for
+!the CROPGRO-Forage model  !Guineagrass - Panicum maximum cv. Mombaca    
+
+!Mow height is not used any where, except to affect canopy height as m or cm.
+
+@TRNO   DATE   MOW RSPLF   MVS  RSHT
+     
+!     1 17327  2757    06     3  30.0     !before the changes considering dead tillers after harvest that appear after 2 weeks
+!     1 17352  2755    06     3  30.0     !before the changes considering dead tillers after harvest that appear after 2 weeks
+!     1 18058  2136    04     3  30.0     !before the changes considering dead tillers after harvest that appear after 2 weeks
+     1 17327  2230    08     3  30.0      !after changes
+     1 17352  2230    08     3  30.0      !after changes
+     1 18058  1237    07     3  30.0      !after changes
+     1 18158  2978    06     3  30.0      
+!     1 18157  2978    03     3  30.0     !doubled below value so the plants wont die   
+     1 18261  2755    06     3  30.0     
+     1 18310  1395    21     3  30.0
+!     1 19023  9063    08     3  30.0
+!     1 19023  6173    12     3  30.0
