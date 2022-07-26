@@ -1,0 +1,203 @@
+*EXP.DETAILS: EMSC1701GG MOMBACA 2017-2019 SAO CARLOS, SAO PAULO
+
+*GENERAL
+@PEOPLE
+Brunetti, H.B., Boote, K.J., Santos, P.M., Pezzopane, J.R.M.
+@ADDRESS
+Embrapa Pecuaria Sudeste, km234 Washington Luiz hwy, Sao Carlos, SP, Brazil
+@SITE
+Sao Carlos, Sao Paulo, Brazil
+@NOTES
+Brunetti, H.B., Boote, K.J., Santos, P.M., Pezzopane, J.R.M., Pedreira, C.G.S., Lara, M.A.S., Moreno, L.S.B., Hoogenboom, G.
+2021. Improving the CROPGRO Perennial Forage Model for simulating growth and biomass partitioning of guineagrass. 
+Agronomy Journal 113(4):3299-3314. DOI:10.1002/agj2.20766.
+
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 Mombaca 2017-2019          1  1  1  1  1  1  1  0  0  0  0  1  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 GG SP0009 Mombaca
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 EMSC1701 EMSC       -99   -99   -99   -99   -99   -99 -99    -99  EBEP170001 -99
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 11001   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    20   -99  2.82   -99   -99   -99   -99   -99  1.69
+ 1    40   -99  2.04   -99   -99   -99   -99   -99  1.22
+ 1    60   -99  1.59   -99   -99   -99   -99   -99   .95
+ 1    80   -99  1.45   -99   -99   -99   -99   -99   .87
+ 1   100   -99  1.09   -99   -99   -99   -99   -99   .65
+ 1   200   -99   .36   -99   -99   -99   -99   -99   .22
+ 1   450   -99   .36   -99   -99   -99   -99   -99   .22
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    GG 17271  4000   -99     1     1   -99  4000     1   -99   100   -99 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    10  .423  63.6  63.6
+ 1    20  .423  32.5  45.4
+ 1    40  .405    52  72.4
+ 1    60  .382  56.6  75.6
+ 1    80  .378  47.8  79.7
+ 1   100   .36  54.3  77.7
+ 1   200   .36     1     1
+ 1   450   .36     1     1
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 17271   -99   999   999     T     U     2   -99     5  2755   -99   -99   -99   -99                        -99
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 -99
+@I IDATE  IROP IRVAL
+ 1 19018 IR004     8
+ 1 19019 IR004     8
+ 1 19020 IR004     8
+ 1 17328 IR004     8
+ 1 17329 IR004     4
+ 1 17330 IR004     4
+ 1 17334 IR004     8
+ 1 17335 IR004     4
+ 1 17342 IR004     8
+ 1 17343 IR004     8
+ 1 17348 IR004     8
+ 1 17349 IR004     8
+ 1 17350 IR004     4
+ 1 17351 IR004     4
+ 1 17361 IR004     8
+ 1 18023 IR004   5.3
+ 1 18024 IR004     8
+ 1 18025 IR004     8
+ 1 18033 IR004   5.3
+ 1 18034 IR004   5.3
+ 1 18035 IR004   5.3
+ 1 18039 IR004     8
+ 1 18040 IR004     8
+ 1 18064 IR004     8
+ 1 18065 IR004     8
+ 1 18070 IR004     8
+ 1 18071 IR004     8
+ 1 18085 IR004     8
+ 1 18098 IR004     8
+ 1 18099 IR004     8
+ 1 18100 IR004     8
+ 1 18106 IR004     8
+ 1 18107 IR004     8
+ 1 18108 IR004     8
+ 1 18112 IR004     8
+ 1 18113 IR004     8
+ 1 18114 IR004     8
+ 1 18118 IR004     8
+ 1 18119 IR004     8
+ 1 18123 IR004     8
+ 1 18124 IR004     8
+ 1 18125 IR004     8
+ 1 18132 IR004     8
+ 1 18133 IR004     8
+ 1 18134 IR004     8
+ 1 18147 IR004     8
+ 1 18148 IR004     8
+ 1 18149 IR004     8
+ 1 18155 IR004     8
+ 1 18156 IR004     8
+ 1 18157 IR004     8
+ 1 18166 IR004     8
+ 1 18167 IR004     8
+ 1 18168 IR004     8
+ 1 18175 IR004     8
+ 1 18176 IR004     8
+ 1 18177 IR004     8
+ 1 18266 IR004     8
+ 1 18267 IR004     8
+ 1 18268 IR004     8
+ 1 18269 IR004     8
+ 1 18270 IR004     8
+ 1 18271 IR004     8
+ 1 18279 IR004     8
+ 1 18283 IR004     8
+ 1 18284 IR004   2.7
+ 1 18285 IR004   2.7
+ 1 18286 IR004     8
+ 1 18290 IR004     8
+ 1 18291 IR004     8
+ 1 18293 IR004     8
+ 1 18298 IR004     8
+ 1 18307 IR004     8
+ 1 18319 IR004     8
+ 1 18320 IR004     8
+ 1 18328 IR004     8
+ 1 18329 IR004     4
+ 1 18330 IR004     4
+ 1 18334 IR004     8
+ 1 18335 IR004     4
+ 1 18342 IR004     8
+ 1 18343 IR004     8
+ 1 18348 IR004     8
+ 1 18349 IR004     8
+ 1 18350 IR004     4
+ 1 18351 IR004     4
+ 1 18360 IR004     8
+ 1 18361 IR004     8
+ 1 19001 IR004     4
+ 1 19002 IR004     4
+ 1 19003 IR004     4
+ 1 19005 IR004     8
+ 1 19006 IR004     8
+ 1 19007 IR004     8
+ 1 19011 IR004     8
+ 1 19012 IR004     8
+ 1 19013 IR004     8
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 17271 FE013 AP002     5     0    40     0   -99   -99   -99 -99
+ 1 17313 FE001 AP002     1    80     0    40   -99   -99   -99 -99
+ 1 17328 FE001 AP002     1    80     0     0   -99   -99   -99 -99
+ 1 17328 FE013 AP002     1     0    40     0   -99   -99   -99 -99
+ 1 17358 FE001 AP002     1    80     0     0   -99   -99   -99 -99
+ 1 17358 FE013 AP002     1     0    40     0   -99   -99   -99 -99
+ 1 18064 FE013 AP002     1     0    40     0   -99   -99   -99 -99
+ 1 18064 FE011 AP002     1    50     0     0   -99   -99   -99 -99
+ 1 18312 FE013 AP002     1     0    40     0   -99   -99   -99 -99
+ 1 18312 FE001 AP002     1    80     0     0   -99   -99   -99 -99
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 19030 GS000   -99   -99   -99   -99 
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 17240  2150 DEFAULT SIMULATION CONTR
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     P     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          17001 17001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    80   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 01001   100     0
+
+
+
