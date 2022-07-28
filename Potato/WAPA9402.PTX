@@ -13,7 +13,7 @@ Paterson, Benton county, WA
 Simulation of potato yield, nitrate leaching, and profit margins as influenced by irrigation
 and nitrogen management in different soils and production regions
 Prem Woli, Gerrit Hoogenboom, Ashok Alva
-Agricultural Water Management 171 (2016) 120–130
+Agricultural Water Management 171 (2016) 120ï¿½130
 
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
@@ -257,7 +257,7 @@ Agricultural Water Management 171 (2016) 120–130
 
 *CHEMICAL APPLICATIONS
 @C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
- 1 94060   -99   -99   -99   -99   -99  -99
+ 1 94060 CH001   -99   -99   -99   -99  -99
 
 *TILLAGE AND ROTATIONS
 @T TDATE TIMPL  TDEP TNAME
