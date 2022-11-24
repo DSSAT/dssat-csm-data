@@ -1,4 +1,4 @@
-*SOILS
+*SOILS: Soil profiles from Brazil
 ! Some of these soils are for use with the nitrate leaching version of the models
 ! which allows for input of an adsorption coefficient (SADC) for each layer.
 
@@ -33,7 +33,7 @@
    200   Bw5  .250  .350   .49   .31   .36  1.13   .36    59    10     0   -99   6.6   -99   2.1   -99
    450   Bw5  .250  .350   .49   .02   .36  1.13    .1    59    10     0   -99   6.6   -99   2.1   -99
    
-*EBEP170001  -99         C        100  -99
+*EBEP170001  -99         C       100 Piraciba soil
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  EmbPecSud   Brasil          21.96   47.84 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE

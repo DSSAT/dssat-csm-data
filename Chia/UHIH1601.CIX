@@ -56,7 +56,7 @@ have zero effect so no reason to try those GC.
 
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
- 1 16001   -99   -99   -99   -99   -99   -99   -99   -99 -99
+ 1 16001 RE001   -99   -99   -99   -99   -99   -99   -99 -99
 
 *TILLAGE AND ROTATIONS
 @T TDATE TIMPL  TDEP TNAME
