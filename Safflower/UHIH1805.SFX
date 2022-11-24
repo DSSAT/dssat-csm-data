@@ -10,10 +10,10 @@
 @ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
     256   -99     8   -99   -99   -99   -99   -99   -99   -99
 @NOTES
-Steberl, K., K.J. Boote, S. Munz, and S. Graeff-H�nninger. 2019.
+Steberl, K., K.J. Boote, S. Munz, and S. Graeff-Hönninger. 2019.
 Modifying the CROPGRO Safflower model to simulate growth, seed and floret yield under
 Means of 4 treatments
-K. Steberl, S. Munz, and S. Graeff-H�nninger; University of Hohenheim, Germany
+K. Steberl, S. Munz, and S. Graeff-Hönninger; University of Hohenheim, Germany
 K.J. Boote; University of Florida
 Model run with N balance off. IC NH4 and NO3 are real, but could not get
 sufficient N mineralization to drive growth with either Godwin or CENTURY
