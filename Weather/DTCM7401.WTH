@@ -3,7 +3,7 @@
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
   dtcm   19.010   99.010     0   0.0  11.8   0.0   0.0
 
-@YRDAY SRAD  TMAX  TMIN  RAIN  DEWP  WIND   PAR
+@DATE  SRAD  TMAX  TMIN  RAIN  DEWP  WIND   PAR
 74001  16.5  22.8   4.5    .0
 74002  16.5  23.5   3.7    .0
 74003  15.0  24.6   8.3    .0
