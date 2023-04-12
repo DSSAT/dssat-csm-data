@@ -39,7 +39,8 @@ Subirrigated, plastic mulch
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1   -99 95064     1     0     1     1   -99   -99   -99   -99   -99   -99 -99
+!1   -99 95064     1     0     1     1   -99   -99   -99   -99   -99   -99 -99
+ 1   -99 95064     1     0     1     1   -99    10   -99   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1    18  .133    .5     1
  1    36   .22    .5     1
@@ -201,7 +202,8 @@ Subirrigated, plastic mulch
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
  1 ME              M     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
- 1 MA              R     A     R     N     R
+!1 MA              R     A     R     N     R
+ 1 MA              R     R     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
  1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
 
