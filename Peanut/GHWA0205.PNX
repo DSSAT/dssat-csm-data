@@ -36,11 +36,9 @@ Wa, Ghana
  1              -2           9.945       380              1024   -99   -99   -99   -99   -99
 
 *INITIAL CONDITIONS
-!2022-12-18 CHP added soil layer info, DUL for SW, 0.1 for NO3 and NH4
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
  1   -99 02191   500   -99     1     1   -99  1000   1.5   .25   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
-!1   -99   -99   -99   -99
  1     5  .156   0.1   0.1
  1    15  .166   0.1   0.1
  1    30  .188   0.1   0.1

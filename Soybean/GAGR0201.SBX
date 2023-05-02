@@ -37,7 +37,6 @@ Climate change, on a global scale, could affect agriculture at different levels.
  1    15   -99   -99   -99   -99   -99   -99   -99   -99
 
 *INITIAL CONDITIONS
-!2022-12-18 CHP added soil layer info thru bottom of profile.
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
  1    SB 02303     1     0   -99   -99   -99   -99   -99   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
