@@ -42,6 +42,7 @@ Piracicaba, SP, Brazil
  1   450   -99  0.10   -99   -99   -99   -99   -99 0.057
 
 *INITIAL CONDITIONS
+!2022-12-18 CHP added bottom soil layer
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
  1    BH 11001  2000   -99     1     1   -99  8000     1   -99   100    25 residue
 @C  ICBL  SH2O  SNH4  SNO3
@@ -54,6 +55,7 @@ Piracicaba, SP, Brazil
  1   160 0.366   0.1   0.8
  1   180 0.366   0.1   0.8
  1   200 0.366   0.1   0.8
+ 1   450 0.366   -99   -99
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME

@@ -45,8 +45,11 @@ FAISALABAD
  1    15   -99   -99   -99   -99   -99   -99   -99   -99
 
 *INITIAL CONDITIONS
+!2022-12-18 CHP added soil layer info thru bottom of profile. 
+!  Soil layers don't match. Is the soil ID correct?
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    WH 00187   500   -99     1     1     1     0     0     0   100    15 -99
+!1    WH 00187   500   -99     1     1     1     0     0     0   100    15 -99
+ 1    WH 00187   500   -99     1     1   -99     0     0     0   100    15 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1     5  .374    10    .7
  1     8  .374    10    .7
@@ -54,6 +57,9 @@ FAISALABAD
  1    28  .369     3    .3
  1    38  .369     3    .3
  1    51  .344     3    .3
+ 1    92  .293   -99   -99
+ 1   127  .293   -99   -99
+ 1   152  .313   -99   -99
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME

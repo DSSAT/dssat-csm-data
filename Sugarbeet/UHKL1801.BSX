@@ -39,6 +39,8 @@ Agronomy 2020, 10, 1930; doi:10.3390/agronomy10121930
  1    60   .38    .3   2.4
  1    90   .38    .3   2.4
  1   120   .38    .3   2.4 
+ 1   150   .38   -99   -99
+ 1   180   .38   -99   -99
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
