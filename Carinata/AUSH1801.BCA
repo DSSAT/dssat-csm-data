@@ -1,0 +1,15 @@
+*EXP. DATA (A): AUSH1801CN Carinata Exp at Shorter, AL observed (A) data                
+
+! File last edited on day 02/11/2020
+! Do not trust the PWAM, too low, considering the grain yield.
+! This is totally metric.  Weights are kg/ha. 
+! TRNO 1 is AX17012 and TRNO2 is Avanza-641
+! Definitions of headers
+! ADAT - Day of year of anthesis
+! CHTA - final canopy height (m), from final harvest information
+! HWAH - grain weight from combine harvest (kg/ha)
+! PD1T - Day of year of first pod
+
+@TRNO   ADAT  CHTA  HDAT  HIPM  HWAH  PWAM  PD1T
+     1 19104  1.11 19177 0.442   985   -99 19130 
+     2 19106  0.92 19177 0.465  1017   -99 19130
