@@ -1,0 +1,292 @@
+*EXP.DETAILS: CLNM1401GY GUAR, 2014, 3 DATES, 4 CULTIVARS, CLOVIS, NM
+
+*GENERAL
+@PEOPLE
+Singla
+@ADDRESS
+New Mexico State Univ
+@SITE
+Las Cruces, NM
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+@NOTES
+All simulated as if Kinman
+Could put 2014 and 2015 together if desired.  Initially that way, but pulled apart
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 HES 1123,June 18, 2014     1  1  0  1  1  0  0  0  0  0  0  0  1
+ 2 1 1 0 HES 1123,July 7, 2014      1  1  0  2  2  0  0  0  0  0  0  0  2
+ 3 1 1 0 HES 1123,July 22, 2014     1  1  0  3  3  0  0  0  0  0  0  0  3
+ 4 1 1 0 Kinman,June 18, 2014       1  1  0  1  4  0  0  0  0  0  0  0  1
+ 5 1 1 0 Kinman,July 7, 2014        1  1  0  2  5  0  0  0  0  0  0  0  2
+ 6 1 1 0 Kinman,July 22, 2014       1  1  0  3  6  0  0  0  0  0  0  0  3
+ 7 1 1 0 Lewis,June 18, 2014        1  1  0  1  7  0  0  0  0  0  0  0  1
+ 8 1 1 0 Lewis,July 7, 2014         1  1  0  2  8  0  0  0  0  0  0  0  2
+ 9 1 1 0 Lewis,July 22, 2014        1  1  0  3  9  0  0  0  0  0  0  0  3
+10 1 1 0 Matador,June 18, 2014      1  1  0  1 10  0  0  0  0  0  0  0  1
+11 1 1 0 Matador,July 7, 2014       1  1  0  2 11  0  0  0  0  0  0  0  2
+12 1 1 0 Matador,July 22, 2014      1  1  0  3 12  0  0  0  0  0  0  0  3
+!13 1 1 0 HES 1123,June 18, 2015     1  1  0  1 13  0  0  0  0  0  0  0  4  
+!14 1 1 0 HES 1123,July 6, 2015      1  1  0  1 14  0  0  0  0  0  0  0  5  
+!15 1 1 0 HES 1123,July 20, 2015     1  1  0  1 15  0  0  0  0  0  0  0  6  
+!16 1 1 0 Kinman,June 18, 2015       1  1  0  1 16  0  0  0  0  0  0  0  4  
+!17 1 1 0 Kinman,July 6, 2015        1  1  0  1 17  0  0  0  0  0  0  0  5  
+!18 1 1 0 Kinman,July 20, 2015       1  1  0  1 18  0  0  0  0  0  0  0  6  
+!19 1 1 0 Lewis,June 18, 2015        1  1  0  1 19  0  0  0  0  0  0  0  4  
+!20 1 1 0 Lewis,July 6, 2015         1  1  0  1 20  0  0  0  0  0  0  0  5  
+!21 1 1 0 Lewis,July 20, 2015        1  1  0  1 21  0  0  0  0  0  0  0  6  
+!22 1 1 0 Matador,June 18, 2015      1  1  0  1 22  0  0  0  0  0  0  0  4  
+!23 1 1 0 Matador,July 6, 2015       1  1  0  1 23  0  0  0  0  0  0  0  5  
+!24 1 1 0 Matador,July 20, 2015      1  1  0  1 24  0  0  0  0  0  0  0  6  
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 GY IB1111 Guar-Kinman
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 LCNM0001 NMCL1402   -99     0 IB000     0     0 00000 -99    180  NMCL202201 -99
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+!Same Olton clay loam as used by Singh for Safflower and calibrated for LL, DUL, SRGF against soil water
+!PLANT POPULATION IS AVERAGE OF TWO STAND COUNTS OVER ALL CULTIVARS, NOT JUST Kinman
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    WH 14169   500   -99     1     1   -99  2000    .8   -99   100    15 June 18, 2014
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    10  .212     0    .3
+ 1    30  .249     0    .3
+ 1    50  .293     0    .3
+ 1    70  .282     0    .3
+ 1    90  .273     0    .3
+ 1   110  .266     0    .3
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 2    WH 14188   500   -99     1     1   -99  2000    .8   -99   100    15 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 2    10  .212     0    .3
+ 2    30  .249     0    .3
+ 2    50  .293     0    .3
+ 2    70  .282     0    .3
+ 2    90  .273     0    .3
+ 2   110  .266     0    .3
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 3    WH 14203   500   -99     1     1   -99  2000    .8   -99   100    15 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 3    10  .212     0    .3
+ 3    30  .249     0    .3
+ 3    50  .293     0    .3
+ 3    70  .282     0    .3
+ 3    90  .273     0    .3
+ 3   110  .266     0    .3
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 4    WH 15169   500   -99     1     1   -99  2000    .8   -99   100    15 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 4    10  .212     0    .3
+ 4    30  .249     0    .3
+ 4    50  .293     0    .3
+ 4    70  .282     0    .3
+ 4    90  .273     0    .3
+ 4   110  .266     0    .3
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 5    WH 15187   500   -99     1     1   -99  2000    .8   -99   100    15 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 5    10  .212     0    .3
+ 5    30  .249     0    .3
+ 5    50  .293     0    .3
+ 5    70  .282     0    .3
+ 5    90  .273     0    .3
+ 5   110  .266     0    .3
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 6    WH 15201   500   -99     1     1   -99  2000    .8   -99   100    15 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 6    10  .212     0    .3
+ 6    30  .249     0    .3
+ 6    50  .293     0    .3
+ 6    70  .282     0    .3
+ 6    90  .273     0    .3
+ 6   110  .266     0    .3
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 14169   -99  25.5  25.5     S     R    50     0     3   -99   -99   -99   -99   -99                        June 18, 2014
+ 2 14188   -99  18.2  18.2     S     R    50     0     3   -99   -99   -99   -99   -99                        July 7, 2014
+ 3 14203   -99    14    14     S     R    50     0     3   -99   -99   -99   -99   -99                        July 22, 2014
+ 4 14169   -99  27.7  27.7     S     R    50     0     3   -99   -99   -99   -99   -99                        June 18, 2014
+ 5 14188   -99  18.7  18.7     S     R    50     0     3   -99   -99   -99   -99   -99                        July 7, 2014
+ 6 14203   -99    16    16     S     R    50     0     3   -99   -99   -99   -99   -99                        July 22, 2014
+ 7 14169   -99    31    31     S     R    50     0     3   -99   -99   -99   -99   -99                        June 18, 2014
+ 8 14188   -99  26.5  26.5     S     R    50     0     3   -99   -99   -99   -99   -99                        July 7, 2014
+ 9 14203   -99  19.1  19.1     S     R    50     0     3   -99   -99   -99   -99   -99                        July 22, 2014
+10 14169   -99    19    19     S     R    50     0     3   -99   -99   -99   -99   -99                        June 18, 2014
+11 14188   -99  19.2  19.2     S     R    50     0     3   -99   -99   -99   -99   -99                        July 7, 2014
+12 14203   -99  14.3  14.3     S     R    50     0     3   -99   -99   -99   -99   -99                        July 22, 2014
+13 15169   -99    25    25     S     R    50     0     3   -99   -99   -99   -99   -99                        June 18, 2015
+14 15187   -99  17.7  17.7     S     R    50     0     3   -99   -99   -99   -99   -99                        July 6, 2015
+15 15201   -99  17.3  17.3     S     R    50     0     3   -99   -99   -99   -99   -99                        July 20, 2015
+16 15169   -99  22.3  22.3     S     R    50     0     3   -99   -99   -99   -99   -99                        June 18, 2015
+17 15187   -99  15.2  15.2     S     R    50     0     3   -99   -99   -99   -99   -99                        July 6, 2015
+18 15201   -99  11.4  11.4     S     R    50     0     3   -99   -99   -99   -99   -99                        July 20, 2015
+19 15169   -99  28.3  28.3     S     R    50     0     3   -99   -99   -99   -99   -99                        June 18, 2015
+20 15187   -99    21    21     S     R    50     0     3   -99   -99   -99   -99   -99                        July 6, 2015
+21 15201   -99  18.5  18.5     S     R    50     0     3   -99   -99   -99   -99   -99                        July 20, 2015
+22 15169   -99  20.6  20.6     S     R    50     0     3   -99   -99   -99   -99   -99                        June 18, 2015
+23 15187   -99    20    20     S     R    50     0     3   -99   -99   -99   -99   -99                        July 6, 2015
+24 15201   -99  13.7  13.7     S     R    50     0     3   -99   -99   -99   -99   -99                        July 20, 2015
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1   -99   -99   -99   -99   -99   -99 Irrigated
+@I IDATE  IROP IRVAL
+ 1 19189 IR001    13
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 14152 FE005 AP004    10    34   -99   -99   -99   -99   -99 Pre-plant N addition
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 85171   -99   -99 -99
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 14169  2150 4/25/14
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     A     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          85155 85200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             50    26    90 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 85365   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     S 14188  2150 5/15/14
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     A     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          85155 85200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             50    26    90 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 2 HA              0 85365   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 3 GE              1     1     S 14203  2150 6/16/14
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 3 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 3 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 3 MA              R     A     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 3 PL          85155 85200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 3 IR             50    26    90 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 3 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 3 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 3 HA              0 85365   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 4 GE              1     1     S 15169  2150 7/1/14
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 4 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 4 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 4 MA              R     A     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 4 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 4 PL          85155 85200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 4 IR             50    26    90 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 4 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 4 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 4 HA              0 85365   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 5 GE              1     1     S 15187  2150 4/27/2015
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 5 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 5 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 5 MA              R     A     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 5 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 5 PL          85155 85200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 5 IR             50    26    90 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 5 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 5 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 5 HA              0 85365   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 6 GE              1     1     S 15201  2150 5/14/2015
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 6 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 6 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 6 MA              R     A     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 6 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 6 PL          85155 85200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 6 IR             50    26    90 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 6 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 6 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 6 HA              0 85365   100     0
+
+
+
