@@ -1,0 +1,23 @@
+*EXP: CLNM1501GY Guar, 2015, 3 dates x 4 cultivars Clovis, NM
+
+! Cultivar order:  HES 1123, Kinman, Lewis, Matador.  1-12 are 2014, 13-24 are 2015
+! All simulated as if Kinman
+! Used HWAM AND HIAM from 1-m2 samples.  Maybe use CWAM from 1-m2 as well.  Need to put in POPM for 2014
+! 1 - 1plant,  2 = 1-m2 samples.  HIPM, P#AM, H#AM from 1-plant samples
+!2015, Lack seed/plant data from per plant data.  No computed values from that for HIAM or THAM 
+!2015 Used HWAM and HIAM from 1-m2 samples.  Maybe use CWAM from 1-m2 as well.  CWAM, PWAM and HIPM are flakey   
+
+@TRNO   CHTM  CWTD  CWAM  PWAM  HIPM  HWAM  HIAM  P#AM  H#AM  H#UM  HWUM  THAM CWAM2 HIAMX  POPM  POPM
+     1 1.246 1.293  9561  3832 0.496  1188 0.292  1367  9359  6.05 .0251   -99  4060 0.292   -99  25.0
+     2 1.143 1.109  2427  1936 1.148   832 0.295   741  3846  5.58 .0241   -99  2870 0.295   -99  17.7
+     3 1.151 1.125  1004  1150 1.155   581 0.265   287   583  2.44 .0231   -99  2190 0.265   -99  17.3
+     4 1.053 1.138  7518  4548 0.636  1089 0.252  1067  4888  4.24 .0265   -99  4295 0.252   -99  22.3
+     5 1.119 1.195   784  1371 3.002   692 0.233   554  1222  2.77 .0234   -99  2798 0.233   -99  15.2
+     6 1.046 1.050  1068   790 0.833   196 0.124   145   291  2.58 .0173   -99  1573 0.124   -99  11.4
+     7 1.198 1.315 10413  6255 0.803  1664 0.334  1657 12799  7.00 .0278   -99  4983 0.334   -99  28.3
+     8 1.070 1.268  2550  1546 0.591   922 0.270   951  3053  3.42 .0179   -99  3415 0.270   -99  21.0
+     9 1.183 1.227  2004  1669 0.836   472 0.204   510   928  1.78 .0196   -99  2283 0.204   -99  18.5
+    10 1.335 1.331  5052  5210 1.170  1292 0.256  1083  4599  4.65 .0285   -99  5063 0.256   -99  20.6
+    11 1.288 1.324  4577  3105 0.703  1025 0.318   972  6023  6.41 .0371   -99  3223 0.318   -99  20.0
+    12 0.982 0.848  1483  1120 0.780   275 0.155   215   844  4.00 .0171   -99  1615 0.155   -99  13.7
+

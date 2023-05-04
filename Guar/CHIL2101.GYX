@@ -1,0 +1,188 @@
+*EXP.DETAILS: CHIL2101GY GUAR, RAINFED LEWIS CULTIVAR
+
+*GENERAL
+@PEOPLE
+Curtis Adams
+@ADDRESS
+Texas A & M Univ
+@SITE
+Chillicothe, TX
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+@NOTES
+Model simulated with Kinman cultivar traits.  Never tried to optimize on Lewis cultivar because of variable data.
+Boote et al., 2023. "Adapting the CROPGRO model to simulate growth and yield of guar,
+Cyamopsis tetragonoloba L, an industrial legume crop"  published in Industrial Crops and Products, https://doi.org/10.1016/j.indcrop.2023.116596
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 Guar19                     1  1  0  1  1  0  0  0  0  1  0  1  1
+ 2 1 1 0 Guar20                     1  1  0  2  2  0  0  0  0  2  0  2  2
+ 3 1 1 0 Guar21                     1  1  0  3  3  0  0  0  0  3  0  3  3
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 GY IB1111 Guar-Kinman
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 CHIL0001 TXCH       -99     0 IB000     0     0 00000 -99    180  TXVERNON01 -99
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 19001   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    15   -99   -99   -99   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    FA 19176   -99   -99     0     0   -99   -99   -99   -99   -99   -99 Guar19
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    19  .235    .1    .8
+ 1    32  .234    .1    .8
+ 1    57  .262    .1    .8
+ 1    89  .277    .1    .8
+ 1   107  .285    .1    .8
+ 1   137  .266    .1    .8
+ 1   181  .175    .1    .8
+ 1   216   .23    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 2    FA 20177   -99   -99     0     0   -99   -99   -99   -99   -99   -99 Guar20
+@C  ICBL  SH2O  SNH4  SNO3
+ 2    19  .204    .1    .8
+ 2    32  .203    .1    .8
+ 2    57  .227    .1    .8
+ 2    89   .24    .1    .8
+ 2   107  .247    .1    .8
+ 2   137   .23    .1    .8
+ 2   181  .151    .1    .8
+ 2   216  .199    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 3    FA 21155   -99   -99     0     0   -99   -99   -99   -99   -99   -99 Guar21
+@C  ICBL  SH2O  SNH4  SNO3
+ 3    19  .235    .1    .8
+ 3    32  .234    .1    .8
+ 3    57  .262    .1    .8
+ 3    89  .277    .1    .8
+ 3   107  .285    .1    .8
+ 3   137  .266    .1    .8
+ 3   181  .175    .1    .8
+ 3   216   .23    .1    .8
+! set at 90% of DUL
+! set at 78% of DUL
+! set at 90% of DUL
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 19176   -99 15.38 15.38     S     R    51     0     3   -99   -99   -99   -99   -99                        Guar19
+ 2 20177   -99 12.04 12.04     S     R    51     0     3   -99   -99   -99   -99   -99                        Guar20
+ 3 21155   -99 16.18 16.18     S     R    51     0     3   -99   -99   -99   -99   -99                        Guar21
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1   .75    30    50   100 IB001 IB001    10 -99
+@I IDATE  IROP IRVAL
+ 1 19001   -99   -99
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 19001   -99   -99   -99   -99   -99   -99   -99   -99   -99 -99
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 19001   -99   -99   -99   -99   -99   -99   -99   -99 -99
+
+*CHEMICAL APPLICATIONS
+@C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
+ 1 19001   -99   -99   -99   -99   -99  -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 19176 TI034     5 Guar19
+ 2 20177 TI034     5 Guar20
+ 3 21155 TI034     5 Guar21
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 19001 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 19287 GS000     H   -99   -99   -99 Guar19
+ 2 20306 GS000     H   -99   -99   -99 Guar20
+ 3 21305 GS000     H   -99   -99   -99 Guar21
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 19176  2150 Guar19                    CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     N     N     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          85155 85200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 85365   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     S 20177  2150 Guar20                    CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          85155 85200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 2 HA              0 85365   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 3 GE              1     1     S 21155  2150 Guar21                    CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 3 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 3 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 3 MA              R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 3 PL          85155 85200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 3 IR             30    50   100 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 3 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 3 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 3 HA              0 85365   100     0
+
+
+
