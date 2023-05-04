@@ -1,0 +1,25 @@
+*EXP. DATA (A): UFQU1801CN Carinata Exp at Quincy,FL observed (A) data                
+
+! File last edited on day 02/11/2020
+! Guessing at anthesis and 1st pod (within 7 days).  Maturity is a bit better
+! anthesis halfway (19079) between 5.2 at 19072 and 6.8 on 19086
+! 1st pod halfway (19093) between 6.8 on 19086 and 6.9 on 19100 (poor growth stage separation, trust pod mass more)
+! All values from final growth analysis,including grain yield.  Combine harvest is lower.
+! Andy,  this is totally metric.  Weights are kg/ha. 
+! TRNO 1 is AX17012 and TRNO2 is Avanza-641
+! Definitions of headers
+! ADAT - Day of year of anthesis
+! CHTA - final canopy height (m), from final harvest information
+! HDAT - Your harvest date (not physiology maturity)
+! HIAM - Harvest index of last growth analysis sample
+! HIPM - Pod harvest index of last growth analysis sample
+! THAM - Shelling % of last growth analysis sample
+! PWAM & HWAH - Pod and grain weight from last growth analysis sample (kg/ha)
+! PD1T - Day of year of first pod
+! CWAA - Aboveground weight at anthesis (kg/ha)
+! CWAM - Aboveground weight at final growth analysis sample
+! HWUM - weight per seed at final growth analysis sample (g) notice different from mg
+! MDAT - Day of year of physiological maturity (do not trust it) 
+@TRNO   ADAT  L#SM  CHTA  HDAT  HIAM  HIPM  THAM  HWAH  PWAM  LAIX  PD1T  CWAA  CWAM  HWUM  MDAT
+     1 19079  19.2  1.02 19150 0.278 0.592 46.48  2211  4758  1.77 19093  2224  7943 .0038 19128 
+     2 19079  18.8  1.05 19150 0.286 0.542 52.84  2279  4322  2.46 19093  2573  7975 .0036 19128

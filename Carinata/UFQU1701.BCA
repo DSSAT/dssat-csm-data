@@ -1,0 +1,24 @@
+*EXP. DATA (A): UFQU1701CN Carinata Exp at Quincy,FL observed (A) data                
+
+! File last edited on day 08/30/2020
+!
+!HDAT IS NOT GOOD.  JUST USED LAST GROWTH ANALYSIS HARVEST.  MDAT ALSO VERY SHAKY
+!ACCURACY ON ADAT AND PD1T ARE 14-DAY OBSERVATIONS.  NOT THAT GOOD 
+! All values from final growth analysis.  Combine yields are 1662 kg/ha (AX) and 2169 (AV)
+! TRNO 1 is AX17012 and TRNO2 is Avanza-641
+! Definitions of headers
+! ADAT - Day of year of anthesis
+! CHTA - final canopy height (m)
+! HDAT - Your harvest date (not physiology maturity)
+! HIAM - Harvest index of last growth analysis sample
+! HIPM - Pod harvest index of last growth analysis sample
+! THAM - Shelling % of last growth analysis sample
+! HWAH - Grain weight from last growth analysis sample (kg/ha) - may not match your combine harvest
+! PD1T - Day of year of fist pod
+! CWAA - Aboveground weight at anthesis (kg/ha) - At GSTD 6 (if that is flowering?)
+! CWAM - Aboveground weight at final growth analysis sample
+! HWUM - weight per seed at final growth analysis sample (g) notice different from mg
+! MDAT - Day of year of physiological maturity (do not trust it) 
+@TRNO   ADAT  CHTA  HDAT  HIAM  HIPM  THAM  HWAH  LAIX  PD1T  CWAA  CWAM  HWUM  MDAT
+     1 18059  1.08 18143 0.213 0.609 46.73  2733  2.30 18073  1684 10375 .0037 18115 
+     2 18059  1.25 18143 0.200 0.481 54.93  2722  3.09 18073  1467 10693 .0037 18115

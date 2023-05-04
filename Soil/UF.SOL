@@ -1,4 +1,4 @@
-*SOILS: Florida Muck Soils
+*SOILS: Florida Muck & other soils
 
 !  Soils defined by data from USGS/ USDA/SCS 1976 Soil Survey of Palm Beach County 1976
 !  There is no Muck texture description in DSSAT soils modules.  The designations LS and S were used simply to make the model run.
