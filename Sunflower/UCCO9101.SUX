@@ -58,10 +58,10 @@
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 91045   -99    .5    .5     S     R    70     0     5   -99   -99   -99   -99     0                        -99
- 2 91045   -99     2     2     S     R    70     0     5   -99   -99   -99   -99     0                        -99
- 3 91045   -99     5     5     S     R    70     0     5   -99   -99   -99   -99     0                        -99
- 4 91045   -99    10    10     S     R    70     0     5   -99   -99   -99   -99     0                        -99
+ 1 91045   -99    .5    .5     S     R    70     0     4   -99   -99   -99   -99     0                        -99
+ 2 91045   -99     2     2     S     R    70     0     4   -99   -99   -99   -99     0                        -99
+ 3 91045   -99     5     5     S     R    70     0     4   -99   -99   -99   -99     0                        -99
+ 4 91045   -99    10    10     S     R    70     0     4   -99   -99   -99   -99     0                        -99
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME

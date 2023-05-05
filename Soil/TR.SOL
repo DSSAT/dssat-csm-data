@@ -1,0 +1,144 @@
+*SOILS: Turkey soil input file
+
+!decr DUL by 0.01, top 90 4/15/22
+!decr LL and DUL by 0.01, again 1 hr later
+*TRKON20152  -99         C        200  Konya-Turkey !decr LL by 0.04, kjb,4/14/22, LL&DUL decr .02
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Konya       Turkey         37.804   32.51 Clay
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .6    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .177   .37  .479     1    .8  1.42   .44  59.3  21.1   -99   -99   7.6   -99   -99   -99
+    60   -99  .189  .388  .498   .75    .8  1.47    .3  61.7  21.1   -99   -99   7.9   -99   -99   -99
+    90   -99  .214  .414  .526    .4    .8  1.54   .19  63.8  21.1   -99   -99   7.9   -99   -99   -99
+   120   -99  .212  .414  .516    .3    .8  1.46   .12    64    21   -99   -99   7.9   -99   -99   -99
+   200   -99  .212  .414  .516   .11    .8  1.46   .09    64    21   -99   -99   7.9   -99   -99   -99
+
+!incr DUL to 90 by .02,4/15/22
+*TRKON20162  -99         C        200  Konya-Turkey !decr LL by 0.04, kjb,4/14/22,LL&DUL decr .01
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Konya       Turkey         37.804   32.51 Clay
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .6    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .199  .351  .405     1   1.2  1.32   .84  54.6  24.2   -99   -99   7.7   -99   -99   -99
+    60   -99  .196  .347  .385   .75   1.2  1.33   .53  54.7  24.2   -99   -99   7.8   -99   -99   -99
+    90   -99  .196  .353    .4    .4   1.2  1.34   .44  58.6  21.1   -99   -99   7.8   -99   -99   -99
+   120   -99  .267  .418  .485    .3   1.2  1.38   .32  58.8  21.1   -99   -99   7.8   -99   -99   -99
+   200   -99  .267  .418  .491   .11   1.2  1.38   .26  58.8  21.1   -99   -99   7.8   -99   -99   -99
+
+!decr sldr 0.6 to 0.4 better for clay & results 4/15/22
+!decr LL and DUL by 0.01, again 1 hr later
+*TRKON20153  -99         C        200  Konya-Turkey !decr LL by 0.04, kjb,4/14/22, LL&DUL decr .02
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Konya       Turkey         37.804   32.51 Clay
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .4    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .177   .38  .479     1    .8  1.42   .44  59.3  21.1   -99   -99   7.6   -99   -99   -99
+    60   -99  .189  .398  .498   .75    .8  1.47    .3  61.7  21.1   -99   -99   7.9   -99   -99   -99
+    90   -99  .214  .424  .526    .4    .8  1.54   .19  63.8  21.1   -99   -99   7.9   -99   -99   -99
+   120   -99  .212  .414  .516    .3    .8  1.46   .12    64    21   -99   -99   7.9   -99   -99   -99
+   200   -99  .212  .414  .516   .11    .8  1.46   .09    64    21   -99   -99   7.9   -99   -99   -99
+
+!decr sldr 0.6 to 0.4 better for clay & results 4/15/22
+*TRKON20163  -99         C        200  Konya-Turkey !decr LL by 0.04, kjb,4/14/22,LL&DUL decr .01
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Konya       Turkey         37.804   32.51 Clay
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .4    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .199  .331  .405     1   1.2  1.32   .84  54.6  24.2   -99   -99   7.7   -99   -99   -99
+    60   -99  .196  .317  .385   .75   1.2  1.33   .53  54.7  24.2   -99   -99   7.8   -99   -99   -99
+    90   -99  .196  .333    .4    .4   1.2  1.34   .44  58.6  21.1   -99   -99   7.8   -99   -99   -99
+   120   -99  .267  .418  .485    .3   1.2  1.38   .32  58.8  21.1   -99   -99   7.8   -99   -99   -99
+   200   -99  .267  .418  .491   .11   1.2  1.38   .26  58.8  21.1   -99   -99   7.8   -99   -99   -99
+
+!decr 0.03 top 90, decr 0.02 rest
+!created soil layer 120-150 0.15, 150-200 0.08 4/16/22
+!decr sldr 0.6 to 0.4 better for clay & results 4/15/22
+!decr LL and DUL by 0.01, again 1 hr later
+*TRKON20154  -99         C        200  Konya-Turkey !decr LL by 0.04, kjb,4/14/22, LL&DUL decr .02
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Konya       Turkey         37.804   32.51 Clay
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .4    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .177   .35  .479     1    .8  1.42   .44  59.3  21.1   -99   -99   7.6   -99   -99   -99
+    60   -99  .189  .368  .498   .75    .8  1.47    .3  61.7  21.1   -99   -99   7.9   -99   -99   -99
+    90   -99  .214  .394  .526    .4    .8  1.54   .19  63.8  21.1   -99   -99   7.9   -99   -99   -99
+   120   -99  .212  .394  .516    .3    .8  1.46   .12    64    21   -99   -99   7.9   -99   -99   -99
+   150   -99  .212  .394  .516   .15    .8  1.46   .12    64    21   -99   -99   7.9   -99   -99   -99
+   200   -99  .212  .394  .516   .08    .8  1.46   .09    64    21   -99   -99   7.9   -99   -99   -99
+
+!add water to top 90 cm, soil most be like other site, incr DUL 0.01
+!created soil layer 120-150 0.15, 150-200 0.08 4/16/22
+!decr sldr 0.6 to 0.4 better for clay & results 4/15/22
+*TRKON20164  -99         C        200  Konya-Turkey !decr LL by 0.04, kjb,4/14/22,LL&DUL decr .01
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Konya       Turkey         37.804   32.51 Clay
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .4    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .199  .341  .405     1   1.2  1.32   .84  54.6  24.2   -99   -99   7.7   -99   -99   -99
+    60   -99  .196  .327  .385   .75   1.2  1.33   .53  54.7  24.2   -99   -99   7.8   -99   -99   -99
+    90   -99  .196  .343    .4    .4   1.2  1.34   .44  58.6  21.1   -99   -99   7.8   -99   -99   -99
+   120   -99  .267  .418  .485    .3   1.2  1.38   .32  58.8  21.1   -99   -99   7.8   -99   -99   -99
+   150   -99  .267  .418  .485   .15   1.2  1.38   .32  58.8  21.1   -99   -99   7.8   -99   -99   -99
+   200   -99  .267  .418  .491   .08   1.2  1.38   .26  58.8  21.1   -99   -99   7.8   -99   -99   -99
+
+!-0.01 LL and DUL for 90 cm
+! 120-200 layer has no effect, as roots do not get that deep.
+!decr sldr 0.6 to 0.4 better for clay & results 4/15/22
+!decr LL and DUL by 0.01, again 1 hr later
+*TRKON20150  -99         C        200  Konya-Turkey !decr LL by 0.04, kjb,4/14/22, LL&DUL decr .02
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Konya       Turkey         37.804   32.51 Clay
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .4    61     1  0.88 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .177   .38  .479     1    .8  1.42   .44  59.3  21.1   -99   -99   7.6   -99   -99   -99
+    60   -99  .189  .398  .498   .75    .8  1.47    .3  61.7  21.1   -99   -99   7.9   -99   -99   -99
+    90   -99  .204  .414  .526    .4    .8  1.54   .19  63.8  21.1   -99   -99   7.9   -99   -99   -99
+   120   -99  .212  .414  .516    .3    .8  1.46   .12    64    21   -99   -99   7.9   -99   -99   -99
+   200   -99  .212  .414  .516   .11    .8  1.46   .09    64    21   -99   -99   7.9   -99   -99   -99
+
+! plus 0.01 for DUL of 90 cm, and minus 0.02 on LL for 120 and 200 (no knowledge and why should this soil differ
+! from the other soil with same clay and silt
+! 120-200 layer has no effect, as roots do not get that deep.
+!decr sldr 0.6 to 0.4 better for clay & results 4/15/22
+*TRKON20160  -99         C        200  Konya-Turkey !decr LL by 0.04, kjb,4/14/22,LL&DUL decr .01
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Konya       Turkey         37.804   32.51 Clay
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .4    61     1  0.82 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .199  .331  .405     1   1.2  1.32   .84  54.6  24.2   -99   -99   7.7   -99   -99   -99
+    60   -99  .196  .317  .385   .75   1.2  1.33   .53  54.7  24.2   -99   -99   7.8   -99   -99   -99
+    90   -99  .196  .343    .4    .4   1.2  1.34   .44  58.6  21.1   -99   -99   7.8   -99   -99   -99
+   120   -99  .247  .418  .485    .3   1.2  1.38   .32  58.8  21.1   -99   -99   7.8   -99   -99   -99
+   200   -99  .247  .418  .491   .11   1.2  1.38   .26  58.8  21.1   -99   -99   7.8   -99   -99   -99
+
+*TRKON20151  -99         C        200  Konya-Turkey !original
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Konya       Turkey         37.804   32.51 Clay
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .6    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .257   .42  .479     1    .8  1.42   .44  59.3  21.1   -99   -99   7.6   -99   -99   -99
+    60   -99  .269  .438  .498   .75    .8  1.47    .3  61.7  21.1   -99   -99   7.9   -99   -99   -99
+    90   -99  .294  .464  .526    .4    .8  1.54   .19  63.8  21.1   -99   -99   7.9   -99   -99   -99
+   120   -99  .292  .454  .516    .3    .8  1.46   .12    64    21   -99   -99   7.9   -99   -99   -99
+   200   -99  .292  .454  .516   .11    .8  1.46   .09    64    21   -99   -99   7.9   -99   -99   -99
+
+*TRKON20161  -99         C        200  Konya-Turkeyy !original
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Konya       Turkey         37.804   32.51 Clay
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .6    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30   -99  .249  .341  .405     1   1.2  1.32   .84  54.6  24.2   -99   -99   7.7   -99   -99   -99
+    60   -99  .246  .327  .385   .75   1.2  1.33   .53  54.7  24.2   -99   -99   7.8   -99   -99   -99
+    90   -99  .246  .343    .4    .4   1.2  1.34   .44  58.6  21.1   -99   -99   7.8   -99   -99   -99
+   120   -99  .317  .428  .485    .3   1.2  1.38   .32  58.8  21.1   -99   -99   7.8   -99   -99   -99
+   200   -99  .317  .428  .491   .11   1.2  1.38   .26  58.8  21.1   -99   -99   7.8   -99   -99   -99

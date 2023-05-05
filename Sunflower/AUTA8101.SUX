@@ -52,7 +52,7 @@ Data from Connor et al 1985
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 81339 81348   5.3   5.3     S     R    70     0     5   -99   -99   -99   -99   -99                        -99
+ 1 81339 81348   5.3   5.3     S     R    70     0     4   -99   -99   -99   -99   -99                        -99
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
@@ -110,7 +110,7 @@ Data from Connor et al 1985
 
 *TILLAGE AND ROTATIONS
 @T TDATE TIMPL  TDEP TNAME
- 1 81330 TI001   -99 -99
+ 1 81330   -99   -99 -99
 
 *ENVIRONMENT MODIFICATIONS
 @E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
