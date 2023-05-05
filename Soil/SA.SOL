@@ -47,3 +47,48 @@
    152   -99 0.151 0.304 0.399 0.070   -99  1.34   -99   -99   -99   -99   -99   -99   -99   -99   -99 
    182   -99 0.151 0.304 0.399 0.030   -99  1.34   -99   -99   -99   -99   -99   -99   -99   -99   -99 
    272   -99 0.151 0.304 0.399 0.010   -99  1.34   -99   -99   -99   -99   -99   -99   -99   -99   -99 
+
+*SRSRKMTP01  SASRI       SCL      40 Shortlands
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Komatipoort RSA               -99     -99 -99
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .6    73     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5   -99  .217  .323    .4     1   .43   1.5   1.5    30    10     0   .06   6.4   -99    15    .5
+    15   -99  .217  .323    .4     1   .43   1.5   1.1    30    10     0   .06   6.4   -99    15    .5
+    20   -99  .206  .302  .403     1   .43   1.5    .9    30    10     0   .04   6.4   -99    15    .5
+    40   -99  .206  .302  .403  .549   .43   1.5   .84    30    10     0   .04   6.4   -99    15    .5
+@  SLB  SLPX  SLPT  SLPO CACO3  SLAL  SLFE  SLMN  SLBS  SLPA  SLPB  SLKE  SLMG  SLNA  SLSU  SLEC  SLCA
+     5   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+    15   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+    20   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+    40   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+
+! Note: SRGF varies now with depth rather than 1 for all layers
+*SAPO080009  G. Saville  SCL     180 Hutton form
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Pongola 318 RSA             27.23   31.37 Orthic A, red apedal B;15-35 clay in B;clay 35-55%
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6   .75    76     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5   -99  .213  .306  .415     1   .43  1.47   .99    33     9   -99   .06   6.1   -99    30    .5
+    20   -99  .257  .341  .401   0.8   .12  1.52   .99    33     9   -99   .06   6.1   -99    30    .5
+    30   -99  .274  .363  .408   0.7   .06   1.5   .99    33     9   -99   .05   6.1   -99    30    .5
+    60   -99  .269  .349  .394   0.3   .06  1.55   .66    43     7   -99   .05   5.2   -99    25    .5
+    90   -99  .271  .361  .408   0.1   .12   1.5   .54    46     9   -99   .04   6.1   -99    25    .5
+   120   -99  .271  .361  .408   0.1   .12   1.5   .54    46     9   -99   .04   6.1   -99    25    .5
+   180   -99  .271  .361  .408  0.05   .12   1.5   .54    46     9   -99   .04   6.1   -99    25    .5
+ 
+*SAPO080010  G. Saville  SCL     180 Hutton form - Lysimeter
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Pongola 318 RSA             27.23   31.37 Orthic A, red apedal B;15-35 clay in B;clay 35-55%
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6   .75    76     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5   -99  .213  .306  .415     1   .43  1.47   .99    33     9   -99   .06   6.1   -99    30    .5
+    20   -99  .257  .341  .401   0.8   .12  1.52   .99    33     9   -99   .06   6.1   -99    30    .5
+    30   -99  .274  .363  .408   0.7   .06   1.5   .99    33     9   -99   .05   6.1   -99    30    .5
+    60   -99  .269  .349  .394   0.3   .06  1.55   .66    43     7   -99   .05   5.2   -99    25    .5
+    90   -99  .271  .361  .408   0.1   .12   1.5   .54    46     9   -99   .04   6.1   -99    25    .5
+   120   -99  .271  .361  .408   0.1   .12   1.5   .54    46     9   -99   .04   6.1   -99    25    .5
+!   180   -99  .271  .361  .408  0.05   .12   1.5   .54    46     9   -99   .04   6.1   -99    25    .5
