@@ -1,6 +1,8 @@
 *EXP. DATA (T): AUTA8101SU Tatura sunflower Connor et al 1985                          
 
 ! File last edited on day 01/17/2021 at 12:27:34 PM
+! KJB - Need to check if the dates are computed after emergence or after planting.
+! KJB - Timing is way off.  Data is late and extended.  Or planting date incorrect?
 !
 @TRNO   DATE  LAID
      1 82005 0.104

@@ -1,8 +1,9 @@
                                                                                     
 
 ! File last edited on day 03/01/2021 at 10:32:32 AM
+! kjb Changed header from TWAH to CWAM to read this
 !
-@TRNO   ADAT  HWAM  TWAH  LAIX
+@TRNO   ADAT  HWAM  CWAM  LAIX
      1   182  3114  8307  2.55
      2   182  2988  9564  3.24
      3   182  3316  9331  3.56

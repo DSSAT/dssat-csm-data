@@ -1,6 +1,20 @@
 *SOILS: University of Agriculture, Faisalabad, Pakistan
 
-*UAFD040001  SSOP        SIL     152 SANDY CLAY LOAM (Experimental Site 1)
+*UAFD040001  SSOP        SIL     152 SANDY CLAY LOAM (Experimental Site 1) !kjb added 0.01 to DUL,SLPF0.90
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ FAISALABAD  PAKISTAN        31.4    73.11 Fine loamy, silik.,therm.
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     9   .23    61     1  0.90 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    15    AP  .146  .304  .422     1   .68   1.5   .89    26    56     0   .07   7.8   -99   9.6   -99
+    30    B2  .152  .303  .414  .900   .15  1.51   .69    28    53     0   .03   7.9   -99  10.4   -99
+    45    B2  .152  .303  .414  .543   .15  1.51   .69    28    53     0   .03   7.9   -99  10.4   -99
+    60    B2  .152  .303  .414  .443   .15  1.51   .69    28    53     0   .03   7.9   -99  10.4   -99
+    92    B2  .152  .303  .414  .343   .15  1.51   .69    28    53     0   .03   7.9   -99  10.4   -99
+   127  B3Ca  .158  .303  .409  .212   .23  1.51   .46    30    50     0   .04   8.8   -99  14.4   -99
+   152     C  .165  .323  .423  .161   .15  1.53   .42    32    54     0   .04   8.2   -99  15.2   -99
+
+*UAFD049991  SSOP        SIL     152 SANDY CLAY LOAM (Experimental Site 1) !original
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  FAISALABAD  PAKISTAN        31.4    73.11 Fine loamy, silik.,therm.
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
