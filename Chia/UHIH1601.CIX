@@ -16,6 +16,8 @@ because V4.7 code had a lower LAI protection that was "fixed" for V4.8.  Now
 the very small seed size gives much lower initial LAI, requiring adjustment
 of the SLWREF and other parameters.  For some reason, the SIZLF and SIZREF 
 have zero effect so no reason to try those GC.
+Have confidence in the IC for N, but not for soil water. Prior residue guessed
+Tried Parton SOC with no success.
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
