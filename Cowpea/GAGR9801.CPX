@@ -39,9 +39,9 @@ Georgia Experiment Station, Griffin, Georgia
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 98155 98161   8.5   8.5     S     R    75     0     4   -99   -99   -99   -99     0                        -99
- 2 98155 98161   8.8   8.8     S     R    75     0     4   -99   -99   -99   -99     0                        -99
- 3 98155 98161   8.4   8.4     S     R    75     0     4   -99   -99   -99   -99     0                        -99
+ 1 98155 98161   8.5   8.5     S     R    75     0     3   -99   -99   -99   -99     0                        -99
+ 2 98155 98161   8.8   8.8     S     R    75     0     3   -99   -99   -99   -99     0                        -99
+ 3 98155 98161   8.4   8.4     S     R    75     0     3   -99   -99   -99   -99     0                        -99
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
