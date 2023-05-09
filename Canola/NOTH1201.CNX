@@ -1,18 +1,17 @@
-*EXP.DETAILS: NOTH1201CN 2012 Nitrogen Rapeseed, West Nipissing, Ontario
+*EXP.DETAILS: NOTH1201CN 2012 NITROGEN RAPESEED, WEST NIPISSING, ONTARIO
 
 *GENERAL
 @PEOPLE
-JQ
+JQ.  Improve soil, almost no SOC below 30cm  Try CENTURY
 @ADDRESS
 960 CARLING, OTTAWA
 @SITE
 West nissipping, North Bay, ON
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Jing, Q., J. Shang, B. Qian, G. Hoogenboom, T. Huffman, J. Liu, B. Ma., X. Geng, X. Jiao, J. Kovacs,
 and D. Walters. 2016. Evaluation of the CSM-CROPGRO-Canola model for simulating canola growth and
 yield at West Nipissing in eastern Canada. Agronomy Journal 108(2):1-10.
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
