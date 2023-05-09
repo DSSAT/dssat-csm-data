@@ -41,7 +41,7 @@ K. J. Boote added 0.1 for SRGF to 183 cm layer (to mimic deep rooting, like NCEP
 !   135   -99   -99   -99   -99    .7   -99   -99   -99   -99   -99    .1   -99   -99   -99   -99 
 !   183   -99   -99   -99   -99   1.4   -99   -99   -99   -99   -99    .0   -99   -99   -99   -99 
 
-!K. J. Boote added 0.1 for SRGF to layers to 165 cm (to mimic deep rooting, like NCEP)
+!K. J. Boote added 0.1 for SRGF to layers to 165 cm (to mimic deep rooting, like NCEP)   
 *GAPL850009  NRCS-USDA   S       300 Lucy, Loamy Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  Sumter      US            32.000  -84.230 Loamy, siliceous, thermic Arenic Paleudult

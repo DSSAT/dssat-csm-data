@@ -36,7 +36,7 @@ VRI Pivot, Stripling Irrigation Research Park, Camilla
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 04127 04133    14    11     S     R    90   -99     4   -99   -99   -99   -99   -99                        VRI Pivot
+ 1 04127 04133    14    11     S     R    90   -99   2.5   -99   -99   -99   -99   -99                        VRI Pivot
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
@@ -56,7 +56,7 @@ VRI Pivot, Stripling Irrigation Research Park, Camilla
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     L     R     1     G     R     2
+ 1 ME              M     M     E     R     S     L     R     1     G     S     1
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     A     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -79,7 +79,7 @@ VRI Pivot, Stripling Irrigation Research Park, Camilla
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     Y     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              M     M     E     R     S     L     R     1     G     R     2
+ 2 ME              M     M     E     R     S     L     R     1     G     S     1
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     N     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -96,6 +96,52 @@ VRI Pivot, Stripling Irrigation Research Park, Camilla
  2 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  2 HA              0 03001   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 3 GE              1     1     S 04121  2150 VRI Pivot_Irrigated
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 3 OP              Y     Y     N     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 3 ME              M     M     E     R     S     L     R     1     G     S     1
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 3 MA              R     A     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 3 PL          03001 03001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 3 IR             40    60   100 GS000 IR004    10   .95
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 3 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 3 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 3 HA              0 03001   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 4 GE              1     1     S 04121  2150 VRI Pivot_Rainfed
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 4 OP              Y     Y     N     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 4 ME              M     M     E     R     S     L     R     1     G     S     1
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 4 MA              R     N     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 4 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 4 PL          03001 03001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 4 IR             35    60   100 GS000 IR004    10   .95
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 4 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 4 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 4 HA              0 03001   100     0
 
 
 
