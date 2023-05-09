@@ -47,7 +47,7 @@ ENVIROTRON, the University of Georgia
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 98167 98171   8.5   8.5     S     R     7     0    .5   -99   -99   -99   -99     0                        -99
+ 1 98167 98171   8.5   8.5     S     R     7     0     1   -99   -99   -99   -99     0                        -99
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
