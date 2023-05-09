@@ -1,4 +1,4 @@
-*EXP.DETAILS: SATO8902SC AGROWTH07 VALIDATION EXPERIMENT
+*EXP.DETAILS: SATO8902SC AGROWTH07 MODEL EVALUATION EXPERIMENT
 
 *GENERAL
 @PEOPLE
@@ -7,8 +7,6 @@ Geoff Inman-Bamber (edited by Matthew Jones)
 South African Sugar Association Experiment Station
 @SITE
 Mount Edgecombe, Natal, South Africa
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
  This is a test experimental details file
 
