@@ -34,7 +34,7 @@ Gainesville, Florida
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    SB 78166   100     0     1     1   180  1000    .8     0   100    15 -99
+ 1    SB 78166   100     0     1     1   -99  1000    .8     0   100    15 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1     5  .086    .6   1.5
  1    15  .086    .6   1.5
