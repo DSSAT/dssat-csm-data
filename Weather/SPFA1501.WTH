@@ -1,7 +1,7 @@
 *WEATHER DATA : SPFA
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  SPPI -22.7017 -47.6423   547  21.1 -99.0 -99.0 -99.0
+  SPFA -22.7017 -47.6423   547  21.5   7.1   2.0   2.0
 @DATE  SRAD  TMAX  TMIN  RAIN  DEWP  WIND   PAR  EVAP  RHUM
 15001  30.0  32.7  20.7   0.3       112.3              60.0
 15002  23.7  31.5  20.1   8.4        86.4              66.4
