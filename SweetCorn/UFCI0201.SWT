@@ -3,7 +3,7 @@
 ! File last edited on day 08/29/2003 at 9:35:33 AM
 !
 ! 
-@TRNO   DATE  CWAD  LAID  PWAD  LWAD  SWAD  SLAD  RWAD  LN%D  CNAD PDMCD AFPWD ADPWD FPWAD
+@TRNO   DATE  CWAD  LAID  PWAD  LWAD  SWAD  SLAD  RWAD  LN%D  CNAD PDMCD AFPWD ADPWD TOFPW
      1 02134    32  0.08     0    21    11   393     9  3.26   1.0  
      1 02148   219  0.40     0   146    72   272    33  2.29   5.0  
      1 02162   944  1.33     0   410   533   243   120  2.16  18.0 

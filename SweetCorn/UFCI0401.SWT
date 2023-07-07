@@ -3,7 +3,7 @@
 ! File last edited on day 08/29/2003 at 9:35:33 AM
 !
 ! 
-@TRNO   DATE  CWAD  LAID  SWAD  LWAD  PWAD PDMCD AFPWD ADPWD FPWAD MFWAD NFWAD
+@TRNO   DATE  CWAD  LAID  SWAD  LWAD  PWAD PDMCD AFPWD ADPWD TOFPW MFWAD NFWAD
      1 04100     1  0.25     0     1     0
      1 04107    50  0.29     9    40     0
      1 04111   169   -99    51   117     0
