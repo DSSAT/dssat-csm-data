@@ -1,83 +1,84 @@
-*EXP.DETAILS: UFWM1401SR STRAWBERRY GROWTH AND YIELD ANALYSIS TRIAL
+*EXP.DETAILS: UFBA1401SR STRAWBERRY VARIETY TRIAL
 !Development and improvement of the CROPGRO-Strawberry model. Scientia Horticulturae, 291, 110538.
 !https://doi.org/10.1016/j.scienta.2021.110538.
 
 *GENERAL
 @PEOPLE
 Hopf, A., Boote, K. J., Oh, J., Guan, Z., Agehara, S., Shelia, V., Whitaker, V. M., Asseng, S., Zhao X., & Hoogenboom, G.
+(and Plotto, A. for data sharing) 
 
 @ADDRESS
 University Of Florida Gulf Coast Research And Education Center, 14625 Co Rd 672, Wimauma, FL 33598, USA
 @SITE
-Wimauma
+Balm
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
  1 1 1 0 Radiance                   1  1  0  0  1  0  0  0  0  0  0  1  1
- 2 1 1 0 Sensation                  2  1  0  0  1  0  0  0  0  0  0  1  1
+ 2 1 1 0 Brilliance                 2  1  0  0  1  0  0  0  0  0  0  1  1
 
 *CULTIVARS
 @C CR INGENO CNAME
  1 SR SR0001 Radiance
- 2 SR SR0002 Sensation
+ 2 SR SR0003 Brilliance
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 UFWM0001 UFWM       -99   -99 DR000   -99   -99   -99 -99    -99  UFGA010700 -99
+ 1 UFBA0001 UFBA       -99   -99 DR000   -99   -99   -99 -99    -99  UFGA010700 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99   -99   -99   -99   -99   -99
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    FA 14213   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
+ 1    FA 16213   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1   -99   -99   -99   -99
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 14282   -99   4.3   4.3     T     R   121    90    10   176    30    20     1   -99                        -99
+ 1 16282   -99   4.3   4.3     T     R   121    90    10   176    30    20     1   -99                        -99
 
 *HARVEST DETAILS
 @H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
- 1 14328 GS000   -99   -99   -99   -99   -99 
- 1 14335 GS000   -99   -99   -99   -99   -99
- 1 14338 GS000   -99   -99   -99   -99   -99
- 1 14342 GS000   -99   -99   -99   -99   -99
- 1 14345 GS000   -99   -99   -99   -99   -99
- 1 14349 GS000   -99   -99   -99   -99   -99
- 1 14352 GS000   -99   -99   -99   -99   -99
- 1 14356 GS000   -99   -99   -99   -99   -99
- 1 14358 GS000   -99   -99   -99   -99   -99
- 1 14363 GS000   -99   -99   -99   -99   -99
- 1 15002 GS000   -99   -99   -99   -99   -99
- 1 15005 GS000   -99   -99   -99   -99   -99
- 1 15008 GS000   -99   -99   -99   -99   -99
- 1 15012 GS000   -99   -99   -99   -99   -99
- 1 15015 GS000   -99   -99   -99   -99   -99
- 1 15019 GS000   -99   -99   -99   -99   -99
- 1 15022 GS000   -99   -99   -99   -99   -99
- 1 15026 GS000   -99   -99   -99   -99   -99
- 1 15029 GS000   -99   -99   -99   -99   -99
- 1 15033 GS000   -99   -99   -99   -99   -99
- 1 15036 GS000   -99   -99   -99   -99   -99
- 1 15040 GS000   -99   -99   -99   -99   -99
- 1 15043 GS000   -99   -99   -99   -99   -99
- 1 15047 GS000   -99   -99   -99   -99   -99
- 1 15050 GS000   -99   -99   -99   -99   -99
- 1 15054 GS000   -99   -99   -99   -99   -99
- 1 15057 GS000   -99   -99   -99   -99   -99
- 1 15061 GS000   -99   -99   -99   -99   -99
- 1 15064 GS000   -99   -99   -99   -99   -99
- 1 15068 GS000   -99   -99   -99   -99   -99
- 1 15071 GS000   -99   -99   -99   -99   -99
- 1 15075 GS000   -99   -99   -99   -99   -99
- 1 15078 GS000   -99   -99   -99   -99   -99
- 1 15082 GS000   -99   -99   -99   -99   -99
- 1 15085 GS000   -99   -99   -99   -99   -99
+ 1 16322 GS000   -99   -99   -99   -99 
+ 1 16326 GS000   -99   -99   -99   -99 
+ 1 16329 GS000   -99   -99   -99   -99 
+ 1 16333 GS000   -99   -99   -99   -99 
+ 1 16336 GS000   -99   -99   -99   -99 
+ 1 16340 GS000   -99   -99   -99   -99 
+ 1 16343 GS000   -99   -99   -99   -99 
+ 1 16347 GS000   -99   -99   -99   -99 
+ 1 16350 GS000   -99   -99   -99   -99 
+ 1 16354 GS000   -99   -99   -99   -99 
+ 1 16357 GS000   -99   -99   -99   -99 
+ 1 16361 GS000   -99   -99   -99   -99 
+ 1 16364 GS000   -99   -99   -99   -99 
+ 1 17002 GS000   -99   -99   -99   -99 
+ 1 17005 GS000   -99   -99   -99   -99 
+ 1 17009 GS000   -99   -99   -99   -99 
+ 1 17012 GS000   -99   -99   -99   -99 
+ 1 17016 GS000   -99   -99   -99   -99 
+ 1 17019 GS000   -99   -99   -99   -99 
+ 1 17023 GS000   -99   -99   -99   -99 
+ 1 17026 GS000   -99   -99   -99   -99 
+ 1 17030 GS000   -99   -99   -99   -99 
+ 1 17033 GS000   -99   -99   -99   -99 
+ 1 17037 GS000   -99   -99   -99   -99 
+ 1 17040 GS000   -99   -99   -99   -99 
+ 1 17044 GS000   -99   -99   -99   -99 
+ 1 17047 GS000   -99   -99   -99   -99 
+ 1 17051 GS000   -99   -99   -99   -99 
+ 1 17054 GS000   -99   -99   -99   -99 
+ 1 17058 GS000   -99   -99   -99   -99 
+ 1 17061 GS000   -99   -99   -99   -99 
+ 1 17065 GS000   -99   -99   -99   -99 
+ 1 17068 GS000   -99   -99   -99   -99 
+ 1 17072 GS000   -99   -99   -99   -99 
+ 1 17075 GS000   -99   -99   -99   -99 
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     S 14274  2150 DEFAULT SIMULATION CONTR
+ 1 GE              1     1     S 16274  2150 DEFAULT SIMULATION CONTR
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              N     N     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
@@ -89,7 +90,7 @@ Wimauma
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
- 1 PL          14001 14001    40   100    30    40    10
+ 1 PL          16001 16001    40   100    30    40    10
 @N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
  1 IR             30    80   100 GS000 IR004    10     1
 @N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF

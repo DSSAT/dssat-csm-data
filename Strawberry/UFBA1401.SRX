@@ -1,29 +1,28 @@
-*EXP.DETAILS: UFWM1401SR STRAWBERRY GROWTH AND YIELD ANALYSIS TRIAL
+*EXP.DETAILS: UFBA1401SR STRAWBERRY VARIETY TRIAL
 !Development and improvement of the CROPGRO-Strawberry model. Scientia Horticulturae, 291, 110538.
 !https://doi.org/10.1016/j.scienta.2021.110538.
 
 *GENERAL
 @PEOPLE
 Hopf, A., Boote, K. J., Oh, J., Guan, Z., Agehara, S., Shelia, V., Whitaker, V. M., Asseng, S., Zhao X., & Hoogenboom, G.
+(and Plotto, A. for data sharing) 
 
 @ADDRESS
 University Of Florida Gulf Coast Research And Education Center, 14625 Co Rd 672, Wimauma, FL 33598, USA
 @SITE
-Wimauma
+Balm
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
  1 1 1 0 Radiance                   1  1  0  0  1  0  0  0  0  0  0  1  1
- 2 1 1 0 Sensation                  2  1  0  0  1  0  0  0  0  0  0  1  1
 
 *CULTIVARS
 @C CR INGENO CNAME
  1 SR SR0001 Radiance
- 2 SR SR0002 Sensation
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 UFWM0001 UFWM       -99   -99 DR000   -99   -99   -99 -99    -99  UFGA010700 -99
+ 1 UFBA0001 UFBA       -99   -99 DR000   -99   -99   -99 -99    -99  UFGA010700 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99   -99   -99   -99   -99   -99
 
@@ -71,9 +70,6 @@ Wimauma
  1 15068 GS000   -99   -99   -99   -99   -99
  1 15071 GS000   -99   -99   -99   -99   -99
  1 15075 GS000   -99   -99   -99   -99   -99
- 1 15078 GS000   -99   -99   -99   -99   -99
- 1 15082 GS000   -99   -99   -99   -99   -99
- 1 15085 GS000   -99   -99   -99   -99   -99
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
