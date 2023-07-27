@@ -3,6 +3,9 @@
 *GENERAL
 @PEOPLE
  Cheryl Porter
+
+@NOTES
+ Hypothetical tomato experiment to illustrate bed configuration, drip irrigation, 2D model
  
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -24,11 +27,11 @@
  4 TS2D0001 TS2D1501   -99   -99 -99     -99   -99 -99   SIL    160  2DTEST0001 2D, raised, No PM  
  5 TS2D0001 TS2D1501   -99   -99 -99     -99   -99 -99   SIL    160  2DTEST0001 2D, raised, Part PM
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
- 1              43             119       625               -99   -99   -99   -99   -99   -99
- 2              43             119       625               -99   -99   -99   -99   -99   -99
- 3              43             119       625               -99   -99   -99   -99   -99   -99
- 4              43             119       625               -99   -99   -99   -99   -99   -99
- 5              43             119       625               -99   -99   -99   -99   -99   -99
+ 1              40             116       625               -99   -99   -99   -99   -99   -99
+ 2              40             116       625               -99   -99   -99   -99   -99   -99
+ 3              40             116       625               -99   -99   -99   -99   -99   -99
+ 4              40             116       625               -99   -99   -99   -99   -99   -99
+ 5              40             116       625               -99   -99   -99   -99   -99   -99
 !2023-07-14 chp changed order of PMALB, BDWD, BDHT so that 1D and 2D models can use the same FileXs.
 @L PMALB  BDWD  BDHT
  1   -99   -99   -99    !2D, flat, No PM    

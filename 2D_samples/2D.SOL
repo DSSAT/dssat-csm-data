@@ -4,7 +4,7 @@
 
 *2DTEST0001  SE          SL       160  Silty Loam 
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- NM          China           42.95  119.07 -99
+ NM          China            40.     116. -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      R   .13     9   .10    61  0.95     1  B001  A001  B001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
