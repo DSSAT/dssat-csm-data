@@ -1,7 +1,8 @@
-*WEATHER DATA : CANM
+*WEATHER DATA : TS2D
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  CANM   42.948  119.072   625  7.92  61.7   2.0   3.0
+  TS2D   39.884  116.398   625  7.92  61.7   2.0   3.0
+  
 @DATE  SRAD  TMAX  TMIN  RAIN  DEWP  WIND   PAR  EVAP  RHUM
 15110  24.5  18.1  -0.1   0.0                               
 15111  22.4  14.8   3.1   0.0                               
