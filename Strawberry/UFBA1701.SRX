@@ -1,83 +1,81 @@
-*EXP.DETAILS: UFWM1401SR STRAWBERRY GROWTH AND YIELD ANALYSIS TRIAL
+*EXP.DETAILS: UFBA1401SR STRAWBERRY VARIETY TRIAL
 !Development and improvement of the CROPGRO-Strawberry model. Scientia Horticulturae, 291, 110538.
 !https://doi.org/10.1016/j.scienta.2021.110538.
 
 *GENERAL
 @PEOPLE
 Hopf, A., Boote, K. J., Oh, J., Guan, Z., Agehara, S., Shelia, V., Whitaker, V. M., Asseng, S., Zhao X., & Hoogenboom, G.
+(and Plotto, A. for data sharing) 
 
 @ADDRESS
 University Of Florida Gulf Coast Research And Education Center, 14625 Co Rd 672, Wimauma, FL 33598, USA
 @SITE
-Wimauma
+Balm
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
  1 1 1 0 Radiance                   1  1  0  0  1  0  0  0  0  0  0  1  1
- 2 1 1 0 Sensation                  2  1  0  0  1  0  0  0  0  0  0  1  1
+ 2 1 1 0 Brilliance                 2  1  0  0  1  0  0  0  0  0  0  1  1
 
 *CULTIVARS
 @C CR INGENO CNAME
  1 SR SR0001 Radiance
- 2 SR SR0002 Sensation
+ 2 SR SR0003 Brilliance
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 UFWM0001 UFWM       -99   -99 DR000   -99   -99   -99 -99    -99  UFGA010700 -99
+ 1 UFBA0001 UFBA       -99   -99 DR000   -99   -99   -99 -99    -99  UFGA010700 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99   -99   -99   -99   -99   -99
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    FA 14213   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
+ 1    FA 17213   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1   -99   -99   -99   -99
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 14282   -99   4.3   4.3     T     R   121    90    10   176    30    20     1   -99                        -99
+ 1 17282   -99   4.3   4.3     T     R   121    90    10   176    30    20     1   -99                        -99
 
 *HARVEST DETAILS
 @H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
- 1 14328 GS000   -99   -99   -99   -99   -99 
- 1 14335 GS000   -99   -99   -99   -99   -99
- 1 14338 GS000   -99   -99   -99   -99   -99
- 1 14342 GS000   -99   -99   -99   -99   -99
- 1 14345 GS000   -99   -99   -99   -99   -99
- 1 14349 GS000   -99   -99   -99   -99   -99
- 1 14352 GS000   -99   -99   -99   -99   -99
- 1 14356 GS000   -99   -99   -99   -99   -99
- 1 14358 GS000   -99   -99   -99   -99   -99
- 1 14363 GS000   -99   -99   -99   -99   -99
- 1 15002 GS000   -99   -99   -99   -99   -99
- 1 15005 GS000   -99   -99   -99   -99   -99
- 1 15008 GS000   -99   -99   -99   -99   -99
- 1 15012 GS000   -99   -99   -99   -99   -99
- 1 15015 GS000   -99   -99   -99   -99   -99
- 1 15019 GS000   -99   -99   -99   -99   -99
- 1 15022 GS000   -99   -99   -99   -99   -99
- 1 15026 GS000   -99   -99   -99   -99   -99
- 1 15029 GS000   -99   -99   -99   -99   -99
- 1 15033 GS000   -99   -99   -99   -99   -99
- 1 15036 GS000   -99   -99   -99   -99   -99
- 1 15040 GS000   -99   -99   -99   -99   -99
- 1 15043 GS000   -99   -99   -99   -99   -99
- 1 15047 GS000   -99   -99   -99   -99   -99
- 1 15050 GS000   -99   -99   -99   -99   -99
- 1 15054 GS000   -99   -99   -99   -99   -99
- 1 15057 GS000   -99   -99   -99   -99   -99
- 1 15061 GS000   -99   -99   -99   -99   -99
- 1 15064 GS000   -99   -99   -99   -99   -99
- 1 15068 GS000   -99   -99   -99   -99   -99
- 1 15071 GS000   -99   -99   -99   -99   -99
- 1 15075 GS000   -99   -99   -99   -99   -99
- 1 15078 GS000   -99   -99   -99   -99   -99
- 1 15082 GS000   -99   -99   -99   -99   -99
- 1 15085 GS000   -99   -99   -99   -99   -99
+ 1 17326 GS000   -99   -99   -99   -99 
+ 1 17331 GS000   -99   -99   -99   -99 
+ 1 17334 GS000   -99   -99   -99   -99 
+ 1 17338 GS000   -99   -99   -99   -99 
+ 1 17341 GS000   -99   -99   -99   -99 
+ 1 17345 GS000   -99   -99   -99   -99 
+ 1 17348 GS000   -99   -99   -99   -99 
+ 1 17352 GS000   -99   -99   -99   -99 
+ 1 17355 GS000   -99   -99   -99   -99 
+ 1 17359 GS000   -99   -99   -99   -99 
+ 1 17362 GS000   -99   -99   -99   -99 
+ 1 18001 GS000   -99   -99   -99   -99 
+ 1 18004 GS000   -99   -99   -99   -99 
+ 1 18008 GS000   -99   -99   -99   -99 
+ 1 18011 GS000   -99   -99   -99   -99 
+ 1 18015 GS000   -99   -99   -99   -99 
+ 1 18018 GS000   -99   -99   -99   -99 
+ 1 18022 GS000   -99   -99   -99   -99 
+ 1 18025 GS000   -99   -99   -99   -99 
+ 1 18029 GS000   -99   -99   -99   -99 
+ 1 18032 GS000   -99   -99   -99   -99 
+ 1 18036 GS000   -99   -99   -99   -99 
+ 1 18039 GS000   -99   -99   -99   -99 
+ 1 18043 GS000   -99   -99   -99   -99 
+ 1 18046 GS000   -99   -99   -99   -99 
+ 1 18050 GS000   -99   -99   -99   -99 
+ 1 18053 GS000   -99   -99   -99   -99 
+ 1 18057 GS000   -99   -99   -99   -99 
+ 1 18060 GS000   -99   -99   -99   -99 
+ 1 18064 GS000   -99   -99   -99   -99 
+ 1 18067 GS000   -99   -99   -99   -99 
+ 1 18071 GS000   -99   -99   -99   -99 
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     S 14274  2150 DEFAULT SIMULATION CONTR
+ 1 GE              1     1     S 17274  2150 DEFAULT SIMULATION CONTR
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              N     N     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
@@ -89,7 +87,7 @@ Wimauma
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
- 1 PL          14001 14001    40   100    30    40    10
+ 1 PL          17001 17001    40   100    30    40    10
 @N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
  1 IR             30    80   100 GS000 IR004    10     1
 @N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
@@ -98,3 +96,4 @@ Wimauma
  1 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 01001   100     0
+
