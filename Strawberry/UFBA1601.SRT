@@ -7,8 +7,7 @@
 !Development and improvement of the CROPGRO-Strawberry model. Scientia Horticulturae, 291, 110538.
 !https://doi.org/10.1016/j.scienta.2021.110538.   
 
-@TRNO   DATE  HRPN CHFNM HPODW CHFPW
-     1 16282  -99.  -99.  -99.  -99.
+@TRNO   DATE  HRPN CHFNM HFPOW CHFPW
      1 16322    0.    0.    0.    0.
      1 16326    0.    0.    0.    0.
      1 16326    0.    0.    0.    0.
@@ -180,7 +179,6 @@
      1 17075   4.4  227.  722. 41954
      1 17075    4. 183.9  783. 35873
      1 17075   5.7 197.1  893. 36384
-     2 16282  -99.  -99.  -99.  -99.
      2 16322    0.    0.    0.    0.
      2 16326   0.4   0.4  110.  110.
      2 16326   0.4   0.4   84.   84.
