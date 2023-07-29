@@ -2,7 +2,7 @@
 !Strawberry experiments conducted with 6 repetitions, two treatments for two different cultivars
 !Treatment 1 = Cultivar Radiance
 !Treatment 2 = Cultivar Sensation (also called 'Florida127')
-!Observations for harvested fruit weight dry (HRVD, CHPDT), fresh (HPODW, CHFPW) and fruit number (HRPN, CHFNM) 
+!Observations for harvested fruit weight dry (HPODW, CHPDT), fresh (HFPOW, CHFPW) and fruit number (HRPN, CHFNM) 
 !were normalized (excluding non-marketable fruit, -25% weight, -40% fruit number) for publication and model calibration. 
 !This fileT contains the original observed values, before normalization
 !The conversion between total measured and normalized yield is described in the publication: 
@@ -11,7 +11,7 @@
 !Development and improvement of the CROPGRO-Strawberry model. Scientia Horticulturae, 291, 110538.
 !https://doi.org/10.1016/j.scienta.2021.110538.       
 
-@TRNO   DATE  XRPN XVSTF XRFPW  S#AD  SMAD  HRPN CHFNM HPODW CHFPW  HRVD CHPDT ARFPW  FRWD  FRHT  FSIZ PDMCD
+@TRNO   DATE  XRPN XVSTF XRFPW  S#AD  SMAD  HRPN CHFNM HFPOW CHFPW  HPODW CHPDT ARFPW  FRWD  FRHT  FSIZ PDMCD
      1 14294  -99    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
      1 14307  -99    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
      1 14321  -99    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
