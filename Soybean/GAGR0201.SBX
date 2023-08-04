@@ -43,8 +43,11 @@ Climate change, on a global scale, could affect agriculture at different levels.
  1     5   .21    .3   2.3
  1    15   .21    .3   2.3
  1    30   .21    .3   2.3
- 1    45   .21    .3   2.3
  1    60   .21    .3   2.3
+ 1    90  0.21   -99   -99
+ 1   120  0.21   -99   -99
+ 1   150  0.21   -99   -99
+ 1   180  0.21   -99   -99
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
@@ -66,11 +69,11 @@ Climate change, on a global scale, could affect agriculture at different levels.
 
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
- 1 02303   -99   -99   -99   -99   -99   -99   -99   -99 -99
+ 1 02303 RE001   -99   -99   -99   -99   -99   -99   -99 -99
 
 *TILLAGE AND ROTATIONS
 @T TDATE TIMPL  TDEP TNAME
- 1 02303   -99   -99 -99
+ 1 02303 TI001   -99 -99
 
 *ENVIRONMENT MODIFICATIONS
 @E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  

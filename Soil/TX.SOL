@@ -1,6 +1,6 @@
 *SOILS: Texas soils
 
-*TXBD000001  IBSNAT      SIC     210 DEFAULT - DEEP SILTY CLAY
+*TXBD000001  IBSNAT      SIC     210 Texas - DEEP SILTY CLAY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
@@ -17,7 +17,7 @@
    180   -99 0.260 0.380 0.457 0.220  0.20  1.40  0.10  50.0  45.0   0.0 0.010   6.5   -99   -99   -99 
    210   -99 0.260 0.380 0.457 0.220  0.20  1.40  0.01  50.0  45.0   0.0 0.000   6.5   -99   -99   -99 
 
-*TXBD000002  IBSNAT      SIC     210 DEFAULT - DEEP SILTY CLAY
+*TXBD000002  IBSNAT      SIC     210 Teaxs - DEEP SILTY CLAY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
@@ -35,22 +35,25 @@
    210   -99 0.260 0.380 0.457 0.100  0.01  1.40  0.01  50.0  45.0   0.0 0.000   6.5   -99   -99   -99 
 
 !Soil DUL and LL modified by visually matching soil water measurements, K. J. Boote
+!increased sldr to drain better to lower layers, and SLRO from 81 to 76 to get H2O to L 5
+! decr DUL 0.04 for L4,5,6, and incr DUL 0.01 for 8, 9, 10
+! incr srgf for L6,7,8,9,10
 *TXBD000005  IBSNAT      SIC     210 DEFAULT - DEEP SILTY CLAY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic          -99      -99 Generic
+ Generic     Generic           -99    -99  Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
-   -99  0.11   6.0  0.30  82.0  1.00  1.00 IB001 IB001 IB001
+   -99  0.11   6.0  0.40  76.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
      5   -99 0.150 0.300 0.481 1.000  0.50  1.30  1.75  50.0  45.0   0.0 0.170   6.5   -99   -99   -99 
     15   -99 0.150 0.300 0.481 1.000  0.20  1.30  1.75  50.0  45.0   0.0 0.170   6.5   -99   -99   -99 
     30   -99 0.150 0.300 0.482 0.700  0.20  1.30  1.60  50.0  45.0   0.0 0.170   6.5   -99   -99   -99 
-    45   -99 0.180 0.330 0.465 0.400  0.20  1.35  1.45  50.0  45.0   0.0 0.140   6.5   -99   -99   -99 
-    60   -99 0.190 0.340 0.465 0.300  0.20  1.35  1.45  50.0  45.0   0.0 0.140   6.5   -99   -99   -99 
-    90   -99 0.210 0.360 0.468 0.220  0.20  1.35  1.10  50.0  45.0   0.0 0.110   6.5   -99   -99   -99 
-   120   -99 0.230 0.370 0.452 0.240  0.20  1.40  0.65  50.0  45.0   0.0 0.060   6.5   -99   -99   -99 
-   150   -99 0.245 0.380 0.455 0.180  0.20  1.40  0.30  50.0  45.0   0.0 0.030   6.5   -99   -99   -99 
-   180   -99 0.245 0.380 0.457 0.160  0.20  1.40  0.10  50.0  45.0   0.0 0.010   6.5   -99   -99   -99 
-   210   -99 0.245 0.380 0.457 0.120  0.20  1.40  0.01  50.0  45.0   0.0 0.000   6.5   -99   -99   -99 
+    45   -99 0.180 0.320 0.465 0.400  0.20  1.35  1.45  50.0  45.0   0.0 0.140   6.5   -99   -99   -99 
+    60   -99 0.190 0.330 0.465 0.300  0.20  1.35  1.45  50.0  45.0   0.0 0.140   6.5   -99   -99   -99 
+    90   -99 0.210 0.350 0.468 0.240  0.20  1.35  1.10  50.0  45.0   0.0 0.110   6.5   -99   -99   -99 
+   120   -99 0.230 0.370 0.452 0.260  0.20  1.40  0.65  50.0  45.0   0.0 0.060   6.5   -99   -99   -99 
+   150   -99 0.245 0.390 0.455 0.200  0.20  1.40  0.30  50.0  45.0   0.0 0.030   6.5   -99   -99   -99 
+   180   -99 0.245 0.390 0.457 0.180  0.20  1.40  0.10  50.0  45.0   0.0 0.010   6.5   -99   -99   -99 
+   210   -99 0.245 0.390 0.457 0.140  0.20  1.40  0.01  50.0  45.0   0.0 0.000   6.5   -99   -99   -99 
    
 *TXCL120007  Texas Agri  SL       140  Abilene Clay loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
@@ -87,3 +90,38 @@
    140  Btk2  .134  .292  .405  .074  1.32   1.5  .841    23    31     0   .03   8.5   -99    30   -99
    170  Btk2  .134  .292  .405  .050  1.32   1.5  .841    23    31     0   .03   8.5   -99    30   -99
    200  Btk2  .134  .292  .405  .020  1.32   1.5  .841    23    31     0   .03   8.5   -99 
+
+!modified slpf on Jan 7, 2022 to reduce yield, back up to 1.00 on 4/21/23, incr DUL-LL for bottom two layers
+!because DUL-LL should nhot be that low 8 and 10% for soil with that much clay and silt
+*TXVERNON01  NSSC SSL       L     216  TIPTON LOAM
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ CHILLICOTHE USA              34.2   99.51 Fine-loamy, mixed, superactive, thermic Pachic Arg
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .6    61     1  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    19   Ap1   .12  .261  .377     1  1.32  1.58    .7    15  41.5   -99   .06   7.6   -99  16.1   -99
+    32   Ap2  .124   .26  .379    .8  1.32  1.58    .5  16.8  41.2   -99   .04   7.9   -99  16.1   -99
+    57   Bt1  .158  .291  .412    .7  1.32  1.49    .5  23.7  37.7   -99   .06   7.9   -99  24.1   -99
+    89   Bt2  .182  .308  .413    .5   .23  1.49    .4    29  33.9   -99   .05   7.8   -99  24.1   -99
+   107   Bt3  .182  .317  .391    .4   .23  1.55    .4    29  38.1   -99   .03   7.7   -99  24.1   -99
+   137  Btk1  .176  .295  .357    .2   .23  1.64    .2  29.2  33.1     1   .03   8.3   -99  22.6   -99
+   181  Btk2  .113  .224  .343    .1  2.59  1.63    .1  18.2  20.7     6   .03   8.5   -99  21.5   -99
+   216  Btk3  .155  .265   .37   .02   .43  1.56    .1  26.9  27.4     5   .04   8.5   -99  15.7   -99
+
+
+*TXVERNON04  NSSC SSL    L        200  Abilene Clay Loam
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ CHILLICOTHE USA             34.19   99.53 Fine, mixed, superactive, thermic Pachic Argiustol
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+     G   .09     6    .6    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5    Ap  .132   .31  .406     1  1.32   1.5   .81  20.7    33   -99    .1   7.5   -99    26   -99
+    15    Ap  .132   .31  .406     1  1.32   1.5   .81  20.7    33   -99    .1   7.5   -99    26   -99
+    30   Bt1  .149   .36  .406     1   .23   1.5   .78  34.3  34.9   -99   .07   7.5   -99  32.1   -99
+    56   Bt1  .149   .36  .406     1   .23   1.5   .78  34.3  34.9   -99   .07   7.5   -99  32.1   -99
+    86   Bt2  .156   .36  .443     1   .23   1.4   .67  36.4    32   -99   .05   7.8   -99  32.8   -99
+   122   Bk1  .155  .353  .445    .8   .23   1.4   .39  37.7    32   -99   .04   7.9   -99  25.3   -99
+   157   Bk2  .159  .353  .445    .5   .43   1.4   .15  25.4  25.9    24   .04   7.9   -99  22.1   -99
+   170   Bk2  .159  .353  .445    .3   .43   1.4   .15  25.4  25.9    24   .04   7.9   -99  22.1   -99
+   200   Bk2  .159  .353  .445    .1   .43   1.4   .15  25.4  25.9    24   .04   7.9   -99  22.1   -99
+

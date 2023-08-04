@@ -10,10 +10,10 @@
 @ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
     256   -99     8   -99   -99   -99   -99   -99   -99   -99
 @NOTES
-Steberl, K., K.J. Boote, S. Munz, and S. Graeff-Hönninger. 2019.
+Steberl, K., K.J. Boote, S. Munz, and S. Graeff-HÃ¶nninger. 2019.
 Modifying the CROPGRO Safflower model to simulate growth, seed and floret yield under
 Means of 4 treatments
-K. Steberl, S. Munz, and S. Graeff-Hönninger; University of Hohenheim, Germany
+K. Steberl, S. Munz, and S. Graeff-HÃ¶nninger; University of Hohenheim, Germany
 K.J. Boote; University of Florida
 Model run with N balance off. IC NH4 and NO3 are real, but could not get
 sufficient N mineralization to drive growth with either Godwin or CENTURY
@@ -122,11 +122,11 @@ protection (V4.8 vs V4.7) reduced LAI and productivity for small seeded crops.
 
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
- 1 18105   -99   -99   -99   -99   -99   -99   -99   -99 -99
+ 1 18105 RE001   -99   -99   -99   -99   -99   -99   -99 -99
 
 *CHEMICAL APPLICATIONS
 @C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
- 1 18111   -99   -99   -99   -99   -99  -99
+ 1 18111 CH001   -99   -99   -99   -99  -99
 
 *TILLAGE AND ROTATIONS
 @T TDATE TIMPL  TDEP TNAME

@@ -32,3 +32,77 @@
    110   -99  .166  .266  .432   .07   .23  1.44   .19    31    33   -99   -99   8.6   -99  20.2   -99
    130   -99  .139  .276  .461   .06   .23  1.36   .14  37.9  37.9   -99   -99   8.4   -99  10.9   -99
    150   -99  .165  .287  .461   .04   .23  1.56   .14  37.9  37.9   -99   -99     8   -99  10.9   -99
+   
+! Jan 7, 2022, reduced SLPF to 0.85
+*NMCL202201  USAD-NRCS   CL       150  Olton Clay Loam
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ ASC         USA             34.35  103.12 fine, mixed, superlative, thermic Aridic Paleustol
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+     R   .14     6    .6    65     1  0.85 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99  .145  .212  .467     1   .23  1.33    .9  31.7  36.4   -99   -99   7.8   -99  20.1   -99
+    30   -99  .149  .249  .487     1   .06  1.28   .64  40.2  39.5   -99   -99   7.7   -99    10   -99
+    50   -99  .162  .293  .487  .435   .06  1.28   .64  40.2  39.5   -99   -99   7.7   -99    10   -99
+    70   -99  .152  .282  .464  .185   .23  1.35   .34    35    38   -99   -99   8.5   -99    22   -99
+    90   -99  .162  .273  .443  .085   .23  1.41   .25    34  33.5   -99   -99   8.6   -99  22.1   -99
+   110   -99  .166  .266  .432   .07   .23  1.44   .19    31    33   -99   -99   8.6   -99  20.2   -99
+   130   -99  .139  .276  .461   .06   .23  1.36   .14  37.9  37.9   -99   -99   8.4   -99  10.9   -99
+   150   -99  .165  .287  .461   .04   .23  1.56   .14  37.9  37.9   -99   -99     8   -99  10.9   -99
+
+!Next soil correct with name, location, and topsoil (Singla, 2016).  For lower layers, assumed texture and guessed SLOC & SRGF
+! Jan 8, 2022, reduced SLPF to 0.84
+*NMLC000001  -99         CL       200  Belen clay
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Las Cruces  USA            32.267 -106.75 clay over loamy, smectitic over mixed, superactive, calcareous, thermic Vertic Torrifluvent
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+     G   .13     6   .25    73     1  0.84 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5   -99  .184  .324  .449     1   .23  1.39   3.0    33    35   -99   -99   7.5   -99   -99   -99
+    15   -99  .184  .324  .449     1   .23  1.39   3.0    33    35   -99   -99   7.5   -99   -99   -99
+    30   -99  .184  .324  .449     1   .23  1.39   2.0    33    35   -99   -99   7.5   -99   -99   -99
+    45   -99  .184  .324  .449     1   .23  1.39   1.0    33    35   -99   -99   7.5   -99   -99   -99
+    60   -99  .184  .324  .449     1   .23  1.39   0.5    33    35   -99   -99   7.5   -99   -99   -99
+    90   -99  .184  .324  .449     1   .23  1.39   0.3    33    35   -99   -99   7.5   -99   -99   -99
+   120   -99  .184  .324  .449   0.8   .23  1.39   0.2    33    35   -99   -99   7.5   -99   -99   -99
+   150   -99  .184  .324  .449   0.5   .23  1.39   0.1    33    35   -99   -99   7.5   -99   -99   -99
+   170   -99  .184  .324  .449   0.3   .23  1.39   0.1    33    35   -99   -99   7.5   -99   -99   -99
+   200   -99  .184  .324  .449   0.1   .23  1.39   0.1    33    35   -99   -99   7.5   -99   -99   -99
+
+!Next soil correct with name, location, and topsoil (Singla, 2016).  For lower layers, assumed texture and guessed SLOC & SRGF
+! Jan 7, 2022, reduced SLPF to 0.90
+! Jan 7, 2022, replaced SRGF with DSSAT default rooting
+*NMLC001111  -99         CL       200  Belen clay
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Las Cruces  USA            32.267 -106.75 clay over loamy, smectitic over mixed, superactive, calcareous, thermic Vertic Torrifluvent
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+     G   .13     6   .25    73     1  0.88 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5   -99  .184  .324  .449     1   .23  1.39   3.0    33    35   -99   -99   7.5   -99   -99   -99
+    15   -99  .184  .324  .449     1   .23  1.39   3.0    33    35   -99   -99   7.5   -99   -99   -99
+    30   -99  .184  .324  .449 0.638   .23  1.39   2.0    33    35   -99   -99   7.5   -99   -99   -99
+    45   -99  .184  .324  .449 0.472   .23  1.39   1.0    33    35   -99   -99   7.5   -99   -99   -99
+    60   -99  .184  .324  .449 0.350   .23  1.39   0.5    33    35   -99   -99   7.5   -99   -99   -99
+    90   -99  .184  .324  .449 0.223   .23  1.39   0.3    33    35   -99   -99   7.5   -99   -99   -99
+   120   -99  .184  .324  .449 0.122   .23  1.39   0.2    33    35   -99   -99   7.5   -99   -99   -99
+   150   -99  .184  .324  .449 0.063   .23  1.39   0.1    33    35   -99   -99   7.5   -99   -99   -99
+   170   -99  .184  .324  .449 0.037   .23  1.39   0.1    33    35   -99   -99   7.5   -99   -99   -99
+   200   -99  .184  .324  .449 0.020   .23  1.39   0.1    33    35   -99   -99   7.5   -99   -99   -99
+
+!Next original soil correct with name, location, and topsoil (Singla, 2016).  For lower layers, assumed texture and guessed SLOC & SRGF
+*NMLC002222  -99         CL       200  Belen clay
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Las Cruces  USA            32.267 -106.75 clay over loamy, smectitic over mixed, superactive, calcareous, thermic Vertic Torrifluvent
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+     G   .13     6   .25    73     1  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5   -99  .184  .324  .449     1   .23  1.39   3.0    33    35   -99   -99   7.5   -99   -99   -99
+    15   -99  .184  .324  .449     1   .23  1.39   3.0    33    35   -99   -99   7.5   -99   -99   -99
+    30   -99  .184  .324  .449     1   .23  1.39   2.0    33    35   -99   -99   7.5   -99   -99   -99
+    45   -99  .184  .324  .449     1   .23  1.39   1.0    33    35   -99   -99   7.5   -99   -99   -99
+    60   -99  .184  .324  .449     1   .23  1.39   0.5    33    35   -99   -99   7.5   -99   -99   -99
+    90   -99  .184  .324  .449     1   .23  1.39   0.3    33    35   -99   -99   7.5   -99   -99   -99
+   120   -99  .184  .324  .449   0.8   .23  1.39   0.2    33    35   -99   -99   7.5   -99   -99   -99
+   150   -99  .184  .324  .449   0.5   .23  1.39   0.1    33    35   -99   -99   7.5   -99   -99   -99
+   170   -99  .184  .324  .449   0.3   .23  1.39   0.1    33    35   -99   -99   7.5   -99   -99   -99
+   200   -99  .184  .324  .449   0.1   .23  1.39   0.1    33    35   -99   -99   7.5   -99   -99   -99
+

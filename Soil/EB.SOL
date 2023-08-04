@@ -1,10 +1,10 @@
-*SOILS
-! These soils are for use with the nitrate leaching version of the models
+*SOILS: Soil profiles from Brazil
+! Some of these soils are for use with the nitrate leaching version of the models
 ! which allows for input of an adsorption coefficient (SADC) for each layer.
 
 *EBMZ850001  SCS         -99     120 LATOSSOLO VERMELHO AMARELLO
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- CPAC        BRASIL       -15.590  -47.700 CLAYEY, OXIDIC, ISOTHERMIC ANIONIC ACRUSTOX
+ CPAC        BRASIL        -15.590 -47.700 CLAYEY, OXIDIC, ISOTHERMIC ANIONIC ACRUSTOX
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     RY  0.14   7.1  0.50  76.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -19,7 +19,7 @@
 
 *EBPI080100  LVada       SC      450 Latossolo Vermelho Amarelo
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Piracicaba  Brasil        -22.83   -47.33 Ultima Correcao - SGRF, SSKS SLLL SDUL
+ Piracicaba  Brasil         -22.83  -47.33 Ultima Correcao - SGRF, SSKS SLLL SDUL
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      R   .14     2    .2    70     1  0.95 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -29,6 +29,20 @@
     40   Bw1  .242  .366   .48   .79    .4  1.35    .7    44    22     0   -99   6.1   -99   2.7   -99
     55   Bw2  .240  .340   .48    .7    .4  1.15    .4    61     4     0   -99   6.5   -99   2.8   -99
     75   Bw2  .240  .340   .49   .62    .4  1.15    .4    61     4     0   -99   6.5   -99   2.8   -99
-    85   Bw3  .240  .340   .49   .55    .4  1.13    .3    61     4     0   -99   6.5   -99   2.3   -99
-   200   Bw5  .250  .350   .49   .31   .36  1.13    .1    59    10     0   -99   6.6   -99   2.1   -99
+    85   Bw3  .240  .340   .49   .55    .4  1.13   .36    61     4     0   -99   6.5   -99   2.3   -99
+   200   Bw5  .250  .350   .49   .31   .36  1.13   .36    59    10     0   -99   6.6   -99   2.1   -99
    450   Bw5  .250  .350   .49   .02   .36  1.13    .1    59    10     0   -99   6.6   -99   2.1   -99
+   
+*EBEP170001  -99         C       100 Piraciba soil
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ EmbPecSud   Brasil          21.96   47.84 -99
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .4    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    20    AB  .269  .423  .497     1   .06  1.21  2.82  41.2  14.9     0   -99   6.1   -99   8.3   -99
+    40     C  .279  .405  .469  .549   .06   1.3  2.04  47.5   8.1     0   -99   -99   -99   -99   -99
+    60     C  .268  .382  .454  .368   .06  1.35  1.59  47.8   7.6     0   -99   -99   -99   -99   -99
+    80     C  .269  .378  .448  .247   .06  1.37  1.45  48.7   6.5     0   -99   -99   -99   -99   -99
+   100     C  .257   .36  .436  .165   .06  1.41  1.09  48.3   7.7     0   -99   -99   -99   -99   -99
+   200     C  .257   .36  .436   .10   .06  1.41  0.36  48.3   7.7     0   -99   -99   -99   -99   -99
+   450     C  .257   .36  .436   .02   .06  1.41  0.36  48.3   7.7     0   -99   -99   -99   -99   -99   

@@ -46,6 +46,7 @@ Piracicaba, SP, Brazil
  1   160  .366    .1    .8
  1   180  .366    .1    .8
  1   200  .366    .1    .8
+ 1   450  .366   -99   -99
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME

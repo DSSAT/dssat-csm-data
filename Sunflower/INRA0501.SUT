@@ -1,8 +1,8 @@
 EXP. DATA (T): INRA0501SU INRA 2005/1 Time-course (T) data                
 
 ! File last edited on day 01/17/2021 at 12:29:34 PM
-!
-! 
+! KJB - What is XO%D.  Is it same as harvest index (HIAD) or pod harvest index (HIPD)?
+! XO%D - If so, then compute as fraction and use correct header
 !
 @TRNO   DATE  LAID  XO%D
      1 05243  2.49   -99

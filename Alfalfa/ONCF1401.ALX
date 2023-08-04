@@ -1,0 +1,134 @@
+*EXP.DETAILS: ONCF1401AL CFIA Obs & Auto-Mow OTTAWA
+
+*GENERAL
+@PEOPLE
+Qi Jing, Budong Qian, Gilles Bélanger, Andrew VanderZaag, Guillaume Jégo,
+@ADDRESS
+Agriculture and Agri-Food Canada, Ottawa, Ontario, K1A 0C6, Canada
+@SITE
+Ottawa, Canada
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+      2   -99   -99   -99   -99   -99     1   -99   -99 pping
+@NOTES
+put it here
+!Simulating alfalfa regrowth and biomass in eastern Canada using the CSMCROPGRO-
+!perennial forage model.  European Journal of Agronomy 113 (2020) 125971,
+!https://doi.org/10.1016/j.eja.2019.125971
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 CFIA-Alfalfa               1  1  0  1  1  0  0  0  0  0  0  1  1
+ 2 1 1 0 34day fixed CFIA           1  1  0  1  1  0  0  0  0  0  0  1  2
+ 3 1 1 0 630GDD harv CFIA           1  1  0  1  1  0  0  0  0  0  0  1  3
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 AL CA0001 CFIA-Alfalfa
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 AGZA1501 OTWA1304   -99   -99   -99   -99   -99   -99 -99    -99  CAON080010 Alfafa experiment No N
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1              42               0       222               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1   -99 SA011 SA001 SA001  -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    SB 14090     0     0     1     1   -99     0     0     0   100    15 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    30   .29    .2     4
+ 1    60   .23    .2     4
+ 1   100   .23    .2     2
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 14126   -99   400   400     S     R    10     0     2    20   -99   -99     1     0                        -99
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 14130 FE001 AP001     1    60   -99   -99   -99   -99   -99 -99
+ 1 15130 FE001 AP001     1    60   -99   -99   -99   -99   -99 -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 15001   -99   -99 -99
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 16330 GS000     C     A   -99   -99 
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     P 14051  2150 Obs Harvest Dates         PRFRM
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     F     S     L     R     0     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          15001 15001     0     0     0     0     0
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR004     0     0
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI              0     0     0 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE              0     0     0
+@N HARVEST     HFRST HLAST HPCNP HPCNR HMFRQ HMGDD HMCUT HMMOW HRSPL HMVS 
+ 1 HA              0 01001     0     0    34   630  0.10   800    30    2
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     P 14051  2150 Fixed 34 day              PRFRM
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     F     S     L     R     0     P     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     R     R     W
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          15001 15001     0     0     0     0     0
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 GS000 IR004     0     0
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI              0     0     0 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE              0     0     0
+@N HARVEST     HFRST HLAST HPCNP HPCNR HMFRQ HMGDD HMCUT HMMOW HRSPL HMVS 
+ 2 HA              0 01001     0     0    34   630  0.10   800    30    2
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 3 GE              1     1     P 14051  2150 630 GDD                   PRFRM
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 3 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 3 ME              M     M     E     F     S     L     R     0     P     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 3 MA              R     R     R     R     X
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 3 PL          15001 15001     0     0     0     0     0
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 3 IR             30    50   100 GS000 IR004     0     0
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 3 NI              0     0     0 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 3 RE              0     0     0
+@N HARVEST     HFRST HLAST HPCNP HPCNR HMFRQ HMGDD HMCUT HMMOW HRSPL HMVS 
+ 3 HA              0 01001     0     0    34   630  0.10   800    30    2
+
+
+

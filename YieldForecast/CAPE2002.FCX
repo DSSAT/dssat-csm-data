@@ -1,5 +1,4 @@
-*EXP.DETAILS: CAPE2002SN 2020 Yield Forecast - using forecast runmode 
-!Hypothetical wheat field near Petropavl, Kazakhstan, 2020
+*EXP.DETAILS: CAPE2002FC 2020 YIELD FORECAST - USING FORECAST RUNMODE
 
 *GENERAL
 @PEOPLE
@@ -8,8 +7,7 @@
 -99
 @SITE
 -99
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+!Hypothetical wheat field near Petropavl, Kazakhstan, 2020
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -44,7 +42,7 @@
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE             36     1     S 20001  2150 DEFAULT SIMULATION CONTR
+ 1 GE             36     1     S 20001  2150 June 1 Forecast
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
@@ -66,10 +64,10 @@
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA          20001 20365   100     0
 @N SIMDATES    ENDAT    SDUR   FODAT  FSTRYR  FENDYR FWFILE           FONAME
- 1 SI            -99     -99 2020153     -99     -99 -99              Jun 1, 2020 forecast
+ 1 SI                        2020153                                  Jun 1, 2020 forecast
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 2 GE             36     1     S 20001  2150 DEFAULT SIMULATION CONTR
+ 2 GE             36     1     S 20001  2150 July 1 Forecast
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
@@ -91,10 +89,10 @@
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  2 HA          20001 20365   100     0
 @N SIMDATES    ENDAT    SDUR   FODAT  FSTRYR  FENDYR FWFILE           FONAME
- 2 SI            -99     -99 2020183     -99     -99 -99              Jul 1, 2020 forecast
+ 2 SI                        2020183                                  Jul 1, 2020 forecast
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 3 GE             36     1     S 20001  2150 DEFAULT SIMULATION CONTR
+ 3 GE             36     1     S 20001  2150 August 1 Forecast
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  3 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
@@ -116,4 +114,7 @@
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  3 HA          20001 20365   100     0
 @N SIMDATES    ENDAT    SDUR   FODAT  FSTRYR  FENDYR FWFILE           FONAME
- 3 SI            -99     -99 2020214     -99     -99 -99              Aug 1, 2020 forecast
+ 3 SI                        2020214                                  Aug 1, 2020 forecast
+
+
+

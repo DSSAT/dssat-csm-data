@@ -11,11 +11,13 @@ Southwestern Germany
      30   -99    10   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Agronomy Journal 2020, 112(5):3859-3877; https://doi.org/10.1002/agj2.20305
-KJBoote re-calibrated the species & cultivar file (8/12/2021). Differs from paper
-because V4.7 code had a lower LAI protection that was "fixed" for V4.8.  Now
+KJBoote re-calibrated the species & cultivar file (2/14/2022). Differs from paper
+because V4.7 code had an LAI protection that was "fixed"=removed for V4.8.  Now
 the very small seed size gives much lower initial LAI, requiring adjustment
 of the SLWREF and other parameters.  For some reason, the SIZLF and SIZREF 
 have zero effect so no reason to try those GC.
+Have confidence in the IC for N, but not for soil water. Prior residue guessed
+Tried Parton SOC with no success.
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
