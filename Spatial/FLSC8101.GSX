@@ -7,6 +7,8 @@ DSSAT Foundation
 Gainesville, Florida
 @SITE
 FLORENCE,SC,USA 34.00;0;-99;SC
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
