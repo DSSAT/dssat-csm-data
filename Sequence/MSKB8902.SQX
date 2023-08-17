@@ -1,4 +1,4 @@
-*EXP.DETAILS: MSKB8901SQ KELLOGG BIOLOGICAL STATION LONG-TERM ECOLOGICAL RESEARCH
+*EXP.DETAILS: MSKB8902SQ KELLOGG BIOLOGICAL STATION LONG-TERM ECOLOGICAL RESEARCH
 
 *GENERAL
 @PEOPLE
@@ -7,14 +7,13 @@ Peter Grace and Phil Robertson
 Michigan State University, Hickory Corners, Michigan
 @SITE
 W.K. Kellogg Biological Station
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 The KBS Long-Term Ecological Research in Row-Crop Agriculture Site (LTER) Treatment 1
 Support for this research was also provided by the NSF Long-term Ecological Research 
-  Program (DEB 1637653) at the Kellogg Biological Station and by Michigan State 
-  University AgBioResearch.
+ Program (DEB 1637653) at the Kellogg Biological Station and by Michigan State 
+ University AgBioResearch.
 For further information see the KBS LTER web site at http://lter.kbs.msu.edu.
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -53,7 +52,7 @@ For further information see the KBS LTER web site at http://lter.kbs.msu.edu.
  133 1 0 LTER TREAT 1 HI MZ P35Y54  6  1  0  0 33  0 13  0  0  0  0 33  1
  134 1 0 LTER TREAT 1 HI FA         2  1  0  0 34  0  0  0  0 18  0 34  1
  135 1 0 LTER TREAT 1 HI SB NS20F8  3  1  0  0 35  0  0  0  0  0  0 35  1
- 136 1 0 LTER TREAT 1 HI FA         2  1  0  0 36  0  0  0  0  0  0 36  1 
+ 136 1 0 LTER TREAT 1 HI FA         2  1  0  0 36  0  0  0  0  0  0 36  1
  137 1 0 LTER TREAT 1 HI WH P25R37  5  1  0  0 37  0 14  0  0  0  0 37  1
  138 1 0 LTER TREAT 1 HI FA         2  1  0  0 38  0  0  0  0 19  0 38  1
  139 1 0 LTER TREAT 1 HI MZ P36W66  6  1  0  0 39  0 15  0  0  0  0 39  1
@@ -65,7 +64,7 @@ For further information see the KBS LTER web site at http://lter.kbs.msu.edu.
  145 1 0 LTER TREAT 1 HI MZ DC5259  4  1  0  0 45  0 17  0  0  0  0 45  1
  146 1 0 LTER TREAT 1 HI FA         2  1  0  0 46  0 18  0  0 22  0 46  1
  147 1 0 LTER TREAT 1 HI SB P92Y30  3  1  0  0 47  0  0  0  0  0  0 47  1
- 148 1 0 LTER TREAT 1 HI FA         2  1  0  0 48  0  0  0  0 23  0 48  1 
+ 148 1 0 LTER TREAT 1 HI FA         2  1  0  0 48  0  0  0  0 23  0 48  1
  149 1 0 LTER TREAT 1 HI WH P25R39  5  1  0  0 49  0 19  0  0  0  0 49  1
  150 1 0 LTER TREAT 1 HI FA         2  1  0  0 50  0  0  0  0 24  0 50  1
  151 1 0 LTER TREAT 1 HI MZ DC5259  6  1  0  0 51  0 20  0  0  0  0 51  1
@@ -79,9 +78,9 @@ For further information see the KBS LTER web site at http://lter.kbs.msu.edu.
 @C CR INGENO CNAME
  1 MZ IB0089 GREAT LAKES 582
  2 FA IB0001 FALLOW
- 3 SB 990002
+ 3 SB 990002 -99
  4 MZ IB0090 GL 482
- 5 WH IB0488 NEWTON (Chelsea soft white?)
+ 5 WH IB0488 NEWTON (Chelsea soft whit
  6 MZ IB0093 GL 582 MOD KBS
 
 *FIELDS
@@ -106,7 +105,7 @@ For further information see the KBS LTER web site at http://lter.kbs.msu.edu.
  3 90149   -99    40    40     S     R    20     0     5   -99   -99   -99   -99     0                        -99
  4 90291   -99     1     1     S     R     1     0     5   -99   -99   -99   -99     0                        -99
  5 91166   -99   6.2   6.2     S     R    76     0     5   -99   -99   -99   -99     0                        -99
- 6 91284   -99     1     1     S     R     1     0     5   -99   -99   -99   -99     0  
+ 6 91284   -99     1     1     S     R     1     0     5   -99   -99   -99   -99     0                        -99
  7 92139   -99    40    40     S     R    20     0     5   -99   -99   -99   -99     0                        -99
  8 92301   -99     1     1     S     R     1     0     5   -99   -99   -99   -99     0                        -99
  9 93127   -99   6.4   6.4     S     R    76     0     5   -99   -99   -99   -99     0                        -99
@@ -291,8 +290,8 @@ For further information see the KBS LTER web site at http://lter.kbs.msu.edu.
  1 ME              M     M     E     R     S     C     R     1     P     S     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              Y     Y     A     1     Y     Y     Y     Y     Y     N     Y     N     Y
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              Y     Y     A     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -306,3 +305,5 @@ For further information see the KBS LTER web site at http://lter.kbs.msu.edu.
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 90124   100     0
 
+
+
