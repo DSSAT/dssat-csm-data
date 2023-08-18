@@ -1,11 +1,14 @@
 *EXP. DATA (T): SAPO8601SC PONGOLA N VALIDATION, 318 (LYS1)                
 
-! Observed data from:
+! Modeling and observed data from:
 ! Michael van der Laan, N. Miles, J. G. Annandale, C. C. du Preez, 2011. 
 !	Identification of opportunities for improved nitrogen
-!   management in sugarcane cropping systems using
-!   the newly developed Canegro-N model.
+!	management in sugarcane cropping systems using
+!	the newly developed Canegro-N model.
 !	Nutr Cycl Agroecosyst (2011) 90:391–404. https://doi.org/10.1007/s10705-011-9440-6
+! G. D. Thompson, 1991.
+!	The growth of sugarcane variety N14 at Pongola.
+!	Mount Edgecombe Research Report n.7, SASEX, South Africa
 
 ! Edited by Henrique Dias (University of Florida) during the 18th DSSAT Development Sprint, Jan 2023
 ! 'Treatments' for Growth & N mass and ET data in are:
