@@ -1,23 +1,41 @@
-*EXP.DETAILS: SAPO8601SC PONGOLA N EVALUATION WITH LYSIMETERS
+﻿*EXP.DETAILS: SAPO8601SC PONGOLA N EVALUATION WITH LYSIMETERS
 
 *GENERAL
 @PEOPLE
 Michael van der Laan
 @ADDRESS
-SASRI
+SASRI, Mount Edgecombe, South Africa
 @SITE
-Pongola
+Pongola, South Africa
 @ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
     -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+@NOTES
+ Modeling and observed data from:
+ Michael van der Laan, N. Miles, J. G. Annandale, C. C. du Preez, 2011. 
+	Identification of opportunities for improved nitrogen
+	management in sugarcane cropping systems using
+	the newly developed Canegro-N model.
+	Nutr Cycl Agroecosyst (2011) 90:391–404. https://doi.org/10.1007/s10705-011-9440-6
+ G. D. Thompson, 1991.
+	The growth of sugarcane variety N14 at Pongola.
+	Mount Edgecombe Research Report n.7, SASEX, South Africa
+ ---
+ Notes by Henrique Dias:
+ - File built on Michael's SAPO8601.SQX
+ - SRGF (SA.SOL) varies with depth rather than 1 for all layers
+ - Initial conditions would need refinements to account for N leaching and drainage
+ - Using cultivar coefficients from NCo376, but a calibrated N14 might would be better
+ - Changed to PLME of plant cane to 'H'
+ - Used actual row spacing
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
  1 1 1 0 Plant (Lysimeter)          1  1  0  1  1  1  1  0  0  0  0  1  1
- 2 1 1 0 Ratoon1 (Lysimeter)        1  1  0  0  2  2  2  0  0  0  0  2  2
- 3 1 1 0 Ratoon2 (Lysimeter)        1  1  0  0  3  3  3  0  0  0  0  3  3
+ 2 1 1 0 Ratoon1 (Lysimeter)        1  1  0  2  2  2  2  0  0  0  0  2  2
+ 3 1 1 0 Ratoon2 (Lysimeter)        1  1  0  3  3  3  3  0  0  0  0  3  3
 11 1 1 0 Plant                      1  2  0  1  1  1  1  0  0  0  0  1  1
-12 1 1 0 Ratoon1                    1  2  0  0  2  2  2  0  0  0  0  2  2
-13 1 1 0 Ratoon2                    1  2  0  0  3  3  3  0  0  0  0  3  3
+12 1 1 0 Ratoon1                    1  2  0  2  2  2  2  0  0  0  0  2  2
+13 1 1 0 Ratoon2                    1  2  0  3  3  3  3  0  0  0  0  3  3
 
 *CULTIVARS
 @C CR INGENO CNAME
@@ -48,20 +66,29 @@ Pongola
  1    90    .3    .2     4
  1   120    .3     1     5
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 2    SC 87013  .001  .001     1     1   -99  2000    .3  .003   -99   -99 -99
+ 2    SC 87285  .001  .001     1     1   -99  2000    .3  .003   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
- 2     5  .287    .2     2
- 2    20  .324    .2     2
- 2    30  .345    .2     2
- 2    60  .333    .2     1
- 2    90  .343    .2     2
- 2   120  .343    .2     8
+ 2     5  .287     3     2
+ 2    20    .3     2     2
+ 2    30    .3    .2     2
+ 2    60    .3    .2     2
+ 2    90    .3    .2     4
+ 2   120    .3     1     5
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 3    SC 88285  .001  .001     1     1   -99  2000    .3  .003   -99   -99 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 3     5  .287     3     2
+ 3    20    .3     2     2
+ 3    30    .3    .2     2
+ 3    60    .3    .2     2
+ 3    90    .3    .2     4
+ 3   120    .3     1     5
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 86316   -99  13.3   -99     H     R    20   -99   -99   -99   -99   -99   -99   -99                        Plant !HBD changed to PLME 'H'
- 2 87286   -99  13.3   -99     R     R    20   -99   -99   -99   -99   -99   -99   -99                        Ratoon1
- 3 88286   -99  13.3   -99     R     R    20   -99   -99   -99   -99   -99   -99   -99                        Ratoon2
+ 1 86316   -99  13.3   -99     H     R   152   -99   -99   -99   -99   -99   -99   -99                        Plant
+ 2 87286   -99  13.3   -99     R     R   152   -99   -99   -99   -99   -99   -99   -99                        Ratoon1
+ 3 88286   -99  13.3   -99     R     R   152   -99   -99   -99   -99   -99   -99   -99                        Ratoon2
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
