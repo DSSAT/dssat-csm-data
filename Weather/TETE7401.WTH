@@ -1,6 +1,6 @@
 *WEATHER : TEMPLE,TEXAS
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  TETE    31.00    97.50   -99   -99   -99   -99   -99
+  TETE    31.00   -97.50   -99   -99   -99   -99   -99
 @DATE  SRAD  TMAX  TMIN  RAIN
 74060   8.2  25.6  12.8   0.0
 74061   2.9  27.2  27.2   0.0

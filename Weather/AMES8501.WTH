@@ -1,7 +1,7 @@
 *WEATHER DATA : Ames,IA
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  AME2   42.000   93.770   320   8.4  16.6   2.0   1.0
+  AME2   42.000  -93.770   320   8.4  16.6   2.0   1.0
 @DATE  SRAD  TMAX  TMIN  RAIN  DEWP  WIND
 85001   8.3  -8.3 -15.0   1.3 -99   -99
 85002   9.4  -8.3 -20.6   0.0 -99   -99             Wind data from Ames 8 WSW
