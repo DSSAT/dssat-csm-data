@@ -1,7 +1,7 @@
 *WEATHER DATA : ISU Agronomy Farm
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  AME2   42.000   93.770   320   8.8  16.2   2.0   2.2
+  AME2   42.000  -93.770   320   8.8  16.2   2.0   2.2
 @DATE  SRAD  TMAX  TMIN  RAIN  DEWP  WIND
 89001   1.2   0.6  -6.1   0.0 -99   229.4
 89002   7.4  -4.4 -14.4   0.0 -99   203.3

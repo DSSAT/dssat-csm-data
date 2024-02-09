@@ -2,7 +2,7 @@
 
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  AMES   41.590   93.380   320   9.1  15.5  1.50  3.00
+  AMES   41.590  -93.380   320   9.1  15.5  1.50  3.00
 
 @DATE  SRAD  TMAX  TMIN  RAIN
 92093   9.4  11.7   0.8   0.0

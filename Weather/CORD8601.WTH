@@ -2,7 +2,7 @@
 !12/11/2006 CHP Changed header for dewpoint temperature from TDEW to DEWP
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  CORD   38.000    4.000    90  17.7   8.8   1.5   2.0
+  CORD   38.000   -4.000    90  17.7   8.8   1.5   2.0
 @DATE  SRAD  TMAX  TMIN  RAIN  DEWP  WIND
 86001   4.3  16.1   7.8   4.3   -99   -99
 86002   7.4  15.6  10.0   0.5   -99   -99

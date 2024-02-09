@@ -1,7 +1,7 @@
 *WEATHER DATA : I.S.U. Johnson Farm, Story Co., IA
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  IUJF   41.590   93.380     0   9.1  15.5  1.50  3.00
+  IUJF   41.590  -93.380     0   9.1  15.5  1.50  3.00
 @DATE  SRAD  TMAX  TMIN  RAIN
 93102  20.3  18.3   1.8   0.0
 93103  20.3  18.3   1.8   0.0

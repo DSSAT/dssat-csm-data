@@ -1,7 +1,7 @@
 *WEATHER DATA : MARICOPA WEATHER STATION, MAR9296B
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  MAR2   33.083 -140.117   361 -99.0 -99.0 -99.0 -99.0
+  MAR2   33.069 -111.972   361 -99.0 -99.0 -99.0 -99.0
 @DATE  SRAD  TMAX  TMIN  RAIN  DEWP  WIND   PAR  EVAP  RHUM
 95001   -99   -99   -99   -99                              
 95002   -99   -99   -99   -99                              

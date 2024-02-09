@@ -55,7 +55,7 @@ ICRISAT, Samanko
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    SG 14121   500     0     1     1   -99  1000    .5     0   100    10 -99
+ 1    SG 15121   500     0     1     1   -99  1000    .5     0   100    10 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1     0  .092    .6   5.3
  1    20  .092    .6   5.3

@@ -2,7 +2,7 @@
 !08/07/2006 CHP fixed dates for 77050 and 77051
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP
-  UCEA   43.390   80.250   376   6.0  27.3
+  UCEA   43.390  -80.250   376   6.0  27.3
 @DATE  SRAD  TMAX  TMIN  RAIN
 78001   1.8  -9.1 -10.6   6.2
 78002   5.9  -8.1 -15.0   6.6

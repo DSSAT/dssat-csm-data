@@ -1,6 +1,6 @@
 *WEATHER : NCRM
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  NCRM    35.66     0.00
+  NCRM    35.66    -77.8
 @DATE  SRAD  TMAX  TMIN  RAIN
 87001   0.0   7.2  -2.2  35.1
 87002   7.5  10.0   0.6   8.9

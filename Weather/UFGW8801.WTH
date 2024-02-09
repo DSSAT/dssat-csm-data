@@ -4,7 +4,7 @@
 ! to match up with grower's rainfall record.
 !08/07/2006 CHP changed year on "79" data to "88"
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  UFGW    30.79    85.25
+  UFGW    30.79   -85.25
 @DATE  SRAD  TMAX  TMIN  RAIN
 88109  16.7  26.7  11.1  86.3
 88110  16.7  26.7  11.1   0.0

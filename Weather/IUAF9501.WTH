@@ -1,7 +1,7 @@
 *WEATHER DATA : Ames,IA
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  AMES   42.000   93.770   320 -99.0 -99.0   2.0   2.2
+  AMES   42.000  -93.770   320 -99.0 -99.0   2.0   2.2
 @DATE  SRAD  TMAX  TMIN  RAIN 
 95001   8.4 -10.9 -17.3   0.0 
 95002   8.0  -7.9 -17.1   0.0 

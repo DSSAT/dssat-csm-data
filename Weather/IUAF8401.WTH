@@ -1,7 +1,7 @@
 *WEATHER DATA : I.S.U. Agron Farm, Story Co., IA
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  IUAF   42.020   93.800     0   9.1  15.5  1.50  3.00
+  IUAF   42.020  -93.800     0   9.1  15.5  1.50  3.00
 @DATE  SRAD  TMAX  TMIN  RAIN 
 84001   4.6  -1.1  -8.3   7.8 
 84002   9.5  -2.7 -10.5   0.0 
