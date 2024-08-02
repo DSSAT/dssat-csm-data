@@ -2,7 +2,7 @@
 
 *GENERAL
 @PEOPLE
-JQ
+JQ Improve soil, almost no SOC below 30cm  Try CENTURY
 @ADDRESS
 960 CARLING, OTTAWA
 @SITE
@@ -68,15 +68,15 @@ yield at West Nipissing in eastern Canada. Agronomy Journal 108(2):1-10.
 
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
- 1 13136   -99   -99   -99   -99   -99   -99   -99   -99 -99
+ 1 13136 RE001   -99   -99   -99   -99   -99   -99   -99 -99
 
 *CHEMICAL APPLICATIONS
 @C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
- 1 13126   -99   -99   -99   -99   -99  -99
+ 1 13126 CH001   -99   -99   -99   -99  -99
 
 *TILLAGE AND ROTATIONS
 @T TDATE TIMPL  TDEP TNAME
- 1 13136   -99   -99 -99
+ 1 13136 TI001   -99 -99
 
 *ENVIRONMENT MODIFICATIONS
 @E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
@@ -92,7 +92,7 @@ yield at West Nipissing in eastern Canada. Agronomy Journal 108(2):1-10.
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     R     C     R     1     P     R     1
+ 1 ME              M     M     E     R     R     L     R     1     P     R     1
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     N     R     A     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

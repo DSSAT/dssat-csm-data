@@ -7,32 +7,34 @@ DSSAT Foundation
 Gainesville, Florida
 @SITE
 Chiang Mai, Thailand
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 0 0 SPATIAL                    1  1  0  0  1  0  0  0  0  0  0  0  1
- 2 1 0 0 SPATIAL                    3  2  0  0  1  0  0  0  0  0  0  0  1
- 3 1 0 0 SPATIAL                    3  3  0  0  1  0  0  0  0  0  0  0  1
- 4 1 0 0 SPATIAL                    3  4  0  0  1  0  0  0  0  0  0  0  1
- 5 1 0 0 SPATIAL                    3  5  0  0  1  0  0  0  0  0  0  0  1
- 6 1 0 0 SPATIAL                    1  6  0  0  1  0  0  0  0  0  0  0  1
- 7 1 0 0 SPATIAL                    1  7  0  0  1  0  0  0  0  0  0  0  1
- 8 1 0 0 SPATIAL                    1  8  0  0  1  0  0  0  0  0  0  0  1
- 9 1 0 0 SPATIAL                    2  9  0  0  1  0  0  0  0  0  0  0  1
-10 1 0 0 SPATIAL                    3 10  0  0  1  0  0  0  0  0  0  0  1
-11 1 0 0 SPATIAL                    3 11  0  0  1  0  0  0  0  0  0  0  1
-12 1 0 0 SPATIAL                    3 12  0  0  1  0  0  0  0  0  0  0  1
-13 1 0 0 SPATIAL                    3 13  0  0  1  0  0  0  0  0  0  0  1
-14 1 0 0 SPATIAL                    3 14  0  0  1  0  0  0  0  0  0  0  1
-15 1 0 0 SPATIAL                    2 15  0  0  1  0  0  0  0  0  0  0  1
-16 1 0 0 SPATIAL                    3 16  0  0  1  0  0  0  0  0  0  0  1
-17 1 0 0 SPATIAL                    2 17  0  0  1  0  0  0  0  0  0  0  1
-18 1 0 0 SPATIAL                    2 18  0  0  1  0  0  0  0  0  0  0  1
-19 1 0 0 SPATIAL                    2 19  0  0  1  0  0  0  0  0  0  0  1
-20 1 0 0 SPATIAL                    4 20  0  0  1  0  0  0  0  0  0  0  1
-21 1 0 0 SPATIAL                    2 21  0  0  1  0  0  0  0  0  0  0  1
-22 1 0 0 SPATIAL                    4 22  0  0  1  0  0  0  0  0  0  0  1
-23 1 0 0 SPATIAL                    4 23  0  0  1  0  0  0  0  0  0  0  1
+ 1 1 0 0 SPATIAL Field 1            1  1  0  0  1  0  0  0  0  0  0  0  1
+ 2 1 0 0 SPATIAL Field 2            3  2  0  0  1  0  0  0  0  0  0  0  1
+ 3 1 0 0 SPATIAL Field 3            3  3  0  0  1  0  0  0  0  0  0  0  1
+ 4 1 0 0 SPATIAL Field 4            3  4  0  0  1  0  0  0  0  0  0  0  1
+ 5 1 0 0 SPATIAL Field 5            3  5  0  0  1  0  0  0  0  0  0  0  1
+ 6 1 0 0 SPATIAL Field 6            1  6  0  0  1  0  0  0  0  0  0  0  1
+ 7 1 0 0 SPATIAL Field 7            1  7  0  0  1  0  0  0  0  0  0  0  1
+ 8 1 0 0 SPATIAL Field 8            1  8  0  0  1  0  0  0  0  0  0  0  1
+ 9 1 0 0 SPATIAL Field 9            2  9  0  0  1  0  0  0  0  0  0  0  1
+10 1 0 0 SPATIAL Field 10           3 10  0  0  1  0  0  0  0  0  0  0  1
+11 1 0 0 SPATIAL Field 11           3 11  0  0  1  0  0  0  0  0  0  0  1
+12 1 0 0 SPATIAL Field 12           3 12  0  0  1  0  0  0  0  0  0  0  1
+13 1 0 0 SPATIAL Field 13           3 13  0  0  1  0  0  0  0  0  0  0  1
+14 1 0 0 SPATIAL Field 14           3 14  0  0  1  0  0  0  0  0  0  0  1
+15 1 0 0 SPATIAL Field 15           2 15  0  0  1  0  0  0  0  0  0  0  1
+16 1 0 0 SPATIAL Field 16           3 16  0  0  1  0  0  0  0  0  0  0  1
+17 1 0 0 SPATIAL Field 17           2 17  0  0  1  0  0  0  0  0  0  0  1
+18 1 0 0 SPATIAL Field 18           2 18  0  0  1  0  0  0  0  0  0  0  1
+19 1 0 0 SPATIAL Field 19           2 19  0  0  1  0  0  0  0  0  0  0  1
+20 1 0 0 SPATIAL Field 20           4 20  0  0  1  0  0  0  0  0  0  0  1
+21 1 0 0 SPATIAL Field 21           2 21  0  0  1  0  0  0  0  0  0  0  1
+22 1 0 0 SPATIAL Field 22           4 22  0  0  1  0  0  0  0  0  0  0  1
+23 1 0 0 SPATIAL Field 23           4 23  0  0  1  0  0  0  0  0  0  0  1
 
 *CULTIVARS
 @C CR INGENO CNAME

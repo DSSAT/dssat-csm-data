@@ -31,7 +31,7 @@
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    CH 75152    50    10     1     1   100   500     2     0   100    10 -99
+ 1    CH 75152    50    10     1     1   -99   500     2     0   100    10 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1    10   .42    .5   4.5
  1    22   .42    .5   4.5

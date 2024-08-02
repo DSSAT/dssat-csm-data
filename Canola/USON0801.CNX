@@ -1,4 +1,4 @@
-*EXP.DETAILS: USON0801CN RAPESEED, OTTANA (NU)
+*EXP.DETAILS: USON0801CN RAPESEED, OTTANA ITALY - N-N-N KABEL-LOW SR DIFF TEMP
 
 *GENERAL
 @PEOPLE
@@ -80,11 +80,11 @@ Ottana, Private farm, 39.25; 9.31; 186; Sardinia
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              N     N     N     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     C     R     1     G     R     2
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N      
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

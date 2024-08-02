@@ -1,0 +1,116 @@
+*EXP.DETAILS: TRKO1501SU KONYA SUNFLOWER EXPERIMENT (2015)
+
+*GENERAL
+@PEOPLE
+-99
+@ADDRESS
+Konya - Turkey
+@SITE
+-99
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99     5    10   -99    70    35   -99   -99   -99   -99
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 Rainfed                    1  1  0  1  1  1  1  0  0  0  0  1  1
+ 2 1 1 0 Irrigated                  1  1  0  1  1  2  1  0  0  0  0  1  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 SU IB0001 Ekllor
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 TRKO1501 TRKO1501   -99   -99 DR000   -99   -99   -99 C      -99  TRKON20150 Field Characteristics
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1            37.8            32.3      1072               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1   -99   -99 SA001 SA015  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1   -99   -99   -99   -99   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    SU 15125   -99   -99     1     1   -99   -99   -99   -99   -99   -99 2015 Initial Condition (50kg/ha N)
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    30   .33    .2   1.8
+ 1    60  .371    .2   1.8
+ 1    90  .396    .2   1.8
+ 1   120  .414    .2   1.8
+ 1   200  .422    .2   1.8
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 15125 15140   5.7   5.7     S     R    70   -99     4   -99   -99   -99   -99   -99                        2015 Planting Date
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 Rainfed (Except Initial irrigation)
+@I IDATE  IROP IRVAL
+ 1 15168 IR005  31.8
+ 1 15177 IR005  33.7
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2     1    30    50   100 GS000 IR001    10 Irrigated
+@I IDATE  IROP IRVAL
+ 2 15168 IR005  31.8
+ 2 15177 IR005  33.7
+ 2 15188 IR005  45.1
+ 2 15195 IR005  40.5
+ 2 15202 IR005  42.5
+ 2 15209 IR005  44.5
+ 2 15216 IR005  47.1
+ 2 15223 IR005  50.1
+ 2 15230 IR005    50
+ 2 15237 IR005    43
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 15125 FE006 AP002    15    36    40   -99   -99   -99   -99 Fertilizer applications in 2015
+ 1 15125 FE001 AP004    15    99   -99   -99   -99   -99   -99 Fertilizer applications in 2015
+ 1 15167 FE001 AP002    15    16   -99   -99   -99   -99   -99 Fertilizer applications in 2015
+ 1 15167 FE005 AP002    15    23   -99   -99   -99   -99   -99 Fertilizer applications in 2015
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 15091   -99   -99   -99   -99   -99   -99   -99   -99 -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 15125   -99   -99 -99
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 15091 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1   136 GS006     H   -99   -99   -99 Sunflower
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 15125  2150 Simulation Option
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     D
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     A     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          15001 15001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30   100   100 GS000 IR005    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 01001   100     0
+
+
+

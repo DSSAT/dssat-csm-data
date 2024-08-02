@@ -14,7 +14,10 @@ Agronomy Journal. 108(1): 64-72.
 S. Singh and D. Auld, Texas Tech University
 S.V. Angadi, K. Grover and S. Begna, New Mexico State University
 K.J. Boote, University of Florida
-
+Re-calibrated by KJB in January2019 to match safflower experiment in Germany
+8/13/2021 kjb, decreased slwref from 0.0025 to 0.0019. Needed because removing LAI
+protection reduced LAI and productivity for small seeded crops. 
+Soil file questionable, but everything improved (RMSE & D) switching from S-R to Ritchie Stage 1 soil evap.
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -148,11 +151,11 @@ K.J. Boote, University of Florida
 
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
- 1 13119   -99   -99   -99   -99   -99   -99   -99   -99 -99
+ 1 13119 RE001   -99   -99   -99   -99   -99   -99   -99 -99
 
 *TILLAGE AND ROTATIONS
 @T TDATE TIMPL  TDEP TNAME
- 1 13119   -99   -99 -99
+ 1 13119 TI001   -99 -99
 
 *HARVEST DETAILS
 @H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME

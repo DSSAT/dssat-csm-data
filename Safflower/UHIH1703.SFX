@@ -2,7 +2,7 @@
 
 *GENERAL
 @PEOPLE
-K. Steberl, K.J. Boote, S. Munz, and S. Graeff-Hönninger
+K. Steberl, K.J. Boote, S. Munz, and S. Graeff-HÃ¶nninger
 @ADDRESS
 -99
 @SITE
@@ -10,16 +10,16 @@ University of Hohenheim
 @ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
     256   -99     8   -99   -99   -99   -99   -99   -99   -99
 @NOTES
-Steberl, K., K. J. Boote, S. Munz, and S. Graeff-Hönninger.  2019.  
+Steberl, K., K. J. Boote, S. Munz, and S. Graeff-HÃ¶nninger.  2019.  
 Modifying the CROPGRO Safflower model to simulate growth, seed and floret yield under
 field conditions in Southwestern Germany.  Agronomy.
 
-K. Steberl, S. Munz, and S. Graeff-Hönninger; University of Hohenheim, Germany
+K. Steberl, S. Munz, and S. Graeff-HÃ¶nninger; University of Hohenheim, Germany
 K.J. Boote; University of Florida
-
 Model run with N balance off.  IC NH4 and NO3 are real, but could not get
 sufficient N mineralization to drive growth with either Godwin or CENTURY
-
+8/13/2021 kjb, decreased slwref from 0.0025 to 0.0019. Needed because removing LAI
+protection (V4.8 vs V4.7) reduced LAI and productivity for small seeded crops.
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -133,11 +133,11 @@ sufficient N mineralization to drive growth with either Godwin or CENTURY
 
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
- 1 17001   -99   -99   -99   -99   -99   -99   -99   -99 -99
+ 1 17001 RE001   -99   -99   -99   -99   -99   -99   -99 -99
 
 *CHEMICAL APPLICATIONS
 @C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
- 1 17111   -99   -99   -99   -99   -99  -99
+ 1 17111 CH001   -99   -99   -99   -99  -99
 
 *TILLAGE AND ROTATIONS
 @T TDATE TIMPL  TDEP TNAME
@@ -176,29 +176,3 @@ sufficient N mineralization to drive growth with either Godwin or CENTURY
  1 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 17001   100     0
-
-@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 2 GE              1     1     S 17111  2150 Century                   CRGRO
-@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
- 2 OP              Y     Y     N     N     N     N     N     Y     M
-@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              M     M     E     R     S     L     R     1     P     R     2
-@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
- 2 MA              R     N     R     N     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 2 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
-
-@  AUTOMATIC MANAGEMENT
-@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
- 2 PL          17001 17001    40   100    30    40    10
-@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
- 2 IR             30    50   100 GS000 IR001    10     1
-@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
- 2 NI             30    50    25 FE001 GS000
-@N RESIDUES    RIPCN RTIME RIDEP
- 2 RE            100     1    20
-@N HARVEST     HFRST HLAST HPCNP HPCNR
- 2 HA              0 18001   100     0
-
-
-

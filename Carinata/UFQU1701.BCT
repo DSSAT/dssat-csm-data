@@ -1,0 +1,52 @@
+*EXP. DATA (T): UFGU1701CN Carinata Exp at Quincy,FL time course (T) data             
+! 8/28/20 updated. Bias corrected for 5-plant samples on 2/28, 3/14, 3/28 V1 0.730,.V2 0.662
+! 8/28/20 updated. Further bias corrected all weights, LAI, PLAID, based on Bio = Seed/HI
+! that bias ratio was V1= 0.6456 and V2=0.6076
+! TRNO 1 is AX17012 and TRNO2 is Avanza-641
+! Definitions of headers
+! GSTD is your growth stage (not output by model now)
+! L#SD is number of leaf nodes on main stem
+! CHTD is height (m)
+! SLAD is specific leaf area (cm2/g)
+! PSLAD is specific pod area (cm2/g)
+! CWAD is aboveground total weight (kg/ha)
+! LWAD is leaf weight (kg/ha)
+! SWAD is stem+petiole weight (kg/ha)
+! PWAD is pod weight (kg/ha)
+! GWAD is grain weight (kg/ha)
+! LAID is leaf area index
+! PLAI is pod area index (not output by model yet)
+! FRLF is fraction leaf (not output by model)
+! FRST is fraction stem (not output by model)
+! HIPD is fraction pod or pod harvest index
+! HIAD is fraction seed or grain harvest index
+! GWGD is weight per single seed (mg)
+! SH%D is shelling % (seed as percentage of pod+seed)
+! File last edited on day 09/13/2018
+! PLAI is green area of pods. LAID here is sum of LAIX and PLAI
+!FRLF and FRST are fraction leaf and fraction stem
+! 
+@TRNO   DATE  GSTD  L#SD  CHTD  SLAD PSLAD  CWAD  LWAD  SWAD  PWAD  GWAD  LAIA  PLAI  LAID  FRLF  FRST  HIPD  HIAD  GWGD   SH%D                
+     1 18004   1.2   2.1  0.01 147.7   0.0    26    22     4     0     0  0.03  0.00  0.03 0.840 0.160   0     0       0 -99.00
+     1 18018   1.4   3.9  0.01 163.9   0.0    43    35     8     0     0  0.06  0.00  0.06 0.817 0.183   0     0       0 -99.00
+     1 18031   1.6   5.8  0.02 230.4   0.0   109    84    25     0     0  0.19  0.00  0.19 0.768 0.232   0     0       0 -99.00
+     1 18045  3.05   8.7  0.13 310.0   0.0   426   245   181     0     0  0.76  0.00  0.76 0.575 0.425   0     0       0 -99.00
+     1 18059   6.0  15.4  0.70 385.6   0.0  1684   654  1030     0     0  2.31  0.00  2.31 0.385 0.615   0     0       0 -99.00
+     1 18073   7.1  16.2  0.75 324.7  42.5  3966   742  3115   110     0  2.39  0.04  2.43 0.188 0.784 0.028   0       0 -99.00
+     1 18087   7.2  16.8  0.83 224.1  35.0  6189  1030  4313   847     0  2.05  0.30  2.35 0.157 0.708 0.135   0       0 -99.00
+     1 18101   8.5  17.2  0.94 313.4  29.4  7093   290  3167  3635   231  0.88  1.07  1.95 0.041 0.446 0.513 0.032     0   6.35
+     1 18115   9.5  17.2  1.02 242.2  31.3  6811    55  3176  3580   807  0.13  1.04  1.17 0.008 0.466 0.526 0.118     0  23.03
+     1 18129   9.7  17.4  1.06 -99.0  24.5 10697     0  38821 6815  2203  0.00  1.67  1.67 0.000 0.365 0.635 0.207     0  32.92
+     1 18143   9.9  17.3  1.08 -99.0  25.4 10053     0  4172  5881  2733  0.00  1.48  1.48 0.000 0.417 0.583 0.271 3.702  46.73
+     2 18004   1.2   2.2  0.01 164.0   0.0    20    17     3     0     0  0.03  0.00  0.03 0.838 0.162 0.000 0.000     0 -99.00
+     2 18018   1.4   3.9  0.01 195.3   0.0    46    36     9     0     0  0.07  0.00  0.07 0.795 0.205 0.000 0.000     0 -99.00
+     2 18031   1.6   5.8  0.02 232.1   0.0    97    73    23     0     0  0.17  0.00  0.17 0.759 0.241 0.000 0.000     0 -99.00
+     2 18045  3.05   8.0  0.12 342.5   0.0   461   255   206     0     0  0.88  0.00  0.88 0.557 0.443 0.000 0.000     0 -99.00
+     2 18059   6.0  16.8  0.73 316.9   0.0  1467   534   934     0     0  1.69  0.00  1.69 0.367 0.633 0.000 0.000     0 -99.00
+     2 18073   7.1  18.3  1.01 279.5  66.6  4872  1182  3684     7     0  3.09  0.00  3.09 0.241 0.758 0.001 0.000     0 -99.00
+     2 18087   7.2  18.2  1.12 238.7  38.8  6927   8931 5594   440     0  2.13  0.16  2.29 0.135 0.808 0.058 0.000     0 -99.00
+     2 18101   8.5  20.0  1.18 285.1  25.7  7021   440  3997  2583   109  1.23  0.66  1.89 0.063 0.570 0.367 0.016     0   4.30
+     2 18115   9.5  19.7  1.21 215.3  42.6  7042   104  3802  3136   830  0.23  1.19  1.42 0.015 0.538 0.447 0.117     0  27.59
+     2 18129   9.7  20.1  1.25 -99.0  25.8 10496     0  5173  5323  2836  0.00  1.37  1.37 0.000 0.494 0.506 0.270     0  53.29
+     2 18143   9.9  20.3  1.25 -99.0  34.1 10889     0  5947  4942  2722  0.00  1.67  1.67 0.000 0.545 0.455 0.251 3.701  54.93
+                                                                  

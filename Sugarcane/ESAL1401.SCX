@@ -49,9 +49,13 @@ Center-pivot
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
- 1    .8    30    50   100 GS000 IR001    10 Sprinkler Irrigation
-@I IDATE  IROP IRVAL
+ 1    .9    30    50   100 GS000 IR001    10 Sprinkler Irrigation
+@I IDATE  IROP IRVAL 
  1 14281 IR001    30
+ 1 15055 IR001    30
+ 1 15063 IR001    10
+ 1 15110 IR001    40
+ 1 15140 IR001    40
 
 *HARVEST DETAILS
 @H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
@@ -59,7 +63,7 @@ Center-pivot
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     S 14195  2150 Ratoon Cane               SCSAM
+ 1 GE              1     1     S 14195  2150 Ratoon Cane               
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     N     N     N     N     N     N     N     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL

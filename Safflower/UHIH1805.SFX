@@ -1,0 +1,170 @@
+*EXP.DETAILS: UHIH1805SF TWO CULTIVARS
+
+*GENERAL
+@PEOPLE
+-99
+@ADDRESS
+-99
+@SITE
+-99
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    256   -99     8   -99   -99   -99   -99   -99   -99   -99
+@NOTES
+Steberl, K., K.J. Boote, S. Munz, and S. Graeff-Hönninger. 2019.
+Modifying the CROPGRO Safflower model to simulate growth, seed and floret yield under
+Means of 4 treatments
+K. Steberl, S. Munz, and S. Graeff-Hönninger; University of Hohenheim, Germany
+K.J. Boote; University of Florida
+Model run with N balance off. IC NH4 and NO3 are real, but could not get
+sufficient N mineralization to drive growth with either Godwin or CENTURY
+8/13/2021 kjb, decreased slwref from 0.0025 to 0.0019. Needed because removing LAI
+protection (V4.8 vs V4.7) reduced LAI and productivity for small seeded crops.
+
+!field conditions in Southwestern Germany.  Agronomy.
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 S1, R1, B1                 1  1  0  1  1  0  1  0  0  1  0  1  1
+ 2 1 1 0 S2, R1, B1                 2  1  0  1  2  0  1  0  0  1  0  2  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 SF UH0001 Goldschopf
+ 2 SF UH0002 Thornless Saffl
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 UHIH2018 UHIH       -99   -99 DR000   -99   -99   -99 L      -99  UH00002020 -99
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1            8.93           48.73       479               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 18105   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    30   1.4  1.16   .14   -99   -99   -99   -99   -99
+ 1    60   1.5   .71   .08   -99   -99   -99   -99   -99
+ 1    90   1.6  1.32   .04   -99   -99   -99   -99   -99
+ 1   120   1.6  1.32   .04   -99   -99   -99   -99   -99
+ 1   150   1.6  1.32   .04   -99   -99   -99   -99   -99
+ 1   180   1.6  1.32   .04   -99   -99   -99   -99   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 2 18105   -99   -99   -99  SOM3
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 2    30   1.4  1.16   .14   -99   -99   -99   -99    .6
+ 2    60   1.5   .71   .08   -99   -99   -99   -99   .35
+ 2    90   1.6  1.32   .04   -99   -99   -99   -99    .6
+ 2   120   1.6  1.32   .04   -99   -99   -99   -99    .6
+ 2   150   1.6  1.32   .04   -99   -99   -99   -99    .6
+ 2   180   1.6  1.32   .04   -99   -99   -99   -99    .6
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 3 18105   -99   -99   -99  SOM3 extrem
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 3    30   1.4  1.16   .14   -99   -99   -99   -99    .3
+ 3    60   1.5   .71   .08   -99   -99   -99   -99    .2
+ 3    90   1.6  1.32   .04   -99   -99   -99   -99    .3
+ 3   120   1.6  1.32   .04   -99   -99   -99   -99    .3
+ 3   150   1.6  1.32   .04   -99   -99   -99   -99    .3
+ 3   180   1.6  1.32   .04   -99   -99   -99   -99    .3
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 4 18105   -99   -99   -99  2X SOC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 4    30   1.4   2.3   .14   -99   -99   -99   -99   -99
+ 4    60   1.5   1.4   .08   -99   -99   -99   -99   -99
+ 4    90   1.6   2.6   .04   -99   -99   -99   -99   -99
+ 4   120   1.6   2.6   .04   -99   -99   -99   -99   -99
+ 4   150   1.6   2.6   .04   -99   -99   -99   -99   -99
+ 4   180   1.6   2.6   .04   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1   -99 18105   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    30  .406   -99   6.3
+ 1    60  .406   -99   2.5
+ 1    90  .406   -99   2.3
+ 1   120  .406   -99   2.3
+ 1   150  .406   -99   2.3
+ 1   180  .406   -99   2.3
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 2    WH 18105  1000   -99     1     1   -99  5000    .7   -99   100    10 with residues
+@C  ICBL  SH2O  SNH4  SNO3
+ 2    30   -99   -99   6.3
+ 2    60   -99   -99   2.5
+ 2    90   -99   -99   2.3
+ 2   120   -99   -99   2.3
+ 2   150   -99   -99   2.3
+ 2   180   -99   -99   2.3
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 3   -99 18105   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 3    30   -99   -99  12.6
+ 3    60   -99   -99     5
+ 3    90   -99   -99   4.6
+ 3   120   -99   -99   4.6
+ 3   150   -99   -99   4.6
+ 3   180   -99   -99   4.6
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 18109   -99    51   -99     S     R    23    90   2.5   -99   -99   -99   -99   -99                        Row spacing 23, Seed Population 58
+ 2 18109   -99    46   -99     S     R    23    90   2.5   -99   -99   -99   -99   -99                        Row spacing 23, Seed Population 58
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 -99
+@I IDATE  IROP IRVAL
+ 1 18109   -99   -99
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 18135 FE001 AP002     5    40   -99   -99   -99   -99   -99 -99
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 18105 RE001   -99   -99   -99   -99   -99   -99   -99 -99
+
+*CHEMICAL APPLICATIONS
+@C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
+ 1 18111 CH001   -99   -99   -99   -99  -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 18108 TI005     8 -99
+ 1 18109 TI033     2 -99
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 18105 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 18233 GS000     H   -99   -99   -99 Ernte Sorte Goldschopf
+ 2 18235 GS000     H   -99   -99   -99 Ernte Sorte Thornless Safflower
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 18105  2150 Ceres SOC                 CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     N     N     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     N     R     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          18001 18001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 18001   100     0
+
+
+

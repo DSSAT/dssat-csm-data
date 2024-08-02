@@ -7,8 +7,6 @@
 -99
 @SITE
 -99
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -37,7 +35,7 @@
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 70222 70273    10    10     S     R    71     0     8  1500   -99   -99   -99     2                        -99 
+ 1 70222 70273    10    10     S     R    71     0     8  1500   -99   -99   -99     2                        -99
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
@@ -53,7 +51,6 @@
  1 70273 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
  2 70273 A   0 M .79 M .79 M .79 A 0.0 A   0 A   0 A   0 
  3 70273 A   0 M .66 M .66 M .66 A 0.0 A   0 A   0 A   0 
-
 ! 1 70273 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 GH Original 
 ! 2 70273 A   0 M  .8 A   0 A   0 A 0.0 A   0 A   0 A   0 GH Original
 ! 3 70273 A   0 M  .7 A   0 A   0 A 0.0 A   0 A   0 A   0 GH Original
@@ -74,8 +71,8 @@
  1 ME              M     M     E     R     S     R     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     A     R     R     R
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -88,3 +85,6 @@
  1 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 71222   100     0
+
+
+

@@ -1,4 +1,4 @@
-*EXP.DETAILS: AGZG1501AL SPRINKLER IRRIGATED AND FERTILIZED ALFALFA, SPAIN
+*EXP.DETAILS: AGZG1501AL IRRIGATED Aragon, Montanana, SPAIN
 
 *GENERAL
 @PEOPLE
@@ -12,7 +12,7 @@ MONTANANA, ZARAGOZA.
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 1 0 IRRIGATED, 63 kg N/ha      1  1  0  0  1  1  1  0  0  0  0  1  1
+ 1 1 1 0 Montanana,SP Irrig         1  1  0  0  1  1  1  0  0  0  0  1  1
 
 *CULTIVARS
 @C CR INGENO CNAME
@@ -138,7 +138,7 @@ MONTANANA, ZARAGOZA.
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     P 15001  2150 DEFAULT SIMULATION CNTRL  PRFRM
+ 1 GE              1     1     P 15001  2150 Old                       PRFRM
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
@@ -146,7 +146,7 @@ MONTANANA, ZARAGOZA.
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N      
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -157,8 +157,57 @@ MONTANANA, ZARAGOZA.
  1 NI              0     0     0 FE001 GS000
 @N RESIDUES    RIPCN RTIME RIDEP
  1 RE              0     0     0
-@N HARVEST     HFRST HLAST HPCNP HPCNR
- 1 HA              0 01001     0     0
+@N HARVEST     HFRST HLAST HPCNP HPCNR HMFRQ HMGDD HMCUT HMMOW HRSPL HMVS 
+ 1 HA              0 01001     0     0    30   800  0.10   800    30    2
+
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     P 15001  2150 W                         PRFRM
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     F     S     L     R     0     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     R     R     W
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          15001 15001     0     0     0     0     0
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 GS000 IR004     0     0
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI              0     0     0 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE              0     0     0
+@N HARVEST     HFRST HLAST HPCNP HPCNR HMFRQ HMGDD HMCUT HMMOW HRSPL HMVS 
+ 2 HA              0 01001     0     0    40   800  0.10   800    30    2
+
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 3 GE              1     1     P 15001  2150 sss                       PRFRM
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 3 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 3 ME              M     M     E     F     S     L     R     0     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 3 MA              R     R     R     R     X
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 3 PL          15001 15001     0     0     0     0     0
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 3 IR             30    50   100 GS000 IR004     0     0
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 3 NI              0     0     0 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 3 RE              0     0     0
+@N HARVEST     HFRST HLAST HPCNP HPCNR HMFRQ HMGDD HMCUT HMMOW HRSPL HMVS 
+ 3 HA              0 01001     0     0    30   600  0.10   800    30    2
+
 
 
 

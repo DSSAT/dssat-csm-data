@@ -1,0 +1,29 @@
+*EXP: LCNM1401GY Guar, Ave cult, Las Cruces, NM                                     
+!From Table 3, Singla. Here, 50% flowering as days after planting
+!but is it days after emergence, because model is about 10 days early
+!for 50% flowering.  It is also low on LAI at 50%, solved if the 
+!observed 50% flowering is 10 days later.
+! KJB does not trust LAI data at all
+
+@TRNO   DATE  LAID  LMLN 
+     1 14160   4.9  1.35
+     2 14173   4.4  1.21
+     3 14199   6.1  1.46
+     4 14222   3.5  1.00
+     5 15163   4.8  1.34
+     6 15174   4.5  1.43
+     7 15199   6.2  1.54
+     8 15221   3.4  1.36
+
+!From Table 5, Singla.  Maturity, days after planting.  Suspect it is
+!days after emergence, as model is late to maturity.  Solved if 
+!observed maturity is days after emergence.   
+@TRNO   DATE  CHTD  CWAD  P#AD  G#AD  HIAD  GWAD  GWGD
+     1 14221 1.007  5804  3079 20194  0.27  1529  25.9
+     2 14233  0.93  5208  2575 20118  0.26  1318  26.2
+     3 14259 1.051  6558  6057 42621  0.27  1704  29.9
+     4 14285 0.894  4800   936  6011  0.23  1137  26.9
+     5 15224 0.985  5662  2737 18105  0.26  1460  26.0 
+     6 15234 0.942  5265  2420 18262  0.27  1352  22.7
+     7 15260 1.033  6466  5738 41354  0.26  1672  28.1
+     8 15286 0.875  4818  1135  6989  0.23  1203  20.7

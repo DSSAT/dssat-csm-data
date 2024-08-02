@@ -7,6 +7,13 @@ Dr. PIARA SINGH
 ICRISAT, PATANCHERU, INDIA
 @SITE
 Patancheru
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+
+@NOTES
+2021-07-29: Two minor changes were made to avoid warnings. One was to increase
+SH2O in initial conditions for the lower layers, so they woudl be greater than LL.
+The other was to increase the depth of fertilizer placement from 5 to 10 cm.
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -33,6 +40,7 @@ Patancheru
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1               0               0         0                 0     0     0     0   -99   -99
 
+! Lower layers had SH2O < LL, so increased to 0.164
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
  1    PN 85310   100     0     1     1   -99  1000   .53     0     0    15 -99
@@ -46,9 +54,9 @@ Patancheru
  1    75  .231     0     0
  1    90  .217     0     0
  1   110  .186     0     0
- 1   130  .162     0     0
- 1   155  .157     0     0
- 1   180   .15     0     0
+ 1   130  .164     0     0
+ 1   155  .164     0     0
+ 1   180  .164     0     0
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
@@ -169,9 +177,10 @@ Patancheru
 12 85361 IR001    50
 12 86008 IR001    28
 
+! FDEP was 5, which generated warning. Changed to 10.
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 85314 FE005 AP009     5    20     0     0     0     0   -99 -99
+ 1 85314 FE005 AP009    10    20     0     0     0     0   -99 -99
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
@@ -182,8 +191,8 @@ Patancheru
  1 ME              M     M     E     R     S     L     R     1     G     R     1
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     M
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

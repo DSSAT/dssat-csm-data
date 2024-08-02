@@ -1,5 +1,5 @@
 *SOILS: General DSSAT Soil Input File
-! DSSAT v4.8; 04/23/2021
+! DSSAT v4.8; 05/04/2023
 !
 ! Standard Soil Profiles
 !
@@ -53,7 +53,7 @@
 !   uncultivated podzolic soils. J. Soil Science 24, 10-17.
 ! Baumer O.W. and Rice J.W. 1988. Methods to predict soil input data for DRAINMOD. 
 !   Am. Soc. Agr. Eng. Paper 88-2564
-! Dalgliesh, N.P., and M.A. Foale. 1998. Soil Matters – monitoring soil water and nitrogen
+! Dalgliesh, N.P., and M.A. Foale. 1998. Soil Matters ï¿½ monitoring soil water and nitrogen
 !   in dryland farming. CSIRO, Agricultural Production Systems Research Unit, 
 !   Toowoomba, Queensland, Australia. 122 pp.
 ! Gijsman A.J., Jagtap S.S., Jones J.W. 2002. Wading through a swamp of complete confusion: 
@@ -72,7 +72,7 @@
 
 *IB00000001  IBSNAT      SIC     210 DEFAULT - DEEP SILTY CLAY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   6.0  0.30  85.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -89,7 +89,7 @@
 
 *IB00000002  IBSNAT      SIC     150 DEFAULT - MEDIUM SILTY CLAY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   6.0  0.20  87.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -104,7 +104,7 @@
 
 *IB00000003  IBSNAT      SIC      60 DEFAULT - SHALLOW SILTY CLAY
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   6.0  0.10  89.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -116,7 +116,7 @@
 
 *IB00000004  IBSNAT      SIL     210 DEFAULT - DEEP SILTY LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.12   6.0  0.40  77.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -133,7 +133,7 @@
 
 *IB00000005  IBSNAT      SIL     150 DEFAULT - MEDIUM SILTY LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.12   6.0  0.30  79.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -148,7 +148,7 @@
 
 *IB00000006  IBSNAT      SIL      60 DEFAULT - SHALLOW SILTY LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.12   6.0  0.20  81.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -160,7 +160,7 @@
 
 *IB00000007  IBSNAT      SL      210 DEFAULT - DEEP SANDY LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.0  0.50  68.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -177,7 +177,7 @@
 
 *IB00000008  IBSNAT      SL      150 DEFAULT - MEDIUM SANDY LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.0  0.50  70.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -192,7 +192,7 @@
 
 *IB00000009  IBSNAT      SL       60 DEFAULT - SHALLOW SANDY LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.0  0.40  74.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -204,7 +204,7 @@
 
 *IB00000010  IBSNAT      S       210 DEFAULT - DEEP SAND
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.15   4.0  0.60  65.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -221,7 +221,7 @@
 
 *IB00000011  IBSNAT      S       150 DEFAULT - MEDIUM SAND
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.15   4.0  0.50  70.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -236,7 +236,7 @@
 
 *IB00000012  IBSNAT      S        60 DEFAULT - SHALLOW SAND
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Generic     Generic           -99    -99  Generic
+ Generic     Generic          -99      -99 Generic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.15   4.0  0.40  75.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -251,7 +251,7 @@
 
 *IBSB910015  SCS         -99     180 Millhopper Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Loamy,silic,hyperth Gross. Paleudults
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Gross. Paleudults
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   5.0  0.50  66.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -265,9 +265,26 @@
    150   -99 0.027 0.130 0.230 0.062  0.30  1.57  0.03   8.3   3.6   -99   -99   5.9   -99   -99   -99 
    180   -99 0.070 0.258 0.360 0.031  0.10  1.79  0.03   8.3   3.6   -99   -99   5.9   -99   -99   -99 
 
+!modified for W-2, cowpea, increased DUL and SAT by 0.01 for top 15 cm, and reduced SRGF
+*IBCP910015  SCS         -99     180 Kendrick (W-2) Fine Sand
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Gross. Paleudults
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99  0.18   5.0  0.50  66.0  1.00  0.94 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5   -99 0.023 0.096 0.240 1.000  7.40  1.36  0.90   0.9  11.8   -99   -99   5.3   -99   -99   -99 
+    15   -99 0.023 0.096 0.240 1.000  7.40  1.40  0.69   0.9  11.8   -99   -99   5.4   -99   -99   -99 
+    30   -99 0.023 0.086 0.230 0.600 15.80  1.46  0.28   4.6   6.4   -99   -99   5.7   -99   -99   -99 
+    45   -99 0.023 0.086 0.230 0.250 28.00  1.46  0.20   5.8   5.4   -99   -99   5.8   -99   -99   -99 
+    60   -99 0.023 0.086 0.230 0.140 28.00  1.47  0.20   5.8   5.4   -99   -99   5.8   -99   -99   -99 
+    90   -99 0.021 0.076 0.230 0.060 27.60  1.43  0.09   9.6   4.2   -99   -99   5.9   -99   -99   -99 
+   120   -99 0.020 0.076 0.230 0.020 17.50  1.48  0.03   9.6   4.2   -99   -99   5.9   -99   -99   -99 
+   150   -99 0.027 0.130 0.230 0.010  0.30  1.57  0.03   8.3   3.6   -99   -99   5.9   -99   -99   -99 
+   180   -99 0.070 0.258 0.360 0.002  0.10  1.79  0.03   8.3   3.6   -99   -99   5.9   -99   -99   -99 
+
 *IBSB910009  IBSNAT      -99     136 Norfolk Sandy Clay Loam (
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         USA               -99    -99  Fine loamy,silic.,therm. Typic Paleudults
+ -99         USA              -99      -99 Fine loamy,silic.,therm. Typic Paleudults
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   3.0  0.23  60.0  1.00  0.95 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -283,7 +300,7 @@
 
 *IBSB910017  SCS         -99     203 Orangeburg Sandy Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Quincy      USA            30.600 -86.400 Loamy,silic,hyperth Gross. Paleud(17)
+ Quincy      USA           30.600  -86.400 Loamy,silic,hyperth Gross. Paleud(17)
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   9.0  0.27  84.0  1.00  0.97 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -301,7 +318,7 @@
 
 *IBSB910026  SCS         -99     180 Ida Silt Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Castana     USA            42.200 -93.700 Ida Silt Loam
+ Castana     USA           42.200  -93.700 Ida Silt Loam
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.12   6.0  0.30  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -317,7 +334,7 @@
 
 *IBSB910027  Castana,mKJ SIL     225 Ida Silt Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  Ida Silt Loam
+ -99         -99              -99      -99 Ida Silt Loam
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.12   9.8  0.55  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -334,7 +351,7 @@
 
 *IBSB910055  Troup SCS   -99     190 TROUP FINE SAND
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Jackson CO  USA               -99    -99  TROUP, SCS JACKSON CO, GROSSARENIC PALEUDULT, L,
+ Jackson CO  USA              -99      -99 TROUP, SCS JACKSON CO, GROSSARENIC PALEUDULT, L,
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.2  0.60  76.0  1.00  0.92 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -351,7 +368,7 @@
 
 *IBPN910015  SCS         -99     180 Millhopper Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Loamy,silic,hyperth Gross. Paleudults
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Gross. Paleudults
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   5.0  0.50  66.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -367,7 +384,7 @@
 
 *IBPN910016  Gainesville -99     180 Lake Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  Hyperthermic, coated Typic Quartzipsamments
+ -99         -99              -99      -99 Hyperthermic, coated Typic Quartzipsamments
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   5.0  0.50  66.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -383,7 +400,7 @@
 
 *IBPN910024  Marianna, F -99     229 Norfolk Sandy Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Marianna,FL USA               -99    -99  F-loamy,silic,thermic Typ Paleudults
+ Marianna,FL USA              -99      -99 F-loamy,silic,thermic Typ Paleudults
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   6.0  0.10  77.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -403,7 +420,7 @@
 
 *IBPN910025  NRCS-USDA   L       173 Norfolk Sandy Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Mobile      US             30.920 -88.034 Unclassified
+ Mobile      US            30.920  -88.034 Unclassified
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13   6.0  0.60  61.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -412,11 +429,29 @@
     91   Bt2 0.203 0.329 0.444 0.208  0.23  1.41  0.13  34.7  35.3   -99   -99   4.7   -99  12.1   -99 
    127   Bt3 0.212 0.333 0.437 0.113  0.23  1.43  0.07  36.8  33.0   -99   -99   4.9   -99  13.9   -99 
    142   Bt4 0.214 0.339 0.444 0.068  0.23  1.41  0.13  36.8  34.1   -99   -99   4.9   -99  13.6   -99 
-   173   Bt5 0.205 0.316 0.422 0.043  0.23  1.47  0.07  35.5  28.1   -99   -99   4.7   -99  12.8   -99 
+   173   Bt5 0.205 0.316 0.422 0.043  0.23  1.47  0.07  35.5  28.1   -99   -99   4.7   -99  12.8   -99
+
+*IBPN910026  NRCS-USDA   L        173  Norfolk Sandy Loam
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Mobile      US              30.92 -88.034 Unclassified
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13     6    .6    61     1  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5    Ap  .101  .249  .498     1  1.32  1.24  1.16   8.6  41.5   -99   -99     6   -99   7.9   -99
+    15    Ap  .101  .249  .498     1  1.32  1.24  1.16   8.6  41.5   -99   -99     6   -99   7.9   -99
+    25    Ap  .101  .249  .498     1  1.32  1.24  1.16   8.6  41.5   -99   -99     6   -99   7.9   -99
+    34   Bt1  .173  .303  .439  .403   .23  1.42    .3  27.8  36.9   -99   -99   6.5   -99   8.6   -99
+    43   Bt1  .173  .303  .439  .403   .23  1.42    .3  27.8  36.9   -99   -99   6.5   -99   8.6   -99
+    66   Bt1  .173  .303  .439  .403   .23  1.42    .3  27.8  36.9   -99   -99   6.5   -99   8.6   -99
+    91   Bt2  .203  .329  .444  .208   .23  1.41   .13  34.7  35.3   -99   -99   4.7   -99  12.1   -99
+   127   Bt3  .212  .333  .437  .113   .23  1.43   .07  36.8    33   -99   -99   4.9   -99  13.9   -99
+   142   Bt4  .214  .339  .444  .068   .23  1.41   .13  36.8  34.1   -99   -99   4.9   -99  13.6   -99
+   173   Bt5  .205  .316  .422  .043   .23  1.47   .07  35.5  28.1   -99   -99   4.7   -99  12.8   -99
+   203   Bt5  .205  .316  .422  .043   .23  1.47   .07  35.5  28.1   -99   -99   4.7   -99  12.8   -99
 
 *IBPN910040  GreenAcres, -99     180 Millhopper Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  Loamy,silic,hyperth Gross. Paleudults
+ -99         -99              -99      -99 Loamy,silic,hyperth Gross. Paleudults
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   5.0  0.50  66.0  1.00  0.90 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -432,7 +467,7 @@
 
 *IBMZ910013  IBSNAT      -99     110 Waipio
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Waipio,HI   USA               -99    -99  Clayey, kaolinitic, isohyperth, Tropeptic Eutrusto
+ Waipio,HI   USA              -99      -99 Clayey, kaolinitic, isohyperth, Tropeptic Eutrusto
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   5.0  0.60  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -447,7 +482,7 @@
 
 *IBMZ913514  Gainesville -99     180 Millhopper Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Loamy,silic,hyperth Arenic Paleudult
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Arenic Paleudult
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   2.0  0.65  60.0  1.00  0.80 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -463,7 +498,7 @@
 
 *IBMZ910014  Gainesville -99     180 Millhopper Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Loamy,silic,hyperth Arenic Paleudult
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Arenic Paleudult
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   2.0  0.65  60.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -479,7 +514,7 @@
 
 *IBMZ910114  Gainesville -99     180 Millhopper Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Loamy,silic,hyperth Arenic Paleudult
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Arenic Paleudult
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   2.0  0.65  60.0  1.00  0.72 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -494,7 +529,7 @@
 
 *IBMZ910023  IBSNAT      -99     151 Norfolk Loamy Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Florence,SC USA               -99    -99  Norfolk Loamy Sand
+ Florence,SC USA              -99      -99 Norfolk Loamy Sand
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   5.0  0.60  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -508,7 +543,7 @@
 
 *IBMZ910032  87EBDRL     -99     120 Clayey, Oxidic, Isothermic Haplustox
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  QUINTANA
+ -99         -99              -99      -99 QUINTANA
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   7.1  0.50  76.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -523,7 +558,7 @@
 
 *IBWH980018  SCS         -99     180 Haynie
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Manhattan   USA               -99    -99  Coarse-silty, mixed,calcareous,mesic Typ Udifluven
+ Manhattan   USA              -99      -99 Coarse-silty, mixed,calcareous,mesic Typ Udifluven
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   5.0  0.60  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -537,7 +572,7 @@
 
 *IBWH980019  Swift       -99     150 Wood Mountain Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Swift_Curr  Canada            -99    -99  Orthic Brown Chernozem
+ Swift_Curr  Canada           -99      -99 Orthic Brown Chernozem
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.12   8.0  0.50  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -553,7 +588,7 @@
 
 *IBWH980020  IBSNAT      -99     155 Rothamsted
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Rothamsted  England           -99    -99  Rothamsted
+ Rothamsted  England          -99      -99 Rothamsted
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   6.0  0.50  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -567,7 +602,7 @@
 
 *IBBN910015  SCS         -99     180 Millhopper Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Loamy,silic,hyperth Gross. Paleudults
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Gross. Paleudults
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   5.0  0.50  66.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -583,7 +618,7 @@
 
 *IBBN910016  SCS         -99     180 Millhoper Fine Sand, W-2, Kendrick clay closer to surface
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Loamy,silic,hyperth Gross. Paleudults
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Gross. Paleudults
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   5.0  0.50  66.0  1.00  0.90 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -596,10 +631,10 @@
    120   -99 0.027 0.130 0.230 0.100 17.50  1.52  0.03   9.6   4.2   -99   -99   5.9   -99   -99   -99 
    150   -99 0.027 0.130 0.230 0.050  0.30  1.46  0.03   8.3   3.6   -99   -99   5.9   -99   -99   -99 
    180   -99 0.070 0.258 0.360 0.000  0.10  1.46  0.03   8.3   3.6   -99   -99   5.9   -99   -99   -99    
-  
+
 *IBBN910030  CIAT        -99     209 CIAT-Plot M3
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Palmira(M3) Colombia        3.480  73.370 Fine-silty,mixed,isohyperth.Aquic Hapludoll
+ Palmira(M3) Colombia       3.480   73.370 Fine-silty,mixed,isohyperth.Aquic Hapludoll
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.09  11.0  0.40  84.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -619,7 +654,7 @@
 
 *IBBN910038  ICTA        -99     150 San_Fernando,Quezada
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- S_Fernando  Guatemala         -99    -99  LOAMY-SKELETAL,MIXED,ISOHYPERTHERMIC TYPIC USTIFLU
+ S_Fernando  Guatemala        -99      -99 LOAMY-SKELETAL,MIXED,ISOHYPERTHERMIC TYPIC USTIFLU
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13  11.3  0.40  80.0  1.00  0.80 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -633,7 +668,7 @@
 
 *GAPN930001  SCS         SL      178 Faceville
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Plains,GA   USA            32.000 -84.330 CLAYEY, KAOLINITIC THERMIC, TYPIC PALEUDULTS
+ Plains,GA   USA           32.000  -84.330 CLAYEY, KAOLINITIC THERMIC, TYPIC PALEUDULTS
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13   9.3  0.60  76.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -647,7 +682,7 @@
 
 *IBRI910001  IBSNAT      -99      50 Andaqueptic Haplaquoll
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  UNKNOWN
+ -99         -99              -99      -99 UNKNOWN
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   7.5  0.00  87.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -658,7 +693,7 @@
 
 *IBRI910002  IBSNAT      -99      50 Vertic Tropaquept
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  UNKNOWN
+ -99         -99              -99      -99 UNKNOWN
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   7.5  0.00  87.0  1.50  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -669,7 +704,7 @@
 
 *IBRI910023  IRRI        -99     135 Upland Soil
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  FINE, MIXED,ISOHYPERTHERMIC, ANDAQUEPTIC HAPLAQUOL
+ -99         -99              -99      -99 FINE, MIXED,ISOHYPERTHERMIC, ANDAQUEPTIC HAPLAQUOL
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13  12.0  0.60  67.0  0.90  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -686,7 +721,7 @@
 
 *IBRI910024  IBSNAT      -99      51 Suphan Lowland
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  Fine, Mixed, Non-acid, Isohyper., Aeric Tropaquept
+ -99         -99              -99      -99 Fine, Mixed, Non-acid, Isohyper., Aeric Tropaquept
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.10   7.5  0.00  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -699,7 +734,7 @@
 
 *IBWM860001  AWAII       CL      120 Kawaihapai Gravelly Clay Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         USA            -9.000  -9.000 FINE,MIXED,ISOHYPERHERMIC CUMULIC HAPLUSTOLLS
+ -99         USA           -9.000   -9.000 FINE,MIXED,ISOHYPERHERMIC CUMULIC HAPLUSTOLLS
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
  BROWN  0.13  12.0  0.60  90.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -712,7 +747,7 @@
 
 *CCPA000030  Veltkamp    -99     209 Silty Clay Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Palmira     Colombia        3.520  76.350 Fine-silty, mixed, isohyperth. Aquic Hapludoll
+ Palmira     Colombia       3.520   76.350 Fine-silty, mixed, isohyperth. Aquic Hapludoll
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.09  11.0  0.40  84.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -732,7 +767,7 @@
 
 *CCQU000033  Connor      -99     260 Clay
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Quilichao   Colombia        3.100  76.510 Fine,Kaolinitic,Isohyperth. Oxic Dystropept
+ Quilichao   Colombia       3.100   76.510 Fine,Kaolinitic,Isohyperth. Oxic Dystropept
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.09   6.8  0.60  76.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -751,7 +786,7 @@
 
 *IBML910001  IBSNAT      -99     210 Niger Sandy Soil
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         Niger             -99    -99  NIGER SANDY SOIL
+ -99         Niger            -99      -99 NIGER SANDY SOIL
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14  10.0  0.80  76.0  0.35  0.70 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -768,7 +803,7 @@
 
 *IBML910083  IBSNAT      -99     156 Medium Alfisol
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  MEDIUM ALFISOL
+ -99         -99              -99      -99 MEDIUM ALFISOL
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.0  0.50  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -781,7 +816,7 @@
 
 *IBSG910010  IBSNAT      -99     210 Miller Clay Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- College STN USA               -99    -99  MILLER CLAY LOAM
+ College STN USA              -99      -99 MILLER CLAY LOAM
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   7.0  0.28  78.0  1.00  0.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -796,7 +831,7 @@
 
 *IBSG910011  IBSNAT      -99     130 Weakly self-mulching grey medium to heavy clay
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  HEAVY CLAY
+ -99         -99              -99      -99 HEAVY CLAY
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.0  0.50  60.0  1.00  0.80  IB001 IB001 IB001
 !   -99  0.13   6.0  0.50  60.0  0.00  0.90 IB001 IB001 IB001
@@ -813,7 +848,7 @@
 
 *IBSG910085  IBSNAT      -99     172 Patencheru
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Patancheru  India             -99    -99  ALFISOL Udic Rhodustalf, Patencheru Series
+ Patancheru  India            -99      -99 ALFISOL Udic Rhodustalf, Patencheru Series
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.0  0.30  80.0  1.00  1.00 IB001 IB001 IB001
 !   -99  0.13   6.0  0.30  80.0  1.00  1.10 IB001 IB001 IB001   GH/2011 
@@ -828,7 +863,7 @@
 
 *IBSG910086  IBSNAT      -99     202 Kasareddipalli
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  VERTISOL,Typic Pellustert ,Kasareddipalli Series
+ -99         -99              -99      -99 VERTISOL,Typic Pellustert ,Kasareddipalli Series
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   6.0  0.25  85.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -843,7 +878,7 @@
 
 *IBSG910092  IBSNAT      -99      53 Patencheru
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  ALFISOL Udic Rhodustalf, Patencheru Series
+ -99         -99              -99      -99 ALFISOL Udic Rhodustalf, Patencheru Series
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.0  0.50  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -854,7 +889,7 @@
 
 *IBSG910093  IBSNAT      -99     135 Tindall Clay Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  TINDALL CLAY LOAM, TIPPERA SERIES
+ -99         -99              -99      -99 TINDALL CLAY LOAM, TIPPERA SERIES
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.0  0.40  74.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -869,7 +904,7 @@
 
 *IBSG910096  IBSNAT      -99     100 Medium Black Calcarious Soil
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Pune        India             -99    -99  VERTISOL
+ Pune        India            -99      -99 VERTISOL
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13  11.6  0.20  85.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -884,7 +919,7 @@
 
 *IBBA980008  IBSNAT      -99     105 Typic Calciorthid
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Breda       Syria          35.209  40.000 Typic Calciorthid
+ Breda       Syria         35.209   40.000 Typic Calciorthid
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   6.0  0.50  72.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -899,7 +934,7 @@
 
 *IBBA980060  IBSNAT      -99     180 Bozeman
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Bozeman     USA               -99    -99  Typic Haploboroll
+ Bozeman     USA              -99      -99 Typic Haploboroll
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.12  12.0  0.60  60.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -913,7 +948,7 @@
 
 *IBBA910009  IBSNAT      -99     180 Palexerollic Chromoxerert
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Jindiress   Syria             -99    -99  Palexerollic Chromoxerert
+ Jindiress   Syria            -99      -99 Palexerollic Chromoxerert
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.09   5.0  0.30  60.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -933,7 +968,7 @@
 
 *IBBA910014  IBSNAT      -99     165 Tel Hadya
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Tel_Hadya   Syria             -99    -99  unknown
+ Tel_Hadya   Syria            -99      -99 unknown
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.07   6.0  0.20  60.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -952,7 +987,7 @@
 
 *IBBA910018  IBSNAT      -99     150 Khanasser
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Khanasser   Syria             -99    -99  unknown
+ Khanasser   Syria            -99      -99 unknown
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.07   6.0  0.20  60.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -970,7 +1005,7 @@
 
 *IBBA910041  IBSNAT      -99     160 Rothhamsted
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Rothamsted  England           -99    -99  unknown
+ Rothamsted  England          -99      -99 unknown
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   6.0  0.50  60.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -984,7 +1019,7 @@
 
 *IBBA910061  IBSNAT      -99     195 The Murrays
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- The_Murrays Scotland          -99    -99  unknown
+ The_Murrays Scotland         -99      -99 unknown
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.12   5.0  0.30  35.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -998,7 +1033,7 @@
 
 *IBPT910002  IBSNAT      -99      65 Sandy Clay (AUST.1970 P1, SALE)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  UNKNOWN
+ -99         -99              -99      -99 UNKNOWN
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   5.0  0.60  60.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1009,7 +1044,7 @@
 
 *IBPT910005  IBSNAT      -99      65 Sandy Loam (Abedeen Idaho, 1978)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Aberdeen    USA               -99    -99  UNKNOWN
+ Aberdeen    USA              -99      -99 UNKNOWN
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   5.0  0.60  60.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1020,7 +1055,7 @@
 
 *IBPT910006  IBSNAT      -99      65 MONTCALM MICHIGAN  McBRIDE SANDY LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  UNKNOWN (  6)
+ -99         -99              -99      -99 UNKNOWN (  6)
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   5.0  0.60  60.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1031,7 +1066,7 @@
 
 *UFPT930001  SCS         S       203 Eaugallie fine sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BRADENTON   U.S.A.         27.300  82.300 SANDY, SILICEOUS, HYPERTHERMIC, ALFIC, HAPLAQUOD
+ BRADENTON   U.S.A.        27.300   82.300 SANDY, SILICEOUS, HYPERTHERMIC, ALFIC, HAPLAQUOD
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      G  0.13  12.7  0.05  87.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1046,7 +1081,7 @@
 
 *UFWH940002  SCS         SL      157 Crowley fine sandy loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- EAGLE LA,TX U.S.A.         29.600 -96.300 FINE, MONTMORILLONITIC, THERMIC TYPIC ALBAQUALFS
+ EAGLE LA,TX U.S.A.        29.600  -96.300 FINE, MONTMORILLONITIC, THERMIC TYPIC ALBAQUALFS
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13   8.8  0.40  87.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1059,7 +1094,7 @@
 
 *UFWH940003  SCS         SIL     151 Captina silt loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- FAYETTEV,AR U.S.A.         36.100 -94.200 FINE-SILTY, MIXED, MESIC TYPIC FRAGIULDULTS
+ FAYETTEV,AR U.S.A.        36.100  -94.200 FINE-SILTY, MIXED, MESIC TYPIC FRAGIULDULTS
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13   9.1  0.20  84.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1072,7 +1107,7 @@
 
 *UFWH940004  SCS         LS      172 Eustis loamy sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- AMERICUS,GA U.S.A.         30.950 -87.100 SANDY, SILICEOUS, THERMIC PSAMMENTIC PALEUDULTS
+ AMERICUS,GA U.S.A.        30.950  -87.100 SANDY, SILICEOUS, THERMIC PSAMMENTIC PALEUDULTS
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13   8.5  0.53  64.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1083,9 +1118,28 @@
    147  B21t 0.054 0.172 0.313 0.200 33.00  1.50  0.20  10.0  10.0   0.0   -99   4.8   -99   -99   -99 
    172  B22t 0.054 0.172 0.313 0.150 33.00  1.50  0.10  10.0  10.0   0.0   -99   4.8   -99   -99   -99 
 
+! use for Shorter, AL, carinata, E.V.Smith Farm, 8.4% clay, 16%silt, 0.94% OM entered for 0-18cm, rest unchanged)
+! SRGF may be too deep
+*UFWH940044  SCS         LS       172  Eustis loamy sand
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ AMERICUS,GA U.S.A.          30.95   -87.1 SANDY, SILICEOUS, THERMIC PSAMMENTIC PALEUDULTS
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13   8.5   .53    64     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5    Ap  .055  .177  .302     1    33  1.48  0.94     6    15     0   -99   4.8   -99   -99   -99
+    15    Ap  .055  .177  .302     1    33  1.48  0.94     6    15     0   -99   4.8   -99   -99   -99
+    18    Ap  .055  .177  .302     1    33  1.48  0.94     6    15     0   -99   4.8   -99   -99   -99
+    30   A21  .055  .177  .302   .85    33   1.5    .5     6    15     0   -99   4.8   -99   -99   -99
+    45   A21  .055  .177  .302   .85    33   1.5    .5     6    15     0   -99   4.8   -99   -99   -99
+    60   A22  .055  .177  .302    .4    33   1.5    .3     6    15     0   -99   4.8   -99   -99   -99
+    90    B1  .054  .172  .313    .3    33   1.5    .3    10    10     0   -99   4.8   -99   -99   -99
+   120  B21t  .054  .172  .313    .2    33   1.5    .2    10    10     0   -99   4.8   -99   -99   -99
+   147  B21t  .054  .172  .313    .2    33   1.5    .2    10    10     0   -99   4.8   -99   -99   -99
+   172  B22t  .054  .172  .313   .15    33   1.5    .1    10    10     0   -99   4.8   -99   -99   -99
+
 *UFWH940005  SCS         SL      189 Greenville sandy loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- THORSBY,AL  U.S.A.         32.900 -86.700 CLAYEY, KAOLINITIC, THERMIC RHODIC PALEUDULTS
+ THORSBY,AL  U.S.A.        32.900  -86.700 CLAYEY, KAOLINITIC, THERMIC RHODIC PALEUDULTS
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13   9.0  0.60  76.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1096,7 +1150,7 @@
 
 *UFWH940010  SCS         SL      150 Red Bay sandy loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- JAY,FL      U.S.A.         30.950 -87.100 FINE-LAOMY, SILICEOUS, THERMIC RHODIC PALEUDULTS
+ JAY,FL      U.S.A.        30.950  -87.100 FINE-LAOMY, SILICEOUS, THERMIC RHODIC PALEUDULTS
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13   9.2  0.60  84.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1105,9 +1159,27 @@
    128  B21t 0.147 0.261 0.337 0.100   -99  1.60  0.04  25.0  11.3   0.0   -99   5.5   4.8   -99   -99 
    150  B22t 0.125 0.236 0.332 0.020   -99  1.61  0.02  20.0   7.1   0.0   -99   5.6   5.2   -99   -99 
 
+! use for Jay carinata
+*UFWH940011  SCS         SL       150  Red Bay sandy loam
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ JAY,FL      U.S.A.          30.95   -87.1 FINE-LAOMY, SILICEOUS, THERMIC RHODIC PALEUDULTS
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN   .13   9.2    .6    84     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5    Ap  .103  .218  .326     1   -99  1.63   .89    15  15.5     0   -99   5.3   4.6   -99   -99
+    15    Ap  .103  .218  .326     1   -99  1.63   .89    15  15.5     0   -99   5.3   4.6   -99   -99
+    20    Ap  .103  .218  .326     1   -99  1.63   .89    15  15.5     0   -99   5.3   4.6   -99   -99
+    30    B1  .125  .239  .333    .6   -99  1.61   .32    20  12.9     0   -99   5.3   4.4   -99   -99
+    35    B1  .125  .239  .333    .6   -99  1.61   .32    20  12.9     0   -99   5.3   4.4   -99   -99
+    45  B21t  .147  .261  .337    .1   -99   1.6   .04    25  11.3     0   -99   5.5   4.8   -99   -99
+    60  B21t  .147  .261  .337    .1   -99   1.6   .04    25  11.3     0   -99   5.5   4.8   -99   -99
+    90  B21t  .147  .261  .337    .1   -99   1.6   .04    25  11.3     0   -99   5.5   4.8   -99   -99
+   128  B21t  .147  .261  .337    .1   -99   1.6   .04    25  11.3     0   -99   5.5   4.8   -99   -99
+   150  B22t  .125  .236  .332   .02   -99  1.61   .02    20   7.1     0   -99   5.6   5.2   -99   -99
+
 *IBSC910014  SASA        -99     300 Wartland
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- LAMERCY     RSA           -29.630  30.000 Loamy,silic,hyperth Arenic Paleudult
+ LAMERCY     RSA          -29.630   30.000 Loamy,silic,hyperth Arenic Paleudult
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   9.0  1.00  82.0  1.00  0.80 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1122,27 +1194,9 @@
    120   -99 0.356 0.385 0.391 0.100  0.50  1.60  0.04   -99   -99   -99 0.000   7.0   -99   -99   -99 
    300   -99 0.367 0.415 0.418 0.015  0.01  1.56  0.24   -99   -99   -99 0.000   7.0   -99   -99   -99 
 
-*IBSU910045              -99     300 Granja Sandy Loam
-@SITE        COUNTRY          LAT     LONG SCS FAMILY
- Cordoba     Spain             -99    -99  Granja sandy loam. Cordoba, Spain
-@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
-   -99  0.18   6.0  0.50  77.0  1.00  1.00 SA001 SA001 SA001
-@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
-    10   -99   .08   .24   .34     1   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-    30   -99   .08   .24   .34     1   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-    60   -99   .08   .24   .36  .411   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-    90   -99   .08   .24   .38  .223   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-   120   -99   .08   .24   .37    .1   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-   150   -99   .08   .24   .38    .1   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-   180   -99   .08   .24   .35    .1   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-   210   -99   .08   .24   .36    .1   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-   240   -99   .08   .24   .35   .01   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-   270   -99   .08   .24   .34  .001   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-   300   -99   .08   .24   .34  .001   -99   1.6     0   -99   -99   -99   -99   -99   -99   -99   -99
-
 *IBWH910999  Swift       -99     150 Wood Mountain Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Swift_Curr  Canada            -99    -99  Orthic Brown Chernozem
+ Swift_Curr  Canada           -99      -99 Orthic Brown Chernozem
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.12   8.0  0.50  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1158,7 +1212,7 @@
 
 *IBCH910008  IBSNAT      -99     180 VERY FINE MONTMORILLONITIC ISOHYPERTHERMIC
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Patancheru  India             -99    -99  Vertisol
+ Patancheru  India            -99      -99 Vertisol
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.0  0.70  95.0  1.00  0.80 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1177,7 +1231,7 @@
 
 *IBCH910010  IBSNAT      -99      97 Kasireddipalli Series
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Patancheru  India             -99    -99  Vertisol, Typic Pellustert
+ Patancheru  India            -99      -99 Vertisol, Typic Pellustert
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   6.0  0.70  84.5  1.00  0.90 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1191,7 +1245,7 @@
 
 *UFBR950001  SCS         S       203 Eaugallie fine sand (IMPERVIOUS LAYER AT 120 CM)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- BRADENTON   U.S.A.         27.300  82.300 SANDY, SILICEOUS, HYPERTHERMIC, ALFIC, HAPLAQUOD
+ BRADENTON   U.S.A.        27.300   82.300 SANDY, SILICEOUS, HYPERTHERMIC, ALFIC, HAPLAQUOD
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      G  0.13  12.7  0.05  87.0  1.00  0.97 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1206,7 +1260,7 @@
 
 *IA00940001  SCS         SIC     175 LHK
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- LUSHNJE     ALBANIA        40.000  19.000 FINR
+ LUSHNJE     ALBANIA       40.000   19.000 FINR
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13   7.7  0.20  76.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1220,7 +1274,7 @@
 
 *GA00620001  SCS         SL      191 LLOYD SERIES - SPALDING COUNTY, GA
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- GRIFFIN     USA            33.300 -84.300 RED YELLOW PODZOLIC
+ GRIFFIN     USA           33.300  -84.300 RED YELLOW PODZOLIC
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      R  0.14   9.0  0.60  76.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1231,7 +1285,7 @@
 
 *CCBN910030  CIAT        -99     209 M2N
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Palmira(M2) Colombia        3.480 -73.370 Fine-silty,mixed,isohyperth.Aquic Hapludoll ( 30)
+ Palmira(M2) Colombia       3.480  -73.370 Fine-silty,mixed,isohyperth.Aquic Hapludoll ( 30)
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.09  11.0  0.40  84.0  1.00  0.81 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1253,7 +1307,7 @@
 
 *CCBN880060  SCS         SIL     200 UNKNOWN
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- POPAYAN     COLOMBIA        2.420 -76.580 MEDIAL, ISOTHERMIC TYPIC DYSTRANDEPT (INCEPTISOL)
+ POPAYAN     COLOMBIA       2.420  -76.580 MEDIAL, ISOTHERMIC TYPIC DYSTRANDEPT (INCEPTISOL)
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BK  0.09   8.7  0.60  76.0  1.00  0.90 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1271,7 +1325,7 @@
 
 *CCPA970001  SCS         SICL    145 CIAT
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- CIAT        COLOMBIA        3.500  76.350 Unknown
+ CIAT        COLOMBIA       3.500   76.350 Unknown
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BK  0.10  12.7  0.30  70.0  1.00  0.97 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1286,7 +1340,7 @@
 
 *CI00960001  SCS         CL      150 El Batan
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- EL BATANG9  Mexico         19.310 -98.500 El Batan
+ EL BATANG9  Mexico        19.310  -98.500 El Batan
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13  10.5  0.40  76.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1300,7 +1354,7 @@
 
 *CI00970002  SCS         SICL    130 SUELO COLORADA
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- SANTA ROSA2 MEXICO         18.300 -95.100 HUMIC HAPLUDULTS
+ SANTA ROSA2 MEXICO        18.300  -95.100 HUMIC HAPLUDULTS
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     YR  0.14  10.7  0.80  80.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1311,7 +1365,7 @@
 
 *CBAN840001  XXXX   SACL SCL     120 Sandy-Clay Loam EL NUS: CENICAFE/CORPOICA
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- EL NUS COLO MBIA            6.480   3.000 Inceptisols.
+ EL NUS COLO MBIA           6.480    3.000 Inceptisols.
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13  11.5  0.65  75.0  1.00  1.00   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1328,7 +1382,7 @@
 
 *CCCA800001  CL       CL SIL     120 ULTISOL CARIMAGUA-CIAT
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- CARIMAGUA   COLOMBIA        4.610  71.310 CLAY
+ CARIMAGUA   COLOMBIA       4.610   71.310 CLAY
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13  11.5  0.65  75.0  1.00  1.00   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1345,7 +1399,7 @@
 
 *CCQU790001  SCS         C        60 QUILICHAO
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- QUILICHAO   COLOMBIA        3.100  76.510 Fine, Kaolinitic, Isohyperth. oxic
+ QUILICHAO   COLOMBIA       3.100   76.510 Fine, Kaolinitic, Isohyperth. oxic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13   6.7  0.18  76.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1355,7 +1409,7 @@
 
 *CCYU820001  XXXX   LOSA SL      120 ULTISOL, TYPIC PALEUDULT AT YURIMAGUAS-CIAT
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- YURIMAGUAS  PERU           -5.930   3.000 Loamy sand.
+ YURIMAGUAS  PERU          -5.930    3.000 Loamy sand.
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.15  11.5  0.65  75.0  1.00  1.00   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1372,7 +1426,7 @@
 
 *CNCH820001  XXXX   SALO L       120 SANDY LOAM AT LA ROMELIA-CENICAFE
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- LA ROMELIA  COLOMBIA        4.960  75.700 Typic Dystrandept.
+ LA ROMELIA  COLOMBIA       4.960   75.700 Typic Dystrandept.
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13  11.5  0.65  75.0  0.80  1.00   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1389,7 +1443,7 @@
 
 *SAUR900001  XXXX   SACL SCL     120 SANDY CLAY LOAM AT URRAO-SECR.AGRIC. ANTIOQUIA
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- URRAO       COLOMBIA        4.610  71.310 Inseptisols
+ URRAO       COLOMBIA       4.610   71.310 Inseptisols
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13  11.5  0.65  75.0  1.00  1.00   -99   -99   -99
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1406,7 +1460,7 @@
 
 *IB00740011  SCS         CL      137 MAKIKI
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- HI021 (4)   US              0.000   0.000 ANDIC USTIC HUMITROPEPT, FINE, MIXED, ISOHYPERTHER
+ HI021 (4)   US             0.000    0.000 ANDIC USTIC HUMITROPEPT, FINE, MIXED, ISOHYPERTHER
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13  11.0  0.60  87.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1418,7 +1472,7 @@
 
 *IB00830002  SCS         SIL     150 Unknown (Kula Ag Park)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- KULA AGPARK US             20.780 156.376 TORROXIC HAPLUSTOLL, FINE, KAOLINITIC, ISOHYPERTHE
+ KULA AGPARK US            20.780  156.376 TORROXIC HAPLUSTOLL, FINE, KAOLINITIC, ISOHYPERTHE
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13  10.0  0.60  91.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1431,7 +1485,7 @@
 
 *IB00830003  SCS         L       160 Unknown (Pulehu Experimental Station)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- PULEHU EXFM US             20.781 156.333 TORROXIC HAPLUSTOLL, FINE, KAOLINITIC, ISOHYPERTHE
+ PULEHU EXFM US            20.781  156.333 TORROXIC HAPLUSTOLL, FINE, KAOLINITIC, ISOHYPERTHE
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13  10.1  0.60  94.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1443,7 +1497,7 @@
 
 *IB00720001  SCS         CL       51 Unknown (Mauka Campus)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- MAUKA CAMPU US             21.310 157.840 -99
+ MAUKA CAMPU US            21.310  157.840 -99
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BN  0.13  10.4  0.60  76.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1452,7 +1506,7 @@
 
 *IBPI910013  IBSNAT      -99     110 Waipio
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Waipio,HI   USA               -99    -99  Clayey, kaolinitic, isohyperth, Tropeptic Eutrusto
+ Waipio,HI   USA              -99      -99 Clayey, kaolinitic, isohyperth, Tropeptic Eutrusto
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.14   5.0  0.60  60.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1466,7 +1520,7 @@
 
 *IBAR910030  SCS         -99     137 Clay
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  CLAYEY, KAOLINITIC, ISOHYPERTHERMIC TROPEPTIC HAPL
+ -99         -99              -99      -99 CLAYEY, KAOLINITIC, ISOHYPERTHERMIC TROPEPTIC HAPL
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.9  0.60  76.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1482,7 +1536,7 @@
 
 *IBAR910034  S70Ha-7-1   -99      66 IBAR910034
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  VERTIC HAPLUSTOLLS, VERY-FINE, KAOLINITIC, ISOHYPE
+ -99         -99              -99      -99 VERTIC HAPLUSTOLLS, VERY-FINE, KAOLINITIC, ISOHYPE
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13  11.7  0.60  87.0  0.80  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1495,7 +1549,7 @@
 
 *IBAR910035  83P0882     -99     153 IBAR910035
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  CLAYEY, OXIDIC, ISOTHERMIC HUMOXIC TROPOHUMULT (35
+ -99         -99              -99      -99 CLAYEY, OXIDIC, ISOTHERMIC HUMOXIC TROPOHUMULT (35
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13  10.1  0.60  85.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1512,7 +1566,7 @@
 
 *IBAR910043  87P294      -99     227 IBAR910043
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  VERY-FINE, KAOLINITIC, ISOHYPERTHERMIC XANTHIC KAN
+ -99         -99              -99      -99 VERY-FINE, KAOLINITIC, ISOHYPERTHERMIC XANTHIC KAN
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   6.9  0.60  76.0  0.80  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1532,7 +1586,7 @@
 
 *UFON780006  S25-2-(1-7) S       203 Pomona Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Ona REC     USA            27.420 -81.920 Ultic Haplaquods, sandy, siliceous, hyperthermic
+ Ona REC     USA           27.420  -81.920 Ultic Haplaquods, sandy, siliceous, hyperthermic
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL  0.09   5.9  0.60  30.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1546,7 +1600,7 @@
 
 *IBSB910032  Sioux       -99     182 Sioux Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  Sioux Loam
+ -99         -99              -99      -99 Sioux Loam
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.11   9.0  0.50  77.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1562,7 +1616,7 @@
 
 *IBSB910049  Nicollet mo -99     202 NICOLLET CLAY LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  NICOLLET CLAY LOAM (FINE-LOAMY,MIXED,MESIC AQUIC H
+ -99         -99              -99      -99 NICOLLET CLAY LOAM (FINE-LOAMY,MIXED,MESIC AQUIC H
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.09  10.6  0.60  75.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1581,7 +1635,7 @@
 
 *IUBF970110  wine2   IA  L       210 Ritchie 6/12/97  Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99             2.000     -99 unknown 
+ -99         -99            2.000      -99 unknown 
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.09   7.0  0.55  70.0  0.50  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1604,7 +1658,7 @@
 
 *IUBF970211  SOREN-  IA  L       210 Ritchie 6/12/97  Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99             2.000     -99 unknown 
+ -99         -99            2.000      -99 unknown 
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.09   7.0  0.55  60.0  0.50  0.92 IB001 IB001 IB001
 !   -99  0.09   7.0  0.55  60.0  0.50  1.00 IB001 IB001 IB001, KJB - 5/31/09 decreased .99 to .92
@@ -1627,7 +1681,7 @@
 
 *LUGO930001  SAU CAL SOY SCL     150 FINCA DE PRACTICAS EPS CALICATA 1 (LUGO) Plus 0.01 water
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- LUGO        SPAIN          43.040  -3.300 TYPIC HAPLUMREPT
+ LUGO        SPAIN         43.040   -3.300 TYPIC HAPLUMREPT
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     YR  0.14   9.7  0.60  80.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1639,7 +1693,7 @@
 
 *IBSB910046  Wooster     -99     153 WOOSTER SILT LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  WOOSTER SILT LOAM (FINE-LOAMY,MIXED MESIC TYPIC FR
+ -99         -99              -99      -99 WOOSTER SILT LOAM (FINE-LOAMY,MIXED MESIC TYPIC FR
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   8.8  0.40  84.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1658,7 +1712,7 @@
 
 *IBSB910064              -99     205 Deep Silt Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99               -99    -99  DEEP SILT LOAM
+ -99         -99              -99      -99 DEEP SILT LOAM
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.12   6.0  0.40  77.0  1.00  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1674,7 +1728,7 @@
 
 *ISUV950008  AEES, AMES  -99     152 CLARION LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- -99         -99            42.000     -99  TYPIC HAPLUDOLL, FINE-LOAMY, MIXED, MESIC ( 31)
+ -99         -99           42.000      -99 TYPIC HAPLUDOLL, FINE-LOAMY, MIXED, MESIC ( 31)
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.09   9.8  0.40  84.0  0.50  1.00 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1691,7 +1745,7 @@
 
 *MSKB890006  IBSNAT      L       120 KALAMAZOO LOAM
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Kalamazoo   MI, U.S.A.     41.700 -85.500 Typic Hapludalf
+ Kalamazoo   MI, U.S.A.    41.700  -85.500 Typic Hapludalf
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
   10YR  0.13   9.0  0.15  80.0  1.00  1.00 SA001 SA001 SA001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1708,7 +1762,7 @@
    
 *IBMZ910214  Gainesville S      180. Millhopper Fine Sand                              
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Loamy,silic,hyperth Arenic Paleudult              
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Arenic Paleudult              
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
  -99    0.18   2.0  0.65   60.  1.00  0.92 IB001 IB001 IB001 -99  
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1724,7 +1778,7 @@
 
 *UFBG760002  SCS         S        71 Lauderhill Muck
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- EREC        USA            26.400  80.400 euic, hyperthermic Lithic Haplosaprist
+ EREC        USA           26.400   80.400 euic, hyperthermic Lithic Haplosaprist
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
     BL  0.09   6.0  0.25  61.0  1.00  1.00 IB001 SA001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1740,7 +1794,7 @@
 
 *IBGB910015  SCS-Desire  -99     180 Millhopper Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Loamy,silic,hyperth Gross. Paleudults
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Gross. Paleudults
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   5.0  0.50  66.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1756,7 +1810,7 @@
 
 *UFGA010700  SCS         S       180 Candler
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Hyperthermic uncoated
+ Gainesville USA           29.630  -82.370 Hyperthermic uncoated
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      Y  0.17   6.0  0.85  64.0  1.00  0.95 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1772,7 +1826,7 @@
 
 *UFGA017000  SCS         S       180 Tavares
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Sand uncoated
+ Gainesville USA           29.630  -82.370 Sand uncoated
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      Y  0.17   6.0  0.40  64.0  1.00  0.95 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1788,7 +1842,7 @@
 
 *UFGA950002  Alachua county       203  Millhopper Fine Sand (Compacted layer) 
 @SITE        COUNTRY          LAT     LONG SCS FAMILY 
--99         -99              -99      -99 Loamy, siliceous hyperthermic Grossarenic Paleudults 
+-99         -99               -99      -99 Loamy, siliceous hyperthermic Grossarenic Paleudults 
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE 
   -99  0.18   5.0  0.50  66.0  1.00  0.92 IB001 IB001 IB001 
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC 
@@ -1802,7 +1856,7 @@
 
 *UFGA950003  Alachua cou S       203 Millhopper Fine Sand (Mulched)
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- 99          -99               -99    -99  oamy, siliceous hyperthermic Grossarenic Paleudult
+ 99          -99              -99      -99 Loamy, siliceous hyperthermic Grossarenic Paleudult
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   5.0  0.50  66.0  1.00  0.92  B001  B001  B001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1817,7 +1871,7 @@
 
 *IBTM910017  SCS         -99     203 Orangeburg Sandy Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Quincy      USA            30.600 -86.400 Loamy,silic,hyperth Gross. Paleud(17)
+ Quincy      USA           30.600  -86.400 Loamy,silic,hyperth Gross. Paleud(17)
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.13   9.0  0.27  84.0  1.00  0.96 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1835,7 +1889,7 @@
 
 *IBPP910015  SCS         -99     180 Millhopper Fine Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Gainesville USA            29.630 -82.370 Loamy,silic,hyperth Gross. Paleudults
+ Gainesville USA           29.630  -82.370 Loamy,silic,hyperth Gross. Paleudults
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99  0.18   5.0  0.50  66.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1865,7 +1919,7 @@
 
 *AUTA810001  CSIRO       CL      200 Red sodosol
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Tatura      Australia       36.27  145.14 Red brown earth
+ Tatura      Australia      36.27   145.14 Red brown earth
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
      R   .13     6    .1    80     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1882,7 +1936,7 @@
    
 *NVFN000002  Davison 09  L        210  Standardized Dia Loam
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
- Fallon      USA             39.46 -118.78 Loam
+ Fallon      USA            39.46  -118.78 Loam
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
    -99   .13     6   .25    73     1     1 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
@@ -1902,3 +1956,18 @@
    170   -99  .091   .12  .402  .041  2.59  1.52   .39  10.9    19   -99   -99   7.3   -99   9.2   -99
    190   -99  .091   .12  .402  .027  2.59  1.52   .39  10.9    19   -99   -99   7.3   -99   9.2   -99
    210   -99  .091   .12  .402  .018  2.59  1.52   .39  10.9    19   -99   -99   7.3   -99   9.2   -99
+
+*INRAE00001  INRAE       SL       150  INRAE - MEDIUM SANDY LOAM
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Generic     Generic         43.53     1.5 Generic
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99   .13     6    .5    70     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5   -99   .08   .23  .359     1   -99   1.5   2.5    10    30     0   .07   6.5   -99   -99   -99
+    15   -99   .08   .23  .359     1   -99   1.5   2.5    10    30     0   .07   6.5   -99   -99   -99
+    30   -99   .08   .23  .359     1   -99   1.5     2    10    30     0   .07   6.5   -99   -99   -99
+    45   -99   .08   .23   .36    .1   -99   1.5   1.5    10    30     0   .06   6.5   -99   -99   -99
+    60   -99   .08   .23   .36    .1   -99   1.5   1.5    10    30     0   .06   6.5   -99   -99   -99
+    90   -99   .08   .23  .361    .1   -99   1.5   1.2    10    30     0   .04   6.5   -99   -99   -99
+   120   -99   .08   .23  .359    .1   -99   1.5    .7    10    30     0   .03   6.5   -99   -99   -99
+   150   -99   .08   .23   .36    .1   -99   1.5    .5    10    30     0   .01   6.5   -99   -99   -99

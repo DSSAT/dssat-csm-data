@@ -1,0 +1,505 @@
+*EXP.DETAILS: UCCO9301SU CORDOBA RESPONSE TO IRRI-N "OFF" VILLALOBOS ET AL. UNPUBLISH
+
+*GENERAL
+@PEOPLE
+Villalobos, Soriano, Fereres
+@ADDRESS
+IAS-CSIC, Cordoba Spain
+@SITE
+IFAPA Cordoba
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 0 0 1993 I1  I                 1  1  0  1  1  1  1  0  0  0  0  0  1
+ 2 1 0 0 1993 I2  I                 1  1  0  1  1  2  1  0  0  0  0  0  1
+ 3 1 0 0 1993 I3  I                 1  1  0  1  1  3  1  0  0  0  0  0  1
+ 4 1 0 0 1993 I4  I                 1  1  0  1  1  4  1  0  0  0  0  0  1
+ 5 1 0 0 1993 I5  I                 1  1  0  1  1  5  1  0  0  0  0  0  1
+ 6 1 0 0 1993 I6  I                 1  1  0  1  1  6  1  0  0  0  0  0  1
+ 7 1 0 0 1993 I7  I                 1  1  0  1  1  7  1  0  0  0  0  0  1
+ 8 1 0 0 1993 I8  I                 1  1  0  1  1  8  1  0  0  0  0  0  1
+ 9 1 0 0 1993 I9  I                 1  1  0  1  1  9  1  0  0  0  0  0  1
+10 1 0 0 1993 I1  II                1  1  0  1  1 10  1  0  0  0  0  0  1
+11 1 0 0 1993 I2  II                1  1  0  1  1 11  1  0  0  0  0  0  1
+12 1 0 0 1993 I3  II                1  1  0  1  1 12  1  0  0  0  0  0  1
+13 1 0 0 1993 I4  II                1  1  0  1  1 13  1  0  0  0  0  0  1
+14 1 0 0 1993 I5  II                1  1  0  1  1 14  1  0  0  0  0  0  1
+15 1 0 0 1993 I6  II                1  1  0  1  1 15  1  0  0  0  0  0  1
+16 1 0 0 1993 I7  II                1  1  0  1  1 16  1  0  0  0  0  0  1
+17 1 0 0 1993 I8  II                1  1  0  1  1 17  1  0  0  0  0  0  1
+18 1 0 0 1993 I9  II                1  1  0  1  1 18  1  0  0  0  0  0  1
+19 1 0 0 1993 I1  III               1  1  0  1  1 19  1  0  0  0  0  0  1
+20 1 0 0 1993 I2  III               1  1  0  1  1 20  1  0  0  0  0  0  1
+21 1 0 0 1993 I3  III               1  1  0  1  1 21  1  0  0  0  0  0  1
+22 1 0 0 1993 I4  III               1  1  0  1  1 22  1  0  0  0  0  0  1
+23 1 0 0 1993 I5  III               1  1  0  1  1 23  1  0  0  0  0  0  1
+24 1 0 0 1993 I6  III               1  1  0  1  1 24  1  0  0  0  0  0  1
+25 1 0 0 1993 I7  III               1  1  0  1  1 25  1  0  0  0  0  0  1
+26 1 0 0 1993 I8  III               1  1  0  1  1 26  1  0  0  0  0  0  1
+27 1 0 0 1993 I9  III               1  1  0  1  1 27  1  0  0  0  0  0  1
+28 1 0 0 1993 I1  IV                1  1  0  1  1 28  1  0  0  0  0  0  1
+29 1 0 0 1993 I2  IV                1  1  0  1  1 29  1  0  0  0  0  0  1
+30 1 0 0 1993 I3  IV                1  1  0  1  1 30  1  0  0  0  0  0  1
+31 1 0 0 1993 I4  IV                1  1  0  1  1 31  1  0  0  0  0  0  1
+32 1 0 0 1993 I5  IV                1  1  0  1  1 32  1  0  0  0  0  0  1
+33 1 0 0 1993 I6  IV                1  1  0  1  1 33  1  0  0  0  0  0  1
+34 1 0 0 1993 I7  IV                1  1  0  1  1 34  1  0  0  0  0  0  1
+35 1 0 0 1993 I8  IV                1  1  0  1  1 35  1  0  0  0  0  0  1
+36 1 0 0 1993 I9  IV                1  1  0  1  1 36  1  0  0  0  0  0  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 SU IB0009 E-353
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 UCCO0001 UCCO       -99     0 DR000     0     0 00000 -99    150  COSU910047 -99
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1               0               0         0                 0     0     0     0   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 91032 SA011 SA001   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    15   1.6    .5     1     7     7    12   200    .2
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    WH 93152   500     0     0     0   -99     0   .53     0   100    30 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    10  .176    .2   1.9
+ 1    30  .176    .2   1.9
+ 1    60  .176    .2   1.9
+ 1    90  .176    .2   1.9
+ 1   120  .176    .2   1.9
+ 1   150  .176    .2   1.9
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 93158   -99  7.14  7.14     S     R    70     0     4   -99   -99   -99   -99     0                        -99
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1   -99   -99   -99   -99   -99    10 I1 I
+@I IDATE  IROP IRVAL
+ 1    21 IR005     6
+ 1    29 IR005    49
+ 1    36 IR005    39
+ 1    39 IR005    25
+ 1    44 IR005    29
+ 1    50 IR005    30
+ 1    54 IR005    26
+ 1    58 IR005    23
+ 1    64 IR005    36
+ 1    71 IR005    46
+ 1    77 IR005    21
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2     1   -99   -99   -99   -99   -99    10 I2 I
+@I IDATE  IROP IRVAL
+ 2    21 IR005    11
+ 2    29 IR005    58
+ 2    36 IR005    25
+ 2    39 IR005    40
+ 2    44 IR005    39
+ 2    50 IR005    58
+ 2    54 IR005    11
+ 2    58 IR005    18
+ 2    64 IR005    33
+ 2    71 IR005    31
+ 2    77 IR005    12
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 3     1   -99   -99   -99   -99   -99    10 I3 I
+@I IDATE  IROP IRVAL
+ 3    21 IR005    11
+ 3    29 IR005    29
+ 3    36 IR005    24
+ 3    39 IR005    26
+ 3    44 IR005    14
+ 3    50 IR005    14
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 4     1   -99   -99   -99   -99   -99    10 I4 I
+@I IDATE  IROP IRVAL
+ 4    21 IR005     3
+ 4    29 IR005    48
+ 4    36 IR005    36
+ 4    39 IR005    25
+ 4    44 IR005    20
+ 4    50 IR005    36
+ 4    54 IR005    28
+ 4    58 IR005    45
+ 4    64 IR005   101
+ 4    71 IR005    47
+ 4    77 IR005    22
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 5     1   -99   -99   -99   -99   -99    10 I5 I
+@I IDATE  IROP IRVAL
+ 5    21 IR005    11
+ 5    29 IR005    32
+ 5    36 IR005    28
+ 5    39 IR005    11
+ 5    44 IR005     9
+ 5    50 IR005     6
+ 5    54 IR005     7
+ 5    58 IR005     5
+ 5    64 IR005    13
+ 5    71 IR005     4
+ 5    77 IR005     4
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 6     1   -99   -99   -99   -99   -99    10 I6 I
+@I IDATE  IROP IRVAL
+ 6    21 IR005     6
+ 6    29 IR005    42
+ 6    36 IR005    16
+ 6    39 IR005    20
+ 6    44 IR005    19
+ 6    50 IR005    22
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 7     1   -99   -99   -99   -99   -99    10 I7 I
+@I IDATE  IROP IRVAL
+ 7    36 IR005    13
+ 7    54 IR005    40
+ 7    58 IR005    43
+ 7    64 IR005    63
+ 7    71 IR005    78
+ 7    77 IR005    20
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 8     1   -99   -99   -99   -99   -99    10 I8 I
+@I IDATE  IROP IRVAL
+ 8    36 IR005    25
+ 8    54 IR005    11
+ 8    58 IR005    16
+ 8    64 IR005    34
+ 8    71 IR005    36
+ 8    77 IR005    16
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 9     1   -99   -99   -99   -99   -99    10 I9 I
+@I IDATE  IROP IRVAL
+ 9    36 IR005    22
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+10     1   -99   -99   -99   -99   -99    10 I1 II
+@I IDATE  IROP IRVAL
+10    21 IR005     6
+10    29 IR005    24
+10    36 IR005    13
+10    39 IR005    25
+10    44 IR005    19
+10    50 IR005    10
+10    54 IR005    16
+10    58 IR005     3
+10    64 IR005     4
+10    71 IR005     2
+10    77 IR005     5
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+11     1   -99   -99   -99   -99   -99    10 I2 II
+@I IDATE  IROP IRVAL
+11    21 IR005     5
+11    29 IR005    76
+11    36 IR005    12
+11    39 IR005    35
+11    44 IR005    30
+11    50 IR005    57
+11    54 IR005    22
+11    58 IR005    15
+11    64 IR005   114
+11    71 IR005    13
+11    77 IR005    17
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+12     1   -99   -99   -99   -99   -99    10 I3 II
+@I IDATE  IROP IRVAL
+12    21 IR005     8
+12    29 IR005    60
+12    36 IR005    16
+12    39 IR005    21
+12    44 IR005    27
+12    50 IR005    31
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+13     1   -99   -99   -99   -99   -99    10 I4 II
+@I IDATE  IROP IRVAL
+13    21 IR005     4
+13    29 IR005    12
+13    36 IR005    26
+13    39 IR005     9
+13    44 IR005    10
+13    50 IR005    14
+13    54 IR005    22
+13    58 IR005    17
+13    64 IR005    28
+13    71 IR005    26
+13    77 IR005     8
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+14     1   -99   -99   -99   -99   -99    10 I5 II
+@I IDATE  IROP IRVAL
+14    21 IR005     9
+14    29 IR005    42
+14    36 IR005    31
+14    39 IR005    15
+14    44 IR005    18
+14    50 IR005    14
+14    54 IR005     8
+14    58 IR005    31
+14    64 IR005    45
+14    71 IR005    30
+14    77 IR005    15
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+15     1   -99   -99   -99   -99   -99    10 I6 II
+@I IDATE  IROP IRVAL
+15    21 IR005     8
+15    29 IR005    26
+15    36 IR005    14
+15    39 IR005    18
+15    44 IR005    20
+15    50 IR005    36
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+16     1   -99   -99   -99   -99   -99    10 I7 II
+@I IDATE  IROP IRVAL
+16    36 IR005     8
+16    54 IR005    33
+16    58 IR005    45
+16    64 IR005   101
+16    71 IR005    64
+16    77 IR005    28
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+17     1   -99   -99   -99   -99   -99    10 I8 II
+@I IDATE  IROP IRVAL
+17    36 IR005    34
+17    54 IR005    21
+17    58 IR005    20
+17    64 IR005    37
+17    71 IR005    32
+17    77 IR005    12
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+18     1   -99   -99   -99   -99   -99    10 I9 II
+@I IDATE  IROP IRVAL
+18    36 IR005    20
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+19     1   -99   -99   -99   -99   -99    10 I1 III
+@I IDATE  IROP IRVAL
+19    21 IR005    10
+19    29 IR005    85
+19    36 IR005     9
+19    39 IR005    52
+19    44 IR005    35
+19    50 IR005    48
+19    54 IR005    22
+19    58 IR005    21
+19    64 IR005    24
+19    71 IR005    27
+19    77 IR005    10
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+20     1   -99   -99   -99   -99   -99    10 I2 III
+@I IDATE  IROP IRVAL
+20    21 IR005     5
+20    29 IR005    95
+20    36 IR005    15
+20    39 IR005    46
+20    44 IR005    29
+20    50 IR005    41
+20    54 IR005    16
+20    58 IR005     7
+20    64 IR005    44
+20    71 IR005    22
+20    77 IR005    18
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+21     1   -99   -99   -99   -99   -99    10 I3 III
+@I IDATE  IROP IRVAL
+21    21 IR005     7
+21    29 IR005    67
+21    36 IR005    16
+21    39 IR005    28
+21    44 IR005    23
+21    50 IR005    34
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+22     1   -99   -99   -99   -99   -99    10 I4 III
+@I IDATE  IROP IRVAL
+22    21 IR005     9
+22    29 IR005    36
+22    36 IR005    13
+22    39 IR005    40
+22    44 IR005    31
+22    50 IR005    39
+22    54 IR005    33
+22    58 IR005    29
+22    64 IR005    62
+22    71 IR005    46
+22    77 IR005    22
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+23     1   -99   -99   -99   -99   -99    10 I5 III
+@I IDATE  IROP IRVAL
+23    21 IR005     7
+23    29 IR005    36
+23    36 IR005    21
+23    39 IR005    21
+23    44 IR005    23
+23    50 IR005    19
+23    54 IR005    12
+23    58 IR005     8
+23    64 IR005    31
+23    71 IR005    32
+23    77 IR005    15
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+24     1   -99   -99   -99   -99   -99    10 I6 III
+@I IDATE  IROP IRVAL
+24    21 IR005     6
+24    29 IR005    23
+24    36 IR005    18
+24    39 IR005    10
+24    44 IR005     7
+24    50 IR005     8
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+25     1   -99   -99   -99   -99   -99    10 I7 III
+@I IDATE  IROP IRVAL
+25    36 IR005    22
+25    54 IR005    34
+25    58 IR005    30
+25    64 IR005   106
+25    71 IR005    54
+25    77 IR005    19
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+26     1   -99   -99   -99   -99   -99    10 I8 III
+@I IDATE  IROP IRVAL
+26    36 IR005    10
+26    54 IR005    22
+26    58 IR005    16
+26    64 IR005    48
+26    71 IR005    31
+26    77 IR005    15
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+27     1   -99   -99   -99   -99   -99    10 I9 III
+@I IDATE  IROP IRVAL
+27    36 IR005    15
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+28     1   -99   -99   -99   -99   -99    10 I1 IV
+@I IDATE  IROP IRVAL
+28    21 IR005     9
+28    29 IR005    66
+28    36 IR005     6
+28    39 IR005    30
+28    44 IR005    22
+28    50 IR005   145
+28    54 IR005    28
+28    58 IR005    25
+28    64 IR005    64
+28    71 IR005    65
+28    77 IR005    15
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+29     1   -99   -99   -99   -99   -99    10 I2 IV
+@I IDATE  IROP IRVAL
+29    21 IR005    15
+29    29 IR005    72
+29    36 IR005     5
+29    39 IR005    36
+29    44 IR005    33
+29    50 IR005    25
+29    54 IR005    13
+29    58 IR005    38
+29    64 IR005    45
+29    71 IR005    34
+29    77 IR005    18
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+30     1   -99   -99   -99   -99   -99    10 I3 IV
+@I IDATE  IROP IRVAL
+30    21 IR005     7
+30    29 IR005    50
+30    36 IR005     9
+30    39 IR005    28
+30    44 IR005    22
+30    50 IR005    35
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+31     1   -99   -99   -99   -99   -99    10 I4 IV
+@I IDATE  IROP IRVAL
+31    21 IR005    14
+31    29 IR005    28
+31    36 IR005    17
+31    39 IR005    17
+31    44 IR005    15
+31    50 IR005    22
+31    54 IR005    41
+31    58 IR005    67
+31    64 IR005   118
+31    71 IR005    46
+31    77 IR005    21
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+32     1   -99   -99   -99   -99   -99    10 I5 IV
+@I IDATE  IROP IRVAL
+32    21 IR005     6
+32    29 IR005    19
+32    36 IR005     5
+32    39 IR005    20
+32    44 IR005    13
+32    50 IR005    61
+32    54 IR005    18
+32    58 IR005    19
+32    64 IR005    33
+32    71 IR005     4
+32    77 IR005    11
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+33     1   -99   -99   -99   -99   -99    10 I6 IV
+@I IDATE  IROP IRVAL
+33    21 IR005     4
+33    29 IR005    36
+33    36 IR005    24
+33    39 IR005    27
+33    44 IR005    20
+33    50 IR005    37
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+34     1   -99   -99   -99   -99   -99    10 I7 IV
+@I IDATE  IROP IRVAL
+34    36 IR005    10
+34    54 IR005    31
+34    58 IR005    25
+34    64 IR005    63
+34    71 IR005    46
+34    77 IR005    12
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+35     1   -99   -99   -99   -99   -99    10 I8 IV
+@I IDATE  IROP IRVAL
+35    36 IR005     3
+35    54 IR005     4
+35    58 IR005     8
+35    64 IR005    14
+35    71 IR005     9
+35    77 IR005     3
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+36     1   -99   -99   -99   -99   -99    10 I9 IV
+@I IDATE  IROP IRVAL
+36    36 IR005     6
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1     1 FE005 AP002    10    50     0     0     0     0   -99 -99
+ 1    40 FE005 AP002    10   125     0     0     0     0   -99 -99
+
+*CHEMICAL APPLICATIONS
+@C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
+ 1 91032 CH001    10 AP006   -99 WEEDS  -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 91032 TI987    10 -99
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 93001  2150 CORDOBA PP91. VILLALOBOS
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     N     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     D     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          91038 91052    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 92045   100     0
+
+
+

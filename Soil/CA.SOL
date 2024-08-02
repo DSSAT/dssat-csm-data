@@ -1,0 +1,11 @@
+*SOILS: Agriculture and Agrifood Canada
+
+*CAON080010  ON OTA       CL      100 CFIA-16
+@SITE  3     COUNTRY          LAT     LONG SCS FAMILY
+ ONOttawa05A Canada            -99     -99 GL  ON    O
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99   .13    10    .4    74     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    30     A   .13   .29   .47     1   .23   1.4   3.1  37.3  49.0     0   -99   -99   6.2   -99   -99
+    60     B   .11   .26   .48  .407    10   1.3   2.4  31.4  36.6     0   -99   -99   6.2   -99   -99
+   100    BC   .11   .23   .48  .202    10   1.3    .2  31.4  36.6     0   -99   -99   6.2   -99   -99

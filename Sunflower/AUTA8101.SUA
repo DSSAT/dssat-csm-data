@@ -1,13 +1,16 @@
-*EXP. DATA (A): AUTA8101SU                   
+*EXP. DATA (A): AUTA8101SU Connor et al 1985                                           
 
-! File last edited on day 05/30/2014 at 5:49:09 PM
+! File last edited on day 01/17/2021 at 12:27:03 PM
+! kjb - changed header from HSAM to HWAM to see grain yield.
 !
-! 
-! 
-@TRNO   PDFT  EDAT  AMDY  CWAM  HDAT  HIAM  MDAT  HWAM  GL%M  ADAT
-     1 82035 81337    37  8500 82072  0.42 82068  3610    45 82014
-     2 82035 81337    37  7630 82072  0.37 82068  2820    45 82014
-
+@TRNO   EDAT  CWAM  HIAM  HSAM  ADAT  HWAM
+     1   348  8500  0.48  4505    47  4505
+     2   348  6900  0.46  3516    47  3516
+     3   348  5400  0.50  2967    47  2967
+     4   348  5300  0.47  2747    47  2747
+     5   348  4800  0.43  2308    47  2308
+     6   348  2900  0.38  1209    47  1209
+                                          
 
 
 

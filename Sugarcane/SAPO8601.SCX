@@ -1,0 +1,321 @@
+*EXP.DETAILS: SAPO8601SC PONGOLA N EVALUATION WITH LYSIMETERS
+
+*GENERAL
+@PEOPLE
+Michael van der Laan
+@ADDRESS
+SASRI, Mount Edgecombe, South Africa
+@SITE
+Pongola, South Africa
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+@NOTES
+ Modeling and observed data from:
+ Michael van der Laan, N. Miles, J. G. Annandale, C. C. du Preez, 2011. 
+	Identification of opportunities for improved nitrogen
+	management in sugarcane cropping systems using
+	the newly developed Canegro-N model.
+	Nutr Cycl Agroecosyst (2011) 90:391–404. https://doi.org/10.1007/s10705-011-9440-6
+ G. D. Thompson, 1991.
+	The growth of sugarcane variety N14 at Pongola.
+	Mount Edgecombe Research Report n.7, SASEX, South Africa
+ ---
+ Notes by Henrique Dias:
+ - File built on Michael's SAPO8601.SQX
+ - SRGF (SA.SOL) varies with depth rather than 1 for all layers
+ - Initial conditions would need refinements to account for N leaching and drainage
+ - Using cultivar coefficients from NCo376, but a calibrated N14 might would be better
+ - Changed to PLME of plant cane to 'H'
+ - Used actual row spacing
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 Plant (Lysimeter)          1  1  0  1  1  1  1  0  0  0  0  1  1
+ 2 1 1 0 Ratoon1 (Lysimeter)        1  1  0  2  2  2  2  0  0  0  0  2  2
+ 3 1 1 0 Ratoon2 (Lysimeter)        1  1  0  3  3  3  3  0  0  0  0  3  3
+11 1 1 0 Plant                      1  2  0  1  1  1  1  0  0  0  0  1  1
+12 1 1 0 Ratoon1                    1  2  0  2  2  2  2  0  0  0  0  2  2
+13 1 1 0 Ratoon2                    1  2  0  3  3  3  3  0  0  0  0  3  3
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 SC IB0001 N14-Pong_Mike
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 Field319 PONG8601   -99   -99 DR000   -99   -99   -99 SL     -99  SAPO080010 Lysimeter (120 cm)
+ 2 Field329 PONG8601   -99   -99 DR000   -99   -99   -99 SL     -99  SAPO080009 Field (180 cm)
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+ 2             -99             -99       -99               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 86305   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    15   -99   -99   -99   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1   -99 86305   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5  .287     3    25
+ 1    20    .3     2    25
+ 1    30    .3    .2     2
+ 1    60    .3    .2     2
+ 1    90    .3    .2     4
+ 1   120    .3     1     5
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 2    SC 87285  .001  .001     1     1   -99  2000    .3  .003   -99   -99 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 2     5  .287     3     2
+ 2    20    .3     2     2
+ 2    30    .3    .2     2
+ 2    60    .3    .2     2
+ 2    90    .3    .2     4
+ 2   120    .3     1     5
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 3    SC 88285  .001  .001     1     1   -99  2000    .3  .003   -99   -99 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 3     5  .287     3     2
+ 3    20    .3     2     2
+ 3    30    .3    .2     2
+ 3    60    .3    .2     2
+ 3    90    .3    .2     4
+ 3   120    .3     1     5
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 86316   -99  13.3   -99     H     R   152   -99   -99   -99   -99   -99   -99   -99                        Plant
+ 2 87286   -99  13.3   -99     R     R   152   -99   -99   -99   -99   -99   -99   -99                        Ratoon1
+ 3 88286   -99  13.3   -99     R     R   152   -99   -99   -99   -99   -99   -99   -99                        Ratoon2
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 IB001 IB001    10 Plant
+@I IDATE  IROP IRVAL
+ 1 86334 IR004  42.5
+ 1 87014 IR004  41.4
+ 1 87015 IR004  19.3
+ 1 87021 IR004  35.7
+ 1 87022 IR004    16
+ 1 87034 IR004  30.2
+ 1 87035 IR004   9.5
+ 1 87040 IR004  24.1
+ 1 87041 IR004  72.8
+ 1 87050 IR004  40.8
+ 1 87051 IR004  19.8
+ 1 87058 IR004  33.7
+ 1 87061 IR004  25.9
+ 1 87077 IR004  20.9
+ 1 87078 IR004  21.9
+ 1 87089 IR004  20.9
+ 1 87090 IR004  24.2
+ 1 87091 IR004   8.3
+ 1 87119 IR004  41.4
+ 1 87120 IR004    43
+ 1 87139 IR004  39.6
+ 1 87140 IR004  31.6
+ 1 87148 IR004  37.6
+ 1 87149 IR004  30.9
+ 1 87159 IR004  37.2
+ 1 87160 IR004   5.4
+ 1 87173 IR004  37.5
+ 1 87174 IR004  16.4
+ 1 87187 IR004  30.2
+ 1 87188 IR004  25.6
+ 1 87208 IR004  37.5
+ 1 87209 IR004  26.5
+ 1 87223 IR004  30.3
+ 1 87224 IR004  57.3
+ 1 87252 IR004  27.7
+ 1 87253 IR004  33.7
+ 1 87264 IR004    14
+ 1 87265 IR004  35.5
+ 1 87308 IR004    26
+ 1 87309 IR004  14.2
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2     1    30    50   100 IB001 IB001    10 Ratoon1
+@I IDATE  IROP IRVAL
+ 2 87335 IR004  47.4
+ 2 87336 IR004  14.7
+ 2 87348 IR004   3.8
+ 2 87355 IR004  39.3
+ 2 87356 IR004  23.8
+ 2 88004 IR004  33.9
+ 2 88005 IR004  22.2
+ 2 88018 IR004  23.6
+ 2 88019 IR004  14.7
+ 2 88033 IR004  20.5
+ 2 88034 IR004  23.8
+ 2 88039 IR004  37.9
+ 2 88040 IR004  37.7
+ 2 88053 IR004  19.4
+ 2 88054 IR004  28.8
+ 2 88088 IR004  41.5
+ 2 88089 IR004  23.7
+ 2 88118 IR004  33.5
+ 2 88119 IR004  11.1
+ 2 88123 IR004   4.9
+ 2 88124 IR004    23
+ 2 88130 IR004  33.5
+ 2 88131 IR004  22.7
+ 2 88146 IR004  13.7
+ 2 88147 IR004  23.6
+ 2 88153 IR004  25.8
+ 2 88154 IR004   8.3
+ 2 88172 IR004  37.8
+ 2 88174 IR004  17.3
+ 2 88196 IR004  33.9
+ 2 88197 IR004  16.6
+ 2 88217 IR004    27
+ 2 88218 IR004  28.4
+ 2 88232 IR004  31.3
+ 2 88233 IR004  23.7
+ 2 88243 IR004  35.9
+ 2 88246 IR004  10.5
+ 2 88259 IR004  33.2
+ 2 88263 IR004  29.1
+ 2 88271 IR004  27.4
+ 2 88273 IR004  23.7
+ 2 88277 IR004  15.9
+ 2 88278 IR004  22.6
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 3     1    30    50   100 IB001 IB001    10 Ratoon2
+@I IDATE  IROP IRVAL
+ 3 88329 IR004  51.3
+ 3 88330 IR004  16.6
+ 3 88350 IR004  35.9
+ 3 88364 IR004    36
+ 3 88365 IR004    28
+ 3 89006 IR004  29.8
+ 3 89009 IR004  33.2
+ 3 89012 IR004    57
+ 3 89013 IR004  28.7
+ 3 89026 IR004  42.7
+ 3 89027 IR004    27
+ 3 89033 IR004  26.1
+ 3 89034 IR004    44
+ 3 89047 IR004  29.8
+ 3 89048 IR004  25.6
+ 3 89065 IR004  37.6
+ 3 89066 IR004  34.2
+ 3 89081 IR004  32.5
+ 3 89082 IR004  27.8
+ 3 89093 IR004  28.9
+ 3 89094 IR004  31.7
+ 3 89109 IR004  41.9
+ 3 89110 IR004  34.9
+ 3 89123 IR004    32
+ 3 89124 IR004  39.2
+ 3 89137 IR004  44.9
+ 3 89138 IR004  33.9
+ 3 89152 IR004  44.6
+ 3 89153 IR004  35.9
+ 3 89179 IR004  51.8
+ 3 89180 IR004    42
+ 3 89198 IR004  32.8
+ 3 89199 IR004  39.8
+ 3 89214 IR004  55.6
+ 3 89215 IR004  36.8
+ 3 89227 IR004  51.6
+ 3 89228 IR004    35
+ 3 89242 IR004  45.5
+ 3 89243 IR004  34.4
+ 3 89255 IR004  36.6
+ 3 89257 IR004  38.3
+ 3 89263 IR004  50.9
+ 3 89264 IR004  25.9
+ 3 89276 IR004  53.6
+ 3 89277 IR004  27.5
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 86315 FE005 AP005     0    53    18    88   -99   -99   -99 Plant
+ 1 87077 FE005 AP005     0    32     0    64   -99   -99   -99 Plant
+ 2 87307 FE005 AP005     0   115     0   175   -99   -99   -99 Ratoon1
+ 3 88294 FE005 AP005     0   120    20   150   -99   -99   -99 Ratoon2
+ 3 88349 FE005 AP005     0    92    20   150   -99   -99   -99 Ratoon2
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 86305 A   0 A   0 A   0 A   0 A   0 A   0 A   0 A   0 
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 87285 GS000   -99   -99   -99     1 Harvest1
+ 2 88285 GS000   -99   -99   -99     1 Harvest2
+ 3 89284 GS000   -99   -99   -99     1 Harvest3
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 86305  2150 Plant
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     F     S     C     R     1     P     S     3
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          89145 89159    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 IB001 IB001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             15    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 25098   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     S 87285  2150 Ratoon 1
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     F     S     C     R     1     P     S     3
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     R     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          89145 89159    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 IB001 IB001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI             15    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 2 HA              0 25098   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 3 GE              1     1     S 88285  2150 Ratoon 2
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 3 OP              Y     Y     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 3 ME              M     M     E     F     S     C     R     1     P     S     3
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 3 MA              R     R     R     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 3 PL          89145 89159    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 3 IR             30    50   100 IB001 IB001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 3 NI             15    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 3 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 3 HA              0 25098   100     0
+
+
+

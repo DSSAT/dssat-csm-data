@@ -1,18 +1,17 @@
-*EXP.DETAILS: NOTH1201CN 2012 Nitrogen Rapeseed, West Nipissing, Ontario
+*EXP.DETAILS: NOTH1201CN 2012 NITROGEN RAPESEED, WEST NIPISSING, ONTARIO
 
 *GENERAL
 @PEOPLE
-JQ
+JQ.  Improve soil, almost no SOC below 30cm  Try CENTURY
 @ADDRESS
 960 CARLING, OTTAWA
 @SITE
 West nissipping, North Bay, ON
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Jing, Q., J. Shang, B. Qian, G. Hoogenboom, T. Huffman, J. Liu, B. Ma., X. Geng, X. Jiao, J. Kovacs,
 and D. Walters. 2016. Evaluation of the CSM-CROPGRO-Canola model for simulating canola growth and
 yield at West Nipissing in eastern Canada. Agronomy Journal 108(2):1-10.
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -66,15 +65,15 @@ yield at West Nipissing in eastern Canada. Agronomy Journal 108(2):1-10.
 
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
- 1 12126   -99  1000     1   -99   -99   -99   -99   -99 -99
+ 1 12126 RE001  1000     1   -99   -99   -99   -99   -99 -99
 
 *CHEMICAL APPLICATIONS
 @C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
- 1 12126   -99   -99   -99   -99   -99  -99
+ 1 12126 CH001   -99   -99   -99   -99  -99
 
 *TILLAGE AND ROTATIONS
 @T TDATE TIMPL  TDEP TNAME
- 1 12126   -99   -99 -99
+ 1 12126 TI001   -99 -99
 
 *ENVIRONMENT MODIFICATIONS
 @E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
@@ -90,7 +89,7 @@ yield at West Nipissing in eastern Canada. Agronomy Journal 108(2):1-10.
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     R     C     R     1     P     R     1
+ 1 ME              M     M     E     R     R     L     R     1     P     R     1
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     N     R     A     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

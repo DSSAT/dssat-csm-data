@@ -35,7 +35,7 @@ Palmira
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 97310 97315   2.8   2.8     S     R    60     0     4   -99   -99   -99   -99     0                        -99
+ 1 97310 97315   2.8   2.8     S     R    60     0     3   -99   -99   -99   -99     0                        -99
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL

@@ -1,4 +1,4 @@
-*EXP.DETAILS: UFGR8501PN 1985 DISEASE STUDY, 4 CULTIVARS, IRRIGATED
+*EXP.DETAILS: UFGR8501PN 1985 4 CULTIVARS, Disease treatments 5-8 deleted
 
 *GENERAL
 @PEOPLE
@@ -16,10 +16,10 @@ Green Acres, University of Florida
  2 1 1 0 85 F81206,    +fungicide   2  1  0  1  1  1  0  0  0  0  0  0  1
  3 1 1 0 85 SOUTHERN RUNNER,+fung   3  1  0  1  1  1  0  0  0  0  0  0  1
  4 1 1 0 85 MA72x94-12,+fungicide   4  1  0  1  1  1  0  0  0  0  0  0  1
- 5 1 1 0 85 FLORUNNER, no fungicid  1  1  0  1  1  1  0  0  0  0  0  0  1
- 6 1 1 0 85 F81206,    no fungicid  2  1  0  1  1  1  0  0  0  0  0  0  1
- 7 1 1 0 85 SOUTHERN RUNNER,nofung  3  1  0  1  1  1  0  0  0  0  0  0  1
- 8 1 1 0 85 MA72x94-12,no fungicid  4  1  0  1  1  1  0  0  0  0  0  0  1
+! 5 1 1 0 85 FLORUNNER, no fungicid  1  1  0  1  1  1  0  0  0  0  0  0  1
+! 6 1 1 0 85 F81206,    no fungicid  2  1  0  1  1  1  0  0  0  0  0  0  1
+! 7 1 1 0 85 SOUTHERN RUNNER,nofung  3  1  0  1  1  1  0  0  0  0  0  0  1
+! 8 1 1 0 85 MA72x94-12,no fungicid  4  1  0  1  1  1  0  0  0  0  0  0  1
 
 *CULTIVARS
 @C CR INGENO CNAME

@@ -7,6 +7,13 @@ Peter Sexton, J.W. White and K.J. Boote
 Dept. of Agronomy, University of Florida, Gainesville, Florida, USA
 @SITE
 Popayan Experimental Station, CIAT, Colombia
+@NOTES
+The initial soil moisture was higher than the SAT values in the Popayan soil, which 
+generated a warning. We have temporarily lowered the initial values to 0.30 to avoid
+ the warning. However, it seems likely that the values for SAT are too low for this 
+ unusual soil with a very high sand content and low bulk density. Jeff White reports
+ that initial soil moisture likely was not measured, but this needs checking against
+ reports from Peter Sexton's PhD thesis.
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -52,24 +59,25 @@ Popayan Experimental Station, CIAT, Colombia
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1             -99             -99       -99               -99   -99   -99   -99   -99   -99
 
+! See note anove about initial moisture content
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
  1    BN 90115     1   -99     1     1   -99   -99   -99   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
- 1     5   .55     0     0
- 1    13   .55     0     0
- 1    21   .54     0     0
- 1    30   .54     0     0
- 1    39   .56     0     0
- 1    52   .53     0     0
- 1    66   .53     0     0
- 1    82    .5     0     0
- 1   102   .58     0     0
- 1   124   .56     0     0
- 1   137     0     0     0
- 1   156     0     0     0
- 1   176     0     0     0
- 1   200     0     0     0
+ 1     5    .4     0     0
+ 1    13    .4     0     0
+ 1    21   .39     0     0
+ 1    30    .3     0     0
+ 1    39    .3     0     0
+ 1    52    .3     0     0
+ 1    66    .3     0     0
+ 1    82    .3     0     0
+ 1   102    .3     0     0
+ 1   124    .3     0     0
+ 1   137    .3     0     0
+ 1   156    .3     0     0
+ 1   176    .3     0     0
+ 1   200    .3     0     0
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
@@ -96,8 +104,8 @@ Popayan Experimental Station, CIAT, Colombia
  1 ME              M     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     M
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -110,3 +118,6 @@ Popayan Experimental Station, CIAT, Colombia
  1 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 90365   100     0
+
+
+

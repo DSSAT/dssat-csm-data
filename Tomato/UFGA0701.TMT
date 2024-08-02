@@ -2,7 +2,7 @@
 
 ! File last edited on day 03/20/2009 at 9:22:10 AM
 ! 
-@TRNO   DATE  LAID  SLAD  CWAD  PWAD FPWAD  HIPD  DIC1  FWC1  DWC1  DFC1  DIC2  FWC2  DWC2  DFC2  DIC3  FWC3  DWC3  DFC3  LN%D  SHND  SN%D
+@TRNO   DATE  LAID  SLAD  CWAD  PWAD TOFPW  HIPD  DIC1  FWC1  DWC1  DFC1  DIC2  FWC2  DWC2  DFC2  DIC3  FWC3  DWC3  DFC3  LN%D  SHND  SN%D
      4 07114  0.19   169 16.62     0     0     0   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99  2.75   -99   1.9
      4 07130  0.86   239 195.2     0     0     0   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   3.4  3.85  2.96
      4 07134   -99   -99   -99   -99   -99   -99  0.19  0.59 0.073 0.123   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
