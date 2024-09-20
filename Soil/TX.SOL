@@ -125,3 +125,18 @@
    170   Bk2  .159  .353  .445    .3   .43   1.4   .15  25.4  25.9    24   .04   7.9   -99  22.1   -99
    200   Bk2  .159  .353  .445    .1   .43   1.4   .15  25.4  25.9    24   .04   7.9   -99  22.1   -99
 
+! forced SAT-DUL=0.05, push up SAT for 56cm and below 1/11/24 kjb.  Issue: Bulk density too high for a clay soil 
+!   Ayse original entry  plus 157-200 layer, not better!
+*TXEL790001  SCS         FSALO   157 Crowley fine sandy loam !back, original, kjb 9-21-22
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ EAGLE LA,TX U.S.A.         29.600 -96.300 FINE, MONTMORILLONITIC, THERMIC TYPIC ALBAQUALFS
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN  0.13   8.8  0.40  30.0  1.00  1.00 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    28    Ap 0.080 0.204 0.337 1.000   -99  1.60  1.00  10.0  30.0   0.0   -99   6.0   -99   -99      
+    38   A2g 0.080 0.204 0.337 0.670   -99  1.60  0.65  10.0  30.0   0.0   -99   5.6   -99   -99      
+    56  B21t 0.280 0.398 0.448 0.540   -99  1.52  0.60  55.0  20.0   0.0   -99   5.8   -99   -99      
+    97  B22g 0.223 0.335 0.385 0.370   -99  1.57  0.40  42.0   8.0   0.0   -99   6.0   -99   -99      
+   132    B3 0.223 0.335 0.385 0.250   -99  1.57  0.25  42.0   8.0   0.0   -99   7.2   -99   -99      
+   157     C 0.223 0.335 0.385 0.210   -99  1.57  0.15  42.0   8.0   0.0   -99   7.2   -99   -99      
+!   200     C 0.223 0.335 0.385 0.210   -99  1.57  0.15  42.0   8.0   0.0   -99   7.2   -99   -99      

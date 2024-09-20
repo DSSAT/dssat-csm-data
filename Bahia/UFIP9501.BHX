@@ -1,0 +1,199 @@
+*EXP.DETAILS: UFIP9501BH IRRIGATION PARK CO2 & TEMP RESPONSE
+
+*GENERAL
+@PEOPLE
+K.J. Boote, L.H. Allen, J.M. Thomas, Y.C. Newman, F.B. Fritschi
+@ADDRESS
+University of Florida Agronomy Dept.
+@SITE
+Irrigation Park (PSSFTL)
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+     10     1     5   -99   -99   -99    10   -99   -99   -99
+@NOTES
+Stubble height was 3-cm with a sickle-bar mower
+Irrigation must be in the weather file(?).
+Parton used, but SA=0, default to texture
+
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 360vpm/Baseline            1  1  1  1  1  1  1  0  0  0  1  1  1
+ 2 1 1 0 360vpm/+1.5C               1  1  1  1  1  1  1  0  0  0  2  1  1
+ 3 1 1 0 360vpm/+3.0C               1  1  1  1  1  1  1  0  0  0  3  1  1
+ 4 1 1 0 360vpm/+4.5C               1  1  1  1  1  1  1  0  0  0  4  1  1
+ 5 1 1 0 700vpm/Baseline            1  1  1  1  1  1  1  0  0  0  5  1  1
+ 6 1 1 0 700vpm/+1.5C               1  1  1  1  1  1  1  0  0  0  6  1  1
+ 7 1 1 0 700vpm/+3.0C               1  1  1  1  1  1  1  0  0  0  7  1  1
+ 8 1 1 0 700vpm/+4.5C               1  1  1  1  1  1  1  0  0  0  8  1  1
+ 9 1 1 0 Outside                    1  2  1  1  1  0  1  0  0  0  9  1  1
+10 1 1 0 Average of all reps 360VP  1  1  1  1  1  1  1  0  0  0 10  1  1
+11 1 1 0 Average of all reps 700VP  1  1  1  1  1  1  1  0  0  0 11  1  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 BH UF0001 PENSACOLA BAHIA
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 UFIPTGG1 UFIP       -99   -99 DR000   -99   -99   -99 S      -99  UFGA760006 Greenhouses
+ 2 UFIPTGG2 UFIP       -99   -99 DR000   -99   -99   -99 S      -99  UFGA760006 Outside
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+ 2             -99             -99       -99               -99   -99   -99   -99   -99   -99
+! 2 UFIPTGG2 UFGA       -99   -99 DR000   -99   -99   -99 S      -99  IBSB910015 Outside
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 95069   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    20   1.5   .57   -99     6   -99   -99   -99   .39
+ 1    79   1.6   .17   -99   5.8   -99   -99   -99   .12
+ 1   124   1.5   .05   -99   5.6   -99   -99   -99   .04
+ 1   137   1.6   .07   -99   5.4   -99   -99   -99   .06
+ 1   162   1.6   .09   -99   5.2   -99   -99   -99   .07
+ 1   183   1.6   .06   -99   5.3   -99   -99   -99   .05
+ 1   218   1.7   .06   -99   5.3   -99   -99   -99   .05
+!next 68%SOM3 top 124, 80% below that
+!next 68%SOM3
+! 1    20  1.53  0.57   -99   6.0   -99   -99   -99  0.39
+! 1    79  1.58  0.17   -99   5.8   -99   -99   -99  0.12
+! 1   124  1.52  0.05   -99   5.6   -99   -99   -99  0.04
+! 1   137  1.64  0.07   -99   5.4   -99   -99   -99  0.05
+! 1   162  1.62  0.09   -99   5.2   -99   -99   -99  0.06
+! 1   183  1.60  0.06   -99   5.3   -99   -99   -99  0.04
+! 1   218  1.65  0.06   -99   5.3   -99   -99   -99  0.04
+!next ??
+! 1    20  1.53  0.57   -99   6.0   -99   -99   -99  0.40
+! 1    79  1.58  0.17   -99   5.8   -99   -99   -99  0.12
+! 1   124  1.52  0.05   -99   5.6   -99   -99   -99  0.04
+! 1   137  1.64  0.07   -99   5.4   -99   -99   -99  0.06
+! 1   162  1.62  0.09   -99   5.2   -99   -99   -99  0.08
+! 1   183  1.60  0.06   -99   5.3   -99   -99   -99  0.05
+! 1   218  1.65  0.06   -99   5.3   -99   -99   -99  0.05
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    G0 95101  5000   -99     1     1   -99  1500    .9   -99   100    15 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5  .086    .1    .8
+ 1    15  .086    .1    .8
+ 1    30  .086    .1    .8
+ 1    60  .086    .1    .8
+ 1    90  .076    .1    .8
+ 1   120  .076    .1    .8
+ 1   150   .13    .1    .8
+ 1   180  .258    .1    .8
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 95101 95110   240   180     S     U     2   -99   1.5   -99   -99   -99   -99   -99                        -99
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 -99
+@I IDATE  IROP IRVAL
+ 1 95101 IR004    11
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 95097 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 95136 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 95150 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 95164 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 95178 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 95188 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 95198 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 95215 FE001 AP001     0    10   -99   -99   -99   -99   -99 -99
+ 1 95233 FE001 AP001     0    10   -99   -99   -99   -99   -99 -99
+ 1 95252 FE001 AP001     0    10   -99   -99   -99   -99   -99 -99
+ 1 95272 FE001 AP001     0    15   -99   -99   -99   -99   -99 -99
+ 1 96103 FE001 AP001     0    10   -99   -99   -99   -99   -99 -99
+ 1 96167 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96178 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96187 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96199 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96208 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96220 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96235 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96249 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96263 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96277 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96291 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 96305 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97062 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97086 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97100 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97114 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97132 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97146 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97160 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97174 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97184 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97199 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97213 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97227 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97234 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97255 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97276 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 97297 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98082 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98096 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98110 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98124 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98140 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98154 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98168 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98182 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98189 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98196 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98203 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98210 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98222 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98243 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98264 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+ 1 98292 FE001 AP001     0     5   -99   -99   -99   -99   -99 -99
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 95069 A   0 M .88 A   0 A   0 A   0 R 360 A   0 A   0 360ppm/Baseline
+ 2 95069 A   0 M .88 A 1.5 A 1.5 A   0 R 360 A   0 A   0 360ppm/+1.5
+ 3 95069 A   0 M .88 A   3 A   3 A   0 R 360 A   0 A   0 360ppm/+3.0
+ 4 95069 A   0 M .88 A 4.5 A 4.5 A   0 R 360 A   0 A   0 360ppm/+4.5
+ 5 95069 A   0 M .88 A   0 A   0 A   0 R 700 A   0 A   0 700ppm/Baseline
+ 6 95069 A   0 M .88 A 1.5 A 1.5 A   0 R 700 A   0 A   0 700ppm/+1.5
+ 7 95069 A   0 M .88 A   3 A   3 A   0 R 700 A   0 A   0 700ppm/+3.0
+ 8 95069 A   0 M .88 A 4.5 A 4.5 A   0 R 700 A   0 A   0 700ppm/+4.5
+ 9 95069 A   0 A   0 A   0 A   0 A   0 R 360 A   0 A   0 Outside
+10 95069 A   0 M .88 A 2.2 A 2.2 A   0 R 360 A   0 A   0 Average of all reps 360 VPM
+11 95069 A   0 M .88 A 2.2 A 2.2 A   0 R 700 A   0 A   0 Average of all reps 700 VPM
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 98365 GS000    HA   -99   100   100 
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 95069  2150 DEFAULT SIM CONTROL       PRFRM
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     Y     Y     Y     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          95095 95095    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 98365   100     0
+
+
+
