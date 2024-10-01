@@ -1,6 +1,6 @@
 *WEATHER : IBHK
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  IBHK    22.00   157.00        20.0   2.1
+  IBHK    22.00  -157.00        20.0   2.1
 @DATE  SRAD  TMAX  TMIN  RAIN
 89001   6.2  18.5  16.1  21.0
 89002  21.8  20.5  16.5  18.0

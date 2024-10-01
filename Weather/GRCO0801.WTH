@@ -4,7 +4,7 @@
 !Processing by Jakarat Anothai, AgWeatherNet, WSU
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  GRCO   40.449  104.638  1427   0.0   0.0 -99.0 -99.0
+  GRCO   40.449 -104.638  1427   0.0   0.0 -99.0 -99.0
 
 @DATE  SRAD  TMAX  TMIN  RAIN  WIND  RHUM
 08001  9.34  -5.5 -22.7     0  82.8 0.593

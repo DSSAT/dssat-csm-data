@@ -16,7 +16,7 @@ $WEATHER DATA: Maricopa, Arizona
 !
 !            deg     deg        m       C       C       m       m
 @  INSI      LAT     LONG    ELEV     TAV     AMP   REFHT   WNDHT
-   AZMC   35.069 -111.972     362    20.5    22.8    1.50    3.00
+   AZMC   33.069 -111.972     362    20.5    22.8    1.50    3.00
 ! AZMC = institute/location code for Arizona-Maricopa
 ! TAV = average annual temperature (1987-2001)
 ! AMP = annual temperature amplitude (peak to trough of monthly averages)

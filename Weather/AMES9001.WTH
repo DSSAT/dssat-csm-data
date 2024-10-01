@@ -8,7 +8,7 @@
 ! JOP (03/12/97)
 !
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  IUAM    42.00    93.50   320  10.3  14.7   2.0   1.0  
+  IUAM    42.00   -93.50   320  10.3  14.7   2.0   1.0  
 @DATE  SRAD  TMAX  TMIN  RAIN  DEWP  WIND
 90001   8.0  -0.6 -13.3   0.0 -99   406.9   
 90002   7.8   7.8  -9.4   0.0 -99   404.1              
