@@ -2,16 +2,6 @@
 
 ! File last edited on day 06/30/2021 at 2:40:00 PM
 !
-! 
-! 
-! 
-! 
-! 
-! 
-! 
-! 
-! 
-! 
 @TRNO   EDAT  ADAT  PD1T  PDFT  MDAT  R8AT  HWAM  H#AM  HWUM  CWAM  LAIX  THAM  CWAA  L#SM  CHTA  HIAM
      1  3128  3170  3187  3190  3260  3260  4851   811  0.31 10200  4.17  87.5 969.0  67.9   0.3 0.475
      2  3127  3163  3181  3185  3257  3257 5564.  1095  0.27 10005  3.98  91.1 757.0  45.8  0.28 0.556
