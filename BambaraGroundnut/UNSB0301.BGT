@@ -1,21 +1,7 @@
-*EXP. DATA (T): UNSB0301AL Sutton Bonington, 2003 Potential Growth Experiment          
+*EXP. DATA (T): UNSB0301BG Sutton Bonington, 2003 Potential Growth Experiment          
 
 ! File last edited on day 09/26/2021 at 5:38:50 PM
 !
-! 
-! 
-! 
-! 
-! 
-! 
-! 
-! 
-! 
-! 
-! 
-! 
-! 
-! 
 @TRNO   DATE  SW1D  SW2D  SW3D  SW4D  SW5D  SW6D  SW7D  SW8D  SW9D  SWTD  LMLN  LI%D  ETAC  P#AD  LAID  LWAD  SWAD  PWAD  CWAD  SLAD  HIPD
      1  3117 0.232 0.255 0.262 0.284 0.309 0.332 0.362 0.408 0.459 336.3   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
      1  3139   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99    0. 0.099    3.   34.    0.   37.   -99     0
