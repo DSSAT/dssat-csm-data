@@ -1,4 +1,4 @@
-*EXP. DATA (T): INSI0601?? My experiment time course (T) data                          
+*EXP. DATA (T): SWIF2101LT My experiment time course (T) data                          
 
 ! File last edited on day 03/29/2022 at 4:03:49 PM
 !
@@ -30,3 +30,4 @@
      7 21172   -99  0.47   -99
      7 21181  1414  0.67   -99
      7 21210  2024  1.37   789
+     
