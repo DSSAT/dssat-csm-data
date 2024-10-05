@@ -1,9 +1,7 @@
 *EXP. DATA (A): SWIF0002LT My Lentil experiment Average perfomance (A) data            
 
 ! File last edited on day 09/21/2024 at 4:51:33 PM
-!
-! 
-! 
+!! 
 @TRNO     ADAT  MDAT  CWAM  HWAH
      1   00179 00217   -99  1690
      2   01172 01208   -99   347
@@ -15,8 +13,3 @@
      8   00182 00222   -99  1915
      9   01173 01211   -99   633
     10   02177 02233   -99  1243
-
-
-
-
-

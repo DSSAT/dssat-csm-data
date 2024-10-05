@@ -1,8 +1,7 @@
 *EXP. DATA (A): GLOB1632LT My Lentil experiment Average perfomance (A) data            
 
 ! File last edited on day 09/21/2024 at 4:32:32 PM
-!
-! 
+!! 
 @TRNO     EDAT  ADAT  PDFT  MDAT
      1   16132 16169 16187 16218
      2   16135 16176 16196 16223
@@ -40,8 +39,3 @@
     34   17329 18065 18094 18101
     35   18141 18179 18201 18228
     36   18107 18151 18169 18186
-
-
-
-
-
