@@ -1,0 +1,161 @@
+*EXP.DETAILS: UHIH1801AM GRAIN AMARANTHUS, 2 SPECIES, 3 N-LEVELS, UNI HOHENHEIM
+
+*GENERAL
+@PEOPLE
+P.M. Nkebiwe
+@ADDRESS
+Cropping Systems and Modelling, University of Hohenheim, Stuttgart, Germany
+@SITE
+Ihinger hof,Renningen, University of Hohenheim
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+     30     8    10   -99   -99   -99   1.9     3     2  Hand
+@NOTES
+Publication
+Nkebiwe, P. M., Boote, K., Pflugfelder, 
+A., Munz, S., & Graeff-Hönninger, S. (2022). 
+Adapting the CROPGRO-faba bean model to simulate 
+the growth and development of Amaranthus species. 
+Agronomy Journal, 114, 2243– 2263. https://doi.org/10.1002/agj2.21090 
+
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 0 0 0 K63 0 kg N/ha              1  1  0  1  1  1  1  0  0  0  0  1  1
+ 2 0 0 0 K63 50 kg N/ha             1  1  0  1  1  1  2  0  0  0  0  1  1
+ 3 0 0 0 K63 75 kg N/ha             1  1  0  1  1  1  3  0  0  0  0  1  1
+ 4 0 0 0 NT 0 kg N/ha               2  1  0  1  1  1  1  0  0  0  0  1  1
+ 5 0 0 0 NT 50 kg N/ha              2  1  0  1  1  1  2  0  0  0  0  1  1
+ 6 0 0 0 NT 75 kg N/ha              2  1  0  1  1  1  3  0  0  0  0  1  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 AM UHOH01 ACK63
+ 2 AM UHOH02 AHYNT
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 UHIH1801 UHIH       -99     0 DR000     0     0 00000 SICL   190  UH00002020 -99
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1           8.931          48.737       475               -99   -99   -99   -99 FH101   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 18085   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    30   -99  1.14   .14   -99   -99   -99   -99   -99
+ 1    60   1.4   .48   .08   -99   -99   -99   -99   -99
+ 1    90   -99   .88   .04   -99   -99   -99   -99   -99
+ 1   250   -99   -99   -99   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    WH 18170   500     0     1     1   -99  5000    .6     0   100    15 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    30  .406    .5   3.1
+ 1    60  .406    .5   1.9
+ 1    90  .406    .5   1.1
+ 1   120  .406    .5   1.1
+ 1   150  .406    .5   1.1
+ 1   180  .406    .5   1.1
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 18170 18185   230    43     S     R    33     0     1   -99   -99   -99   -99     0                        -99
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 -99
+@I IDATE  IROP IRVAL
+ 1 18173 IR004     3
+ 1 18176 IR004     5
+ 1 18180 IR004     9
+ 1 18183 IR004     6
+ 1 18184 IR004     6
+ 1 18192 IR004     6
+ 1 18199 IR004     3
+ 1 18200 IR004     6
+ 1 18207 IR004     6
+ 1 18212 IR004     6
+ 1 18215 IR004     3
+ 1 18218 IR004     3
+ 1 18219 IR004     3
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 18170 FE001 AP002     3     0     0     0     0     0   -99 -99
+ 2 18170 FE001 AP002    10    50     0     0     0     0   -99 -99
+ 3 18170 FE001 AP002    10    38     0     0     0     0   -99 -99
+ 3 18200 FE001 AP002    10    38     0     0     0     0   -99 -99
+! 1 18148 FE001 AP002     3     0     0     0     0     0   -99 -99
+! 2 18148 FE001 AP002    10    50     0     0     0     0   -99 -99
+! 3 18148 FE001 AP002    10    38     0     0     0     0   -99 -99  Actual N applicaiton dates
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 18085   -99   -99   -99   -99   -99   -99   -99   -99 -99
+
+*CHEMICAL APPLICATIONS
+@C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
+ 1 18193   -99   -99   -99   -99   -99  -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 87358   -99   -99 -99
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 18085 A   0 A   0 A   0 A   0 A   0 A   0 A   0 A   0 
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 18275 GS016   -99   -99   -99   -99 Faba bean
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 18170  2150 DEFAULT SIMULATION stage  CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     N     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     G     R     1
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          86143 86157    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 95150   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     S 18170  2150 sueleman soil evap        CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     N     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     R     S     L     R     1     G     S     1
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          86143 86157    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 2 HA              0 95150   100     0
+
+
+

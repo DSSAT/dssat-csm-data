@@ -1,0 +1,12 @@
+*EXP. DATA (A): SWIF2101LT My experiment observed (A) data                             
+
+! File last edited on day 03/29/2022 at 4:15:14 PM
+!
+@TRNO   EDAT  ADAT  MDAT  HDAT  HWAM
+     1   129   178   207   223  1204
+     2   137   181   212   223  1239
+     3   153   185   213   223  1081
+     4   129   178   207   223  1337
+     5   137   182   213   223   943
+     6   153   186   216   223   897
+     7   -99   181   210   -99   789
