@@ -12,6 +12,7 @@
 @NOTES
  -99
 
+
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
  1 1 0 0 Sprinkler IR,   0 kg N/ha  1  1  0  1  1  1  1  0  0  0  0  0  1
@@ -76,8 +77,8 @@
  1 ME              M     M     E     R     S     C     R     1     P     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     M
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

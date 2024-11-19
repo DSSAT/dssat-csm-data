@@ -7,6 +7,8 @@
  ICARDA,ALEPPO,SYRIA
 @SITE
  BREDA,SYRIA  35.20;40.00;213;CSA
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Provided by Dr.H.Harris. Extracted from a larger trial - details of which
 are contained in the Ph.D.thesis (Univ.of Reading) of K.D.Shepherd. Some

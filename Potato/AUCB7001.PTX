@@ -7,6 +7,8 @@
 -99
 @SITE
 -99
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -48,9 +50,9 @@
 
 *ENVIRONMENT MODIFICATIONS
 @E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
- 1 70273 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
- 2 70273 A   0 M .79 M .79 M .79 A 0.0 A   0 A   0 A   0 
- 3 70273 A   0 M .66 M .66 M .66 A 0.0 A   0 A   0 A   0 
+ 1 70273 A   0 A   0 A   0 A   0 A   0 A   0 A   0 A   0 
+ 2 70273 A   0 M .79 M  .8 M  .8 A   0 A   0 A   0 A   0 
+ 3 70273 A   0 M .66 M  .7 M  .7 A   0 A   0 A   0 A   0 
 ! 1 70273 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 GH Original 
 ! 2 70273 A   0 M  .8 A   0 A   0 A 0.0 A   0 A   0 A   0 GH Original
 ! 3 70273 A   0 M  .7 A   0 A   0 A 0.0 A   0 A   0 A   0 GH Original

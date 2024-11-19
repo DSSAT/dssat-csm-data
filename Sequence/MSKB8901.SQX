@@ -129,7 +129,7 @@ This is an example of one of the experiments of the Kellogg Biological Station(K
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     N     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 2 OU              Y     Y     A     1     Y     Y     Y     Y     Y     N     Y     N     Y      
+ 2 OU              Y     Y     A     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

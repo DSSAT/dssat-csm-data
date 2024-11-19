@@ -1,4 +1,4 @@
-*EXP.DETAILS: EBAF1101SQ MAIZE-FALLOW, 30 YEARS, 15 REPS, NO N
+*EXP.DETAILS: EBAF1101SQ MAIZE-FALLOW, 50 YEARS, 30 REPS, NO N
 
 *GENERAL
 @PEOPLE
@@ -58,7 +58,7 @@ Brazil
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     N     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              Y     N     Y     1     N     N     N     N     N     N     N     N     N     A
+ 1 OU              Y     N     Y     1     N     N     N     N     N     N     0     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -81,7 +81,7 @@ Brazil
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     N     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 2 OU              Y     N     A     7     N     N     N     N     N     N     N     N     N      
+ 2 OU              Y     N     A     7     N     N     N     N     N     N     N     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

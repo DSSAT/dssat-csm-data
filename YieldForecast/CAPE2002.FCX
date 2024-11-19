@@ -7,6 +7,8 @@
 -99
 @SITE
 -99
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 !Hypothetical wheat field near Petropavl, Kazakhstan, 2020
 
 *TREATMENTS                        -------------FACTOR LEVELS------------

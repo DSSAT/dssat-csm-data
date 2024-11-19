@@ -7,18 +7,16 @@ Michael van der Laan
 SASRI, Mount Edgecombe, South Africa
 @SITE
 Pongola, South Africa
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
  Modeling and observed data from:
  Michael van der Laan, N. Miles, J. G. Annandale, C. C. du Preez, 2011. 
-	Identification of opportunities for improved nitrogen
-	management in sugarcane cropping systems using
-	the newly developed Canegro-N model.
-	Nutr Cycl Agroecosyst (2011) 90:391–404. https://doi.org/10.1007/s10705-011-9440-6
+ Identification of opportunities for improved nitrogen
+ management in sugarcane cropping systems using
+ the newly developed Canegro-N model.
+ Nutr Cycl Agroecosyst (2011) 90:391–404. https://doi.org/10.1007/s10705-011-9440-6
  G. D. Thompson, 1991.
-	The growth of sugarcane variety N14 at Pongola.
-	Mount Edgecombe Research Report n.7, SASEX, South Africa
+ The growth of sugarcane variety N14 at Pongola.
+ Mount Edgecombe Research Report n.7, SASEX, South Africa
  ---
  Notes by Henrique Dias:
  - File built on Michael's SAPO8601.SQX
@@ -27,6 +25,7 @@ Pongola, South Africa
  - Using cultivar coefficients from NCo376, but a calibrated N14 might would be better
  - Changed to PLME of plant cane to 'H'
  - Used actual row spacing
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM

@@ -6,6 +6,7 @@ L. S. Sampaio, R. Battisti, M. A. Lana and K. J. Boote
 @ADDRESS
 Paragominas, Para, Brazil
 @SITE
+-99
 @ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
     200    40   100   -99   100   -99     1     2     1   -99
 @NOTES
@@ -13,6 +14,7 @@ Sampaio LS, Battisti R, Lana MA, Boote KJ. 2021.
 Assessment of sowing dates and plant densities using CSM-CROPGRO-Soybean
 for soybean maturity groups in low latitude.
 The Journal of Agricultural Science 158(10):819 - 832.
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
