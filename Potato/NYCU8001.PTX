@@ -7,8 +7,6 @@ Ewing
 Cornell University, Cornell, New York, USA
 @SITE
 Cornell University
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -68,7 +66,7 @@ Cornell University
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     R     R     1     G     S     2
+ 1 ME              M     M     E     R     S     R     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     A     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

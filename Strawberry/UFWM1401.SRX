@@ -1,15 +1,19 @@
-*EXP.DETAILS: UFWM1401SR STRAWBERRY GROWTH AND YIELD ANALYSIS TRIAL
-!Development and improvement of the CROPGRO-Strawberry model. Scientia Horticulturae, 291, 110538.
-!https://doi.org/10.1016/j.scienta.2021.110538.
+*EXP.DETAILS: UFWM1401SR 2014 WIMAUMA STRAWBERRY GROWTH AND YIELD ANALYSIS TRIAL
 
 *GENERAL
 @PEOPLE
-Hopf, A., Boote, K. J., Oh, J., Guan, Z., Agehara, S., Shelia, V., Whitaker, V. M., Asseng, S., Zhao X., & Hoogenboom, G.
-
+A. Hopf, K.J. Boote, J. Oh, G.Hoogenboom
 @ADDRESS
-University Of Florida Gulf Coast Research And Education Center, 14625 Co Rd 672, Wimauma, FL 33598, USA
+University Of Florida Gulf Coast Research And Education Center, Wimauma, FL
 @SITE
 Wimauma
+@NOTES
+Hopf, A., K.J. Boote, J. Oh, Z. Guan, S. Agehara, V. Shelia, V.M. Whitaker, 
+S. Asseng, X. Zhao, and G. Hoogenboom. 2022. 
+Development and improvement of the CROPGRO-Strawberry model. 
+Scientia Horticulturae 291 (2022) 110538.
+https://doi.org/10.1016/j.scienta.2021.110538. 
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -39,42 +43,42 @@ Wimauma
 
 *HARVEST DETAILS
 @H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
- 1 14327 GS000   -99   -99   -99   -99   -99 
- 1 14334 GS000   -99   -99   -99   -99   -99
- 1 14337 GS000   -99   -99   -99   -99   -99
- 1 14341 GS000   -99   -99   -99   -99   -99
- 1 14344 GS000   -99   -99   -99   -99   -99
- 1 14348 GS000   -99   -99   -99   -99   -99
- 1 14351 GS000   -99   -99   -99   -99   -99
- 1 14354 GS000   -99   -99   -99   -99   -99
- 1 14357 GS000   -99   -99   -99   -99   -99
- 1 14362 GS000   -99   -99   -99   -99   -99
- 1 15001 GS000   -99   -99   -99   -99   -99
- 1 15004 GS000   -99   -99   -99   -99   -99
- 1 15007 GS000   -99   -99   -99   -99   -99
- 1 15011 GS000   -99   -99   -99   -99   -99
- 1 15014 GS000   -99   -99   -99   -99   -99
- 1 15018 GS000   -99   -99   -99   -99   -99
- 1 15021 GS000   -99   -99   -99   -99   -99
- 1 15025 GS000   -99   -99   -99   -99   -99
- 1 15028 GS000   -99   -99   -99   -99   -99
- 1 15032 GS000   -99   -99   -99   -99   -99
- 1 15035 GS000   -99   -99   -99   -99   -99
- 1 15039 GS000   -99   -99   -99   -99   -99
- 1 15042 GS000   -99   -99   -99   -99   -99
- 1 15046 GS000   -99   -99   -99   -99   -99
- 1 15049 GS000   -99   -99   -99   -99   -99
- 1 15053 GS000   -99   -99   -99   -99   -99
- 1 15056 GS000   -99   -99   -99   -99   -99
- 1 15060 GS000   -99   -99   -99   -99   -99
- 1 15063 GS000   -99   -99   -99   -99   -99
- 1 15067 GS000   -99   -99   -99   -99   -99
- 1 15070 GS000   -99   -99   -99   -99   -99
- 1 15074 GS000   -99   -99   -99   -99   -99
- 1 15077 GS000   -99   -99   -99   -99   -99
- 1 15081 GS000   -99   -99   -99   -99   -99
- 1 15084 GS000   -99   -99   -99   -99   -99
- 1 15087 GS000   -99   -99   -99   -99   -99
+ 1 14327 GS000   -99   -99   -99   -99 
+ 1 14334 GS000   -99   -99   -99   -99 
+ 1 14337 GS000   -99   -99   -99   -99 
+ 1 14341 GS000   -99   -99   -99   -99 
+ 1 14344 GS000   -99   -99   -99   -99 
+ 1 14348 GS000   -99   -99   -99   -99 
+ 1 14351 GS000   -99   -99   -99   -99 
+ 1 14354 GS000   -99   -99   -99   -99 
+ 1 14357 GS000   -99   -99   -99   -99 
+ 1 14362 GS000   -99   -99   -99   -99 
+ 1 15001 GS000   -99   -99   -99   -99 
+ 1 15004 GS000   -99   -99   -99   -99 
+ 1 15007 GS000   -99   -99   -99   -99 
+ 1 15011 GS000   -99   -99   -99   -99 
+ 1 15014 GS000   -99   -99   -99   -99 
+ 1 15018 GS000   -99   -99   -99   -99 
+ 1 15021 GS000   -99   -99   -99   -99 
+ 1 15025 GS000   -99   -99   -99   -99 
+ 1 15028 GS000   -99   -99   -99   -99 
+ 1 15032 GS000   -99   -99   -99   -99 
+ 1 15035 GS000   -99   -99   -99   -99 
+ 1 15039 GS000   -99   -99   -99   -99 
+ 1 15042 GS000   -99   -99   -99   -99 
+ 1 15046 GS000   -99   -99   -99   -99 
+ 1 15049 GS000   -99   -99   -99   -99 
+ 1 15053 GS000   -99   -99   -99   -99 
+ 1 15056 GS000   -99   -99   -99   -99 
+ 1 15060 GS000   -99   -99   -99   -99 
+ 1 15063 GS000   -99   -99   -99   -99 
+ 1 15067 GS000   -99   -99   -99   -99 
+ 1 15070 GS000   -99   -99   -99   -99 
+ 1 15074 GS000   -99   -99   -99   -99 
+ 1 15077 GS000   -99   -99   -99   -99 
+ 1 15081 GS000   -99   -99   -99   -99 
+ 1 15084 GS000   -99   -99   -99   -99 
+ 1 15087 GS000   -99   -99   -99   -99 
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
@@ -82,7 +86,7 @@ Wimauma
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              N     N     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     L     R     1     G     S     2
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -99,3 +103,6 @@ Wimauma
  1 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 01001   100     0
+
+
+

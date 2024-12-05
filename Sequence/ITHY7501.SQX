@@ -1,4 +1,4 @@
-*EXP.DETAILS: ITHY7501SQ SOYBEAN-CHICKPEA ROTATION; 25 YEARS, 10 REPS
+*EXP.DETAILS: ITHY7501SQ SOYBEAN-CHICKPEA ROTATION; 25 YEARS, 30 REPS
 
 *GENERAL
 @PEOPLE
@@ -7,6 +7,8 @@
  ICRISAT
 @SITE
  PATANCHERU
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
  HYPOTHETICAL EXPERIMENT
 
@@ -56,11 +58,11 @@
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE             25    10     S 75152  2150 SOYBEAN
+ 1 GE             25    30     S 75152  2150 SOYBEAN
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              W     M     E     R     S     L     R     1     G     S     2
+ 1 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     N     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -83,11 +85,11 @@
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              W     M     E     R     S     L     R     1     G     S     2
+ 2 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              A     N     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 2 OU              Y     N     A     5     N     N     N     N     N     N     N     N     N      
+ 2 OU              Y     N     A     5     N     N     N     N     N     N     N     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -106,11 +108,11 @@
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  3 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 3 ME              W     M     E     R     S     C     R     1     G     S     2
+ 3 ME              W     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  3 MA              R     N     N     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 3 OU              Y     N     A     5     N     N     N     N     N     N     N     N     N      
+ 3 OU              Y     N     A     5     N     N     N     N     N     N     N     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

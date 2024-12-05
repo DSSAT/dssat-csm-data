@@ -1,6 +1,6 @@
 *WEATHER : IBWM
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  IBWM    22.00   158.00    20  25.0   5.0   -99   -99
+  IBWM    22.00  -158.00    20  25.0   5.0   -99   -99
 @DATE  SRAD  TMAX  TMIN  RAIN
 91001   8.4  27.0  17.0   0.0
 91002   6.1  26.0  18.0   0.0

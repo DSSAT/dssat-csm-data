@@ -1,6 +1,6 @@
 *WEATHER : OSBO
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  OSBO    45.83   119.28   -99  11.0   9.0   -99   -99
+  OSBO    45.83  -119.28   -99  11.0   9.0   -99   -99
 @DATE  SRAD  TMAX  TMIN  RAIN
 88001   6.4   2.2  -6.1   0.0
 88002   4.0   1.7  -6.1   0.0

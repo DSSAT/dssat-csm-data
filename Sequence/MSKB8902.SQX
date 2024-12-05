@@ -7,6 +7,8 @@ Peter Grace and Phil Robertson
 Michigan State University, Hickory Corners, Michigan
 @SITE
 W.K. Kellogg Biological Station
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 The KBS Long-Term Ecological Research in Row-Crop Agriculture Site (LTER) Treatment 1
 Support for this research was also provided by the NSF Long-term Ecological Research 
@@ -287,7 +289,7 @@ For further information see the KBS LTER web site at http://lter.kbs.msu.edu.
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     C     R     1     P     S     2
+ 1 ME              M     M     E     R     S     C     R     1     P     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

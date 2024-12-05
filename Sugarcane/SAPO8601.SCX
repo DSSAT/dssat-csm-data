@@ -12,13 +12,13 @@ Pongola, South Africa
 @NOTES
  Modeling and observed data from:
  Michael van der Laan, N. Miles, J. G. Annandale, C. C. du Preez, 2011. 
-	Identification of opportunities for improved nitrogen
-	management in sugarcane cropping systems using
-	the newly developed Canegro-N model.
-	Nutr Cycl Agroecosyst (2011) 90:391–404. https://doi.org/10.1007/s10705-011-9440-6
+ Identification of opportunities for improved nitrogen
+ management in sugarcane cropping systems using
+ the newly developed Canegro-N model.
+ Nutr Cycl Agroecosyst (2011) 90:391–404. https://doi.org/10.1007/s10705-011-9440-6
  G. D. Thompson, 1991.
-	The growth of sugarcane variety N14 at Pongola.
-	Mount Edgecombe Research Report n.7, SASEX, South Africa
+ The growth of sugarcane variety N14 at Pongola.
+ Mount Edgecombe Research Report n.7, SASEX, South Africa
  ---
  Notes by Henrique Dias:
  - File built on Michael's SAPO8601.SQX
@@ -27,6 +27,7 @@ Pongola, South Africa
  - Using cultivar coefficients from NCo376, but a calibrated N14 might would be better
  - Changed to PLME of plant cane to 'H'
  - Used actual row spacing
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -253,7 +254,7 @@ Pongola, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     F     S     C     R     1     P     S     3
+ 1 ME              M     M     E     F     S     C     R     1     P     R     3
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -276,7 +277,7 @@ Pongola, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              M     M     E     F     S     C     R     1     P     S     3
+ 2 ME              M     M     E     F     S     C     R     1     P     R     3
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     R     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -299,7 +300,7 @@ Pongola, South Africa
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  3 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 3 ME              M     M     E     F     S     C     R     1     P     S     3
+ 3 ME              M     M     E     F     S     C     R     1     P     R     3
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  3 MA              R     R     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

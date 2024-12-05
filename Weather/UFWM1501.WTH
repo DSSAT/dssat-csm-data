@@ -1,7 +1,7 @@
 *WEATHER DATA : Wimauma, Florida, USA
 
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  UFWM   27.767   82.233    44  21.3  11.6 -99.0 -99.0
+  UFWM   27.767  -82.233    44  21.3  11.6 -99.0 -99.0
 @DATE  SRAD  TMAX  TMIN  RAIN  DEWP  WIND   PAR  EVAP  RHUM
 15001   7.8  21.7  13.8   0.0                               
 15002   9.5  24.8  16.0   0.0                               

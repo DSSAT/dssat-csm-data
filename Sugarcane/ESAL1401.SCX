@@ -7,8 +7,6 @@ Murilo Vianna, Daniel Nassif, Leandro Garcia, Kassio Carvalho, Fabio Marin
 Fazenda Areao, Piracicaba, Brazil.
 @SITE
 Center-pivot
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -50,7 +48,7 @@ Center-pivot
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
  1    .9    30    50   100 GS000 IR001    10 Sprinkler Irrigation
-@I IDATE  IROP IRVAL 
+@I IDATE  IROP IRVAL
  1 14281 IR001    30
  1 15055 IR001    30
  1 15063 IR001    10
@@ -63,11 +61,11 @@ Center-pivot
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     S 14195  2150 Ratoon Cane               
+ 1 GE              1     1     S 14195  2150 Ratoon Cane
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     N     N     N     N     N     N     N     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     F     N     C     R     1     G     S     3
+ 1 ME              M     M     E     F     N     C     R     1     G     R     3
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

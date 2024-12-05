@@ -7,6 +7,8 @@ DSSAT Foundation
 Gainesville, Florida
 @SITE
 Gainesville, Florida
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -73,8 +75,8 @@ Gainesville, Florida
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 97166 IB001 AP001    10    60     0     0     0     0   -99 -99
- 1 97196 IB001 AP001    10    60     0     0     0     0   -99 -99
+ 1 97166 FE001 AP001    10    60     0     0     0     0   -99 -99
+ 1 97196 FE001 AP001    10    60     0     0     0     0   -99 -99
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
@@ -82,7 +84,7 @@ Gainesville, Florida
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              W     M     E     R     S     C     R     1     G     S     2
+ 1 ME              W     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

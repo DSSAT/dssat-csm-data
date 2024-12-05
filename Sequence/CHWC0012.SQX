@@ -249,7 +249,7 @@ Measured data from Paul DeLaune’s long-term cover crop experiments at Chillico
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     F     S     L     R     1     P     S     2
+ 1 ME              M     M     E     F     S     L     R     1     P     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -268,11 +268,11 @@ Measured data from Paul DeLaune’s long-term cover crop experiments at Chillico
  1 HA              0 11298   100     0
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 2 GE              6     1     S 11001     0 Wheat		       CSCER	
+ 2 GE              6     1     S 11001     0 Wheat
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     Y     N     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              M     M     E     F     S     C     R     1     P     S     2
+ 2 ME              M     M     E     F     S     C     R     1     P     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     R     N     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -295,7 +295,7 @@ Measured data from Paul DeLaune’s long-term cover crop experiments at Chillico
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  3 OP              Y     Y     N     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 3 ME              M     M     E     F     S     C     R     1     P     S     2
+ 3 ME              M     M     E     F     S     C     R     1     P     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  3 MA              R     N     N     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

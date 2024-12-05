@@ -49,14 +49,14 @@
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 75108 FE001 AP001    10     0     0     0     0     0   -99 -99
- 2 75108 FE001 AP001    10    30     0     0     0     0   -99 -99
- 3 75108 FE001 AP001    10    60     0     0     0     0   -99 -99
- 4 75108 FE001 AP001    10    90     0     0     0     0   -99 -99
- 5 75108 FE001 AP001    10   120     0     0     0     0   -99 -99
- 6 75108 FE001 AP001    10   150     0     0     0     0   -99 -99
- 7 75108 FE001 AP001    10   180     0     0     0     0   -99 -99
- 8 75108 FE001 AP001    10   210     0     0     0     0   -99 -99
+ 1 75108 FE001 AP002    10     0     0     0     0     0   -99 0 N
+ 2 75108 FE001 AP002    10    30     0     0     0     0   -99 30 N
+ 3 75108 FE001 AP002    10    60     0     0     0     0   -99 60 N
+ 4 75108 FE001 AP002    10    90     0     0     0     0   -99 90 N
+ 5 75108 FE001 AP002    10   120     0     0     0     0   -99 120 N
+ 6 75108 FE001 AP002    10   150     0     0     0     0   -99 150 N
+ 7 75108 FE001 AP002    10   180     0     0     0     0   -99 180 N
+ 8 75108 FE001 AP002    10   210     0     0     0     0   -99 210 N
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
@@ -64,11 +64,11 @@
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     C     R     1     G     S     2
+ 1 ME              M     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     M
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

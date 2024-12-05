@@ -7,34 +7,32 @@ DSSAT Foundation
 Gainesville, Florida
 @SITE
 Chiang Mai, Thailand
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 0 0 SPATIAL Field 1            1  1  0  0  1  0  0  0  0  0  0  0  1
- 2 1 0 0 SPATIAL Field 2            3  2  0  0  1  0  0  0  0  0  0  0  1
- 3 1 0 0 SPATIAL Field 3            3  3  0  0  1  0  0  0  0  0  0  0  1
- 4 1 0 0 SPATIAL Field 4            3  4  0  0  1  0  0  0  0  0  0  0  1
- 5 1 0 0 SPATIAL Field 5            3  5  0  0  1  0  0  0  0  0  0  0  1
- 6 1 0 0 SPATIAL Field 6            1  6  0  0  1  0  0  0  0  0  0  0  1
- 7 1 0 0 SPATIAL Field 7            1  7  0  0  1  0  0  0  0  0  0  0  1
- 8 1 0 0 SPATIAL Field 8            1  8  0  0  1  0  0  0  0  0  0  0  1
- 9 1 0 0 SPATIAL Field 9            2  9  0  0  1  0  0  0  0  0  0  0  1
-10 1 0 0 SPATIAL Field 10           3 10  0  0  1  0  0  0  0  0  0  0  1
-11 1 0 0 SPATIAL Field 11           3 11  0  0  1  0  0  0  0  0  0  0  1
-12 1 0 0 SPATIAL Field 12           3 12  0  0  1  0  0  0  0  0  0  0  1
-13 1 0 0 SPATIAL Field 13           3 13  0  0  1  0  0  0  0  0  0  0  1
-14 1 0 0 SPATIAL Field 14           3 14  0  0  1  0  0  0  0  0  0  0  1
-15 1 0 0 SPATIAL Field 15           2 15  0  0  1  0  0  0  0  0  0  0  1
-16 1 0 0 SPATIAL Field 16           3 16  0  0  1  0  0  0  0  0  0  0  1
-17 1 0 0 SPATIAL Field 17           2 17  0  0  1  0  0  0  0  0  0  0  1
-18 1 0 0 SPATIAL Field 18           2 18  0  0  1  0  0  0  0  0  0  0  1
-19 1 0 0 SPATIAL Field 19           2 19  0  0  1  0  0  0  0  0  0  0  1
-20 1 0 0 SPATIAL Field 20           4 20  0  0  1  0  0  0  0  0  0  0  1
-21 1 0 0 SPATIAL Field 21           2 21  0  0  1  0  0  0  0  0  0  0  1
-22 1 0 0 SPATIAL Field 22           4 22  0  0  1  0  0  0  0  0  0  0  1
-23 1 0 0 SPATIAL Field 23           4 23  0  0  1  0  0  0  0  0  0  0  1
+ 1 1 0 0 SPATIAL Field 1            1  1  0  1  1  0  1  0  0  0  0  0  1
+ 2 1 0 0 SPATIAL Field 2            3  2  0  1  1  0  1  0  0  0  0  0  1
+ 3 1 0 0 SPATIAL Field 3            3  3  0  1  1  0  1  0  0  0  0  0  1
+ 4 1 0 0 SPATIAL Field 4            3  4  0  1  1  0  1  0  0  0  0  0  1
+ 5 1 0 0 SPATIAL Field 5            3  5  0  1  1  0  1  0  0  0  0  0  1
+ 6 1 0 0 SPATIAL Field 6            1  6  0  1  1  0  1  0  0  0  0  0  1
+ 7 1 0 0 SPATIAL Field 7            1  7  0  1  1  0  1  0  0  0  0  0  1
+ 8 1 0 0 SPATIAL Field 8            1  8  0  1  1  0  1  0  0  0  0  0  1
+ 9 1 0 0 SPATIAL Field 9            2  9  0  1  1  0  1  0  0  0  0  0  1
+10 1 0 0 SPATIAL Field 10           3 10  0  1  1  0  1  0  0  0  0  0  1
+11 1 0 0 SPATIAL Field 11           3 11  0  1  1  0  1  0  0  0  0  0  1
+12 1 0 0 SPATIAL Field 12           3 12  0  1  1  0  1  0  0  0  0  0  1
+13 1 0 0 SPATIAL Field 13           3 13  0  1  1  0  1  0  0  0  0  0  1
+14 1 0 0 SPATIAL Field 14           3 14  0  1  1  0  1  0  0  0  0  0  1
+15 1 0 0 SPATIAL Field 15           2 15  0  1  1  0  1  0  0  0  0  0  1
+16 1 0 0 SPATIAL Field 16           3 16  0  1  1  0  1  0  0  0  0  0  1
+17 1 0 0 SPATIAL Field 17           2 17  0  1  1  0  1  0  0  0  0  0  1
+18 1 0 0 SPATIAL Field 18           2 18  0  1  1  0  1  0  0  0  0  0  1
+19 1 0 0 SPATIAL Field 19           2 19  0  1  1  0  1  0  0  0  0  0  1
+20 1 0 0 SPATIAL Field 20           4 20  0  1  1  0  1  0  0  0  0  0  1
+21 1 0 0 SPATIAL Field 21           2 21  0  1  1  0  1  0  0  0  0  0  1
+22 1 0 0 SPATIAL Field 22           4 22  0  1  1  0  1  0  0  0  0  0  1
+23 1 0 0 SPATIAL Field 23           4 23  0  1  1  0  1  0  0  0  0  0  1
 
 *CULTIVARS
 @C CR INGENO CNAME
@@ -110,8 +108,7 @@ Chiang Mai, Thailand
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 70170 FE005   -99    10    30   -99   -99   -99   -99   -99 -99
- 1 70200 FE005   -99     3    30   -99   -99   -99   -99   -99 -99
+ 1 70170 FE005 AP002    10    30   -99   -99   -99   -99   -99 30 kg N/ha
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
@@ -119,11 +116,11 @@ Chiang Mai, Thailand
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              W     M     E     R     S     C     R     1     G     S     2
+ 1 ME              W     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              Y     N     Y     1     N     N     N     N     N     N     Y     N     N     A
+ 1 OU              Y     N     Y     1     N     N     N     N     N     N     0     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

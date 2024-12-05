@@ -7,8 +7,6 @@ Abelardo Nunez, Axel Garcia, Gerrit Hoogenboom
 Bio & Agricultural Engineering, The University of Georgia
 @SITE
 http://www.griffin.uga.edu/envirotron.html
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Climate change, on a global scale, could affect agriculture at different levels.
 Crop Simulation Models can be useful tools to understand the impact of this complexity.
@@ -62,10 +60,10 @@ to study the impact of climate change in agriculture.
  1    15   .21    .3   2.3
  1    30   .21    .3   2.3
  1    60   .21    .3   2.3
- 1    90  0.21   -99   -99
- 1   120  0.21   -99   -99
- 1   150  0.21   -99   -99
- 1   180  0.21   -99   -99
+ 1    90   .21   -99   -99
+ 1   120   .21   -99   -99
+ 1   150   .21   -99   -99
+ 1   180   .21   -99   -99
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
@@ -95,12 +93,12 @@ to study the impact of climate change in agriculture.
 
 *ENVIRONMENT MODIFICATIONS
 @E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
- 1 02303 R  16 R18.7 R  25 R  15 A 0.0 R 400 A   0 A   0 400ppm CO2/25oC
- 2 02303 R  16 R18.7 R  35 R  25 A 0.0 R 400 A   0 A   0 400ppm CO2/35oC
- 3 02303 R  16 R18.7 R  25 R  15 A 0.0 R 600 A   0 A   0 600ppm CO2/25oC
- 4 02303 R  16 R18.7 R  35 R  25 A 0.0 R 600 A   0 A   0 600ppm CO2/35oC
- 5 02303 R  16 R18.7 R  25 R  15 A 0.0 R 800 A   0 A   0 800ppm CO2/25oC
- 6 02303 R  16 R18.7 R  35 R  25 A 0.0 R 800 A   0 A   0 800/35
+ 1 02303 R  16 R18.7 R  25 R  15 A   0 R 400 A   0 A   0 400ppm CO2/25oC
+ 2 02303 R  16 R18.7 R  35 R  25 A   0 R 400 A   0 A   0 400ppm CO2/35oC
+ 3 02303 R  16 R18.7 R  25 R  15 A   0 R 600 A   0 A   0 600ppm CO2/25oC
+ 4 02303 R  16 R18.7 R  35 R  25 A   0 R 600 A   0 A   0 600ppm CO2/35oC
+ 5 02303 R  16 R18.7 R  25 R  15 A   0 R 800 A   0 A   0 800ppm CO2/25oC
+ 6 02303 R  16 R18.7 R  35 R  25 A   0 R 800 A   0 A   0 800/35
 
 *HARVEST DETAILS
 @H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
@@ -112,7 +110,7 @@ to study the impact of climate change in agriculture.
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     C     R     1     G     S     2
+ 1 ME              M     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     A     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

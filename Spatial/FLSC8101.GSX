@@ -1,4 +1,4 @@
-*EXP.DETAILS: FLSC8101GS SPATIAL ANALYSES TEST CASE; FLORENCE, SOUTH CAROLINA
+*EXP.DETAILS: FLSC8101GS SPATIAL DEMO; FLORENCE, SOUTH CAROLINA, USA
 
 *GENERAL
 @PEOPLE
@@ -380,11 +380,11 @@ FLORENCE,SC,USA 34.00;0;-99;SC
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     N     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     C     R     1     G     S     2
+ 1 ME              M     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              Y     N     Y     3     N     N     N     N     N     N     Y     N     N     A
+ 1 OU              Y     N     Y     3     N     N     N     N     N     N     0     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

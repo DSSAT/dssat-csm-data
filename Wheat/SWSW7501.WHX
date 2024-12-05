@@ -7,11 +7,10 @@
  AGRCULTURE CANADA RES.STA.,SWIFT CURRENT,SASKATCHEWAN,CANADA
 @SITE
  SWIFT CURRENT,SASKATCHEWAN,CANADA  50.50;-107.9;175;DFB
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Documented in: Campbell, C.A.et.al. 1977 Can.J.Soil Sci. 57:289-310;
 Can.J.Soil Sci. 57:311-327; Can.J.Soil.Sci. 58:39-51
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -80,13 +79,13 @@ Can.J.Soil Sci. 57:311-327; Can.J.Soil.Sci. 58:39-51
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 75141 FE017 AP001    10     0     0     0     0     0   -99 -99
- 2 75141 FE017 AP001    10    20     0     0     0     0   -99 -99
- 3 75141 FE017 AP001    10    41     0     0     0     0   -99 -99
- 4 75141 FE017 AP001    10    61     0     0     0     0   -99 -99
- 5 75141 FE017 AP001    10    82     0     0     0     0   -99 -99
- 6 75141 FE017 AP001    10   123     0     0     0     0   -99 -99
- 7 75141 FE017 AP001    10   164     0     0     0     0   -99 -99
+ 1 75141 FE017 AP002    10     0     0     0     0     0   -99 0 N
+ 2 75141 FE017 AP002    10    20     0     0     0     0   -99 20 N
+ 3 75141 FE017 AP002    10    41     0     0     0     0   -99 41
+ 4 75141 FE017 AP002    10    61     0     0     0     0   -99 61
+ 5 75141 FE017 AP002    10    82     0     0     0     0   -99 82
+ 6 75141 FE017 AP002    10   123     0     0     0     0   -99 123
+ 7 75141 FE017 AP002    10   164     0     0     0     0   -99 164
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
@@ -94,11 +93,11 @@ Can.J.Soil Sci. 57:311-327; Can.J.Soil.Sci. 58:39-51
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     C     R     1     G     S     2
+ 1 ME              M     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     M
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

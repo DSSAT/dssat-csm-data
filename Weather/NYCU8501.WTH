@@ -1,6 +1,6 @@
 *WEATHER : NYCU
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  NYCU    42.70    97.00   -99   8.5   8.6   -99   -99
+  NYCU    42.70   -97.00   -99   8.5   8.6   -99   -99
 @DATE  SRAD  TMAX  TMIN  RAIN
 85091   2.7   4.4   1.1  16.3
 85092   7.5   6.1  -1.1   0.5

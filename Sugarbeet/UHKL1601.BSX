@@ -1,4 +1,4 @@
-*EXP.DETAILS: UHKL1601BS U OF Hohenheim, 2016, Leat spot and fungicide level
+*EXP.DETAILS: UHKL1601BS U OF HOHENHEIM, 2016, LEAT SPOT AND FUNGICIDE LEVEL
 
 *GENERAL
 @PEOPLE
@@ -7,12 +7,11 @@ Emir Memic, Simone Graeff-Honninger and Oliver Hensel
 University of Hohenheim, Stuttgart, Germany
 @SITE
 Ihinger Hof, Agricultural Research Station of Hohenheim University
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Emir Memic, Simone Graef-Hönninger, Oliver Hensel, and William D. Batchelor, 2020
 Extending the CSM-CERES-Beet Model to Simulate Impact of Observed Leaf Disease Damage on Sugar Beet Yield
 Agronomy 2020, 10, 1930; doi:10.3390/agronomy10121930 
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -62,7 +61,7 @@ Agronomy 2020, 10, 1930; doi:10.3390/agronomy10121930
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     Y     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     L     R     1     G     S     2
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     D
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

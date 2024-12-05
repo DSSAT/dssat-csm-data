@@ -1,4 +1,4 @@
-*EXP.DETAILS: GAJD1101TF N RATE , GETU,Abebe 2012-CERES-TEFF
+*EXP.DETAILS: GAJD1101TF N RATE , GETU,ABEBE 2012-CERES-TEFF
 
 *GENERAL
 @PEOPLE
@@ -7,6 +7,8 @@
 Jamma District, Ethiopia
 @SITE
 Jamma District, Ethiopia
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -61,7 +63,7 @@ Jamma District, Ethiopia
 
 *ENVIRONMENT MODIFICATIONS
 @E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
- 1 11001 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
+ 1 11001 A   0 A   0 A   0 A   0 A   0 A   0 A   0 A   0 
 
 *HARVEST DETAILS
 @H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
@@ -73,7 +75,7 @@ Jamma District, Ethiopia
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     C     R     1     G     S     2
+ 1 ME              M     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     D     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -90,3 +92,6 @@ Jamma District, Ethiopia
  1 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 75310   100     0
+
+
+

@@ -1,6 +1,6 @@
 *WEATHER : Florence, South Carolina
 @ INSI      LAT     LONG  ELEV   TAV   AMP REFHT WNDHT
-  FLSC     34.0   -100.0     0 -99.0 -99.0
+  FLSC     34.0    -80.0     0 -99.0 -99.0
 @DATE  SRAD  TMAX  TMIN  RAIN
 81060   6.0  21.8  15.6   0.0
 81061  15.2  20.6  10.7   0.0

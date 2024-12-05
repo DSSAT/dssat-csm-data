@@ -1,4 +1,4 @@
-*EXP.DETAILS: UFGA7804SQ BN-BN YR 1, SB YR 2 EXAMPLE, 10:5
+*EXP.DETAILS: UFGA7804SQ BN-BN YR 1, SB YR 2 EXAMPLE, 10 YEARS, 5 REPS
 
 *GENERAL
 @PEOPLE
@@ -7,6 +7,8 @@ DSSAT Foundation
 Gainesville, Florida
 @SITE
 Gainesville, Florida
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -84,7 +86,7 @@ Gainesville, Florida
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              W     M     E     R     S     L     R     1     G     S     2
+ 1 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -107,11 +109,11 @@ Gainesville, Florida
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     Y     N     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              W     M     E     R     S     C     R     1     G     S     2
+ 2 ME              W     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     R     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 2 OU              Y     N     A    10     N     N     N     N     N     N     Y     N     N      
+ 2 OU              Y     N     A    10     N     N     N     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -130,11 +132,11 @@ Gainesville, Florida
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  3 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 3 ME              W     M     E     R     S     L     R     1     G     S     2
+ 3 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  3 MA              R     R     R     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 3 OU              Y     N     A    10     N     N     N     N     N     N     Y     N     N      
+ 3 OU              Y     N     A    10     N     N     N     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -153,11 +155,11 @@ Gainesville, Florida
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  4 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 4 ME              W     M     E     R     S     C     R     1     G     S     2
+ 4 ME              W     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  4 MA              A     R     R     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 4 OU              Y     N     A    10     N     N     N     N     N     N     Y     N     N      
+ 4 OU              Y     N     A    10     N     N     N     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

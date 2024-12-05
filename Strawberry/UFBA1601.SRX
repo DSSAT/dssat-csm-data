@@ -1,16 +1,18 @@
-*EXP.DETAILS: UFBA1401SR STRAWBERRY VARIETY TRIAL
-!Development and improvement of the CROPGRO-Strawberry model. Scientia Horticulturae, 291, 110538.
-!https://doi.org/10.1016/j.scienta.2021.110538.
+*EXP.DETAILS: UFBA1601SR 2016 BALM STRAWBERRY VARIETY TRIAL
 
 *GENERAL
 @PEOPLE
-Hopf, A., Boote, K. J., Oh, J., Guan, Z., Agehara, S., Shelia, V., Whitaker, V. M., Asseng, S., Zhao X., & Hoogenboom, G.
-(and Plotto, A. for data sharing) 
-
+A. Hopf, K.J. Boote, J. Oh, G.Hoogenboom
 @ADDRESS
-University Of Florida Gulf Coast Research And Education Center, 14625 Co Rd 672, Wimauma, FL 33598, USA
+University Of Florida Gulf Coast Research And Education Center, Wimauma, FL
 @SITE
 Balm
+@NOTES
+Hopf, A., K.J. Boote, J. Oh, Z. Guan, S. Agehara, V. Shelia, V.M. Whitaker, 
+S. Asseng, X. Zhao, and G. Hoogenboom. 2022. 
+Development and improvement of the CROPGRO-Strawberry model. 
+Scientia Horticulturae 291 (2022) 110538.
+https://doi.org/10.1016/j.scienta.2021.110538. 
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -83,7 +85,7 @@ Balm
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              N     N     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     L     R     1     G     S     2
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -100,3 +102,6 @@ Balm
  1 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  1 HA              0 01001   100     0
+
+
+
