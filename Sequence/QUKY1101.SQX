@@ -7,6 +7,8 @@ Massimiliano De Antoni Migliorati, Peter Grace, Cheryl Porter
 Queensland University of Technology, Brisbane, Australia
 @SITE
 Kingaroy, Queensland
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 For further details on treatments see De Antoni Migliorati et al (2014)
 Influence of different nitrogen rates and DMPP nitrification inhibitor on annual
@@ -98,7 +100,7 @@ https://doi.org/10.1016/j.agee.2014.01.016.
 
 *ENVIRONMENT MODIFICATIONS
 @E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
- 1 11159 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
+ 1 11159 A   0 A   0 A   0 A   0 A   0 A   0 A   0 A   0 
 
 *HARVEST DETAILS
 @H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
@@ -111,8 +113,8 @@ https://doi.org/10.1016/j.agee.2014.01.016.
  1 GE              1     1     S 11159  2150 CONV                      CSCER
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
-@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL METMP MEGHG
- 1 ME              M     M     E     R     S     C     R     1     P     S     3     D     1
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     C     R     1     P     R     3
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -134,8 +136,8 @@ https://doi.org/10.1016/j.agee.2014.01.016.
  2 GE              1     1     S 11159  2150 CONV                      CRGRO
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     Y     N     N     N     N     N     N     M
-@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL METMP MEGHG
- 2 ME              M     M     E     F     S     L     R     1     P     S     3     D     1
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     F     S     L     R     1     P     R     3
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     R     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -157,8 +159,8 @@ https://doi.org/10.1016/j.agee.2014.01.016.
  3 GE              1     1     S 11159  2150 CONV                      MZCER
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  3 OP              Y     Y     N     N     N     N     N     N     M
-@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL METMP MEGHG
- 3 ME              M     M     E     F     S     L     R     1     P     S     3     D     1
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 3 ME              M     M     E     F     S     L     R     1     P     R     3
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  3 MA              R     R     R     N     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

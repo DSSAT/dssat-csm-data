@@ -1,0 +1,25 @@
+!This file is for parameters controlling simulated mowing events for alfalfa
+!for CROPGRO-Forage model.
+!Mow height is not used any where, except to affect canopy height as m or cm.
+@TRNO   DATE   MOW RSPLF   MVS  RSHT
+     1 13191  1000    20     2   5.0
+     1 13226  1000    20     2   5.0
+     1 13253  1000    20     2   5.0
+     1 13330  1000    20     2   5.0
+     1 14094  1000    20     2   5.0
+     1 14148  1000    20     2   5.0
+     1 14182  1000    20     2   5.0
+     1 14213  1000    20     2   5.0
+     1 14247  1000    20     2   5.0
+     1 14289  1000    20     2   5.0
+     1 15099  1000    20     2   5.0
+     1 15145  1000    20     2   5.0
+     1 15173  1000    20     2   5.0
+     1 15201  1000    20     2   5.0
+     1 15232  1000    20     2   5.0     
+     1 16118  1000    20     2   5.0
+     1 16159  1000    20     2   5.0
+     1 16204  1000    20     2   5.0
+     1 16244  1000    20     2   5.0
+     1 16295  1000    20     2   5.0
+     1 17095  1000    20     2   5.0    

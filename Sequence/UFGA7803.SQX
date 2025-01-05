@@ -1,4 +1,4 @@
-*EXP.DETAILS: UFGA7803SQ SEQUENCE ANALYSIS, SIMPLE MULTI-TREAT FILE, 5:5
+*EXP.DETAILS: UFGA7803SQ SEQUENCE ANALYSIS, SIMPLE MULTI-TREAT FILE, 5 YEARS; 30 REPS
 
 *GENERAL
 @PEOPLE
@@ -77,11 +77,11 @@ Gainesville, Florida
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              5    10     S 78166  2223 Soybean
+ 1 GE              5    30     S 78166  2223 Soybean
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              W     M     E     R     S     L     R     1     G     S     2
+ 1 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              A     R     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
@@ -100,15 +100,15 @@ Gainesville, Florida
  1 HA              0 79166   100     0
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 2 GE              3     1     S 78166  2150 Fallow
+ 2 GE              5    30     S 78166  2150 Fallow
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     Y     N     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              W     M     E     R     S     C     R     1     G     S     2
+ 2 ME              W     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     R     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 2 OU              Y     N     A    10     N     N     N     N     N     N     Y     N     N      
+ 2 OU              Y     N     A    10     N     N     N     N     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

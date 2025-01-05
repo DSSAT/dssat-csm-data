@@ -7,6 +7,8 @@ Bill Batchelor
 219b Davidson Hall, Agric. & Bios. Eng. Dept, Iowa State Univeristy, Ames
 @SITE
 Agronomy Farm, Ames, Iowa
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 The purpose of this experiment is to demonstrate several pest damage types
 in CERES-Maize. The pest levels for each treatment are entered
@@ -67,7 +69,7 @@ in IUAF9902.MZT. Notethat this is not a real experiment.
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     Y     N     Y     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     R     R     1     G     S     2
+ 1 ME              M     M     E     R     S     R     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     N     R     R     R
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT

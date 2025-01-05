@@ -12,12 +12,16 @@ Gainesville, Florida
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 0 0 RAINFED                    1  1  0  1  1  0  0  0  0  0  0  0  1
- 2 1 0 0 AUTOMATIC 90%              1  1  0  1  1  0  0  0  0  0  0  0  2
- 3 1 0 0 AUTOMATIC 70%              1  1  0  1  1  0  0  0  0  0  0  0  3
- 4 1 0 0 AUTOMATIC 50%              1  1  0  1  1  0  0  0  0  0  0  0  4
- 5 1 0 0 AUTOMATIC 30%              1  1  0  1  1  0  0  0  0  0  0  0  5
- 6 1 0 0 AUTOMATIC 10%              1  1  0  1  1  0  0  0  0  0  0  0  6
+ 1 1 0 0 Rainfed                    1  1  0  1  1  0  0  0  0  0  0  0  1
+ 2 1 0 0 Automatic 10%              1  1  0  1  1  0  0  0  0  0  0  0  2
+ 3 1 0 0 Automatic 20%              1  1  0  1  1  0  0  0  0  0  0  0  3
+ 4 1 0 0 Automatic 30%              1  1  0  1  1  0  0  0  0  0  0  0  4
+ 5 1 0 0 Automatic 40%              1  1  0  1  1  0  0  0  0  0  0  0  5
+ 6 1 0 0 Automatic 50%              1  1  0  1  1  0  0  0  0  0  0  0  6
+ 7 1 0 0 Automatic 60%              1  1  0  1  1  0  0  0  0  0  0  0  7
+ 8 1 0 0 Automatic 70%              1  1  0  1  1  0  0  0  0  0  0  0  8
+ 9 1 0 0 Automatic 80%              1  1  0  1  1  0  0  0  0  0  0  0  9
+10 1 0 0 Automatic 90%              1  1  0  1  1  0  0  0  0  0  0  0 10
 
 *CULTIVARS
 @C CR INGENO CNAME
@@ -49,15 +53,15 @@ Gainesville, Florida
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE             30     1     S 78166  9875 DEFAULT SEASONAL SIMULAT
+ 1 GE             30     1     S 78166  9875 Rainfed
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              W     M     E     R     S     L     R     1     G     S     2
+ 1 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
- 1 MA              R     R     R     N     M
+ 1 MA              R     N     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              Y     N     Y     1     N     N     N     N     N     N     N     N     N     A
+ 1 OU              Y     N     Y     1     N     N     N     N     N     N     0     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
@@ -72,21 +76,21 @@ Gainesville, Florida
  1 HA              0 79166   100     0
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 2 GE             30     1     S 78166  9875 DEFAULT SEASONAL SIMULAT
+ 2 GE             30     1     S 78166  9875 10%
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              W     M     E     R     S     L     R     1     G     S     2
+ 2 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  2 MA              R     A     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 2 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N      
+ 2 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
  2 PL          78159 78173    40   100    30    40    10
 @N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
- 2 IR             30    90   100 IB001 IB001    10   .75
+ 2 IR             30    10   100 IB001 IB001    10   .75
 @N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
  2 NI             30    50    25 IB001 IB001
 @N RESIDUES    RIPCN RTIME RIDEP
@@ -95,21 +99,21 @@ Gainesville, Florida
  2 HA              0 79166   100     0
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 3 GE             30     1     S 78166  9875 DEFAULT SEASONAL SIMULAT
+ 3 GE             30     1     S 78166  9875 20%
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  3 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 3 ME              W     M     E     R     S     L     R     1     G     S     2
+ 3 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  3 MA              R     A     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 3 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N      
+ 3 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
  3 PL          78159 78173    40   100    30    40    10
 @N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
- 3 IR             30    70   100 IB001 IB001    10   .75
+ 3 IR             30    20   100 IB001 IB001    10   .75
 @N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
  3 NI             30    50    25 IB001 IB001
 @N RESIDUES    RIPCN RTIME RIDEP
@@ -118,21 +122,21 @@ Gainesville, Florida
  3 HA              0 79166   100     0
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 4 GE             30     1     S 78166  9875 DEFAULT SEASONAL SIMULAT
+ 4 GE             30     1     S 78166  9875 30%
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  4 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 4 ME              W     M     E     R     S     L     R     1     G     S     2
+ 4 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  4 MA              R     A     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 4 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N      
+ 4 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
  4 PL          78159 78173    40   100    30    40    10
 @N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
- 4 IR             30    50   100 IB001 IB001    10   .75
+ 4 IR             30    30   100 IB001 IB001    10   .75
 @N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
  4 NI             30    50    25 IB001 IB001
 @N RESIDUES    RIPCN RTIME RIDEP
@@ -141,21 +145,21 @@ Gainesville, Florida
  4 HA              0 79166   100     0
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 5 GE             30     1     S 78166  9875 DEFAULT SEASONAL SIMULAT
+ 5 GE             30     1     S 78166  9875 40%
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  5 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 5 ME              W     M     E     R     S     L     R     1     G     S     2
+ 5 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  5 MA              R     A     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 5 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N      
+ 5 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
  5 PL          78159 78173    40   100    30    40    10
 @N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
- 5 IR             30    30   100 IB001 IB001    10   .75
+ 5 IR             30    40   100 IB001 IB001    10   .75
 @N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
  5 NI             30    50    25 IB001 IB001
 @N RESIDUES    RIPCN RTIME RIDEP
@@ -164,27 +168,119 @@ Gainesville, Florida
  5 HA              0 79166   100     0
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 6 GE             30     1     S 78166  9875 DEFAULT SEASONAL SIMULAT
+ 6 GE             30     1     S 78166  9875 50%
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  6 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 6 ME              W     M     E     R     S     L     R     1     G     S     2
+ 6 ME              W     M     E     R     S     L     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  6 MA              R     A     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 6 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N      
+ 6 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
  6 PL          78159 78173    40   100    30    40    10
 @N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
- 6 IR             30    10   100 IB001 IB001    10   .75
+ 6 IR             30    50   100 IB001 IB001    10   .75
 @N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
  6 NI             30    50    25 IB001 IB001
 @N RESIDUES    RIPCN RTIME RIDEP
  6 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  6 HA              0 79166   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 7 GE             30     1     S 78166  9875 60%
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 7 OP              Y     Y     Y     N     N     N     N     Y     D
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 7 ME              W     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 7 MA              R     A     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 7 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 7 PL          78159 78173    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 7 IR             30    60   100 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 7 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 7 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 7 HA              0 79166   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 8 GE             30     1     S 78166  9875 70%
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 8 OP              Y     Y     Y     N     N     N     N     Y     D
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 8 ME              W     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 8 MA              R     A     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 8 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 8 PL          78159 78173    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 8 IR             30    70   100 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 8 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 8 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 8 HA              0 79166   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 9 GE             30     1     S 78166  9875 80%
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 9 OP              Y     Y     Y     N     N     N     N     Y     D
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 9 ME              W     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 9 MA              R     A     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 9 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 9 PL          78159 78173    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 9 IR             30    80   100 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 9 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 9 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 9 HA              0 79166   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+10 GE             30     1     S 78166  9875 90%
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+10 OP              Y     Y     Y     N     N     N     N     Y     D
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+10 ME              W     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+10 MA              R     A     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+10 OU              Y     N     A    10     N     N     N     N     N     N     N     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+10 PL          78159 78173    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+10 IR             30    90   100 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+10 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+10 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+10 HA              0 79166   100     0
 
 
 

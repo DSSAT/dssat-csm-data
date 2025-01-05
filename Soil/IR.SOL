@@ -99,7 +99,7 @@
 !Shizukuishi.sol
 !Data obtained from Tao Li
 
-*IRRI200701  IRRI      -99       211 Shizukuishi - use default shallow silty clay for base info.
+*IRRI200702  IRRI      -99       211 Shizukuishi - use default shallow silty clay for base info.
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  Shizukuishi Japan                                    
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE

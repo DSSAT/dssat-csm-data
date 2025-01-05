@@ -7,12 +7,11 @@
  DEPT.AGRONOMY,KANSAS STATE UNIV,MANHATTAN,KANSAS
 @SITE
  ASHLAND,KS,USA  39.0;-97.0;226;CFA
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Documented in Wagger,M.G. 1983 Nitrogen cycling in the plan-soil system.
 Ph.D. thesis, Kansas State Univ..Mike Wagger currently thought to be at 
 the Agronomy Dept,N.Carolina State Un
+
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -51,7 +50,7 @@ the Agronomy Dept,N.Carolina State Un
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
- 1     0   -99   -99   -99   -99   -99   -99 -99
+ 1    .7   -99   -99   -99   -99   -99   -99 -99
 @I IDATE  IROP IRVAL
  1 82096 IR001    65
  1 82110 IR001    78
@@ -59,10 +58,10 @@ the Agronomy Dept,N.Carolina State Un
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 81289 FE001 AP001    15     0     0     0     0     0   -99 -99
- 2 81289 FE001 AP001    15    60     0     0     0     0   -99 -99
- 3 81289 FE001 AP001    15    90     0     0     0     0   -99 -99
- 3 82056 FE001 AP001     1    90     0     0     0     0   -99 -99
+ 1 81289 FE001 AP002    15     0     0     0     0     0   -99 0 N
+ 2 81289 FE001 AP002    15    60     0     0     0     0   -99 60 N
+ 3 81289 FE001 AP002    15    90     0     0     0     0   -99 180 N
+ 3 82056 FE001 AP002    15    90     0     0     0     0   -99 180 N
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
@@ -70,11 +69,11 @@ the Agronomy Dept,N.Carolina State Un
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 1 ME              M     M     E     R     S     C     R     1     G     S     2
+ 1 ME              M     M     E     R     S     C     R     1     G     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
  1 MA              R     R     R     N     M
-@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
- 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

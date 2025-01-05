@@ -1,4 +1,4 @@
-*EXP.DETAILS: UFON9701BH BAHIAGRASS ON ONA, POMONA FINE SAND, 2 YR SEQ.
+*EXP.DETAILS: UFON9701BH ONA, POMONA FINE SAND, 2 YR SEQ.
 
 *GENERAL
 @PEOPLE
@@ -7,26 +7,88 @@ P. MISLEVY, M.B. HALL, C. JOHNSON, S. RYMPH
 Department of Agronomy, University of Florida, Gainesville, Florida, USA
 @SITE
 ONA REC, Ona, Florida
-@NOTES
-Johnson, C.R., B.A. Reiling, P. Mislevy, and M.B. Hall. Effects of nitrogen fertilization on yield, digestibility, fiber, and protein fractions of tropical grasses. 2001. J. Anim. Sci. 79:2439-2448Johnson, C.R. 2001. Masters Thesis. University of Florida.This experiment file is an example of a multi-year forage experiment. The simulation runs continuously for 3 years. The first year (1996) is used to set the initial conditions for the beginning of the experiment (1997). Fertilization andharvest schedules that are typical of the area are used for the first year to lleave typical levels of soil nturients and water for the beginning of 1997. Theharvest schedule is set in the G0T file, see details at the top of thatThis model runs best when "P" or Parton method of organic matter mineralizationis used, especially if there are treatments with little or no supplemental N. TTo specify the Parton method in the BHX file, use XBuild and select "SimulationOptions" from the menu bar, then click on "Methods" tab and selectTo start with an established stand, use the "transplant" option under "Management"-"Planting". Select "Transplant", enter date of planting, and click on the Transplant tab. Enter 9999 kg/ha for the plant mass transplanted. This will start the simulation with 7000 kg/ha leaf+stem and 3000 kg/ha roots. Use the "MOW"option of the "Pest" routine to reduce the leaf+stem mass to a typical stubble//after harvest mass - see notes in UFON9701.G0T forIf there is little available data on initial soil water and N, start the simulation a year early to let the model establish these conditions for the period ofFall/Winter dormancy in bahiagrass is controlled, in part, by daylength. Currently the model does not allow daylength to affect dry matter partitioning duringthe vegetative stages. The best way to slow growth in the winter is to use thee "PRP" function in the "Pest" routine to lower photosynthetic rate over the winter - see notes in UFON9701.BHT forNote: When setting the Runoff Curve Number "SLRO" in the Soils file - NRCS loweris the curve number for soils underpasture or hay managementSoil Hydrologic Group A B C DPasture (good condition) 39 61 74 80Pasture (poor condition)  68 79 86 89Hay field/Meadow (good condition) 30 58 71 78
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+!Johnson, C.R., B.A. Reiling, P. Mislevy, and M.B. Hall. Effects of nitrogen fertilization on yield,
+!digestibility, fiber, and protein fractions of tropical grasses. 2001. J. Anim. Sci. 79:2439-2448 
+!Johnson, C.R. 2001. Masters Thesis. University of Florida.This experiment file is an example of a 
+!multi-year forage experiment. The simulation runs continuously for 3 years. The first year (1996)
+!is used to set the initial conditions for the beginning of the experiment (1997). Fertilization 
+!and harvest schedules that are typical of the area are used for the first year to leave typical 
+!levels of soil nturients and water for the beginning of 1997. The harvest schedule is set in the 
+!G0T file, see details at the top of that. This model runs best when "P" or Parton method of organic
+!matter mineralizationis used, especially if there are treatments with little or no supplemental N. 
+!To specify the Parton method in the BHX file, use XBuild and select "SimulationOptions" from the 
+!menu bar, then click on "Methods" tab and selectTo start with an established stand, use the 
+!"transplant" option under "Management"-"Planting". Select "Transplant", enter date of planting, 
+!and click on the Transplant tab. Enter 9999 kg/ha for the plant mass transplanted. This will start 
+!the simulation with 7000 kg/ha leaf+stem and 3000 kg/ha roots. Use the "MOW"option of the "Pest" 
+!routine to reduce the leaf+stem mass to a typical stubble//after harvest mass - see notes in 
+!UFON9701.G0T forIf there is little available data on initial soil water and N, start the simulation
+! a year early to let the model establish these conditions for the period ofFall/Winter dormancy in 
+!bahiagrass is controlled, in part, by daylength. Currently the model does not allow daylength to 
+!affect dry matter partitioning duringthe vegetative stages. The best way to slow growth in the 
+!winter is to use thee "PRP" function in the "Pest" routine to lower photosynthetic rate over 
+!the winter - see notes in UFON9701.BHT forNote: When setting the Runoff Curve Number "SLRO" in 
+!the Soils file - NRCS loweris the curve number for soils underpasture or hay management
+!Soil Hydrologic Group A B C DPasture (good condition) 39 61 74 80Pasture (poor condition) 
+!68 79 86 89Hay field/Meadow (good condition) 30 58 71 78
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 0 0 DRYLAND -    0 KG N/HA     1  1  0  1  1  0  1  0  0  0  0  1  1
- 2 1 0 0 DRYLAND -   35 KG N/HA     1  1  0  1  1  0  2  0  0  0  0  1  1
- 3 1 0 0 DRYLAND -   70 KG N/HA     1  1  0  1  1  0  3  0  0  0  0  1  1
- 4 1 0 0 DRYLAND -  105 KG N/HA     1  1  0  1  1  0  4  0  0  0  0  1  1
- 5 1 0 0 DRYLAND -  140 KG N/HA     1  1  0  1  1  0  5  0  0  0  0  1  1
+ 1 1 0 0 DRYLAND -    0 KG N/HA     1  1  1  1  1  0  1  0  0  0  0  1  1
+ 2 1 0 0 DRYLAND -   35 KG N/HA     1  1  1  1  1  0  2  0  0  0  0  1  1
+ 3 1 0 0 DRYLAND -   70 KG N/HA     1  1  1  1  1  0  3  0  0  0  0  1  1
+ 4 1 0 0 DRYLAND -  105 KG N/HA     1  1  1  1  1  0  4  0  0  0  0  1  1
+ 5 1 0 0 DRYLAND 3  140 KG N/HA     1  1  1  1  1  0  5  0  0  0  0  1  1
 
 *CULTIVARS
 @C CR INGENO CNAME
  1 BH UF0001 PENSACOLA
+ 2 BH UF0002 PENSACOLA
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
  1 UFON0001 UFON         0     0 DR000     0     0 00000 FSA    203  UFON780006 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1               0               0         0                 0     0     0     0   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 96061   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1     8   -99  1.02   -99   -99   -99   -99   -99    .9
+ 1    25   -99   .27   -99   -99   -99   -99   -99   .24
+ 1    68   -99   .11   -99   -99   -99   -99   -99    .1
+ 1    89   -99   .62   -99   -99   -99   -99   -99   .55
+ 1   117   -99   .35   -99   -99   -99   -99   -99   .31
+ 1   145   -99   .28   -99   -99   -99   -99   -99   .25
+ 1   203   -99   .13   -99   -99   -99   -99   -99   .11
+!above 0.88
+!next 0.84
+! 1     8   -99  1.02   -99   -99   -99   -99   -99   .86
+! 1    25   -99   .27   -99   -99   -99   -99   -99   .23
+! 1    68   -99   .11   -99   -99   -99   -99   -99   .09
+! 1    89   -99   .62   -99   -99   -99   -99   -99   .52
+! 1   117   -99   .35   -99   -99   -99   -99   -99   .29
+! 1   145   -99   .28   -99   -99   -99   -99   -99   .24
+! 1   203   -99   .13   -99   -99   -99   -99   -99   .11
+!next 0.86
+! 1     8   -99  1.02   -99   -99   -99   -99   -99   .88
+! 1    25   -99   .27   -99   -99   -99   -99   -99   .23
+! 1    68   -99   .11   -99   -99   -99   -99   -99   .09
+! 1    89   -99   .62   -99   -99   -99   -99   -99   .53
+! 1   117   -99   .35   -99   -99   -99   -99   -99   .30
+! 1   145   -99   .28   -99   -99   -99   -99   -99   .24
+! 1   203   -99   .13   -99   -99   -99   -99   -99   .11
+!next initial default from Rymph
+! 1     8   -99  1.02   -99   -99   -99   -99   -99   .99
+! 1    25   -99   .27   -99   -99   -99   -99   -99   .25
+! 1    68   -99   .11   -99   -99   -99   -99   -99   .10
+! 1    89   -99   .62   -99   -99   -99   -99   -99   .60
+! 1   117   -99   .35   -99   -99   -99   -99   -99   .32
+! 1   145   -99   .28   -99   -99   -99   -99   -99   .25
+! 1   203   -99   .13   -99   -99   -99   -99   -99   .12
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
@@ -43,6 +105,7 @@ Johnson, C.R., B.A. Reiling, P. Mislevy, and M.B. Hall. Effects of nitrogen fert
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
  1 96061   -99   999   999     T     R     2     0     2  9999    90    15     1     0                        -99
+! 1 96061   -99   999   999     T     R     2     0     2  8000    90    15     1     0                        -99
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
@@ -128,7 +191,7 @@ Johnson, C.R., B.A. Reiling, P. Mislevy, and M.B. Hall. Effects of nitrogen fert
 
 *ENVIRONMENT MODIFICATIONS
 @E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
- 1 96061 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
+ 1 96061 A   0 A   0 A   0 A   0 A   0 A   0 A   0 A   0 
 
 *HARVEST DETAILS
 @H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
@@ -136,9 +199,9 @@ Johnson, C.R., B.A. Reiling, P. Mislevy, and M.B. Hall. Effects of nitrogen fert
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     P 96061  2150 BAHIA
+ 1 GE              1     1     P 96061  2150 BAHIA                     PRFRM
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
- 1 OP              Y     Y     N     N     N     Y     N     N     M
+ 1 OP              Y     Y     N     N     N     N     N     N     M
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
  1 ME              M     M     E     R     S     L     R     1     P     R     2
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
