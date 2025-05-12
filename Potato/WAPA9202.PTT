@@ -4,7 +4,7 @@
 !
 ! 
 ! 
-@TRNO   DATE  LAID  UYAD  UWAD  LWAD  SWAD  CWAD  TWAD  SLAD
+@TRNO   DATE  LAID  UYAD  UWAD  LWAD  SWAD  VWAD  CWAD  SLAD
      1 92127  0.05   -99     0    51    35    86    86   103
      1 92132  0.12   -99     0   103    45   148   148   108
      1 92139  0.30   -99     9   288    89   378   387   102

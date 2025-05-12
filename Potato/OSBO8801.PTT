@@ -3,7 +3,7 @@
 ! File last edited on day 08/28/2003 at 11:05:37 AM
 !
 ! 
-@TRNO   DATE  TWAD  UYAD  LAID  UWAD  SWAD  LWAD  CWAD
+@TRNO   DATE  CWAD  UYAD  LAID  UWAD  SWAD  LWAD  VWAD
      1 88131    70   0.0  0.01     0    62     5    67
      1 88134    90   0.0  0.05     0    52    40    91
      1 88142   730   0.0  0.23     0    80   167   725
