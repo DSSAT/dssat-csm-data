@@ -1,0 +1,347 @@
+*EXP.DETAILS: JKBG1201RY TIMING, DURATION, INTENSITY OF DROUGHT STRESS ON WINTER RY
+
+*GENERAL
+@PEOPLE
+Ashifur Rahman Shawon, Ti Feike, Lorenz Kottmann
+@ADDRESS
+Julius Kühn-Institute (JKI),Bundesallee 50, D-38116 Braunschweig, Germany
+@SITE
+Bundesallee 50, D-38116 Braunschweig, Germany
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 Moderate drought (MD)2012  1  1  0  1  1  2  1  0  1  1  1  2  1
+ 2 1 1 0 Well watered 1(WW1)2012    1  1  0  1  1  1  1  0  1  1  3  3  1
+ 3 1 1 0 Severe Drought (SD)2012    1  1  0  1  2  0  1  0  1  1  2  1  1
+ 4 1 1 0 Well watered (WW2)2012     1  1  0  1  2  1  1  0  1  1  3  3  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 RY JR2020 Palazzo
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 JKBG1101 BSJK       -99   -99 DR000   -99   -99   -99 SL     -99  JKSTBG0001 Haplic Luvisol-JK SOil
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 10273   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    15   -99   -99   -99   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    BA 11238  2500     0     1     1   -99 12000   .89   -99   100    30 Normal
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5  .223    .2   1.5
+ 1    10  .223    .2   1.5
+ 1    15  .223    .2   1.5
+ 1    20  .223    .2   1.5
+ 1    25  .223    .2   1.5
+ 1    30  .223    .2   1.5
+ 1    40  .223    .2   1.5
+ 1    80  .127    .2   1.5
+ 1   120  .095    .2   1.5
+ 1   200  .095    .2   1.5
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 11269   -99   230   230     S     R    13    90     4   -99   -99   -99   -99   -99                        MD and WW1
+ 2 11278   -99   230   230     S     R    13    90     4   -99   -99   -99   -99   -99                        SD and WW2
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 WW
+@I IDATE  IROP IRVAL
+ 1 12118 IR004    20
+ 1 12123 IR004    20
+ 1 12131 IR004    20
+ 1 12137 IR004    20
+ 1 12144 IR004    20
+ 1 12146 IR004    15
+ 1 12165 IR004    20
+ 1 12174 IR004    20
+ 1 12184 IR004    14
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2     1    30    50   100 GS000 IR001    10 MD
+@I IDATE  IROP IRVAL
+ 2 12131 IR004    16
+ 2 12144 IR004    10
+ 2 12146 IR004     8
+ 2 12153 IR004    10
+ 2 12160 IR004    10
+ 2 12165 IR004    11
+ 2 12172 IR004     9
+ 2 12174 IR004    11
+ 2 12179 IR004     9
+ 2 12184 IR004     3
+ 2 12193 IR004     5
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 12046 FE017 AP001     0     0   -99   208   -99   -99   -99 -99
+ 1 12067 FE011 AP001     0    60   -99   -99   -99   -99   -99 -99
+ 1 12096 FE011 AP001     0    70   -99   -99   -99   -99   -99 -99
+
+*CHEMICAL APPLICATIONS
+@C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
+ 1 12101 CH010    .1 AP006   -99   -99  -99
+ 1 12112 CH100    .1 AP006   -99   -99  -99
+ 1 12145 CH039    .1 AP006   -99   -99  -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 11238 TI038    30 Tillage
+ 1 11238 TI011    30 Tillage
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 12095 A   0 A   0 A   0 A   0 S 8.4 A   0 A   0 A   0 MD
+ 1 12097 A   0 A   0 A   0 A   0 S  .8 A   0 A   0 A   0 MD
+ 1 12098 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 MD
+ 1 12100 A   0 A   0 A   0 A   0 S 3.8 A   0 A   0 A   0 MD
+ 1 12102 A   0 A   0 A   0 A   0 S  .5 A   0 A   0 A   0 MD
+ 1 12103 A   0 A   0 A   0 A   0 S 3.4 A   0 A   0 A   0 MD
+ 1 12104 A   0 A   0 A   0 A   0 S 5.3 A   0 A   0 A   0 MD
+ 1 12106 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 MD
+ 1 12107 A   0 A   0 A   0 A   0 S  .6 A   0 A   0 A   0 MD
+ 1 12109 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 MD
+ 1 12110 A   0 A   0 A   0 A   0 S 1.8 A   0 A   0 A   0 MD
+ 1 12111 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 MD
+ 1 12112 A   0 A   0 A   0 A   0 S 2.3 A   0 A   0 A   0 MD
+ 1 12113 A   0 A   0 A   0 A   0 S 2.4 A   0 A   0 A   0 MD
+ 1 12115 A   0 A   0 A   0 A   0 S 4.1 A   0 A   0 A   0 MD
+ 1 12118 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 MD
+ 1 12119 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 MD
+ 1 12123 A   0 A   0 A   0 A   0 S   4 A   0 A   0 A   0 MD
+ 1 12126 A   0 A   0 A   0 A   0 S 5.4 A   0 A   0 A   0 MD
+ 1 12127 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 MD
+ 1 12128 A   0 A   0 A   0 A   0 S 1.3 A   0 A   0 A   0 MD
+ 1 12130 A   0 A   0 A   0 A   0 S 1.5 A   0 A   0 A   0 MD
+ 1 12131 A   0 A   0 A   0 A   0 S 6.1 A   0 A   0 A   0 MD
+ 1 12132 A   0 A   0 A   0 A   0 S 1.4 A   0 A   0 A   0 MD
+ 1 12136 A   0 A   0 A   0 A   0 S 6.6 A   0 A   0 A   0 MD
+ 1 12139 A   0 A   0 A   0 A   0 S 1.6 A   0 A   0 A   0 MD
+ 1 12151 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 MD
+ 1 12152 A   0 A   0 A   0 A   0 S16.4 A   0 A   0 A   0 MD
+ 1 12153 A   0 A   0 A   0 A   0 S 2.5 A   0 A   0 A   0 MD
+ 1 12155 A   0 A   0 A   0 A   0 S 8.7 A   0 A   0 A   0 MD
+ 1 12156 A   0 A   0 A   0 A   0 S  12 A   0 A   0 A   0 MD
+ 1 12158 A   0 A   0 A   0 A   0 S 1.9 A   0 A   0 A   0 MD
+ 1 12159 A   0 A   0 A   0 A   0 S  .9 A   0 A   0 A   0 MD
+ 1 12160 A   0 A   0 A   0 A   0 S 1.6 A   0 A   0 A   0 MD
+ 1 12164 A   0 A   0 A   0 A   0 S 2.1 A   0 A   0 A   0 MD
+ 1 12167 A   0 A   0 A   0 A   0 S  .3 A   0 A   0 A   0 MD
+ 1 12168 A   0 A   0 A   0 A   0 S 2.2 A   0 A   0 A   0 MD
+ 1 12170 A   0 A   0 A   0 A   0 S  .6 A   0 A   0 A   0 MD
+ 1 12172 A   0 A   0 A   0 A   0 S 8.7 A   0 A   0 A   0 MD
+ 1 12174 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 MD
+ 1 12176 A   0 A   0 A   0 A   0 S 3.9 A   0 A   0 A   0 MD
+ 1 12177 A   0 A   0 A   0 A   0 S 8.8 A   0 A   0 A   0 MD
+ 1 12179 A   0 A   0 A   0 A   0 S 1.6 A   0 A   0 A   0 MD
+ 1 12181 A   0 A   0 A   0 A   0 S 2.1 A   0 A   0 A   0 MD
+ 1 12182 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 MD
+ 1 12183 A   0 A   0 A   0 A   0 S 4.1 A   0 A   0 A   0 MD
+ 1 12184 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 MD
+ 1 12185 A   0 A   0 A   0 A   0 S 1.1 A   0 A   0 A   0 MD
+ 1 12187 A   0 A   0 A   0 A   0 S37.5 A   0 A   0 A   0 MD
+ 1 12189 A   0 A   0 A   0 A   0 S   2 A   0 A   0 A   0 MD
+ 1 12190 A   0 A   0 A   0 A   0 S 5.6 A   0 A   0 A   0 MD
+ 1 12192 A   0 A   0 A   0 A   0 S 1.2 A   0 A   0 A   0 MD
+ 1 12193 A   0 A   0 A   0 A   0 S 3.9 A   0 A   0 A   0 MD
+ 1 12194 A   0 A   0 A   0 A   0 S 5.6 A   0 A   0 A   0 MD
+ 1 12195 A   0 A   0 A   0 A   0 S 8.4 A   0 A   0 A   0 MD
+ 1 12196 A   0 A   0 A   0 A   0 S 6.2 A   0 A   0 A   0 MD
+ 1 12197 A   0 A   0 A   0 A   0 S 5.5 A   0 A   0 A   0 MD
+ 1 12198 A   0 A   0 A   0 A   0 S 7.6 A   0 A   0 A   0 MD
+ 1 12199 A   0 A   0 A   0 A   0 S 1.4 A   0 A   0 A   0 MD
+ 1 12200 A   0 A   0 A   0 A   0 S13.1 A   0 A   0 A   0 MD
+ 1 12201 A   0 A   0 A   0 A   0 S 5.3 A   0 A   0 A   0 MD
+ 1 12209 A   0 A   0 A   0 A   0 S 6.6 A   0 A   0 A   0 MD
+ 1 12210 A   0 A   0 A   0 A   0 S 2.5 A   0 A   0 A   0 MD
+ 1 12211 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 MD
+ 2 12095 A   0 A   0 A   0 A   0 S 8.4 A   0 A   0 A   0 SD
+ 2 12097 A   0 A   0 A   0 A   0 S  .8 A   0 A   0 A   0 SD
+ 2 12098 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 SD
+ 2 12100 A   0 A   0 A   0 A   0 S 3.8 A   0 A   0 A   0 SD
+ 2 12102 A   0 A   0 A   0 A   0 S  .5 A   0 A   0 A   0 SD
+ 2 12103 A   0 A   0 A   0 A   0 S 3.4 A   0 A   0 A   0 SD
+ 2 12104 A   0 A   0 A   0 A   0 S 5.3 A   0 A   0 A   0 SD
+ 2 12106 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 SD
+ 2 12107 A   0 A   0 A   0 A   0 S  .6 A   0 A   0 A   0 SD
+ 2 12109 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 SD
+ 2 12110 A   0 A   0 A   0 A   0 S 1.8 A   0 A   0 A   0 SD
+ 2 12111 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 SD
+ 2 12112 A   0 A   0 A   0 A   0 S 2.3 A   0 A   0 A   0 SD
+ 2 12113 A   0 A   0 A   0 A   0 S 2.4 A   0 A   0 A   0 SD
+ 2 12115 A   0 A   0 A   0 A   0 S 4.1 A   0 A   0 A   0 SD
+ 2 12118 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 SD
+ 2 12119 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 SD
+ 2 12123 A   0 A   0 A   0 A   0 S   4 A   0 A   0 A   0 SD
+ 2 12126 A   0 A   0 A   0 A   0 S 5.4 A   0 A   0 A   0 SD
+ 2 12127 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 SD
+ 2 12128 A   0 A   0 A   0 A   0 S 1.3 A   0 A   0 A   0 SD
+ 2 12130 A   0 A   0 A   0 A   0 S 1.5 A   0 A   0 A   0 SD
+ 2 12131 A   0 A   0 A   0 A   0 S 6.1 A   0 A   0 A   0 SD
+ 2 12132 A   0 A   0 A   0 A   0 S 1.4 A   0 A   0 A   0 SD
+ 2 12136 A   0 A   0 A   0 A   0 S 6.6 A   0 A   0 A   0 SD
+ 2 12139 A   0 A   0 A   0 A   0 S 1.6 A   0 A   0 A   0 SD
+ 2 12151 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 SD
+ 2 12152 A   0 A   0 A   0 A   0 S16.4 A   0 A   0 A   0 SD
+ 2 12153 A   0 A   0 A   0 A   0 S 2.5 A   0 A   0 A   0 SD
+ 2 12155 A   0 A   0 A   0 A   0 S 8.7 A   0 A   0 A   0 SD
+ 2 12156 A   0 A   0 A   0 A   0 S  12 A   0 A   0 A   0 SD
+ 2 12158 A   0 A   0 A   0 A   0 S 1.9 A   0 A   0 A   0 SD
+ 2 12159 A   0 A   0 A   0 A   0 S  .9 A   0 A   0 A   0 SD
+ 2 12160 A   0 A   0 A   0 A   0 S 1.6 A   0 A   0 A   0 SD
+ 2 12164 A   0 A   0 A   0 A   0 S 2.1 A   0 A   0 A   0 SD
+ 2 12167 A   0 A   0 A   0 A   0 S  .3 A   0 A   0 A   0 SD
+ 2 12168 A   0 A   0 A   0 A   0 S 2.2 A   0 A   0 A   0 SD
+ 2 12170 A   0 A   0 A   0 A   0 S  .6 A   0 A   0 A   0 SD
+ 2 12172 A   0 A   0 A   0 A   0 S 8.7 A   0 A   0 A   0 SD
+ 2 12174 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 SD
+ 2 12176 A   0 A   0 A   0 A   0 S 3.9 A   0 A   0 A   0 SD
+ 2 12177 A   0 A   0 A   0 A   0 S 8.8 A   0 A   0 A   0 SD
+ 2 12179 A   0 A   0 A   0 A   0 S 1.6 A   0 A   0 A   0 SD
+ 2 12181 A   0 A   0 A   0 A   0 S 2.1 A   0 A   0 A   0 SD
+ 2 12182 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 SD
+ 2 12183 A   0 A   0 A   0 A   0 S 4.1 A   0 A   0 A   0 SD
+ 2 12184 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 SD
+ 2 12185 A   0 A   0 A   0 A   0 S 1.1 A   0 A   0 A   0 SD
+ 2 12187 A   0 A   0 A   0 A   0 S37.5 A   0 A   0 A   0 SD
+ 2 12189 A   0 A   0 A   0 A   0 S   2 A   0 A   0 A   0 SD
+ 2 12190 A   0 A   0 A   0 A   0 S 5.6 A   0 A   0 A   0 SD
+ 2 12192 A   0 A   0 A   0 A   0 S 1.2 A   0 A   0 A   0 SD
+ 2 12193 A   0 A   0 A   0 A   0 S 3.9 A   0 A   0 A   0 SD
+ 2 12194 A   0 A   0 A   0 A   0 S 5.6 A   0 A   0 A   0 SD
+ 2 12195 A   0 A   0 A   0 A   0 S 8.4 A   0 A   0 A   0 SD
+ 2 12196 A   0 A   0 A   0 A   0 S 6.2 A   0 A   0 A   0 SD
+ 2 12197 A   0 A   0 A   0 A   0 S 5.5 A   0 A   0 A   0 SD
+ 2 12198 A   0 A   0 A   0 A   0 S 7.6 A   0 A   0 A   0 SD
+ 2 12199 A   0 A   0 A   0 A   0 S 1.4 A   0 A   0 A   0 SD
+ 2 12200 A   0 A   0 A   0 A   0 S13.1 A   0 A   0 A   0 SD
+ 2 12201 A   0 A   0 A   0 A   0 S 5.3 A   0 A   0 A   0 SD
+ 3 12095 A   0 A   0 A   0 A   0 S 8.4 A   0 A   0 A   0 WW
+ 3 12097 A   0 A   0 A   0 A   0 S  .8 A   0 A   0 A   0 WW
+ 3 12098 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 WW
+ 3 12100 A   0 A   0 A   0 A   0 S 3.8 A   0 A   0 A   0 WW
+ 3 12102 A   0 A   0 A   0 A   0 S  .5 A   0 A   0 A   0 WW
+ 3 12103 A   0 A   0 A   0 A   0 S 3.4 A   0 A   0 A   0 WW
+ 3 12104 A   0 A   0 A   0 A   0 S 5.3 A   0 A   0 A   0 WW
+ 3 12106 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 WW
+ 3 12107 A   0 A   0 A   0 A   0 S  .6 A   0 A   0 A   0 WW
+ 3 12109 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 WW
+ 3 12110 A   0 A   0 A   0 A   0 S 1.8 A   0 A   0 A   0 WW
+ 3 12111 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 WW
+ 3 12112 A   0 A   0 A   0 A   0 S 2.3 A   0 A   0 A   0 WW
+ 3 12113 A   0 A   0 A   0 A   0 S 2.4 A   0 A   0 A   0 WW
+ 3 12115 A   0 A   0 A   0 A   0 S 4.1 A   0 A   0 A   0 WW
+ 3 12118 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 WW
+ 3 12119 A   0 A   0 A   0 A   0 S  .2 A   0 A   0 A   0 WW
+ 3 12123 A   0 A   0 A   0 A   0 S   4 A   0 A   0 A   0 WW
+ 3 12126 A   0 A   0 A   0 A   0 S 5.4 A   0 A   0 A   0 WW
+ 3 12127 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 WW
+ 3 12128 A   0 A   0 A   0 A   0 S 1.3 A   0 A   0 A   0 WW
+ 3 12130 A   0 A   0 A   0 A   0 S 1.5 A   0 A   0 A   0 WW
+ 3 12131 A   0 A   0 A   0 A   0 S 6.1 A   0 A   0 A   0 WW
+ 3 12132 A   0 A   0 A   0 A   0 S 1.4 A   0 A   0 A   0 WW
+ 3 12136 A   0 A   0 A   0 A   0 S 6.6 A   0 A   0 A   0 WW
+ 3 12139 A   0 A   0 A   0 A   0 S 1.6 A   0 A   0 A   0 WW
+ 3 12151 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 WW
+ 3 12152 A   0 A   0 A   0 A   0 S16.4 A   0 A   0 A   0 WW
+ 3 12153 A   0 A   0 A   0 A   0 S 2.5 A   0 A   0 A   0 WW
+ 3 12155 A   0 A   0 A   0 A   0 S 8.7 A   0 A   0 A   0 WW
+ 3 12156 A   0 A   0 A   0 A   0 S  12 A   0 A   0 A   0 WW
+ 3 12158 A   0 A   0 A   0 A   0 S 1.9 A   0 A   0 A   0 WW
+ 3 12159 A   0 A   0 A   0 A   0 S  .9 A   0 A   0 A   0 WW
+ 3 12160 A   0 A   0 A   0 A   0 S 1.6 A   0 A   0 A   0 WW
+ 3 12164 A   0 A   0 A   0 A   0 S 2.1 A   0 A   0 A   0 WW
+ 3 12167 A   0 A   0 A   0 A   0 S  .3 A   0 A   0 A   0 WW
+ 3 12168 A   0 A   0 A   0 A   0 S 2.2 A   0 A   0 A   0 WW
+ 3 12170 A   0 A   0 A   0 A   0 S  .6 A   0 A   0 A   0 WW
+ 3 12172 A   0 A   0 A   0 A   0 S 8.7 A   0 A   0 A   0 WW
+ 3 12174 A   0 A   0 A   0 A   0 S  .1 A   0 A   0 A   0 WW
+ 3 12176 A   0 A   0 A   0 A   0 S 3.9 A   0 A   0 A   0 WW
+ 3 12177 A   0 A   0 A   0 A   0 S 8.8 A   0 A   0 A   0 WW
+ 3 12179 A   0 A   0 A   0 A   0 S 1.6 A   0 A   0 A   0 WW
+ 3 12181 A   0 A   0 A   0 A   0 S 2.1 A   0 A   0 A   0 WW
+ 3 12182 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 WW
+ 3 12183 A   0 A   0 A   0 A   0 S 4.1 A   0 A   0 A   0 WW
+ 3 12184 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 WW
+ 3 12185 A   0 A   0 A   0 A   0 S 1.1 A   0 A   0 A   0 WW
+ 3 12187 A   0 A   0 A   0 A   0 S37.5 A   0 A   0 A   0 WW
+ 3 12189 A   0 A   0 A   0 A   0 S   2 A   0 A   0 A   0 WW
+ 3 12190 A   0 A   0 A   0 A   0 S 5.6 A   0 A   0 A   0 WW
+ 3 12192 A   0 A   0 A   0 A   0 S 1.2 A   0 A   0 A   0 WW
+ 3 12193 A   0 A   0 A   0 A   0 S 3.9 A   0 A   0 A   0 WW
+ 3 12194 A   0 A   0 A   0 A   0 S 5.6 A   0 A   0 A   0 WW
+ 3 12195 A   0 A   0 A   0 A   0 S 8.4 A   0 A   0 A   0 WW
+ 3 12196 A   0 A   0 A   0 A   0 S 6.2 A   0 A   0 A   0 WW
+ 3 12197 A   0 A   0 A   0 A   0 S 5.5 A   0 A   0 A   0 WW
+ 3 12198 A   0 A   0 A   0 A   0 S 7.6 A   0 A   0 A   0 WW
+ 3 12199 A   0 A   0 A   0 A   0 S 1.4 A   0 A   0 A   0 WW
+ 3 12200 A   0 A   0 A   0 A   0 S13.1 A   0 A   0 A   0 WW
+ 3 12201 A   0 A   0 A   0 A   0 S 5.3 A   0 A   0 A   0 WW
+ 3 12209 A   0 A   0 A   0 A   0 S 6.6 A   0 A   0 A   0 WW
+ 3 12210 A   0 A   0 A   0 A   0 S 2.5 A   0 A   0 A   0 WW
+ 3 12211 A   0 A   0 A   0 A   0 S  .7 A   0 A   0 A   0 WW
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 12206 GS006     H     S   -99   -99 SD
+ 2 12209 GS006     H     S   -99   -99 MD
+ 3 12214 GS006     H     S   -99   -99 WW
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 11207  2150 MD and WW1                CSCER
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     C     R     1     P     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          10001 10001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 01001   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     S 11207  2150 SD and WW2                CSCER
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     R     S     C     R     1     P     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          10001 10001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 2 HA              0 01001   100     0
+
+
+
