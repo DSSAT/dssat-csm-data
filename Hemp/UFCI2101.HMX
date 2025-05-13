@@ -1,0 +1,186 @@
+*EXP.DETAILS: UFCI2101HM HEMP GROWTH TRIALS PSREU, CITRA, FL, USA
+! 2021 Hemp Variety and Nitrogen Rate Trials at Plant Science Research and Education Unit, PSREU, Citra, FL, USA
+! Kaur, N., Griffin, W., Sandhu, A., Sidhu, S., Brym, Z., & Sharma, L. (2024). Nitrogen application and cultivar effects on industrial hemp yield dynamics. Agronomy Journal.
+! Selected treatments from publication, plus additional in-season observations by Hopf, A.
+
+*GENERAL
+@PEOPLE
+Hopf, A., Kaur, N., Griffin, W., Sandhu, A., Sidhu, S., Brym, Z., Lakesh, S.
+@ADDRESS
+2556 Co Hwy 318, Citra, FL 32113, USA
+@SITE
+PSREU, Citra, FL, USA
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 SS-Beta/IH Williams 280kg  1  1  4  1  1  1  6  0  0  1  0  2  1
+ 2 1 1 0 Abound/NWG-2730   0kg N    2  1  4  1  2  1  1  0  0  1  0  3  1
+ 3 1 1 0 Abound/NWG-2730 280kg N    2  1  4  1  5  1  6  0  0  1  0  3  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 HM IB0001 SS-Beta/IH Williams
+ 2 HM IB0002 Abound/NWG-2730
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 UFCI2101 UFCI2101   -99     0 IB000     0     0 00000 -99    180  UFCI2101   9
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 21001   -99   -99   -99  90% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1     5   -99   -99   -99   -99   -99   -99   -99   .68
+ 1    15   -99   -99   -99   -99   -99   -99   -99   .68
+ 1    30   -99   -99   -99   -99   -99   -99   -99   .31
+ 1    50   -99   -99   -99   -99   -99   -99   -99   .13
+ 1    90   -99   -99   -99   -99   -99   -99   -99   .08
+ 1   120   -99   -99   -99   -99   -99   -99   -99   .06
+ 1   150   -99   -99   -99   -99   -99   -99   -99   .06
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 2 21001   -99   -99   -99  85% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 2     5   -99   -99   -99   -99   -99   -99   -99   .64
+ 2    15   -99   -99   -99   -99   -99   -99   -99   .64
+ 2    30   -99   -99   -99   -99   -99   -99   -99   .29
+ 2    50   -99   -99   -99   -99   -99   -99   -99   .12
+ 2    90   -99   -99   -99   -99   -99   -99   -99   .08
+ 2   120   -99   -99   -99   -99   -99   -99   -99   .06
+ 2   150   -99   -99   -99   -99   -99   -99   -99   .06
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 3 21001   -99   -99   -99  80% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 3     5   -99   -99   -99   -99   -99   -99   -99    .6
+ 3    15   -99   -99   -99   -99   -99   -99   -99    .6
+ 3    30   -99   -99   -99   -99   -99   -99   -99   .27
+ 3    50   -99   -99   -99   -99   -99   -99   -99   .11
+ 3    90   -99   -99   -99   -99   -99   -99   -99   .07
+ 3   120   -99   -99   -99   -99   -99   -99   -99   .06
+ 3   150   -99   -99   -99   -99   -99   -99   -99   .06
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 4 21001   -99   -99   -99  75% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 4     5   -99   -99   -99   -99   -99   -99   -99   .56
+ 4    15   -99   -99   -99   -99   -99   -99   -99   .56
+ 4    30   -99   -99   -99   -99   -99   -99   -99   .26
+ 4    50   -99   -99   -99   -99   -99   -99   -99   .11
+ 4    90   -99   -99   -99   -99   -99   -99   -99   .07
+ 4   120   -99   -99   -99   -99   -99   -99   -99   .05
+ 4   150   -99   -99   -99   -99   -99   -99   -99   .05
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 5 21001   -99   -99   -99  70% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 5     5   -99   -99   -99   -99   -99   -99   -99   .53
+ 5    15   -99   -99   -99   -99   -99   -99   -99   .53
+ 5    30   -99   -99   -99   -99   -99   -99   -99   .24
+ 5    50   -99   -99   -99   -99   -99   -99   -99    .1
+ 5    90   -99   -99   -99   -99   -99   -99   -99   .06
+ 5   120   -99   -99   -99   -99   -99   -99   -99   .05
+ 5   150   -99   -99   -99   -99   -99   -99   -99   .05
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 6 21001   -99   -99   -99  95% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 6     5   -99   -99   -99   -99   -99   -99   -99   .72
+ 6    15   -99   -99   -99   -99   -99   -99   -99   .72
+ 6    30   -99   -99   -99   -99   -99   -99   -99   .33
+ 6    50   -99   -99   -99   -99   -99   -99   -99   .14
+ 6    90   -99   -99   -99   -99   -99   -99   -99   .09
+ 6   120   -99   -99   -99   -99   -99   -99   -99   .07
+ 6   150   -99   -99   -99   -99   -99   -99   -99   .07
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    HM 21001  2000   -99   -99   -99   -99  2000     1   -99    90    10 75% h2o 50kg N ha 2000kg hemp roots
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5  .124    .2   1.9
+ 1    15  .127    .2   1.9
+ 1    30  .082    .2   1.9
+ 1    50  .083    .2   1.9
+ 1    90  .087    .2   1.9
+ 1   120  .065    .2   1.9
+ 1   150  .065    .2   1.9
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 21125 21132   100  53.8     S     R    20     0   .64   -99   -99   -99   -99   -99                        SS-Beta/IH Williams
+ 2 21125 21132   100    64     S     R    20     0   .64   -99   -99   -99   -99   -99                        Abound/NWG-2730 lowN
+ 3 21125 21132   100  32.9     S     R    20     0   .64   -99   -99   -99   -99   -99                        Bialobrzeskie
+ 4 21125 21132   100  42.7     S     R    20     0   .64   -99   -99   -99   -99   -99                        X-59
+ 5 21125 21132   100  60.5     S     R    20     0   .64   -99   -99   -99   -99   -99                        Abound/NWG-2730 highN
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1   -99   -99   -99   -99   -99   -99 -99
+@I IDATE  IROP IRVAL
+ 1 21125 IR004    13
+ 1 21130 IR004    13
+ 1 21134 IR004    13
+ 1 21138 IR004    13
+ 1 21142 IR004    13
+ 1 21146 IR004    13
+ 1 21150 IR004    13
+ 1 21166 IR004    13
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 21126 FE005 AP002     1     0     0     0   -99   -99   -99 0kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 1 21146 FE005 AP002     1     0     0     0   -99   -99   -99 0kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 1 21166 FE005 AP002     1     0     0     0   -99   -99   -99 0kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 2 21126 FE005 AP002     1    11     0     0   -99   -99   -99 56kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 2 21146 FE005 AP002     1    17     0     0   -99   -99   -99 56kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 2 21166 FE005 AP002     1    28     0     0   -99   -99   -99 56kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 3 21126 FE005 AP002     1    22     0     0   -99   -99   -99 112kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 3 21146 FE005 AP002     1    34     0     0   -99   -99   -99 112kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 3 21166 FE005 AP002     1    56     0     0   -99   -99   -99 112kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 4 21126 FE005 AP002     1    34     0     0   -99   -99   -99 168kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 4 21146 FE005 AP002     1    50     0     0   -99   -99   -99 168kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 4 21166 FE005 AP002     1    84     0     0   -99   -99   -99 168kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 5 21126 FE005 AP002     1    45     0     0   -99   -99   -99 224kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 5 21146 FE005 AP002     1    67     0     0   -99   -99   -99 224kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 5 21166 FE005 AP002     1   112     0     0   -99   -99   -99 224kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 6 21126 FE005 AP002     1    56     0     0   -99   -99   -99 280kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 6 21146 FE005 AP002     1    84     0     0   -99   -99   -99 280kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+ 6 21166 FE005 AP002     1   140     0     0   -99   -99   -99 280kg N/ha, Urea, 20% 0DAP, 30% 20DAP, 50% 40DAP
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 21121 TI007    10 -99
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 21060 A   0 A   0 A   0 A   0 A   0 A   0 A   0 A   0 
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 21234 GS000   -99     A   -99   -99 2021 August 22
+ 2 21273 GS000   -99     A   -99   -99 2021 September 30
+ 3 21216 GS000   -99     A   -99   -99 2021 August 04
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 21001  2150 2021                      CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          21115 21200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    70   100 IB001 IB001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 21365   100     0
+
+
+
