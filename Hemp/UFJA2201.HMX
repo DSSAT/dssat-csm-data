@@ -1,0 +1,199 @@
+*EXP.DETAILS: UFJA2201HM HEMP GROWTH TRIALS WFREC, JAY, FL, USA
+! 2022 Hemp Variety and Nitrogen Rate Trials at West Florida Research and Education Center, WFREC, Citra, FL, USA
+! Publication under review, TBC
+
+*GENERAL
+@PEOPLE
+Alwin Hopf, Yogendra Upadhyaya, Hardeep Singh, Michael J. Mulvaney, Zachary Brym
+@ADDRESS
+West Florida REC Jay Research Facility, 4253 Exper Jay, FL 32565, USA
+@SITE
+WFREC, Jay, FL, USA
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 SS-Beta/IH Williams 0kg N  1  1  8  1  1  1  1  0  0  1  0  2  1
+ 2 1 1 0 SS-Beta/IH Williams 280kg  1  1  8  1  2  1  6  0  0  1  0  2  1
+ 3 1 1 0 Abound/NWG-2730 0kg N      2  1  8  1  3  1  1  0  0  1  0  3  1
+ 4 1 1 0 Abound/NWG-2730 280kg N    2  1  8  1  4  1  6  0  0  1  0  3  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 HM IB0001 SS-Beta/IH Will
+ 2 HM IB0002 Abound/NWG-2730
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 UFJA2101 UFJA2201   -99     0 IB000     0     0 00000 -99    100  UFJA2101   -99
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 22001   -99   -99   -99  90% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1     5   -99   -99   -99   -99   -99   -99   -99    .8
+ 1    15   -99   -99   -99   -99   -99   -99   -99    .8
+ 1    30   -99   -99   -99   -99   -99   -99   -99   .29
+ 1    60   -99   -99   -99   -99   -99   -99   -99   .09
+ 1    90   -99   -99   -99   -99   -99   -99   -99   .04
+ 1   120   -99   -99   -99   -99   -99   -99   -99   .04
+ 1   150   -99   -99   -99   -99   -99   -99   -99   .02
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 2 22001   -99   -99   -99  85% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 2     5   -99   -99   -99   -99   -99   -99   -99   .76
+ 2    15   -99   -99   -99   -99   -99   -99   -99   .76
+ 2    30   -99   -99   -99   -99   -99   -99   -99   .27
+ 2    60   -99   -99   -99   -99   -99   -99   -99   .09
+ 2    90   -99   -99   -99   -99   -99   -99   -99   .03
+ 2   120   -99   -99   -99   -99   -99   -99   -99   .03
+ 2   150   -99   -99   -99   -99   -99   -99   -99   .02
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 3 22001   -99   -99   -99  80% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 3     5   -99   -99   -99   -99   -99   -99   -99   .71
+ 3    15   -99   -99   -99   -99   -99   -99   -99   .71
+ 3    30   -99   -99   -99   -99   -99   -99   -99   .26
+ 3    60   -99   -99   -99   -99   -99   -99   -99   .08
+ 3    90   -99   -99   -99   -99   -99   -99   -99   .03
+ 3   120   -99   -99   -99   -99   -99   -99   -99   .03
+ 3   150   -99   -99   -99   -99   -99   -99   -99   .02
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 4 22001   -99   -99   -99  75% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 4     5   -99   -99   -99   -99   -99   -99   -99   .67
+ 4    15   -99   -99   -99   -99   -99   -99   -99   .67
+ 4    30   -99   -99   -99   -99   -99   -99   -99   .24
+ 4    60   -99   -99   -99   -99   -99   -99   -99   .08
+ 4    90   -99   -99   -99   -99   -99   -99   -99   .03
+ 4   120   -99   -99   -99   -99   -99   -99   -99   .03
+ 4   150   -99   -99   -99   -99   -99   -99   -99   .02
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 5 22001   -99   -99   -99  70% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 5     5   -99   -99   -99   -99   -99   -99   -99   .62
+ 5    15   -99   -99   -99   -99   -99   -99   -99   .62
+ 5    30   -99   -99   -99   -99   -99   -99   -99   .22
+ 5    60   -99   -99   -99   -99   -99   -99   -99   .07
+ 5    90   -99   -99   -99   -99   -99   -99   -99   .03
+ 5   120   -99   -99   -99   -99   -99   -99   -99   .03
+ 5   150   -99   -99   -99   -99   -99   -99   -99   .01
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 6 22001   -99   -99   -99  65% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 6     5   -99   -99   -99   -99   -99   -99   -99   .58
+ 6    15   -99   -99   -99   -99   -99   -99   -99   .58
+ 6    30   -99   -99   -99   -99   -99   -99   -99   .21
+ 6    60   -99   -99   -99   -99   -99   -99   -99   .07
+ 6    90   -99   -99   -99   -99   -99   -99   -99   .03
+ 6   120   -99   -99   -99   -99   -99   -99   -99   .03
+ 6   150   -99   -99   -99   -99   -99   -99   -99   .01
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 7 22001   -99   -99   -99  60% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 7     5   -99   -99   -99   -99   -99   -99   -99   .53
+ 7    15   -99   -99   -99   -99   -99   -99   -99   .53
+ 7    30   -99   -99   -99   -99   -99   -99   -99   .19
+ 7    60   -99   -99   -99   -99   -99   -99   -99   .06
+ 7    90   -99   -99   -99   -99   -99   -99   -99   .02
+ 7   120   -99   -99   -99   -99   -99   -99   -99   .02
+ 7   150   -99   -99   -99   -99   -99   -99   -99   .01
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 8 22001   -99   -99   -99  55% SASC
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 8     5   -99   -99   -99   -99   -99   -99   -99   .49
+ 8    15   -99   -99   -99   -99   -99   -99   -99   .49
+ 8    30   -99   -99   -99   -99   -99   -99   -99   .18
+ 8    60   -99   -99   -99   -99   -99   -99   -99   .06
+ 8    90   -99   -99   -99   -99   -99   -99   -99   .02
+ 8   120   -99   -99   -99   -99   -99   -99   -99   .02
+ 8   150   -99   -99   -99   -99   -99   -99   -99   .01
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    HM 22001  2000   -99   -99   -99   -99  2000     1   -99    90    10 75% h2o 50kg N ha 2000kg hemp roots
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5   .16    .2   1.9
+ 1    15   .16    .2   1.9
+ 1    30  .182    .2   1.9
+ 1    60  .193    .2   1.9
+ 1    90  .204    .2   1.9
+ 1   120  .204    .2   1.9
+ 1   150  .181    .2   1.9
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 22133 22140   185  99.9     S     R    20     0   .64   -99   -99   -99   -99   -99                        SS Beta/IH Williams lowN
+ 2 22133 22140   185  71.9     S     R    20     0   .64   -99   -99   -99   -99   -99                        SS Beta/IH Williams highN
+ 3 22133 22140   185  69.8     S     R    20     0   .64   -99   -99   -99   -99   -99                        Abound/NWG2730 lowN
+ 4 22133 22140   185  82.8     S     R    20     0   .64   -99   -99   -99   -99   -99                        Abound/NWG2730 highN
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1   -99   -99   -99   -99   -99   -99 lateral irrigation
+@I IDATE  IROP IRVAL
+ 1 22133 IR004    19
+ 1 22138 IR004    19
+ 1 22141 IR004    19
+ 1 22145 IR004    19
+ 1 22148 IR004    19
+ 1 22153 IR004    19
+ 1 22158 IR004    19
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 22143 FE005 AP002     1     0     0     0   -99   -99   -99 0kg N/ha
+ 2 22143 FE005 AP002     1    56     0     0   -99   -99   -99 56kg N/ha
+ 3 22143 FE005 AP002     1    56     0     0   -99   -99   -99 112kg N/ha
+ 3 22174 FE005 AP002     1    56     0     0   -99   -99   -99 112kg N/ha
+ 4 22143 FE005 AP002     1    56     0     0   -99   -99   -99 168kg N/ha
+ 4 22174 FE005 AP002     1   112     0     0   -99   -99   -99 168kg N/ha
+ 5 22143 FE005 AP002     1    56     0     0   -99   -99   -99 224kg N/ha
+ 5 22174 FE005 AP002     1   168     0     0   -99   -99   -99 224kg N/ha
+ 6 22143 FE005 AP002     1    56     0     0   -99   -99   -99 280kg N/ha
+ 6 22174 FE005 AP002     1   224     0     0   -99   -99   -99 280kg N/ha
+ 7 22143 FE005 AP002     1    50     0     0   -99   -99   -99 200kg N/ha
+ 7 22150 FE005 AP002     1   100     0     0   -99   -99   -99 200kg N/ha
+ 7 22166 FE005 AP002     1    50     0     0   -99   -99   -99 200kg N/ha
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 22001   -99   -99   -99   -99   -99   -99   -99   -99 -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 22130 TI007    10 -99
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 22252 GS000     C     A   -99   -99 2022 - ca 120 days after planting
+ 2 22241 GS000   -99     A   -99   -99 2022 - end August
+ 3 22211 GS000   -99     A   -99   -99 2022 - July 30
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 22001  2150 2022                      CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     N     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          22130 22200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    70   100 IB001 IB001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 22365   100     0
+
+
+

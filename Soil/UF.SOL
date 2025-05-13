@@ -96,3 +96,34 @@ Marianna     USA           30.000      -99 Loamy,silic,hyperth Gross. Paleud(17)
     30   -99 0.091 0.186 0.384 1.000 2.590  1.57   -99  12.4   9.8   0.0   -99   -99   -99   -99   -99
    137   -99 0.160 0.263 0.391 0.517 0.430  1.55   -99  22.2  22.3   0.0   -99   -99   -99   -99   -99
    203   -99 0.185 0.296 0.395 0.262 0.430  1.54   -99  31.9  12.6   0.0   -99   -99   -99   -99   -99
+
+*UFCI2101    PSREU       S        150  Arredondo sand
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ CA          USA              29.3   82.17 9
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99   .18     5    .5    66     1     1  B001  B001  B001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5   -99   .07  .142  .493     1   -99  1.42   .75   2.4   7.1   -99   -99   6.5   -99   -99   -99
+    15   -99  .024  .161  .487     1   -99  1.45   .75   2.1   6.3   -99   -99   6.2   -99   -99   -99
+    30   -99  .016  .104  .407    .8   -99  1.59   .34   2.3   4.1   -99   -99   6.4   -99   -99   -99
+    50   -99  .014  .106  .405    .5   -99  1.59   .14   2.2     4   -99   -99   6.3   -99   -99   -99
+    90   -99  .011  .113  .408    .2   -99   1.6   .09   2.4   3.3   -99   -99   6.2   -99   -99   -99
+   120   -99  .021   .08  .385   .05   -99   1.6   .07   1.9   3.3   -99   -99   6.3   -99   -99   -99
+   150   -99  .021   .08  .385   .05   -99  1.63   .07   1.9   3.3   -99   -99   6.3   -99   -99   -99
+   
+!Alwin Hopf - New Soil Profile for Hemp
+!from paper https://onlinelibrary.wiley.com/doi/full/10.1111/gcbb.12838 
+!from paper https://www.sciencedirect.com/science/article/pii/S0308521X21002973?casa_token=LiQhtciqgv8AAAAA:5zqrKupAM4qv6ZRNPY85wkLa9AqRqo_LR6SQd8ATwnUkeFNqE43lHskJ6abw3sJKpNGCuBydOw#ec0005
+*UFJA2101    WFREC       SL       150  AH Hemp Dothan fine sandy loam
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ JAY,FL      USA             30.77  -87.14 FINE-LAOMY, SILICEOUS, THERMIC RHODIC PALEUDULTS
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+   -99   .13   -99    .6    70     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5   -99  .103  .218  .406     1   -99   1.6   .89    15  15.5     0   -99     6   4.6   -99   -99
+    15   -99  .103  .218  .406     1   -99   1.6   .89    15  15.5     0   -99     6   4.6   -99   -99
+    30   -99  .125  .239  .413    .7   -99   1.6   .32    20  12.5     0   -99     6   4.4   -99   -99
+    60   -99  .135  .251  .415    .4   -99   1.6    .1    20    12     0   -99     6   4.6   -99   -99
+    90   -99  .147  .261  .417    .1   -99   1.6   .04    20    11     0   -99     6   4.8   -99   -99
+   120   -99  .147  .261  .417    .1   -99   1.6   .04    20    10     0   -99     6   4.8   -99   -99
+   150   -99  .125  .236  .412   .02   -99   1.6   .02    20     7     0   -99     6   5.2   -99   -99
