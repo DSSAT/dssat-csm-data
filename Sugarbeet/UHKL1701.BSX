@@ -7,8 +7,6 @@ Emir Memic, Simone Graeff-Honninger and Oliver Hensel
 University of Hohenheim, Stuttgart, Germany
 @SITE
 Ihinger Hof, Agricultural Research Station of Hohenheim University
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Emir Memic, Simone Graef-Hönninger, Oliver Hensel, and William D. Batchelor, 2020
 Extending the CSM-CERES-Beet Model to Simulate Impact of Observed Leaf Disease Damage on Sugar Beet Yield
@@ -34,7 +32,7 @@ Agronomy 2020, 10, 1930; doi:10.3390/agronomy10121930
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    BS 17094   -99   -99     1     1   200    20     1   -99   -99   -99 -99
+ 1    BS 17094   -99   -99     1     1   -99    20     1   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1    30   .38    .3   2.4
  1    60   .38    .3   2.4
