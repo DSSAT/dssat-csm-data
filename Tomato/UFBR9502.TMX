@@ -7,8 +7,6 @@ Scholberg, collected by B. L. McNeal with Bradenton collaborators
 Subirrigated, plastic mulch
 @SITE
 -99
-@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
-    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -23,7 +21,7 @@ Subirrigated, plastic mulch
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
- 1 UFBR0001 UFBR9501   -99     0 DR000     0     0  0000 SA     180  UFBR950001 -99
+ 1 UFBR0001 UFBR9501   -99     0 DR000   -99   -99  0000 S      180  UFBR950001 -99
  2 UFBR0002 UFBR9501   -99     0 DR000     0     0  0000 SA     180  UFBR950002 -99
  3 UFBR0003 UFBR9501   -99     0 DR000     0     0  0000 SA     180  UFBR950003 -99
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
@@ -39,7 +37,7 @@ Subirrigated, plastic mulch
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1   -99 95064     1     0     1     1    10   -99   -99   -99   -99   -99 -99
+ 1    TM 95064     1     0     1     1   -99     0     0     0   100     5 -99
 @C  ICBL  SH2O  SNH4  SNO3
  1    18  .133    .5     1
  1    36   .22    .5     1

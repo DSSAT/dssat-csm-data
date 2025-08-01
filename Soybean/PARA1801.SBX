@@ -67,7 +67,7 @@ The Journal of Agricultural Science 158(10):819 - 832.
 
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1   -99 18001   -99   -99     1     1   230   -99   -99   -99   -99   -99 Calibration
+ 1   -99 18001   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Calibration
 @C  ICBL  SH2O  SNH4  SNO3
  1    10  .414    .1    .5
  1    20  .394    .1    .5
@@ -77,7 +77,7 @@ The Journal of Agricultural Science 158(10):819 - 832.
  1   100  .256    .1    .5
  1   150  .256    .1    .5
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 2   -99 19001   -99   -99     1     1   230   -99   -99   -99   -99   -99 Evaluation
+ 2   -99 19001   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Evaluation
 @C  ICBL  SH2O  SNH4  SNO3
  2    10  .414    .1    .5
  2    20  .394    .1    .5
