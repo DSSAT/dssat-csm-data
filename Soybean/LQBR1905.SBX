@@ -1,0 +1,526 @@
+*EXP.DETAILS: LQBR1905SB N FERTILIZER AND AVAILABLE WATER ON SOYBEAN IN BRAZIL
+
+*GENERAL
+@PEOPLE
+Silva,EHFM,Boote,K.J.,Hoogenboom,G.,Andrade,A.S,Souza,H.A,Marin,F.R.
+@ADDRESS
+College of Agriculture, University of Sao Paulo, Piracicaba, SP, Brazil
+@SITE
+Piracicaba-SP,Sorriso-MT,Teresina-PI,Cruz Alta-RS,Tupancireta-RS-BR
+@NOTES
+Moura da Silva, E.H.F., K.J. Boote, G. Hoogenboom,.A.S. Andrade Junior , H.A. de Souza, and F.R. Marin. 2024.
+Assessing The Impact Of N-Fertilizer On Soybean Yield And Quality Using A Modeling Approach.
+Journal of the ASABE, 67 (2024)
+https://doi.org/10.13031/ja.15931
+
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 2017 PI-1_R0N              1  1  0  1  1  0  0  0  0  0  0  0  1
+ 2 1 1 0 2017 PI-1_R1000N           1  1  0  1  1  0  1  0  0  0  0  0  1
+ 3 1 1 0 2017 PI-1_I0N              1  1  0  1  1  1  0  0  0  0  0  0  1
+ 4 1 1 0 2017 PI-1_I1000N           1  1  0  1  1  1  1  0  0  0  0  0  1
+ 5 1 1 0 2018 PI-2_R0N              1  1  0  2  2  0  0  0  0  0  0  0  2
+ 6 1 1 0 2018 PI-2_R1000N           1  1  0  2  2  0  2  0  0  0  0  0  2
+ 7 1 1 0 2018 PI-2_I0N              1  1  0  2  2  2  0  0  0  0  0  0  2
+ 8 1 1 0 2018 PI-2_I1000N           1  1  0  2  2  2  2  0  0  0  0  0  2
+ 9 1 1 0 2019 PI-3_R0N              1  1  0  3  3  0  0  0  0  0  0  0  3
+10 1 1 0 2019 PI-3_R1000N           1  1  0  3  3  0  3  0  0  0  0  0  3
+11 1 1 0 2019 PI-3_I0N              1  1  0  3  3  3  0  0  0  0  0  0  3
+12 1 1 0 2019 PI-3_I1000N           1  1  0  3  3  3  3  0  0  0  0  0  3
+13 1 0 0 2018 SO-1_R0N              2  2  0  4  4  0  0  0  0  0  0  0  4
+14 1 0 0 2018 SO-1_R1000N           2  2  0  4  4  0  4  0  0  0  0  0  4
+15 1 0 0 2019 SO-2_R0N              3  2  0  5  5  0  0  0  0  0  0  0  5
+16 1 0 0 2019 SO-2_R1000N           3  2  0  5  5  0  5  0  0  0  0  0  5
+17 1 0 0 2019 TE-1_R0N              4  3  0  6  6  5  0  0  0  0  0  0  6
+18 1 0 0 2019 TE-1_R1000N           4  3  0  6  6  5  6  0  0  0  0  0  6
+19 1 0 0 2019 TE-1_I0N              4  3  0  6  6  4  0  0  0  0  0  0  6
+20 1 0 0 2019 TE-1_I1000N           4  3  0  6  6  4  6  0  0  0  0  0  6
+21 1 1 0 2018 CA-1_R0N              5  4  0  7  7  0  0  0  0  0  0  0  7
+22 1 1 0 2018 CA-1_R1000N           5  4  0  7  7  0  7  0  0  0  0  0  7
+23 1 1 0 2019 TU-1_R0N              5  5  0  8  8  0  0  0  0  0  0  0  8
+24 1 1 0 2019 TU-1_R1000N           5  5  0  8  8  0  8  0  0  0  0  0  8
+25 1 1 0 2019 TU-1_I0N              5  5  0  8  8  6  0  0  0  0  0  0  8
+26 1 1 0 2019 TU-1_I1000N           5  5  0  8  8  6  8  0  0  0  0  0  8
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 SB BR7062 M 7062
+ 2 SB BR7063 TMG7063
+ 3 SB BR7901 NS7901
+ 4 SB BR0858 8579RSF
+ 5 SB BR6565 M 65i65RSF
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 PISP0001 PIR2       -99   -99 DR000   -99   -99   -99 C      200  BRNITOSSO3 Piracicaba (PI)
+ 2 SOMT0001 S51T       -99   -99 DR000   -99   -99   -99 CL     150  BRSORR2019 Sorriso (S0)
+ 3 TEPI0001 EMPI       -99   -99 DR000   -99   -99   -99 SL     180  BRARGISSL4 Teresina (TE)
+ 4 CARS0001 C96S       -99   -99 DR000   -99   -99   -99 C      200  BRLATOSSOL Cruz Alta (CA)
+ 5 TURS0001 TUPA       -99   -99 DR000   -99   -99   -99 C      200  BRTUPACIRE Tupancireta (TU)
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+ 2             -99             -99       -99               -99   -99   -99   -99   -99   -99
+ 3             -99             -99       -99               -99   -99   -99   -99   -99   -99
+ 4             -99             -99       -99               -99   -99   -99   -99   -99   -99
+ 5             -99             -99       -99               -99   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    SB 17330   -99   -99     1     1   -99   -99   -99   -99   -99   -99 PI-1
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    10  .273    .6    .2
+ 1    20  .273    .6    .2
+ 1    30  .267    .4    .1
+ 1    40  .314    .4    .1
+ 1    50  .314    .5    .2
+ 1    60  .342    .5    .2
+ 1   120  .342    .5    .2
+ 1   150  .325    .5    .2
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 2    SB 18282   -99   -99     1     1   -99   -99   -99   -99   -99   -99 PI-2
+@C  ICBL  SH2O  SNH4  SNO3
+ 2    10  .299    .3   3.1
+ 2    20  .299    .3   3.1
+ 2    30  .289    .3   3.1
+ 2    40  .348    .3   3.1
+ 2    50  .348    .3   3.1
+ 2    60  .368    .3   3.1
+ 2   120  .368    .3   3.1
+ 2   150  .352    .3   3.1
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 3    SB 19300   -99   -99     1     1   -99   -99   -99   -99   -99   -99 PI-3
+@C  ICBL  SH2O  SNH4  SNO3
+ 3    10  .273    .5    .2
+ 3    20  .273    .5    .2
+ 3    30  .267    .4    .1
+ 3    40  .314    .4    .1
+ 3    50  .314    .4    .1
+ 3    60  .342    .4    .1
+ 3   120  .342    .4    .1
+ 3   150  .325    .4    .1
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 4    SB 18290     1   -99     1     1   -99   -99   -99   -99   -99   -99 SO-1
+@C  ICBL  SH2O  SNH4  SNO3
+ 4    10  .309   2.1   1.8
+ 4    20  .309   2.1   1.8
+ 4    30  .219   2.1   1.8
+ 4    70  .289   2.1   1.8
+ 4   100  .289   2.1   1.8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 5    SB 19274     1   -99     1     1   -99   -99   -99   -99   -99   -99 SO-2
+@C  ICBL  SH2O  SNH4  SNO3
+ 5    10  .309   2.1   1.8
+ 5    20  .309   2.1   1.8
+ 5    30  .219   2.1   1.8
+ 5    70  .289   2.1   1.8
+ 5   100  .289   2.1   1.8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 6    FA 19174     0     0     0     0     0     0     0     0     0     0 TE-1
+@C  ICBL  SH2O  SNH4  SNO3
+ 6    10  .109    .6    .1
+ 6    20  .109    .6    .1
+ 6    30  .112    .6    .1
+ 6    40  .118    .6    .1
+ 6    50  .121    .6    .1
+ 6    60  .114    .6    .1
+ 6   120  .114    .6    .1
+ 6   150   .11    .6    .1
+ 6   180   .11    .6    .1
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 7    WH 18293   200   -99     1     1   -99  4000     1   -99   -99   -99 CA-1 
+@C  ICBL  SH2O  SNH4  SNO3
+ 7     5  .143    .6    .2
+ 7    15  .143    .6    .2
+ 7    25  .151    .6    .2
+ 7    35  .151    .4    .1
+ 7    45  .152    .4    .1
+ 7    55  .152    .4    .1
+ 7    75  .171    .5    .2
+ 7    85  .171    .5    .2
+ 7   200   .34    .5    .2
+ 7   450   .33    .5    .2
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 8    MZ 19307   300   -99     1     1   -99  6000     1   -99   -99   -99 TU-1 
+@C  ICBL  SH2O  SNH4  SNO3
+ 8     5  .239    .7    .3
+ 8    15  .239    .7    .3
+ 8    25  .239    .7    .3
+ 8    35  .257    .4    .1
+ 8    45  .257    .4    .1
+ 8    55  .257    .4    .1
+ 8    75  .237    .3    .1
+ 8    85  .237    .3    .1
+ 8   200   .34    .3    .1
+ 8   450   .33    .3    .1
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 17360   -99    35    35     S     R    50   -99     4   -99   -99   -99   -99   -99                        2017 Piracicaba (PI-1)
+ 2 18313   -99    35    35     S     R    50   -99     4   -99   -99   -99   -99   -99                        2018 Piracicaba (PI-2)
+ 3 19331   -99    35    35     S     R    50   -99     4   -99   -99   -99   -99   -99                        2019 Piracicaba (PI-3)
+ 4 18321   -99    30    30     S     R    50     0     4   -99   -99   -99   -99   -99                        2018 Sorriso (S0-1)
+ 5 19305   -99    30    30     S     R    50     0     4   -99   -99   -99   -99   -99                        2019 Sorriso (SO-2)
+ 6 19204   -99    24    24     S     R    50     0     4   -99   -99   -99   -99     0                        2019 Teresina (TE-1)
+ 7 18324   -99    35    35     S     R    50   -99     4   -99   -99   -99   -99   -99                        2018 Cruz Alta (CA-1)
+ 8 19337   -99    35    35     S     R    50   -99     4   -99   -99   -99   -99   -99                        2019 Tupancireta (TU-1)
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1    .8    30    50   100 GS000 IR001    10 PI-1
+@I IDATE  IROP IRVAL
+ 1 18047 IR004    20
+ 1 18049 IR004    30
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2    .8    30    50   100 GS000 IR001    10 PI-2
+@I IDATE  IROP IRVAL
+ 2 18348 IR004    30
+ 2 18353 IR004    30
+ 2 18363 IR004    30
+ 2 19002 IR004    20
+ 2 19021 IR004    30
+ 2 19027 IR004    30
+ 2 19032 IR004    30
+ 2 19035 IR004    30
+ 2 19039 IR004    30
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 3    .8    30    50   100 GS000 IR001    10 PI-3
+@I IDATE  IROP IRVAL
+ 3 20044 IR004    30
+ 3 20055 IR004    30
+ 3 20064 IR004    30
+ 3 20070 IR004    30
+ 3 20073 IR004    30
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 4    .8    30    50   100  B001  B001    10 TE-1 I
+@I IDATE  IROP IRVAL
+ 4 19210 IR004  12.7
+ 4 19215 IR004   5.7
+ 4 19217 IR004   5.7
+ 4 19219 IR004   8.4
+ 4 19221 IR004  10.2
+ 4 19224 IR004   9.7
+ 4 19226 IR004    10
+ 4 19228 IR004  10.1
+ 4 19231 IR004  17.9
+ 4 19233 IR004  11.3
+ 4 19235 IR004  11.3
+ 4 19238 IR004  12.5
+ 4 19240 IR004   9.2
+ 4 19242 IR004  10.6
+ 4 19245 IR004  16.1
+ 4 19247 IR004   9.2
+ 4 19249 IR004   8.8
+ 4 19252 IR004  18.8
+ 4 19254 IR004    14
+ 4 19256 IR004  13.6
+ 4 19259 IR004  23.5
+ 4 19261 IR004  13.1
+ 4 19263 IR004  23.5
+ 4 19266 IR004  26.9
+ 4 19268 IR004  14.5
+ 4 19270 IR004  15.3
+ 4 19273 IR004  25.2
+ 4 19275 IR004  14.2
+ 4 19277 IR004  15.7
+ 4 19280 IR004  19.7
+ 4 19282 IR004  11.3
+ 4 19284 IR004  17.4
+ 4 19287 IR004  15.4
+ 4 19289 IR004   9.6
+ 4 19291 IR004  11.5
+ 4 19294 IR004  19.6
+ 4 19296 IR004  12.3
+ 4 19298 IR004  14.1
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 5    .8    30    50   100  B001  B001    10 TE-1 R
+@I IDATE  IROP IRVAL
+ 5 19210 IR004  10.7
+ 5 19217 IR004   5.6
+ 5 19219 IR004   8.8
+ 5 19221 IR004  11.3
+ 5 19224 IR004  10.6
+ 5 19226 IR004   8.1
+ 5 19228 IR004   9.8
+ 5 19231 IR004  16.3
+ 5 19233 IR004  10.2
+ 5 19235 IR004  10.9
+ 5 19238 IR004  13.2
+ 5 19240 IR004   9.8
+ 5 19242 IR004  10.4
+ 5 19245 IR004   8.5
+ 5 19247 IR004   4.7
+ 5 19249 IR004   2.7
+ 5 19252 IR004   9.7
+ 5 19254 IR004   6.4
+ 5 19256 IR004   8.8
+ 5 19259 IR004  10.5
+ 5 19261 IR004   8.9
+ 5 19263 IR004   7.4
+ 5 19266 IR004  16.1
+ 5 19268 IR004   8.1
+ 5 19270 IR004   7.8
+ 5 19273 IR004  16.5
+ 5 19275 IR004   7.6
+ 5 19277 IR004   8.9
+ 5 19280 IR004    10
+ 5 19282 IR004   5.4
+ 5 19284 IR004   9.8
+ 5 19287 IR004  11.6
+ 5 19289 IR004   4.6
+ 5 19291 IR004  14.8
+ 5 19294 IR004    15
+ 5 19296 IR004  12.3
+ 5 19298 IR004  14.1
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 6    .8    30    50   100 GS000 IR001    10 TU-1
+@I IDATE  IROP IRVAL
+ 6 20004 IR004    20
+ 6 20007 IR004    20
+ 6 20034 IR004    20
+ 6 20038 IR004    30
+ 6 20061 IR004    30
+ 6 20066 IR004    30
+ 6 20071 IR004    30
+ 6 20074 IR004    30
+ 6 20080 IR004    30
+ 6 20085 IR004    30
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 18007 FE005 AP003     0   100   -99   -99   -99   -99   -99 PI-1 1000N
+ 1 18019 FE005 AP003     0   100   -99   -99   -99   -99   -99 PI-1 1000N
+ 1 18038 FE005 AP003     0   200   -99   -99   -99   -99   -99 PI-1 1000N
+ 1 18055 FE005 AP003     0   300   -99   -99   -99   -99   -99 PI-1 1000N
+ 1 18088 FE005 AP003     0   300   -99   -99   -99   -99   -99 PI-1 1000N
+ 2 18332 FE005 AP003     0   100   -99   -99   -99   -99   -99 PI-2 1000N
+ 2 18339 FE005 AP003     0   100   -99   -99   -99   -99   -99 PI-2 1000N
+ 2 18357 FE005 AP003     0   200   -99   -99   -99   -99   -99 PI-2 1000N
+ 2 19009 FE005 AP003     0   300   -99   -99   -99   -99   -99 PI-2 1000N
+ 2 19023 FE005 AP003     0   300   -99   -99   -99   -99   -99 PI-2 1000N
+ 3 19344 FE005 AP003     0   100   -99   -99   -99   -99   -99 PI-3 1000N
+ 3 19354 FE005 AP003     0   100   -99   -99   -99   -99   -99 PI-3 1000N
+ 3 20007 FE005 AP003     0   200   -99   -99   -99   -99   -99 PI-3 1000N
+ 3 20027 FE005 AP003     0   300   -99   -99   -99   -99   -99 PI-3 1000N
+ 3 20042 FE005 AP003     0   300   -99   -99   -99   -99   -99 PI-3 1000N
+ 4 18324 FE005 AP003     0   100   -99   -99   -99   -99   -99 SO-1 1000N
+ 4 18339 FE005 AP003     0   100   -99   -99   -99   -99   -99 SO-1 1000N
+ 4 18360 FE005 AP003     0   200   -99   -99   -99   -99   -99 SO-1 1000N
+ 4 19009 FE005 AP003     0   300   -99   -99   -99   -99   -99 SO-1 1000N
+ 4 19023 FE005 AP003     0   300   -99   -99   -99   -99   -99 SO-1 1000N
+ 5 19318 FE005 AP003     0   100   -99   -99   -99   -99   -99 SO-2 1000N
+ 5 19328 FE005 AP003     0   100   -99   -99   -99   -99   -99 SO-2 1000N
+ 5 19344 FE005 AP003     0   200   -99   -99   -99   -99   -99 SO-2 1000N
+ 5 19354 FE005 AP003     0   300   -99   -99   -99   -99   -99 SO-2 1000N
+ 5 20004 FE005 AP003     0   300   -99   -99   -99   -99   -99 SO-2 1000N
+ 6 19220 FE005 AP003     0   100   -99   -99   -99   -99   -99 TE-1 1000N
+ 6 19231 FE005 AP003     0   100   -99   -99   -99   -99   -99 TE-1 1000N
+ 6 19234 FE005 AP003     0   200   -99   -99   -99   -99   -99 TE-1 1000N
+ 6 19245 FE005 AP003     0   300   -99   -99   -99   -99   -99 TE-1 1000N
+ 6 19252 FE005 AP003     0   300   -99   -99   -99   -99   -99 TE-1 1000N
+ 7 18353 FE005 AP003     0   100   -99   -99   -99   -99   -99 CA-1 1000N
+ 7 18360 FE005 AP003     0   100   -99   -99   -99   -99   -99 CA-1 1000N
+ 7 19016 FE005 AP003     0   200   -99   -99   -99   -99   -99 CA-1 1000N
+ 7 19041 FE005 AP003     0   300   -99   -99   -99   -99   -99 CA-1 1000N
+ 7 19046 FE005 AP003     0   300   -99   -99   -99   -99   -99 CA-1 1000N
+ 8 19363 FE005 AP003     0   100   -99   -99   -99   -99   -99 TU-1 1000N
+ 8 20010 FE005 AP003     0   100   -99   -99   -99   -99   -99 TU-1 1000N
+ 8 20029 FE005 AP003     0   200   -99   -99   -99   -99   -99 TU-1 1000N
+ 8 20041 FE005 AP003     0   300   -99   -99   -99   -99   -99 TU-1 1000N
+ 8 20058 FE005 AP003     0   300   -99   -99   -99   -99   -99 TU-1 1000N
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 17330 A   0 A   0 A   0 A   0 A   0 A   0 A   0 A   0 
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 18324 GS000   -99   -99   -99   -99 Soybean
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 17330  2150 2017 PI-1                 CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     F     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          18001 18001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 18001   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     S 18282  2150 2018 PI-2                 CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     F     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          18001 18001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 2 HA              0 18001   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 3 GE              1     1     S 19300  2150 2019 PI-3                 CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 3 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 3 ME              M     M     E     F     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 3 MA              R     R     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 3 PL          18001 18001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 3 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 3 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 3 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 3 HA              0 18001   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 4 GE              1     1     S 18290  2150 2018 SO-1                 CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 4 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 4 ME              M     M     E     F     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 4 MA              R     N     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 4 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 4 PL          18001 18001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 4 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 4 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 4 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 4 HA              0 18001   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 5 GE              1     1     S 19274  2150 2018 SO-2                 CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 5 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 5 ME              M     M     E     F     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 5 MA              R     N     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 5 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 5 PL          98155 98200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 5 IR             30    70   100 IB001 IR001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 5 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 5 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 5 HA              0 85365   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 6 GE              1     1     S 19174  1215 2019 TE-1                 CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 6 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 6 ME              M     M     E     F     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 6 MA              R     R     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 6 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 6 PL          98155 98200    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 6 IR             30    70   100 IB001 IR001    10   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 6 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 6 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 6 HA              0 85365   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 7 GE              1     1     S 18293  2150 2018 CA-1                 CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 7 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 7 ME              M     M     E     F     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 7 MA              R     N     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 7 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 7 PL          10274 10335    70   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 7 IR             30    50   100 IB001 IB001    10    .8
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 7 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 7 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 7 HA              0 79166   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 8 GE              1     1     S 19307  2150 2019 TU-1                 CRGRO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 8 OP              Y     Y     Y     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 8 ME              M     M     E     F     S     L     R     1     P     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 8 MA              R     R     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 8 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 8 PL          18001 18001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 8 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 8 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 8 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 8 HA              0 18001   100     0
+
+
+

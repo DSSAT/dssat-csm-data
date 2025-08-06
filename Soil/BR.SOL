@@ -67,3 +67,107 @@
    150   -99   -99   -99   -99    .3   -99   -99   -99   -99   -99    .1   -99   -99   -99   -99   1.2
    160   -99   -99   -99   -99    .3   -99   -99   -99   -99   -99    .1   -99   -99   -99   -99   1.2
    300   -99   -99   -99   -99    .3   -99   -99   -99   -99   -99    .1   -99   -99   -99   -99   1.2
+
+*BRARGISSL4  EMBRAPA     SL       180  ARGISSOLO
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ TERESINA    BRAZIL         -5.039 -41.788 ARGISSOLO VERMELHO-AMARELO Distrofico
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+     R   .14     6    .7    40     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10    Ap  .081  .173  .355  1.00  2.59  1.51   -99    11    20     0   -99     6   -99   6.5   -99
+    20    Ap  .081  .173  .368  1.00  2.59  1.51   -99    11    20     0   -99     6   -99   6.5   -99
+    30    Ap  .081  .183  .368  0.90  2.59  1.51   -99    11    20     0   -99     6   -99   6.5   -99
+    40    Bt  .090  .183  .370  0.80   .43  1.49   -99    26    26     0   -99     5   -99   5.5   -99
+    50    Bt  .090  .193  .370  0.70   .43  1.49   -99    26    26     0   -99     5   -99   5.5   -99
+    60    Bt  .080  .193  .370  0.60   .43  1.49   -99    26    26     0   -99     5   -99   5.5   -99
+   120    Bt  .080  .193  .370  0.20   .43  1.49   -99    26    26     0   -99     5   -99   5.5   -99
+   150    Bt  .070  .203  .370  0.08   .43  1.50   -99    26    26     0   -99     5   -99   5.5   -99
+   180     C  .070  .203  .370  0.08   .43  1.50   -99    25    24     0   -99     5   -99   5.5   -99
+
+*BRNITOSSO3  ESALQ       C        150  NITOSSOLO VERMELHO! SOLO PIRACICABA ORIGINAL
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Piracicaba  Brazil        -22.708 -48.642 NITOSSOLO
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+     R   .14     6    .7    50     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10    Ap  .235  .363  .508     1  0.06  1.31  1.18  46.2  21.5     0   -99   5.6   -99   7.3   -99
+    20    Ap  .235  .363  .508     1  0.06  1.31  1.18  46.2  21.5     0   -99   5.6   -99   7.3   -99
+    30    Ap  .235  .342  .508  .800  0.06  1.31  1.18  46.2  21.5     0   -99   5.6   -99   7.3   -99
+    40   Bt1  .264  .432  .534  .800  0.06  1.32   .74    57  17.8     0   -99   5.3   -99   7.1   -99
+    50   Bt1  .264  .432  .534  .600  0.06  1.32   .74    57  17.8     0   -99   5.3   -99   7.1   -99
+    60   Bt2  .304  .432   .52  .500  0.06  1.35   .48  56.7  18.8     0   -99   5.3   -99   6.9   -99
+   120   Bt2  .304  .432   .52  .300  0.06  1.35   .48  56.7  18.8     0   -99   5.3   -99   6.9   -99
+   150    Bw  .283  .422  .526  .080  0.06  1.37   .36  53.4  20.3     0   -99   5.4   -99   6.9   -99
+
+*BRSORR2019  -99         C        150  Ferrosol
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Sorriso     Brazil           12.7    55.8 Dystrophic Red Yellow Ferrosol
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+     R   .14     6    .6    50     1    .9 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99   .29  .445  .501     1   .26  1.55   -99    50    38     0   -99   -99   -99   -99   -99
+    20   -99   .29  .445  .501     1   .26  1.55   -99    50    38     0   -99   -99   -99   -99   -99
+    30   -99   .29  .445  .501    .8   .26  1.55   -99    50    38     0   -99   -99   -99   -99   -99
+    40   -99  .251  .413  .534    .8   .29  1.43   -99    44    44     0   -99   -99   -99   -99   -99
+    50   -99  .251  .413  .534    .6   .29  1.43   -99    44    44     0   -99   -99   -99   -99   -99
+    60   -99  .212  .362   .54    .5   .43  1.39   -99    38    38     0   -99   -99   -99   -99   -99
+   120   -99  .212  .362   .54    .3   .43  1.39   -99    38    38     0   -99   -99   -99   -99   -99
+   150   -99  .212  .362   .54   .08   .43  1.39   -99    38    38     0   -99   -99   -99   -99   -99
+
+*BRLATOSSOL  -99         SL       150  Latossolo Vermelho
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Cruz Alta   Brazil        -28.639 -53.606 -99
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+     R   .14     6    .7    60     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99  .117  .202  .377     1  2.59  1.59   -99  16.7   8.4   -99   -99   -99   -99   -99   -99
+    20   -99  .117  .202  .377     1  2.59  1.59   -99  16.7   8.4   -99   -99   -99   -99   -99   -99
+    30   -99  .126  .208  .373    .9  2.59   1.6   -99  18.6   6.2   -99   -99   -99   -99   -99   -99
+    40   -99  .126  .208  .373    .8  2.59   1.6   -99  18.6   6.2   -99   -99   -99   -99   -99   -99
+    50   -99  .127  .209  .373    .7  2.59   1.6   -99  18.8   6.3   -99   -99   -99   -99   -99   -99
+    60   -99  .127  .209  .373    .6  2.59   1.6   -99  18.8   6.3   -99   -99   -99   -99   -99   -99
+   120   -99  .144  .233  .384    .2   .43  1.57   -99  23.1  10.5   -99   -99   -99   -99   -99   -99
+   150   -99  .144  .233  .384  .067   .43  1.57   -99  23.1  10.5   -99   -99   -99   -99   -99   -99
+
+*BRTUPACIRE  Embrapa     SCL      150  Latossolo Vermelho Distroferrico
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Tupacireta  Brazil            -99     -99 Latossolo Vermelho Distroferrico
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+     R   .14     6    .6    76     1    .7 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+    10   -99  .181  .404  .587     1   .43  1.56   -99    32     9     0   -99   -99   -99   -99   -99
+    20   -99  .181  .404  .587     1   .43  1.56   -99    32     9     0   -99   -99   -99   -99   -99
+    30   -99  .181  .404  .587    .9   .43  1.56   -99    32     9     0   -99   -99   -99   -99   -99
+    40   -99  .199  .423  .587    .8   .12  1.56   -99    36     8     0   -99   -99   -99   -99   -99
+    50   -99  .199  .423  .587    .7   .12  1.56   -99    36     8     0   -99   -99   -99   -99   -99
+    60   -99  .199  .423  .587    .6   .12  1.56   -99    36     8     0   -99   -99   -99   -99   -99
+   120   -99  .209  .372  .587    .2   .12  1.56   -99    38     7     0   -99   -99   -99   -99   -99
+   150   -99  .209  .372  .587  .067   .12  1.56   -99    38     7     0   -99   -99   -99   -99   -99
+
+*BRCPACTETB  -99         L         60  PLANOSSOLO
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Embrapa ETB BRAZIL        -31.133 -42.083 -99
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BL   .09     6   .05    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     7     A  .071  .354  .472     1  1.30   1.4   1.5     7    42     0   -99   5.3   -99   -99   -99
+    10     A  .094  .329  .453    .5   .70   1.5   1.5    10    37     0   -99   5.5   -99   -99   -99
+    20     A  .098  .311  .443     0   .59   1.6     1    10    34     0   -99   5.5   -99   -99   -99
+    30     E  .204  .329  .432     0   .23   1.7     1    35    27     0   -99     6   -99   -99   -99
+    40     B  .254  .351  .448     0   .03   1.7    .7    50    24     0   -99   6.5   -99   -99   -99
+    50     B  .233  .352  .445     0   .03   1.7    .4    40    30     0   -99     6   -99   -99   -99
+    60     B  .223  .352  .445     0  .001   1.6    .4    40    30     0   -99     6   -99   -99   -99
+
+*BRCPACTET2  -99         L         60  PLANOSSOLO-SOYBEAN/WHEAT
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ Embrapa ETB BRAZIL        -31.133 -42.083 -99
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BL   .09     6   .30    61     1     1 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     7     A  .071  .354  .472     1  1.30   1.4   1.5     7    42     0   -99   5.3   -99   -99   -99
+    10     A  .094  .329  .453    .9   .70   1.5   1.5    10    37     0   -99   5.5   -99   -99   -99
+    20     A  .098  .311  .443    .6   .59   1.6     1    10    34     0   -99   5.5   -99   -99   -99
+    30     E  .204  .329  .432    .3   .23   1.7     1    35    27     0   -99     6   -99   -99   -99
+    40     B  .254  .351  .448    .2   .03   1.7    .7    50    24     0   -99   6.5   -99   -99   -99
+    50     B  .233  .352  .445     0   .03   1.7    .4    40    30     0   -99     6   -99   -99   -99
+    60     B  .223  .352  .445     0  .001   1.6    .4    40    30     0   -99     6   -99   -99   -99
