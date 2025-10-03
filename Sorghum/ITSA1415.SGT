@@ -2,7 +2,7 @@
 
 ! File last edited on day 1/7/2019 at 11:41:50 PM
 !
-@TRNO    DOY   DAP  LAID  VWAD  L#SD  CHTD SHPPD
+@TRNO   DATE   DAP  LAID  VWAD  L#SD  CHTD SHPPD
      1 14205    31     . 144.7 10.37 0.454 0.435
      1 14220    46   2.3 741.2 14.06 0.886 0.508
      1 14234    60   2.2 1776. 17.06 1.046 0.361
