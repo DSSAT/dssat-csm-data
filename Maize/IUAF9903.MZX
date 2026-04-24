@@ -1,4 +1,4 @@
-*EXP.DETAILS: IUAF9903MZ IUAF9903 EXAMPLES OF HAIL DAMAGE
+*EXP.DETAILS: IUAF9903MZ AMES, IOWA; EXAMPLES OF HAIL DAMAGE
 
 *GENERAL
 @PEOPLE
@@ -7,6 +7,8 @@ Bill Batchelor
 Auburn University
 @SITE
 Agronomy Farm, Ames, Iowa
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 The purpose of this experiment is to demonstrate hail damage
 Note that this is not a real experiment.
