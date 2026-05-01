@@ -40,21 +40,22 @@ K. J. Boote added 0.1 for SRGF to 183 cm layer (to mimic deep rooting, like NCEP
 !   104   -99   -99   -99   -99    .2   -99   -99   -99   -99   -99    .1   -99   -99   -99   -99 
 !   135   -99   -99   -99   -99    .7   -99   -99   -99   -99   -99    .1   -99   -99   -99   -99 
 !   183   -99   -99   -99   -99   1.4   -99   -99   -99   -99   -99    .0   -99   -99   -99   -99 
-
-!K. J. Boote added 0.1 for SRGF to layers to 165 cm (to mimic deep rooting, like NCEP)   
+   
+   !K. J. Boote added 0.1 for SRGF to layers to 165 cm (to mimic deep rooting, like NCEP)
+!kjb - added 0.01 to all layers. again 0.01 to all layers 10/9/23  With this amt of clay, no way 8% vol.
 *GAPL850009  NRCS-USDA   S       300 Lucy, Loamy Sand
 @SITE        COUNTRY          LAT     LONG SCS FAMILY
  Sumter      US            32.000  -84.230 Loamy, siliceous, thermic Arenic Paleudult
 @ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
-     Y  0.17   6.0  0.60  76.0  1.00  0.93 IB001 IB001 IB001
+     Y  0.17   6.0  0.60  76.0  1.00  0.92 IB001 IB001 IB001
 @  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
-    22    AP 0.066 0.129 0.378 1.000 21.00  1.58  0.65   4.4   6.5   0.0 0.040   4.5   -99   3.8   -99 
-    75     E 0.094 0.155 0.361 0.600  2.59  1.64  0.15  12.7   9.2   0.0 0.010   5.1   -99   2.8   -99 
-   100   Bt1 0.118 0.179 0.354 0.250  2.59  1.66  0.13  17.6   8.3   0.0 0.010   5.4   -99   3.3   -99 
-   122   Bt2 0.166 0.224 0.325 0.100  0.43  1.74  0.09  27.5   4.0   0.0 0.010   5.3   -99   4.4   -99
-   165   Bt2 0.166 0.224 0.325 0.100  0.43  1.74  0.09  27.5   4.0   0.0 0.010   5.3   -99   4.4   -99 
-   245   Bt3 0.164 0.221 0.326 0.000  0.43  1.74  0.07  27.3   3.3   0.0 0.010   5.1   -99   4.4   -99 
-   300     C 0.170 0.226 0.319 0.000  0.43  1.76  0.05  28.5   3.3   0.0 0.000   5.3   -99   3.6   -99
+    22    AP 0.066 0.159 0.378 1.000 21.00  1.58  0.65   4.4   6.5   0.0 0.040   4.5   -99   3.8   -99 
+    75     E 0.094 0.185 0.361 0.600  2.59  1.64  0.15  12.7   9.2   0.0 0.010   5.1   -99   2.8   -99 
+   100   Bt1 0.118 0.209 0.354 0.250  2.59  1.66  0.13  17.6   8.3   0.0 0.010   5.4   -99   3.3   -99 
+   122   Bt2 0.166 0.254 0.325 0.150  0.43  1.74  0.09  27.5   4.0   0.0 0.010   5.3   -99   4.4   -99
+   165   Bt2 0.166 0.254 0.325 0.120  0.43  1.74  0.09  27.5   4.0   0.0 0.010   5.3   -99   4.4   -99 
+   245   Bt3 0.164 0.251 0.326 0.050  0.43  1.74  0.07  27.3   3.3   0.0 0.010   5.1   -99   4.4   -99 
+   300     C 0.170 0.256 0.319 0.000  0.43  1.76  0.05  28.5   3.3   0.0 0.000   5.3   -99   3.6   -99
 
 !*GAPL850019  NRCS-USDA   S       300 Lucy, Loamy Sand original (original)
 !@SITE        COUNTRY          LAT     LONG SCS FAMILY
