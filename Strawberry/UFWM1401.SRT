@@ -9,7 +9,20 @@
 !Hopf, A., Boote, K. J., Oh, J., Guan, Z., Agehara, S., Shelia, V., Whitaker, V. M., Asseng, S., Zhao X., 
 !& Hoogenboom, G. (2022). 
 !Development and improvement of the CROPGRO-Strawberry model. Scientia Horticulturae, 291, 110538.
-!https://doi.org/10.1016/j.scienta.2021.110538.       
+!https://doi.org/10.1016/j.scienta.2021.110538.
+!Additional parameters were measured during the 2014 Wimauma field experiment. 
+!They are not part of the standard DSSAT variables and were not used during model development.
+!They are defined below for later reference, but some variable definitions are unclear due to lack of records.
+!XRFPW – Periodic harvest per plant, unclear but similar to ARFPW
+!HRPN - Harvested Pod Number
+!CHFNM - Cumulative Harvested Pod Number
+!FRWD - Fruit Width (cm)
+!FRHT - Fruit Height (cm)
+!FSIZ - Fruit Size       
+!XRPN – unknown, similar to HRPN
+!XVSTF – unknown, similar to HFPOW
+!ARFPW – unknown, similar to XRFPW
+!SMAD – unknown, related to S#AD?
 
 @TRNO   DATE  XRPN XVSTF XRFPW  S#AD  SMAD  HRPN CHFNM HFPOW CHFPW  HPODW CHPDT ARFPW  FRWD  FRHT  FSIZ PDMCD
      1 14294  -99    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
