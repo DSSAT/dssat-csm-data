@@ -77,7 +77,7 @@ Gainesville, Florida
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              5    30     S 78166  2223 Soybean
+ 1 GE              5    30     S 78159  2223 Soybean
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  1 OP              Y     Y     Y     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
@@ -100,7 +100,7 @@ Gainesville, Florida
  1 HA              0 79166   100     0
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 2 GE              5    30     S 78166  2150 Fallow
+ 2 GE              5    30     S 78159  2150 Fallow
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
  2 OP              Y     Y     N     N     N     N     N     Y     D
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
