@@ -1,10 +1,11 @@
 *EXP. DATA (A): GACM0401CO SIRP Cotton experiment summary (A) data                     
 
-! File last edited on day 08/04/2005 at 12:36:25 PM
-!
-@TRNO   HDAT  HWAM
-     1 04274  4329
-     2 04274  2719
+! File last edited on day 01/05/2026
+! HWUM and H#UM ARE FAKE, targets, H#UM based on Pettigrew
+! Look at File T for better information on day 04258 (not official final harvest)
+@TRNO   HDAT  HWAM  HWUM  THAM  H#UM
+     1 04274  4329 0.140  77.5  27.0
+     2 04274  2719 0.140  78.8  27.0
 
 
 
