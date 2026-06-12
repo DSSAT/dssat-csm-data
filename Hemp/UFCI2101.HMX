@@ -14,12 +14,12 @@ PSREU, Citra, FL, USA
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
  1 1 1 0 SS-Beta/IH Williams 280kg  1  1  4  1  1  1  6  0  0  1  0  2  1
- 2 1 1 0 Abound/NWG-2730   0kg N    2  1  4  1  2  1  1  0  0  1  0  3  1
- 3 1 1 0 Abound/NWG-2730 280kg N    2  1  4  1  5  1  6  0  0  1  0  3  1
+ 2 1 1 0 Abound/NWG-2730   0 kg N   2  1  4  1  2  1  1  0  0  1  0  3  1
+ 3 1 1 0 Abound/NWG-2730 28 0kg N   2  1  4  1  5  1  6  0  0  1  0  3  1
 
 *CULTIVARS
 @C CR INGENO CNAME
- 1 HM IB0001 SS-Beta/IH Williams
+ 1 HM IB0001 IHW Grain Mat
  2 HM IB0002 Abound/NWG-2730
 
 *FIELDS
